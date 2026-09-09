@@ -13,6 +13,23 @@ built as a Claude Design canvas document.
 python3 tools/build.py
 ```
 
+## Live preview
+
+`preview/casa-orquidea-preview.html` is a hosted-friendly rendering of the same
+page: identical markup, stylesheet and animations, but with the design runtime
+removed and its four interactions (FAQ, gallery, form steps, tour poster)
+rewritten in ~40 lines of vanilla JS. The runtime evaluates its logic with
+`new Function`, which a host's Content-Security-Policy may forbid; the preview
+has no such dependency, so it renders anywhere.
+
+It is a preview, not the deliverable — `casa-orquidea.html` remains canonical.
+Regenerate it after changing the page:
+
+```sh
+node tools/snapshot-preview.js   # drives Chromium, captures the hydrated DOM
+python3 tools/make-preview.py    # assembles the standalone page
+```
+
 ## Wiring up the tour video
 
 The tour poster is the one thing still to connect. In the logic block at the
