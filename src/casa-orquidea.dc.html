@@ -301,8 +301,8 @@
   }
 
   /* ---- Materials ----------------------------------------------------- */
-  /* Bright top edge = light catching a real surface */
-  .glass-pill{ box-shadow:inset 0 1px 0 rgba(255,255,255,.28); }
+  /* The hero pills are blur + tint only — no edge highlight, no shadow.
+     The class stays as the hook for the two fallbacks further down. */
   /* Content dissolves into the bar instead of being sliced by a hard rule */
   .cta-bar::before{
     content:""; position:absolute; left:0; right:0; bottom:100%; height:28px;
