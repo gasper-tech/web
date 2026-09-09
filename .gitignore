@@ -1,4 +1,4 @@
 # Intermediate DOM snapshot for the preview build — regenerate with
 # `node tools/snapshot-preview.js`
 .preview-cache/
-node_modules/
+node_modules
