@@ -2,7 +2,7 @@
 <meta name="description" content="Unique properties and new builds on the Costa del Sol.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400&display=swap">
 <style>
 /* ───────────────────────────────────────────────────────────────────────────
    Brand tokens — extracted from the Casa Orquídea landing page.
@@ -15,9 +15,17 @@
    ─────────────────────────────────────────────────────────────────────────── */
 
 :root {
-  /* ── Type ─────────────────────────────────────────────────────────────── */
-  --font: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-          Roboto, Helvetica, Arial, sans-serif;
+  /* ── Type ─────────────────────────────────────────────────────────────────
+     Two roles, deliberately split. Display carries the brand; UI is the
+     reader's own system face — it renders instantly, needs no download, and
+     is already tuned by each OS for small sizes. Keep the boundary at ~24px
+     so the change of face reads as intent rather than as a failed webfont. */
+  --font-display: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont,
+                  'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-ui: -apple-system, BlinkMacSystemFont, 'SF Pro Text',
+             'Segoe UI Variable Text', 'Segoe UI', system-ui,
+             Helvetica, Arial, sans-serif;
+  --font: var(--font-display);   /* back-compat alias */
 
   --w-light: 300;    /* large quiet numerals, the accordion marker          */
   --w-body: 400;     /* body copy, captions                                 */
@@ -112,9 +120,10 @@
    kept verbatim (container, gutter, rhythm, type ramp, radii); every colour
    and the typeface come from src/brand.css.
 
-   Their display face is a high-contrast serif and their UI face is the OS
-   system stack. Both collapse into Hanken Grotesk here, so the page reads
-   cleaner and less editorial — see .display below if we want the contrast back.
+   Type follows the reference's own split: the OS system face for everything
+   under ~24px (instant, no download, tuned by each OS for small sizes) and a
+   single display face for the large type. They use a licensed serif there;
+   we use Hanken Grotesk.
    ─────────────────────────────────────────────────────────────────────────── */
 :root{
   /* structure — measured */
@@ -144,7 +153,7 @@
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-ui);
      font-size:var(--step-0);line-height:1.55;-webkit-font-smoothing:antialiased}
 img{display:block;max-width:100%}
 a{color:inherit;text-decoration:none}
@@ -156,7 +165,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 
 /* Their display sizes are set in a serif; in Hanken Grotesk the same sizes
    need a lighter weight and tighter tracking to keep the airy feel. */
-.display{font-weight:300;letter-spacing:-.015em;line-height:1.05;margin:0}
+.display{font-family:var(--font-display);font-weight:300;
+         letter-spacing:-.015em;line-height:1.05;margin:0}
 .d-xl{font-size:var(--display-xl)}
 .d-lg{font-size:var(--display-lg)}
 .d-md{font-size:var(--display-md);line-height:1.1}
@@ -172,7 +182,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .hdr-in{height:100%;display:flex;align-items:center;gap:var(--space-md)}
 .burger{display:grid;gap:4px;padding:8px;margin-left:-8px}
 .burger i{display:block;width:18px;height:1px;background:currentColor}
-.mark{font-size:var(--display-xs,1.25rem);font-size:1.3rem;font-weight:300;
+.mark{font-family:var(--font-display);font-size:1.3rem;font-weight:300;
       letter-spacing:.01em;margin-right:auto}
 .hdr-act{display:flex;align-items:center;gap:var(--space-md)}
 .saved{position:relative}
@@ -269,7 +279,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .tile-lg{grid-column:span 2;grid-row:span 2}
 .tile-sm{aspect-ratio:1.12}
 .tile figcaption{position:absolute;left:24px;bottom:20px;z-index:1;color:#fff;
-                 font-weight:300;font-size:var(--display-sm);letter-spacing:-.01em}
+                 font-family:var(--font-display);font-weight:300;font-size:var(--display-sm);letter-spacing:-.01em}
 .tile::after{content:"";position:absolute;inset:0;
              background:linear-gradient(to top,rgba(0,0,0,.45),rgba(0,0,0,0) 45%)}
 @media (hover:hover) and (pointer:fine){ .tile:hover{transform:scale(1.012)} }
@@ -283,7 +293,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
             background:linear-gradient(to top,rgba(0,0,0,.55),rgba(0,0,0,0) 40%,rgba(0,0,0,.18))}
 .dev>*{position:relative;z-index:1}
 .dev-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
-.dev h3{margin:0;font-weight:300;font-size:var(--display-md);letter-spacing:-.015em}
+.dev h3{margin:0;font-family:var(--font-display);font-weight:300;font-size:var(--display-md);letter-spacing:-.015em}
 .dev-from{display:flex;align-items:baseline;gap:10px;margin-top:8px;
           font-size:var(--step-1);font-weight:600}
 
