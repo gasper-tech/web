@@ -1,0 +1,611 @@
+<title>Costa del Sol property — portal home</title>
+<meta name="description" content="Unique properties and new builds on the Costa del Sol.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&display=swap">
+<style>
+/* ───────────────────────────────────────────────────────────────────────────
+   Brand tokens — extracted from the Casa Orquídea landing page.
+
+   The single definition of "my fonts and colours". Drop this into any new
+   page, then style against the variables rather than raw hex, so a brand
+   change is one edit here instead of a find-and-replace everywhere.
+
+   Font: Hanken Grotesk 300/400/500/600 (Google Fonts).
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Type ─────────────────────────────────────────────────────────────── */
+  --font: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Helvetica, Arial, sans-serif;
+
+  --w-light: 300;    /* large quiet numerals, the accordion marker          */
+  --w-body: 400;     /* body copy, captions                                 */
+  --w-medium: 500;   /* buttons, pills, field labels                        */
+  --w-bold: 600;     /* headings, eyebrows, prices, emphasis                */
+
+  /* Tracking is size-specific: tighter as type grows, slightly open when it
+     shrinks. Never one value for every size. */
+  --track-display: -.028em;   /* 48px and up   */
+  --track-heading: -.025em;   /* 28–46px       */
+  --track-title: -.014em;     /* 18–24px       */
+  --track-body: 0;            /* 15–21px       */
+  --track-small: .01em;       /* 13–15px       */
+  --track-label: .02em;       /* eyebrow labels */
+
+  --lh-display: 1.04;
+  --lh-heading: 1.06;
+  --lh-body: 1.55;
+  --lh-prose: 1.6;
+
+  /* ── Ink (text on light) ──────────────────────────────────────────────── */
+  --ink: #1d1d1f;            /* primary text, dark surfaces, solid buttons  */
+  --ink-2: #424245;          /* body copy on light                          */
+  --ink-3: #6e6e73;          /* captions, secondary, placeholder            */
+  --ink-4: #86868b;          /* the quietest legible grey                   */
+
+  /* ── Ink (text on dark) ───────────────────────────────────────────────── */
+  --on-dark: #f5f5f7;        /* headings on #1d1d1f                         */
+  --on-dark-2: #d6d6d9;      /* body copy on dark                           */
+  --on-dark-3: #a1a1a6;      /* secondary on dark                           */
+
+  /* ── Surfaces ─────────────────────────────────────────────────────────── */
+  --bg: #ffffff;             /* page                                        */
+  --surface: #f5f5f7;        /* cards on white, alternating sections        */
+  --surface-dark: #1d1d1f;   /* inverted sections                           */
+  --line: #d2d2d7;           /* input borders, footer rule                  */
+  --line-soft: #e8e8ed;      /* list dividers, progress track               */
+
+  /* ── Accent: warm sand, the one colour that isn't greyscale ───────────── */
+  --sand: #a99f89;           /* eyebrows + focus ring ON DARK               */
+  --sand-deep: #8a8069;      /* eyebrows ON LIGHT (passes contrast)         */
+  --espresso: #45413a;       /* button hover                                */
+
+  /* ── Translucency (glass over photography) ────────────────────────────── */
+  --glass: rgba(255, 255, 255, .18);   /* pills on a photo — blur, no edge  */
+  --glass-bar: rgba(255, 255, 255, .72); /* sticky chrome over content      */
+  --glass-dark: rgba(29, 29, 31, .55); /* discs/badges on a photo          */
+  --tint-8: rgba(255, 255, 255, .08);  /* cards inside a dark section       */
+  --tint-10: rgba(255, 255, 255, .10); /* chips inside a dark section       */
+  --blur: 12px;
+  --blur-bar: 20px;
+
+  /* ── Radii ────────────────────────────────────────────────────────────── */
+  --r-pill: 980px;  /* buttons, chips, pills — the signature shape          */
+  --r-card: 20px;   /* cards, media, panels                                 */
+  --r-field: 12px;  /* inputs and selects                                   */
+  --r-chip: 14px;   /* small info blocks                                    */
+
+  /* ── Motion ───────────────────────────────────────────────────────────── */
+  --ease-out: cubic-bezier(.23, 1, .32, 1);      /* entrances, press        */
+  --ease-in-out: cubic-bezier(.77, 0, .175, 1);  /* on-screen movement      */
+  --t-press: 160ms;   /* :active feedback                                   */
+  --t-hover: 220ms;   /* colour changes                                     */
+  --t-panel: 300ms;   /* disclosures                                        */
+  --t-enter: 700ms;   /* one-shot entrances                                 */
+  --press: .97;       /* :active scale                                      */
+
+  /* ── Layout ───────────────────────────────────────────────────────────── */
+  --max: 1180px;      /* content column                                     */
+  --max-prose: 900px; /* reading column (FAQ, long text)                    */
+  --pad-section: 100px 40px;
+  --pad-section-sm: 72px 24px;  /* ≤900px                                   */
+}
+
+/* Dark sections re-point the text tokens instead of hard-coding colours, so
+   the same component works on either ground. */
+.on-dark {
+  --ink: var(--on-dark);
+  --ink-2: var(--on-dark-2);
+  --ink-3: var(--on-dark-3);
+  --sand-deep: var(--sand);
+  --surface: var(--tint-8);
+  --line: rgba(255, 255, 255, .15);
+  --line-soft: rgba(255, 255, 255, .15);
+}
+
+</style>
+<style>
+/* ───────────────────────────────────────────────────────────────────────────
+   Layout system measured from the reference site's own stylesheet, then
+   re-implemented here against our brand tokens. Their structural values are
+   kept verbatim (container, gutter, rhythm, type ramp, radii); every colour
+   and the typeface come from src/brand.css.
+
+   Their display face is a high-contrast serif and their UI face is the OS
+   system stack. Both collapse into Hanken Grotesk here, so the page reads
+   cleaner and less editorial — see .display below if we want the contrast back.
+   ─────────────────────────────────────────────────────────────────────────── */
+:root{
+  /* structure — measured */
+  --container:1360px;
+  --gutter:32px;
+  --header-h:72px;
+  --rhythm:48px;
+  --field-h:44px;
+
+  --space-xs:.5rem; --space-sm:.875rem; --space-md:1.5rem;
+  --space-lg:2.5rem; --space-xl:4rem; --space-2xl:6rem; --space-3xl:8.5rem;
+
+  --r-media:6px;          /* imagery carries a 6px radius … */
+  --r-card:0px;           /* … but cards themselves are square-cornered */
+  --r-block:12px;
+
+  /* fluid type ramp — measured */
+  --display-xl:clamp(2.5rem,1.6rem + 4.4vw,5.5rem);      /* 40 → 88 */
+  --display-lg:clamp(2.125rem,1.7rem + 2.2vw,3.5rem);    /* 34 → 56 */
+  --display-md:clamp(1.5rem,1.25rem + 1.4vw,2.25rem);    /* 24 → 36 */
+  --display-sm:clamp(1.3rem,1.15rem + .7vw,1.625rem);    /* 21 → 26 */
+  --step--2:clamp(.6875rem,.67rem + .08vw,.72rem);       /* 11 → 11.5 */
+  --step--1:clamp(.8125rem,.79rem + .12vw,.875rem);      /* 13 → 14 */
+  --step-0:clamp(.9375rem,.92rem + .1vw,1rem);           /* 15 → 16 */
+  --step-1:clamp(1.0625rem,1.02rem + .22vw,1.1875rem);   /* 17 → 19 */
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);
+     font-size:var(--step-0);line-height:1.55;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+
+.wrap{max-width:var(--container);margin:0 auto;padding-inline:var(--gutter)}
+.section{padding-block:var(--space-2xl)}
+.bleed{max-width:none;padding-inline:0}
+
+/* Their display sizes are set in a serif; in Hanken Grotesk the same sizes
+   need a lighter weight and tighter tracking to keep the airy feel. */
+.display{font-weight:300;letter-spacing:-.015em;line-height:1.05;margin:0}
+.d-xl{font-size:var(--display-xl)}
+.d-lg{font-size:var(--display-lg)}
+.d-md{font-size:var(--display-md);line-height:1.1}
+.d-sm{font-size:var(--display-sm);line-height:1.15}
+
+.caps{font-size:var(--step--2);letter-spacing:.14em;text-transform:uppercase;
+      font-weight:500;color:var(--ink-3)}
+.muted{color:var(--ink-3)}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.hdr{position:sticky;top:0;z-index:60;height:var(--header-h);background:var(--bg);
+     border-bottom:1px solid var(--line-soft)}
+.hdr-in{height:100%;display:flex;align-items:center;gap:var(--space-md)}
+.burger{display:grid;gap:4px;padding:8px;margin-left:-8px}
+.burger i{display:block;width:18px;height:1px;background:currentColor}
+.mark{font-size:var(--display-xs,1.25rem);font-size:1.3rem;font-weight:300;
+      letter-spacing:.01em;margin-right:auto}
+.hdr-act{display:flex;align-items:center;gap:var(--space-md)}
+.saved{position:relative}
+.saved b{position:absolute;top:-4px;right:-7px;min-width:15px;height:15px;border-radius:999px;
+         background:var(--ink);color:var(--bg);font-size:9px;font-weight:600;
+         display:grid;place-items:center;padding:0 3px}
+.ico{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.4}
+
+/* ── Hero ───────────────────────────────────────────────────────────────── */
+.hero{position:relative;min-height:calc(100svh - var(--header-h));display:flex;
+      align-items:flex-end;color:#fff;overflow:hidden}
+.hero .ph{position:absolute;inset:0}
+.hero-in{position:relative;z-index:1;width:100%;padding-block:var(--space-2xl)}
+.hero h1{max-width:18ch;color:#fff}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:var(--space-lg)}
+.pill{display:inline-flex;align-items:center;gap:10px;height:var(--field-h);
+      padding:0 26px;border-radius:var(--r-pill);border:1px solid currentColor;
+      font-size:var(--step--2);letter-spacing:.14em;text-transform:uppercase;font-weight:500;
+      transition:transform var(--t-press) var(--ease-out),
+                 background-color var(--t-hover) ease,color var(--t-hover) ease}
+.pill:active{transform:scale(var(--press))}
+.pill.solid{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+@media (hover:hover) and (pointer:fine){
+  .hero .pill:hover{background:#fff;color:var(--ink)}
+  .pill.solid:hover{background:var(--espresso);border-color:var(--espresso)}
+}
+
+/* ── Quick search ───────────────────────────────────────────────────────── */
+.qs{background:var(--surface);border-radius:var(--r-block);padding:var(--space-lg)}
+.qs input{width:100%;height:56px;padding:0 20px;font-size:var(--step-1);
+          color:var(--ink);background:var(--bg);border:1px solid var(--line-soft);
+          border-radius:var(--r-block);transition:border-color 160ms ease}
+.qs input::placeholder{color:var(--ink-4)}
+.qs input:focus{outline:none;border-color:var(--sand-deep)}
+.qs-row{display:flex;flex-wrap:wrap;gap:var(--space-md);align-items:center;
+        justify-content:space-between;margin-top:var(--space-md)}
+
+/* ── Section header with carousel controls ──────────────────────────────── */
+.sec-hd{display:flex;align-items:flex-end;justify-content:space-between;
+        gap:var(--space-md);margin-bottom:var(--rhythm)}
+.ctrls{display:flex;align-items:center;gap:14px;flex:none}
+.rail{width:120px;height:1px;background:var(--line);position:relative}
+.rail i{position:absolute;inset:0 auto 0 0;width:30%;background:var(--ink)}
+.rnd{width:40px;height:40px;border-radius:999px;border:1px solid var(--line-strong,var(--line));
+     display:grid;place-items:center;
+     transition:transform var(--t-press) var(--ease-out),background-color var(--t-hover) ease}
+.rnd:active{transform:scale(var(--press))}
+@media (hover:hover) and (pointer:fine){ .rnd:hover{background:var(--surface)} }
+
+/* ── Horizontal rails ───────────────────────────────────────────────────── */
+.track{display:grid;grid-auto-flow:column;overflow-x:auto;scroll-behavior:smooth;
+       scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}
+.track::-webkit-scrollbar{display:none}
+.track>*{scroll-snap-align:start}
+.track-cards{grid-auto-columns:minmax(0,calc((100% - 3*28px)/4));gap:28px}
+.track-dev{grid-auto-columns:min(880px,78vw);gap:12px;padding-inline:var(--gutter)}
+
+/* ── Property card ──────────────────────────────────────────────────────── */
+.card{border-radius:var(--r-card);min-width:0}
+.card .ph{aspect-ratio:4/3;border-radius:var(--r-media);position:relative;overflow:hidden}
+.tag{position:absolute;top:12px;left:12px;padding:5px 11px;border-radius:var(--r-pill);
+     background:rgba(29,29,31,.72);color:#fff;font-size:10px;letter-spacing:.14em;
+     text-transform:uppercase;font-weight:500}
+.bm{position:absolute;top:12px;right:12px;width:32px;height:32px;border-radius:999px;
+    background:rgba(255,255,255,.9);display:grid;place-items:center;
+    transition:transform var(--t-press) var(--ease-out)}
+.bm:active{transform:scale(var(--press))}
+.card .loc{margin-top:18px}
+.card h3{margin:6px 0 0;font-size:var(--step-1);font-weight:600;letter-spacing:-.01em;
+         line-height:1.3}
+.specs{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:14px;
+       font-size:var(--step--1);color:var(--ink-3)}
+.specs span+span::before{content:"·";margin-right:10px;color:var(--ink-4)}
+.price{margin-top:10px;font-size:var(--step-1);font-weight:600;letter-spacing:-.01em}
+
+/* ── Underlined text link ───────────────────────────────────────────────── */
+.ulink{display:inline-block;font-size:var(--step--2);letter-spacing:.18em;
+       text-transform:uppercase;font-weight:500;padding-bottom:6px;
+       border-bottom:1px solid var(--ink);transition:color var(--t-hover) ease,
+       border-color var(--t-hover) ease}
+@media (hover:hover) and (pointer:fine){
+  .ulink:hover{color:var(--sand-deep);border-color:var(--sand-deep)}
+}
+.to-end{display:flex;justify-content:flex-end;margin-top:var(--space-lg)}
+.to-mid{display:flex;justify-content:center;margin-top:var(--space-lg)}
+
+/* ── Areas mosaic ───────────────────────────────────────────────────────────
+   Measured 4x2 grid, 12px gutter, tiles ~1.12 aspect; the lead tile spans
+   2x2 so it resolves to exactly two rows plus the gap.                      */
+.areas{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tile{position:relative;overflow:hidden;border-radius:var(--r-media);
+      transition:transform 600ms var(--ease-out)}
+.tile .ph{position:absolute;inset:0}
+.tile-lg{grid-column:span 2;grid-row:span 2}
+.tile-sm{aspect-ratio:1.12}
+.tile figcaption{position:absolute;left:24px;bottom:20px;z-index:1;color:#fff;
+                 font-weight:300;font-size:var(--display-sm);letter-spacing:-.01em}
+.tile::after{content:"";position:absolute;inset:0;
+             background:linear-gradient(to top,rgba(0,0,0,.45),rgba(0,0,0,0) 45%)}
+@media (hover:hover) and (pointer:fine){ .tile:hover{transform:scale(1.012)} }
+
+/* ── Development card ───────────────────────────────────────────────────── */
+.dev{position:relative;aspect-ratio:16/10;overflow:hidden;border-radius:var(--r-media);
+     color:#fff;display:flex;flex-direction:column;justify-content:space-between;
+     padding:var(--space-lg)}
+.dev .ph{position:absolute;inset:0}
+.dev::after{content:"";position:absolute;inset:0;
+            background:linear-gradient(to top,rgba(0,0,0,.55),rgba(0,0,0,0) 40%,rgba(0,0,0,.18))}
+.dev>*{position:relative;z-index:1}
+.dev-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+.dev h3{margin:0;font-weight:300;font-size:var(--display-md);letter-spacing:-.015em}
+.dev-from{display:flex;align-items:baseline;gap:10px;margin-top:8px;
+          font-size:var(--step-1);font-weight:600}
+
+/* ── About band ─────────────────────────────────────────────────────────── */
+.band{background:var(--surface-dark);color:var(--on-dark)}
+.band-in{display:grid;grid-template-columns:1.15fr 1fr;gap:var(--space-2xl);
+         padding-block:var(--space-3xl)}
+.band h2{color:var(--on-dark);margin-bottom:var(--space-lg)}
+.band nav{display:grid;gap:14px;font-size:var(--step-1)}
+.band nav a{width:fit-content;padding-bottom:3px;border-bottom:1px solid transparent;
+            transition:border-color var(--t-hover) ease}
+@media (hover:hover) and (pointer:fine){ .band nav a:hover{border-color:currentColor} }
+.band p{margin:0;color:var(--on-dark-2);font-size:var(--step-1);line-height:1.75;
+        max-width:52ch}
+
+/* ── Notes / editorial ──────────────────────────────────────────────────── */
+.tabs{display:flex;gap:var(--space-lg);margin-bottom:var(--rhythm);
+      border-bottom:1px solid var(--line-soft)}
+.tab{padding-bottom:12px;border-bottom:1px solid transparent;margin-bottom:-1px;
+     font-size:var(--step--2);letter-spacing:.14em;text-transform:uppercase;
+     font-weight:500;color:var(--ink-3);transition:color var(--t-hover) ease}
+.tab[aria-selected=true]{color:var(--ink);border-color:var(--ink)}
+.notes{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;align-items:start}
+.note-list{display:grid;gap:22px}
+.note{display:grid;grid-template-columns:104px 1fr;gap:16px;align-items:start}
+.note .ph{aspect-ratio:1;border-radius:var(--r-media)}
+.note h4{margin:0 0 8px;font-size:var(--step-0);font-weight:600;line-height:1.35;
+         letter-spacing:-.005em}
+.note-meta{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-4)}
+.feature{position:relative;aspect-ratio:3/4;overflow:hidden;border-radius:var(--r-media);
+         color:#fff;display:flex;flex-direction:column;justify-content:flex-end;
+         padding:var(--space-md)}
+.feature .ph{position:absolute;inset:0}
+.feature::after{content:"";position:absolute;inset:0;
+                background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,0) 55%)}
+.feature>*{position:relative;z-index:1}
+.feature h4{margin:10px 0 0;font-size:var(--step-1);font-weight:600;line-height:1.3}
+.feature .caps{color:rgba(255,255,255,.85)}
+
+/* ── Footer ─────────────────────────────────────────────────────────────── */
+.ftr{border-top:1px solid var(--line);padding-block:var(--space-lg);
+     font-size:var(--step--1);color:var(--ink-3);
+     display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+
+/* ── Placeholder imagery ────────────────────────────────────────────────────
+   Stand-ins only. The reference site's photography is licensed to them —
+   these must be replaced with our own before anything goes live.            */
+.ph{background:var(--surface);position:relative;overflow:hidden}
+.ph::before{content:"";position:absolute;inset:0;background:var(--g,
+  linear-gradient(160deg,#c9cfd6,#9aa6b2))}
+.ph[data-l]::after{content:attr(data-l);position:absolute;left:12px;bottom:10px;
+  font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.55);z-index:2;pointer-events:none}
+.g-dusk{--g:linear-gradient(155deg,#b9a894 0%,#8d7f6f 45%,#5d564c 100%)}
+.g-sea{--g:linear-gradient(170deg,#9dc3d4 0%,#6d9fb6 50%,#3f6f87 100%)}
+.g-hills{--g:linear-gradient(165deg,#a8bb92 0%,#7d9770 48%,#4f6349 100%)}
+.g-stone{--g:linear-gradient(150deg,#d2cbc0 0%,#aca396 55%,#7d756a 100%)}
+.g-night{--g:linear-gradient(160deg,#5c6b7d 0%,#3b4654 55%,#222a34 100%)}
+.g-sand{--g:linear-gradient(155deg,#ddd2bf 0%,#b9ab92 50%,#8a7f6b 100%)}
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width:1100px){
+  .notes{grid-template-columns:repeat(2,1fr)}
+  .track-cards{grid-auto-columns:minmax(0,calc((100% - 2*20px)/2.4));gap:20px}
+}
+@media (max-width:820px){
+  :root{--gutter:24px}
+  .section{padding-block:var(--space-xl)}
+  .band-in{grid-template-columns:1fr}
+  .areas{grid-template-columns:repeat(2,1fr)}
+  .tile-lg{grid-column:span 2;grid-row:auto;aspect-ratio:16/10}
+  .band-in{gap:var(--space-lg);padding-block:var(--space-2xl)}
+  .track-cards{grid-auto-columns:minmax(0,78%)}
+  .track-dev{grid-auto-columns:88vw}
+  .tabs{overflow-x:auto;scrollbar-width:none}
+  .sec-hd{align-items:flex-start;flex-direction:column;gap:var(--space-md)}
+}
+@media (max-width:520px){
+  .notes{grid-template-columns:1fr}
+  .hero-cta .pill{flex:1 1 auto;justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .track{scroll-behavior:auto}
+  .tile:hover{transform:none}
+  .pill:active,.rnd:active,.bm:active{transform:none}
+}
+</style>
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <button class="burger" aria-label="Open menu"><i></i><i></i><i></i></button>
+    <span class="mark">Gašper</span>
+    <div class="hdr-act">
+      <button aria-label="Search"><svg class="ico" viewBox="0 0 20 20"><circle cx="9" cy="9" r="6"/><path d="M13.5 13.5 18 18"/></svg></button>
+      <button class="saved" aria-label="Saved properties"><svg class="ico" viewBox="0 0 20 20"><path d="M5 3h10v14l-5-4-5 4z"/></svg><b>1</b></button>
+      <button class="caps" style="letter-spacing:.1em">EN</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="ph g-dusk" data-l="Hero photograph"></div>
+  <div class="wrap hero-in">
+    <h1 class="display d-xl">Unique properties and new builds on the Costa del Sol</h1>
+    <div class="hero-cta">
+      <a class="pill" href="#listings">Buy <span aria-hidden="true">→</span></a>
+      <a class="pill" href="#sell">Sell <span aria-hidden="true">→</span></a>
+      <a class="pill" href="#developments">New developments <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK SEARCH -->
+<section class="section">
+  <div class="wrap">
+    <h2 class="display d-lg" style="margin-bottom:var(--rhythm)">Tell us what you are looking for</h2>
+    <div class="qs">
+      <label class="sr" for="q" hidden>What are you looking for?</label>
+      <input id="q" type="search" placeholder="two bedroom apartment in La Quinta">
+      <div class="qs-row">
+        <a class="ulink" style="letter-spacing:.02em;text-transform:none;font-size:var(--step-0)" href="#viewing">Get a personalised selection</a>
+        <button class="pill solid">Search <span aria-hidden="true">→</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LATEST LISTINGS -->
+<section class="section" id="listings">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2 class="display d-lg">Latest listings on the Costa del Sol</h2>
+      <div class="ctrls">
+        <span class="caps" id="lc">01 / 09</span>
+        <span class="rail"><i></i></span>
+        <button class="rnd" data-rail="#r1" data-dir="-1" aria-label="Previous listings">‹</button>
+        <button class="rnd" data-rail="#r1" data-dir="1" aria-label="Next listings">›</button>
+      </div>
+    </div>
+    <div class="track track-cards" id="r1">
+      <article class="card">
+        <div class="ph g-hills" data-l="Property photo"><span class="tag">Off-plan</span>
+          <button class="bm" aria-label="Save"><svg class="ico" viewBox="0 0 20 20"><path d="M5 3h10v14l-5-4-5 4z"/></svg></button></div>
+        <div class="caps loc">La Carolina, Marbella Golden Mile</div>
+        <h3>Five-bedroom villa with sea views</h3>
+        <div class="specs"><span>5 beds</span><span>534 m² built</span><span>1,251 m² plot</span></div>
+        <div class="price">€4,995,000</div>
+      </article>
+      <article class="card">
+        <div class="ph g-stone" data-l="Property photo">
+          <button class="bm" aria-label="Save"><svg class="ico" viewBox="0 0 20 20"><path d="M5 3h10v14l-5-4-5 4z"/></svg></button></div>
+        <div class="caps loc">Finca Cortesín, Casares Golf</div>
+        <h3>Four-bedroom finca, frontline golf</h3>
+        <div class="specs"><span>4 beds</span><span>372 m² built</span><span>929 m² plot</span></div>
+        <div class="price">€3,975,000</div>
+      </article>
+      <article class="card">
+        <div class="ph g-night" data-l="Property photo">
+          <button class="bm" aria-label="Save"><svg class="ico" viewBox="0 0 20 20"><path d="M5 3h10v14l-5-4-5 4z"/></svg></button></div>
+        <div class="caps loc">La Quinta, La Heredia</div>
+        <h3>Six-bedroom villa above the valley</h3>
+        <div class="specs"><span>6 beds</span><span>920 m² built</span><span>1,058 m² plot</span></div>
+        <div class="price">€7,495,000</div>
+      </article>
+      <article class="card">
+        <div class="ph g-sand" data-l="Property photo">
+          <button class="bm" aria-label="Save"><svg class="ico" viewBox="0 0 20 20"><path d="M5 3h10v14l-5-4-5 4z"/></svg></button></div>
+        <div class="caps loc">Río Real, Marbella</div>
+        <h3>Three-bedroom apartment, golf frontline</h3>
+        <div class="specs"><span>3 beds</span><span>130 m² built</span><span>Terrace</span></div>
+        <div class="price">€2,250,000</div>
+      </article>
+      <article class="card">
+        <div class="ph g-sea" data-l="Property photo">
+          <button class="bm" aria-label="Save"><svg class="ico" viewBox="0 0 20 20"><path d="M5 3h10v14l-5-4-5 4z"/></svg></button></div>
+        <div class="caps loc">Estepona, New Golden Mile</div>
+        <h3>Frontline beach penthouse</h3>
+        <div class="specs"><span>4 beds</span><span>286 m² built</span><span>Sea views</span></div>
+        <div class="price">€3,450,000</div>
+      </article>
+    </div>
+    <div class="to-end"><a class="ulink" href="#listings">Browse all listings</a></div>
+  </div>
+</section>
+
+<!-- FEATURED AREAS -->
+<section class="section">
+  <div class="wrap">
+    <h2 class="display d-lg" style="margin-bottom:var(--rhythm)">Featured areas on the Costa del Sol</h2>
+    <div class="areas">
+      <figure class="tile tile-lg" style="margin:0">
+        <div class="ph g-hills" data-l="Area photo"></div><figcaption>Nueva Andalucía</figcaption>
+      </figure>
+        <figure class="tile tile-sm" style="margin:0"><div class="ph g-sea" data-l="Area photo"></div><figcaption>Golden Mile</figcaption></figure>
+        <figure class="tile tile-sm" style="margin:0"><div class="ph g-sand" data-l="Area photo"></div><figcaption>New Golden Mile</figcaption></figure>
+        <figure class="tile tile-sm" style="margin:0"><div class="ph g-stone" data-l="Area photo"></div><figcaption>Sierra Blanca</figcaption></figure>
+        <figure class="tile tile-sm" style="margin:0"><div class="ph g-hills" data-l="Area photo"></div><figcaption>La Zagaleta</figcaption></figure>
+    </div>
+    <div class="to-end"><a class="ulink" href="#">All destinations</a></div>
+  </div>
+</section>
+
+<!-- FEATURED DEVELOPMENTS -->
+<section class="section" id="developments">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2 class="display d-lg">Featured developments on the Costa del Sol</h2>
+      <div class="ctrls">
+        <span class="rail"><i></i></span>
+        <button class="rnd" data-rail="#r2" data-dir="-1" aria-label="Previous developments">‹</button>
+        <button class="rnd" data-rail="#r2" data-dir="1" aria-label="Next developments">›</button>
+      </div>
+    </div>
+  </div>
+  <div class="track track-dev" id="r2">
+    <article class="dev">
+      <div class="ph g-stone" data-l="Development render"></div>
+      <div class="dev-top"><div><h3>Tyrian Residences</h3><div class="caps" style="color:rgba(255,255,255,.8);margin-top:6px">Luxury residences in Estepona</div></div><span class="caps" style="color:rgba(255,255,255,.7)">1/8</span></div>
+      <div><div class="caps" style="color:rgba(255,255,255,.85)">Estepona</div><div class="dev-from"><span class="caps" style="color:rgba(255,255,255,.7)">From</span> €3,550,000</div></div>
+    </article>
+    <article class="dev">
+      <div class="ph g-hills" data-l="Development render"></div>
+      <div class="dev-top"><div><h3>Casa Varanda</h3><div class="caps" style="color:rgba(255,255,255,.8);margin-top:6px">A modern architectural masterpiece</div></div><span class="caps" style="color:rgba(255,255,255,.7)">2/8</span></div>
+      <div><div class="caps" style="color:rgba(255,255,255,.85)">Benahavís</div><div class="dev-from"><span class="caps" style="color:rgba(255,255,255,.7)">From</span> €9,575,000</div></div>
+    </article>
+    <article class="dev">
+      <div class="ph g-dusk" data-l="Development render"></div>
+      <div class="dev-top"><div><h3>Vista Lomas</h3><div class="caps" style="color:rgba(255,255,255,.8);margin-top:6px">Hillside apartments above La Quinta</div></div><span class="caps" style="color:rgba(255,255,255,.7)">3/8</span></div>
+      <div><div class="caps" style="color:rgba(255,255,255,.85)">Benahavís</div><div class="dev-from"><span class="caps" style="color:rgba(255,255,255,.7)">From</span> €1,890,000</div></div>
+    </article>
+  </div>
+  <div class="wrap"><div class="to-mid"><a class="ulink" href="#developments">All developments</a></div></div>
+</section>
+
+<!-- ABOUT BAND -->
+<section class="band on-dark" id="about">
+  <div class="wrap band-in">
+    <div>
+      <h2 class="display d-lg">About the practice</h2>
+      <nav><a href="#about">About</a><a href="#about">Team</a></nav>
+    </div>
+    <p>Placeholder for the studio paragraph — who you are, how long you have worked
+      this coast, and the range of properties you have brought to market. Two or
+      three sentences, written in your own voice, replacing this text before launch.</p>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section class="section" style="background:var(--surface)">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2 class="display d-lg">Notes from the Costa del Sol</h2>
+      <div class="ctrls">
+        <button class="rnd" aria-label="Previous notes">‹</button>
+        <button class="rnd" aria-label="Next notes">›</button>
+      </div>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true">Market</button>
+      <button class="tab" role="tab" aria-selected="false">Guides</button>
+      <button class="tab" role="tab" aria-selected="false">Area guides</button>
+      <button class="tab" role="tab" aria-selected="false">Journal</button>
+    </div>
+    <div class="notes">
+      <div class="note-list">
+        <article class="note"><div class="ph g-sea"></div><div><h4>Local events and the calendar for the year ahead</h4><div class="note-meta">Journal · 9 Sep</div></div></article>
+        <article class="note"><div class="ph g-hills"></div><div><h4>What the shoulder season does to viewing traffic</h4><div class="note-meta">Journal · 8 Sep</div></div></article>
+        <article class="note"><div class="ph g-sand"></div><div><h4>Notes on coastal towns worth a second look</h4><div class="note-meta">Journal · 8 Sep</div></div></article>
+      </div>
+      <article class="feature">
+        <div class="ph g-stone" data-l="Article photo"></div>
+        <div class="caps">Market</div>
+        <h4>What prices buy across the New Golden Mile and the old town</h4>
+      </article>
+      <div class="note-list">
+        <article class="note"><div class="ph g-night"></div><div><h4>Property prices on the coast, zone by zone</h4><div class="note-meta">Market · 14 Sep</div></div></article>
+        <article class="note"><div class="ph g-sea"></div><div><h4>Asking price versus closing price, and what the gap means</h4><div class="note-meta">Market · 13 Sep</div></div></article>
+        <article class="note"><div class="ph g-hills"></div><div><h4>The inland value tier and who is buying there</h4><div class="note-meta">Market · 13 Sep</div></div></article>
+      </div>
+      <article class="feature">
+        <div class="ph g-dusk" data-l="Article photo"></div>
+        <div class="caps">Guides</div>
+        <h4>The seller's guide, from valuation through to completion</h4>
+      </article>
+    </div>
+    <div class="to-end"><a class="ulink" href="#">View all</a></div>
+  </div>
+</section>
+
+<footer class="wrap ftr">
+  <span>© 2026 Gašper Plahutnik · Drumelia Real Estate, Marbella</span>
+  <span>gasper@drumelia.com</span>
+</footer>
+
+<script>
+(function () {
+  document.querySelectorAll('.rnd[data-rail]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var rail = document.querySelector(b.dataset.rail);
+      if (rail) rail.scrollBy({ left: rail.clientWidth * 0.8 * +b.dataset.dir, behavior: 'smooth' });
+    });
+  });
+  // The counter and rail reflect real scroll position rather than a fixed value
+  var r1 = document.getElementById('r1'), lc = document.getElementById('lc');
+  function sync() {
+    if (!r1 || !lc) return;
+    var max = r1.scrollWidth - r1.clientWidth;
+    var p = max > 0 ? r1.scrollLeft / max : 0;
+    var n = r1.children.length;
+    lc.textContent = String(Math.min(n, Math.round(p * (n - 1)) + 1)).padStart(2, '0') + ' / ' + String(n).padStart(2, '0');
+    var bar = r1.closest('.section').querySelector('.rail i');
+    if (bar) { bar.style.width = Math.max(18, (r1.clientWidth / r1.scrollWidth) * 100) + '%';
+               bar.style.left = p * (100 - Math.max(18, (r1.clientWidth / r1.scrollWidth) * 100)) + '%'; }
+  }
+  if (r1) { r1.addEventListener('scroll', sync, { passive: true }); sync(); addEventListener('resize', sync); }
+
+  document.querySelectorAll('.tab').forEach(function (t) {
+    t.addEventListener('click', function () {
+      document.querySelectorAll('.tab').forEach(function (o) { o.setAttribute('aria-selected', 'false'); });
+      t.setAttribute('aria-selected', 'true');
+    });
+  });
+})();
+</script>
