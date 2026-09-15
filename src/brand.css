@@ -1,0 +1,99 @@
+/* ───────────────────────────────────────────────────────────────────────────
+   Brand tokens — extracted from the Casa Orquídea landing page.
+
+   The single definition of "my fonts and colours". Drop this into any new
+   page, then style against the variables rather than raw hex, so a brand
+   change is one edit here instead of a find-and-replace everywhere.
+
+   Font: Hanken Grotesk 300/400/500/600 (Google Fonts).
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Type ─────────────────────────────────────────────────────────────── */
+  --font: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Helvetica, Arial, sans-serif;
+
+  --w-light: 300;    /* large quiet numerals, the accordion marker          */
+  --w-body: 400;     /* body copy, captions                                 */
+  --w-medium: 500;   /* buttons, pills, field labels                        */
+  --w-bold: 600;     /* headings, eyebrows, prices, emphasis                */
+
+  /* Tracking is size-specific: tighter as type grows, slightly open when it
+     shrinks. Never one value for every size. */
+  --track-display: -.028em;   /* 48px and up   */
+  --track-heading: -.025em;   /* 28–46px       */
+  --track-title: -.014em;     /* 18–24px       */
+  --track-body: 0;            /* 15–21px       */
+  --track-small: .01em;       /* 13–15px       */
+  --track-label: .02em;       /* eyebrow labels */
+
+  --lh-display: 1.04;
+  --lh-heading: 1.06;
+  --lh-body: 1.55;
+  --lh-prose: 1.6;
+
+  /* ── Ink (text on light) ──────────────────────────────────────────────── */
+  --ink: #1d1d1f;            /* primary text, dark surfaces, solid buttons  */
+  --ink-2: #424245;          /* body copy on light                          */
+  --ink-3: #6e6e73;          /* captions, secondary, placeholder            */
+  --ink-4: #86868b;          /* the quietest legible grey                   */
+
+  /* ── Ink (text on dark) ───────────────────────────────────────────────── */
+  --on-dark: #f5f5f7;        /* headings on #1d1d1f                         */
+  --on-dark-2: #d6d6d9;      /* body copy on dark                           */
+  --on-dark-3: #a1a1a6;      /* secondary on dark                           */
+
+  /* ── Surfaces ─────────────────────────────────────────────────────────── */
+  --bg: #ffffff;             /* page                                        */
+  --surface: #f5f5f7;        /* cards on white, alternating sections        */
+  --surface-dark: #1d1d1f;   /* inverted sections                           */
+  --line: #d2d2d7;           /* input borders, footer rule                  */
+  --line-soft: #e8e8ed;      /* list dividers, progress track               */
+
+  /* ── Accent: warm sand, the one colour that isn't greyscale ───────────── */
+  --sand: #a99f89;           /* eyebrows + focus ring ON DARK               */
+  --sand-deep: #8a8069;      /* eyebrows ON LIGHT (passes contrast)         */
+  --espresso: #45413a;       /* button hover                                */
+
+  /* ── Translucency (glass over photography) ────────────────────────────── */
+  --glass: rgba(255, 255, 255, .18);   /* pills on a photo — blur, no edge  */
+  --glass-bar: rgba(255, 255, 255, .72); /* sticky chrome over content      */
+  --glass-dark: rgba(29, 29, 31, .55); /* discs/badges on a photo          */
+  --tint-8: rgba(255, 255, 255, .08);  /* cards inside a dark section       */
+  --tint-10: rgba(255, 255, 255, .10); /* chips inside a dark section       */
+  --blur: 12px;
+  --blur-bar: 20px;
+
+  /* ── Radii ────────────────────────────────────────────────────────────── */
+  --r-pill: 980px;  /* buttons, chips, pills — the signature shape          */
+  --r-card: 20px;   /* cards, media, panels                                 */
+  --r-field: 12px;  /* inputs and selects                                   */
+  --r-chip: 14px;   /* small info blocks                                    */
+
+  /* ── Motion ───────────────────────────────────────────────────────────── */
+  --ease-out: cubic-bezier(.23, 1, .32, 1);      /* entrances, press        */
+  --ease-in-out: cubic-bezier(.77, 0, .175, 1);  /* on-screen movement      */
+  --t-press: 160ms;   /* :active feedback                                   */
+  --t-hover: 220ms;   /* colour changes                                     */
+  --t-panel: 300ms;   /* disclosures                                        */
+  --t-enter: 700ms;   /* one-shot entrances                                 */
+  --press: .97;       /* :active scale                                      */
+
+  /* ── Layout ───────────────────────────────────────────────────────────── */
+  --max: 1180px;      /* content column                                     */
+  --max-prose: 900px; /* reading column (FAQ, long text)                    */
+  --pad-section: 100px 40px;
+  --pad-section-sm: 72px 24px;  /* ≤900px                                   */
+}
+
+/* Dark sections re-point the text tokens instead of hard-coding colours, so
+   the same component works on either ground. */
+.on-dark {
+  --ink: var(--on-dark);
+  --ink-2: var(--on-dark-2);
+  --ink-3: var(--on-dark-3);
+  --sand-deep: var(--sand);
+  --surface: var(--tint-8);
+  --line: rgba(255, 255, 255, .15);
+  --line-soft: rgba(255, 255, 255, .15);
+}
