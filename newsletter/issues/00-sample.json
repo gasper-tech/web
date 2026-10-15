@@ -1,0 +1,66 @@
+{
+  "number": 0,
+  "date_label": "Friday 16 Oct",
+  "read_min": 8,
+  "subject_hook": "The number that predicts your lifespan",
+  "preheader": "Plus: why gold hates inflation, a receipt-reading AI you can build tonight, and Seneca on worry.",
+  "first_sip": "Rome wasn't built in a day. But they were laying bricks every hour. Here are today's bricks.",
+  "footer": "Reference sample approved by the reader. Figures come from the linked reports and are rounded.",
+  "sections": [
+    {
+      "label": "Markets & Macro", "kind": "this week", "topic": "Markets",
+      "title": "Inflation ran hot, and gold took the hit",
+      "paragraphs": [
+        "US consumer prices, published on 14 October, came in warmer than forecast. The dollar and bond yields jumped, and gold dropped about 1.5% that day to roughly $4,100–4,150 an ounce. It is now down around 4% this year. The Fed meets on 27–28 October and markets mostly expect it to sit still.",
+        "<b>Why gold hates this news:</b> hot inflation means rates stay high for longer. <mark>Gold pays no interest, so when your cash and bonds pay you more, holding it looks less clever.</mark>"
+      ],
+      "why": {"head": "Why it matters", "text": "Inflation decides interest rates, and interest rates quietly decide almost everything else: mortgages, savings, stock prices and what your euros buy abroad."},
+      "sources": [{"text": "World Gold Council", "url": "https://www.gold.org/download/file/21255/WMM_13_Oct_2026_Pricing_fiscal_risk.pdf"}],
+      "questions": ["What are real interest rates, explained simply?", "How does the Fed decide whether to hike or hold?", "Why are central banks buying so much gold?"]
+    },
+    {
+      "label": "AI Build", "kind": "idea of the issue", "topic": "AI Build",
+      "title": "Snap a receipt, get a monthly spending report",
+      "figs": [{"n": "Easy", "t": "No real coding needed"}, {"n": "1 evening", "t": "To a working version"}, {"n": "Pennies", "t": "To run each month"}],
+      "paragraphs": ["<b>The idea:</b> you take a photo of every receipt. AI reads it, pulls out the date, shop, amount and category, and adds a row to a spreadsheet. At the end of the month it writes you a short summary.", "<b>How to build it:</b>"],
+      "bullets": ["<b>Simplest:</b> a Claude Project called \"Receipts\". Drop photos in, ask for a table.", "<b>Automated:</b> ask Claude Code for a script that sends each photo to Claude and appends to a Google Sheet.", "<b>Monthly report:</b> a scheduled task that emails you the summary on the 1st."],
+      "why": {"head": "Could you sell it?", "text": "The general version exists (Expensify, Dext). The money is in a niche, like Airbnb hosts or tradespeople in one country with local VAT rules. <mark>Narrow tools are easier to sell than broad ones.</mark>"},
+      "questions": ["Walk me through building a receipt-to-spreadsheet AI tool step by step, as a beginner", "What would a receipt-reading AI tool cost to run, and what could go wrong?", "How would I turn a receipt-reading AI tool into a small product people pay for?"]
+    },
+    {
+      "label": "Art & Collecting", "kind": "explained", "topic": "Art",
+      "title": "Provenance: an object's paper trail",
+      "paragraphs": ["Provenance is the recorded history of who has owned a work, from the artist's studio until today. <mark>A solid provenance does two jobs: it helps prove the work is genuine, and it shows nobody has a claim to get it back.</mark>", "Gaps make buyers nervous, especially for Europe between 1933 and 1945, when the Nazis looted huge amounts of art."],
+      "why": {"head": "Why it matters", "text": "When a catalogue says \"impeccable provenance,\" it means: we know exactly where this has been, and nobody will come knocking for it."},
+      "sources_label": "More", "sources": [{"text": "Wikipedia: Provenance", "url": "https://en.wikipedia.org/wiki/Provenance"}],
+      "questions": ["What other words should I know from auction catalogues?", "How do experts spot a fake painting?", "What happened with Nazi-looted art and getting it returned?"]
+    },
+    {
+      "label": "Philosophy", "topic": "Philosophy",
+      "quote": "We suffer more often in imagination than in reality.",
+      "cite": "Seneca, Letters to Lucilius, XIII · c. 65 AD",
+      "paragraphs": ["Seneca was one of the richest men in Rome and worked for Nero, so he had a lot to worry about. His advice to a younger friend: <mark>separate what is happening from what you fear might happen, and only deal with the first.</mark>"],
+      "sources_label": "Read it", "sources": [{"text": "Letter 13 on Wikisource", "url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13"}],
+      "questions": ["Who was Seneca, really?", "Give me three more Stoic ideas I can use this week", "How is Stoicism related to modern therapy (CBT)?"]
+    },
+    {
+      "label": "Mind Challenge", "kind": "logic · medium", "topic": "Puzzle",
+      "puzzle": "You have 8 balls that look identical. One is slightly heavier. You may use a balance scale only <b>twice</b>. How do you find the heavy one?",
+      "hint": "Hint: 4 against 4 is a trap. Answer in the next Doppio.",
+      "questions": ["Give me a hint for the 8-ball balance puzzle, without the answer", "Give me another puzzle like the 8-ball balance puzzle"]
+    },
+    {
+      "label": "One-liner for dinner", "topic": "History",
+      "oneliner": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid of Giza.",
+      "cite": "Pyramid c. 2560 BC · Cleopatra died 30 BC · Apollo 11 in 1969",
+      "questions": ["Give me five more mind-bending timeline facts", "How was the Great Pyramid actually built?"]
+    },
+    {
+      "label": "Book of the week", "kind": "Fridays", "topic": "Book",
+      "title": "<i>Thinking, Fast and Slow</i>, by Daniel Kahneman",
+      "paragraphs": ["A Nobel-winning psychologist explains the two \"systems\" in your head: <mark>a fast one that runs on instinct and shortcuts, and a slow one that does careful thinking but is lazy.</mark>"],
+      "why": {"head": "Read it if", "text": "you want to notice your own thinking errors before they cost you."},
+      "questions": ["Summarise the 5 most useful ideas in Thinking, Fast and Slow", "Recommend three more books like Thinking, Fast and Slow"]
+    }
+  ]
+}
