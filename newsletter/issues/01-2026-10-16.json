@@ -1,0 +1,292 @@
+{
+ "number": 1,
+ "date_label": "Friday 16 Oct",
+ "read_min": 9,
+ "subject_hook": "The Moon is leaving us",
+ "preheader": "Plus: why Hanoi paid for rat tails, the coffee house that became Lloyd's, and a 7am inbox butler.",
+ "first_sip": "The early bird gets the worm. The second mouse gets the cheese. Pick your animal.",
+ "footer": "Built from news up to 16 October 2026. Figures come from the linked sources and are rounded. Next Doppio: Tuesday 20 October, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "The oil reserve that buys time, not oil",
+   "paragraphs": [
+    "On Thursday the International Energy Agency (IEA), the rich countries' energy club, said members will speed up the rest of their emergency oil release, including more than 20 million barrels of diesel \"as soon as possible\". In March they pledged a record 400 million barrels, and about 330 million have already gone out. Brent crude stayed above $100 a barrel. Analysts mostly called it old barrels delivered faster, not new ones.",
+    "<b>Stock vs flow:</b> a strategic reserve is a pantry. The Strait of Hormuz is the daily delivery truck, which in peacetime carries roughly 20 million barrels a day. The 100 million barrels still to come cover about five days of that truck. <mark>A pantry can get you through a bad week, but it can't replace the truck.</mark> And markets price news early: by the time the meeting confirmed what traders expected, it was already in the price."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Energy pushed euro-area inflation to 3.8% in September, and it lands in your fuel and heating bills. When politicians announce a fix, ask: is it a one-off stock or a lasting flow, and is it actually new?"
+   },
+   "sources": [
+    {
+     "text": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html"
+    },
+    {
+     "text": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/iea-agrees-to-release-of-outstanding-100-million-barrels-of-oil"
+    },
+    {
+     "text": "Eurostat flash inflation",
+     "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+    }
+   ],
+   "questions": [
+    "How do strategic oil reserves work, and who decides when to release them?",
+    "Why do markets often barely move when an expected policy is announced?",
+    "How does a rise in diesel prices feed into the cost of everyday goods in Europe?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "China's export machine hits a new gear",
+   "paragraphs": [
+    "On Wednesday, China's customs office reported that September exports jumped 36.3% from a year earlier, to about $447 billion. Economists had expected roughly 25%. The surplus for January to September reached $938 billion, closing in on last year's full-year record of about $1.19 trillion. The standout was chips: exports up 136% to almost $45 billion.",
+    "<b>The twist:</b> China barely shipped more chips. The number of units rose just 1%. Nearly all the jump came from price, because AI data centres are hoovering up memory chips and causing a shortage. <mark>China isn't only selling more. It's selling the same things at boom-time prices.</mark> Europe feels it: China's surplus with the EU hit $34.8 billion in September alone, a week after Brussels persuaded Beijing to halve its hybrid-car exports to Europe over four years."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "One country's surplus is everyone else's deficit. When the world's factory sells far more than it buys, its partners feel it in their own factories and jobs, and answer with quotas and tariffs. Expect more Europe-vs-China deals like the hybrid one."
+   },
+   "sources": [
+    {
+     "text": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html"
+    },
+    {
+     "text": "BNN Bloomberg",
+     "url": "https://www.bnnbloomberg.ca/tariffs/2026/10/14/chinas-trade-surplus-nears-record-as-pressure-mounts-from-trading-partners/"
+    },
+    {
+     "text": "CNBC on the hybrid deal",
+     "url": "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html"
+    }
+   ],
+   "questions": [
+    "Why does a huge Chinese trade surplus worry its trading partners, and is it good for China's own citizens?",
+    "Why have AI data centres caused a global shortage of memory chips?",
+    "How do export quotas like the EU-China hybrid car deal differ from tariffs, and who pays for each?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "idea of the issue",
+   "topic": "AI Build",
+   "title": "A 7am inbox butler that tells you what matters",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "No code, just a well-written prompt"
+    },
+    {
+     "n": "~30 min",
+     "t": "To a working version"
+    },
+    {
+     "n": "$0–20",
+     "t": "To run each month"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Most of your inbox is noise: newsletters, receipts, \"just following up\". Instead of scrolling through it all, let AI read the last 24 hours of Gmail and hand you a short morning note in three parts: <i>reply today</i>, <i>worth a look</i> and <i>safe to ignore</i>. <mark>You stop checking email to find out whether anything matters, and only open it when something does.</mark>",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> connect Gmail to Claude (Settings → Connectors, works on the free plan) and ask: \"Read my emails from the last 24 hours. Group them into reply today, worth a look and ignore, with one line each.\" Tweak the wording until the sorting feels right.",
+    "<b>Automated:</b> save that prompt as a daily 7am scheduled task in Claude. It needs a paid plan (Pro is $20 a month) and runs in the cloud even when your laptop is closed.",
+    "<b>Next level:</b> let it add Gmail labels and write <i>draft</i> replies for the \"reply today\" pile. It never sends anything on its own: you check each draft and press send."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Not as a general tool: SaneBox has sent daily inbox digests for years, and AI email apps like Shortwave already summarise and triage. The opening is a narrow group with one messy kind of inbox, like parents buried in school emails or small landlords juggling tenant messages. You'd sell a well-tuned setup for that niche, not new software."
+   },
+   "questions": [
+    "Walk me through building an AI inbox-triage morning digest with Claude and Gmail, step by step",
+    "What's the best prompt for an AI digest that sorts my emails into reply today, worth a look and ignore?",
+    "How could I turn an AI inbox-triage digest into a small paid service for a niche like parents dealing with school emails?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Forget 10,000 steps. About 7,000 does most of the work",
+   "paragraphs": [
+    "The 10,000-step goal is usually traced to a 1960s Japanese pedometer ad, not to science. In 2025 a team led by Melody Ding at the University of Sydney pooled 57 studies of adults whose steps were counted by a device. Compared with people taking about 2,000 steps a day, those taking about 7,000 had a <b>47% lower risk of dying</b> during follow-up, and a 38% lower risk of dementia.",
+    "<mark>For death, heart disease, dementia and falls, the benefit rose steeply and then flattened at around 5,000–7,000 steps a day.</mark> More didn't hurt, but the big gains came early. One caveat: these are observational studies, and healthier people may simply walk more, so it shows a link, not proof."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "If 10,000 feels out of reach, don't give up. Most of the payoff comes from getting off the couch, from about 2,000 steps to 5,000–7,000. Two short daily walks get most people there."
+   },
+   "sources": [
+    {
+     "text": "Ding et al., The Lancet Public Health 2025",
+     "url": "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(25)00164-1/fulltext"
+    },
+    {
+     "text": "NPR coverage",
+     "url": "https://www.npr.org/2025/08/14/nx-s1-5501610/counting-steps-health-fitness-tracker"
+    }
+   ],
+   "questions": [
+    "Where did the 10,000-steps-a-day goal come from, and why did it stick?",
+    "Does walking pace matter as much as the total number of daily steps?",
+    "How do researchers separate cause from effect in step-count studies?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "How a coffee house became Lloyd's of London",
+   "paragraphs": [
+    "In 1688 a London newspaper told readers to report stolen watches to \"Mr. Edward Loyd's Coffee House\" on Tower Street. It's the first record of the world's most famous insurance market. Lloyd's trick was simple: next to the coffee, he served shipping news. Which ships had docked, which were overdue, who was sailing where. Captains and merchants came for the gossip and stayed to do business.",
+    "The deals worked like this. A shipowner wrote the voyage and cargo on a slip of paper. Wealthy men read it over their coffee, and each who wanted a share of the risk signed his name beneath it for a cut of the premium. Signing underneath made them <i>underwriters</i>. <mark>Lloyd sold the coffee and the news, and other people built an industry around his tables.</mark>",
+    "In 1769 the serious underwriters split off, tired of gamblers betting on wars and on how long famous people would live. Parliament made Lloyd's a corporation in 1871. It kept the coffee-house name."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Markets grow up around good information. Lloyd built neither a bank nor an insurer. He built the place everyone needed to be."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Lloyd's: Coffee and commerce",
+     "url": "https://www.lloyds.com/about-lloyds/history/coffee-and-commerce"
+    }
+   ],
+   "questions": [
+    "Why did a coffee house, rather than a bank, become the birthplace of marine insurance?",
+    "Where does the word underwriter come from?",
+    "How does Lloyd's of London actually work today?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "The Moon is leaving us, about as fast as your fingernails grow",
+   "paragraphs": [
+    "The Apollo astronauts left mirrors on the Moon. Observatories still fire lasers at them and time how long the light takes to come back. The result: the Moon drifts about <b>3.8 cm</b> farther from Earth every year, roughly the speed your fingernails grow.",
+    "The cause is the tides. The Moon's gravity raises a bulge in Earth's oceans, and because Earth spins much faster than the Moon orbits, the spin carries that bulge slightly <i>ahead</i> of the Moon. The bulge tugs the Moon forward into a higher orbit, while the Moon pulls back on it like a brake. <mark>Whatever spin Earth loses, the Moon gains as orbit, so our days get longer while the Moon drifts away.</mark> 1.4 billion years ago, a day lasted just over 18 hours. No need to panic: in a lifetime the Moon moves about three metres."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Nothing in the sky is truly fixed. Small, steady forces add up hugely over enough time, in orbits and in life."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "NASA JPL",
+     "url": "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/"
+    },
+    {
+     "text": "UW–Madison on 18-hour days",
+     "url": "https://news.wisc.edu/thank-the-moon-for-earths-lengthening-day/"
+    }
+   ],
+   "questions": [
+    "How do scientists work out how long a day was 1.4 billion years ago from ancient rocks?",
+    "Will the Moon eventually escape Earth's orbit?",
+    "Why are total solar eclipses possible right now, and will the Moon's drift end them?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Goodhart's law: the day Hanoi paid for rat tails",
+   "paragraphs": [
+    "In 1902, French colonial Hanoi had a rat problem and feared plague. Officials offered a bounty of about one cent per rat, and to avoid piles of dead rats in their offices, they asked only for the tail. On one day in June, more than 20,000 tails came in. A triumph? Soon tailless rats were seen scurrying around the city: people were cutting off tails and letting the rats keep breeding. Some reportedly started farming them.",
+    "Economist <b>Charles Goodhart</b> spotted the pattern in 1975: any statistical regularity tends to collapse once you lean on it for control. The catchy version came later, from anthropologist Marilyn Strathern: <mark>\"When a measure becomes a target, it ceases to be a good measure.\"</mark>"
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Every number stands in for something you actually care about. Reward the number and people get good at moving the number. Before you set a target, ask: how could someone hit this without doing the real thing?"
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Historian Michael Vann on the Hanoi rat hunt",
+     "url": "https://worldhistoryconnected.press.uillinois.edu/15.2/vann_interview.html"
+    },
+    {
+     "text": "Goodhart's law",
+     "url": "https://en.wikipedia.org/wiki/Goodhart%27s_law"
+    }
+   ],
+   "questions": [
+    "What are practical ways to design a KPI that resists being gamed, given Goodhart's law?",
+    "Is the famous cobra effect story from colonial Delhi real or a myth?",
+    "Give me three modern examples of Goodhart's law in business or government"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "In the morning when thou risest unwillingly, let this thought be present: I am rising to the work of a human being.",
+   "cite": "Marcus Aurelius, Meditations, Book V, §1 · c. AD 170–180 · tr. George Long",
+   "paragraphs": [
+    "Marcus Aurelius was emperor of Rome, the most powerful man alive, and he still struggled to get out of bed. He wrote the <i>Meditations</i> as a private notebook, probably on campaign along the Danube, never meant for anyone else. In the same passage he scolds himself: was he made \"to lie in the bedclothes and keep myself warm?\" The bees and ants get on with their work, so why can't he? <mark>When the duvet wins the argument, ask what you were actually made for, then go and do one piece of it.</mark>"
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Meditations, Book 5 (Long translation)",
+     "url": "https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long/text/book-5"
+    }
+   ],
+   "questions": [
+    "What did Marcus Aurelius mean by the work of a human being?",
+    "Why did Marcus Aurelius write the Meditations, and how did they survive?",
+    "Give me three more practical passages from Marcus Aurelius' Meditations"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "logic · medium",
+   "topic": "Puzzle",
+   "previous_answer": "put 3 balls on each side and keep 2 aside. If it balances, weigh the 2 leftovers against each other. If one side drops, take those 3, weigh 1 against 1 and keep 1 aside: the lower side is your ball, or it's the one aside if they balance.",
+   "puzzle": "You have two ropes and a lighter. Each rope takes exactly 60 minutes to burn, but they burn unevenly: half a rope does not take 30 minutes. How do you measure exactly 45 minutes?",
+   "hint": "Hint: a rope can be lit from more than one place. Answer in Tuesday's Doppio.",
+   "questions": [
+    "Give me a hint for the two-ropes 45-minute puzzle, without the answer",
+    "Give me another puzzle like the burning-ropes puzzle"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Paris and Lyon had a working fax service in 1865, eleven years before Alexander Graham Bell patented the telephone.",
+   "cite": "Caselli's pantelegraph opened on the Paris–Lyon line in 1865 · Bell's telephone patent 1876",
+   "questions": [
+    "Which came first, the fax machine or the telephone?",
+    "What was Giovanni Caselli's pantelegraph and how did it work?"
+   ]
+  },
+  {
+   "label": "Book of the week",
+   "kind": "Fridays",
+   "topic": "Book",
+   "title": "<i>The Righteous Mind</i>, by Jonathan Haidt",
+   "paragraphs": [
+    "Published in 2012, Jonathan Haidt's book asks why good, smart people look at the same facts and end up furious with each other about politics and religion. His answer: <mark>intuition decides first, and reasoning arrives afterwards like a press secretary to defend the decision.</mark> In his image, reason is a small rider on a large elephant. He also shows that morality covers more than harm and fairness: loyalty, authority, liberty and sanctity matter too, and different groups weigh them differently."
+   ],
+   "why": {
+    "head": "Read it if",
+    "text": "you want to argue less and understand more, especially with people who vote differently from you. Read Part I slowly. The later chapters on evolution are the most debated, so take them with a pinch of salt."
+   },
+   "questions": [
+    "In The Righteous Mind, what do the elephant and the rider stand for?",
+    "What are Jonathan Haidt's moral foundations, explained simply?",
+    "What does Haidt mean when he says morality binds and blinds?"
+   ]
+  }
+ ]
+}
