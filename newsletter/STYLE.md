@@ -31,7 +31,7 @@ Every issue:
 - Medicine & health
 - Philosophy: one quote from an old philosopher, with context, exact source citation
 - Mind Challenge: rotating logic / lateral / math / wordplay, medium difficulty. The answer to the
-  previous puzzle goes in the next issue.
+  previous puzzle goes in the next issue, in the section's `previous_answer` field.
 - One-liner for dinner: a surprising, verifiable fact
 
 Rotating explainers ("what X means", timeless, plain English), 2–3 per issue:

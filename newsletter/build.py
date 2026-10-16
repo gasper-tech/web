@@ -91,6 +91,8 @@ def section(s):
     if s.get("title"):
         out.append(h2(s["title"]))
     out.append(figs(s.get("figs")))
+    if s.get("previous_answer"):
+        out.append(p("<b>Last puzzle's answer:</b> " + s["previous_answer"]))
     if s.get("puzzle"):
         hint = f'<p style="font:400 14px/1.5 {F};color:{MUTED};margin:0;">{rich(s.get("hint", ""))}</p>' if s.get("hint") else ""
         out.append(f'<div style="background:#ffffff;border:1px solid {LINE};border-radius:4px;padding:16px;margin:0 0 12px;">{p(s["puzzle"])}{hint}</div>')
