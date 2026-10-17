@@ -11,7 +11,7 @@ import sys
 from html import escape
 from urllib.parse import quote
 
-F = "Inter,Helvetica,Arial,sans-serif"
+F = "Geist,Helvetica,Arial,sans-serif"
 INK, MUTED, LINE, HL = "#1a1a1a", "#6b6b6b", "#dadada", "#7d6c2c"
 HLBG = "#ebdfb3"  # the dark yellow at low opacity, flattened for email clients
 CHIP = "#eeede9"
@@ -112,7 +112,7 @@ def build(issue):
     pad = "&#8199;&#847;" * 12
     body = "".join(section(s) for s in issue["sections"])
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap" rel="stylesheet"></head>
 <body style="margin:0;padding:0;background:#f6f6f6;">
 <div style="display:none;max-height:0;overflow:hidden;">{escape(issue["preheader"])}{pad}</div>
 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f6f6f6;"><tr><td align="center" style="padding:28px 16px 40px;">
