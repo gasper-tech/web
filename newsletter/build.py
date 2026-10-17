@@ -49,7 +49,7 @@ def label(text, kind=""):
 
 
 def h2(html):
-    return f'<h2 style="font:300 28px/1.12 {DISPLAY};letter-spacing:-.025em;color:{INK};margin:0 0 14px;">{html}</h2>'
+    return f'<h2 style="font:500 28px/1.15 {DISPLAY};letter-spacing:-.012em;color:{INK};margin:0 0 14px;">{html}</h2>'
 
 
 def p(html, color=INK2):
@@ -94,7 +94,7 @@ def figs(rows):
         return ""
     cells = "".join(
         f'<td bgcolor="{SURFACE}" style="background-color:{SURFACE};border-radius:14px;padding:12px 14px;vertical-align:top;width:33%;">'
-        f'<div style="font:300 22px/1.2 {DISPLAY};letter-spacing:-.014em;color:{INK};">{escape(r["n"])}</div>'
+        f'<div style="font:500 22px/1.2 {DISPLAY};letter-spacing:-.008em;color:{INK};">{escape(r["n"])}</div>'
         f'<div style="font:400 12px/1.4 {UI};color:{INK3};margin-top:2px;">{escape(r["t"])}</div></td>'
         for r in rows)
     return f'<table role="presentation" cellspacing="6" cellpadding="0" style="width:100%;margin:0 -6px 10px;border-collapse:separate;"><tr>{cells}</tr></table>'
@@ -103,10 +103,10 @@ def figs(rows):
 def section(s, first=False):
     out = [label(s["label"], s.get("kind", ""))]
     if s.get("quote"):
-        out.append(f'<div style="font:300 30px/1.15 {DISPLAY};letter-spacing:-.025em;color:{INK};margin:0 0 10px;">“{escape(s["quote"])}”</div>')
+        out.append(f'<div style="font:500 29px/1.2 {DISPLAY};letter-spacing:-.012em;color:{INK};margin:0 0 10px;">“{escape(s["quote"])}”</div>')
         out.append(small(escape(s.get("cite", ""))))
     if s.get("oneliner"):
-        out.append(f'<div style="font:300 25px/1.2 {DISPLAY};letter-spacing:-.02em;color:{INK};margin:0 0 10px;">{rich(s["oneliner"])}</div>')
+        out.append(f'<div style="font:500 24px/1.25 {DISPLAY};letter-spacing:-.01em;color:{INK};margin:0 0 10px;">{rich(s["oneliner"])}</div>')
         if s.get("cite"):
             out.append(small(escape(s["cite"])))
     if s.get("title"):
@@ -135,7 +135,7 @@ def build(issue):
     body = "".join(section(s, i == 0) for i, s in enumerate(issue["sections"]))
     first_sip = card(
         caps("First sip", SAND, "0 0 8px")
-        + f'<div style="font:300 22px/1.3 {DISPLAY};letter-spacing:-.014em;color:{ON_DARK};">{escape(issue["first_sip"])}</div>',
+        + f'<div style="font:400 22px/1.35 {DISPLAY};letter-spacing:-.008em;color:{ON_DARK};">{escape(issue["first_sip"])}</div>',
         bg=DARK, radius=20, pad="22px 24px", margin="0 0 20px")
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light">
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet"></head>
@@ -145,7 +145,7 @@ def build(issue):
 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:600px;">
 <tr><td style="padding:0 0 8px;">
 {caps(f'Issue {issue["number"]:02d} · {zw(issue["date_label"])} · {issue["read_min"]} min read', INK3, "0 0 14px")}
-<div style="font:300 46px/1.04 {DISPLAY};letter-spacing:-.028em;color:{INK};margin:0 0 16px;">{NAME}</div>
+<div style="font:500 46px/1.06 {DISPLAY};letter-spacing:-.02em;color:{INK};margin:0 0 16px;">{NAME}</div>
 <p style="font:400 17px/1.55 {UI};color:{INK2};margin:0 0 22px;"><b style="color:{INK};font-weight:600;">The first double shot of your day.</b> A few minutes that make you sharper, more curious and better company. One dose at a time, you build the person you want to be.</p>
 {first_sip}
 <p style="font:400 13px/1.5 {UI};color:{INK3};margin:0 0 4px;">Tap any question under an item to ask Claude.</p>
