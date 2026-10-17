@@ -17,8 +17,8 @@ from html import escape
 from urllib.parse import quote
 
 # ── Brand tokens (from src/brand.css) ─────────────────────────────────────────
-DISPLAY = "'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
-UI = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+DISPLAY = "'Hanken Grotesk',Helvetica,Arial,sans-serif"
+UI = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
 INK, INK2, INK3, INK4 = "#1d1d1f", "#424245", "#6e6e73", "#86868b"
 ON_DARK, ON_DARK3 = "#f5f5f7", "#a1a1a6"
 SURFACE, DARK = "#f5f5f7", "#1d1d1f"
