@@ -1,7 +1,7 @@
 # Morning Doppio: editorial brief
 
-Look and feel follow the site brand sheet `src/brand.css`: Hanken Grotesk light for display type,
-the system font for body text, Apple-style greys and one warm sand accent.
+Look and feel follow Gašper's website (claude.ai/artifact/XxDycsbJkBZi69cci5ZxHu): Geist + Geist Mono,
+soft neutral ground, large rounded cards, sky-gradient hero, sand-gradient First sip card, mono labels.
 
 A personal newsletter for one reader, sent Tuesday and Friday at 07:00 Ljubljana time.
 Goal: make the reader sharper, more curious and better company. General knowledge first;
