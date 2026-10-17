@@ -144,9 +144,9 @@ def build(issue):
 </td></tr></table></td></tr>
 <tr><td style="padding:0 0 6px;">{glance}</td></tr>
 <tr><td style="padding:0 0 12px;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr>
-<td bgcolor="#ddcdb0" style="background-color:#ddcdb0;background-image:{SAND};border-radius:34px;padding:24px 24px 26px;">
-{mono("First sip", SAND_LABEL, "0 0 26px")}
-<div style="font:500 23px/1.3 {SANS};letter-spacing:-.02em;color:{SAND_INK};">{escape(issue["first_sip"])}</div>
+<td bgcolor="{SURFACE2}" style="background-color:{SURFACE2};border:1px solid {LINE};border-radius:34px;padding:24px 24px 26px;">
+{mono("First sip", INK_SOFT, "0 0 20px")}
+<div style="font:500 23px/1.3 {SANS};letter-spacing:-.02em;color:{INK};">{escape(issue["first_sip"])}</div>
 </td></tr></table></td></tr>'''
     footer = f'''<tr><td style="padding:0;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr>
 <td bgcolor="{NIGHT}" style="background-color:{NIGHT};border-radius:34px;padding:28px 24px 30px;">
