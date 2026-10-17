@@ -23,6 +23,7 @@ GROUND, RIM, SURFACE, SURFACE2 = "#ebebe9", "#f7f7f6", "#e3e3e1", "#f4f4f3"
 INK, INK_SOFT, INK_FAINT, LINE = "#141414", "#5d5d5b", "#9b9b98", "#d5d5d2"
 NIGHT, NIGHT_INK, NIGHT_SOFT = "#121212", "#f2f2f0", "#a3a3a0"
 SKY = "linear-gradient(160deg,#8fadcf 0%,#a9bdd6 38%,#d2d4da 70%,#d9d3cf 100%)"
+BLUSH = "radial-gradient(60% 50% at 38% 58%,#d49a86 0%,rgba(212,154,134,0) 70%),linear-gradient(180deg,#d6a9cb 0%,#d4a6c8 55%,#a08aa8 100%)"
 SAND = "linear-gradient(180deg,#efe7d8 0%,#ddcdb0 55%,#c4b393 100%)"
 SAND_INK, SAND_LABEL = "#1a160f", "#6a5d48"
 HLBG = "#efe4cc"  # the site's sand, light, for highlights
@@ -144,9 +145,9 @@ def build(issue):
 </td></tr></table></td></tr>
 <tr><td style="padding:0 0 6px;">{glance}</td></tr>
 <tr><td style="padding:0 0 12px;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr>
-<td bgcolor="{SURFACE2}" style="background-color:{SURFACE2};border:1px solid {LINE};border-radius:34px;padding:24px 24px 26px;">
-{mono("First sip", INK_SOFT, "0 0 20px")}
-<div style="font:500 23px/1.3 {SANS};letter-spacing:-.02em;color:{INK};">{escape(issue["first_sip"])}</div>
+<td bgcolor="#c99bbf" style="background-color:#c99bbf;background-image:{BLUSH};border-radius:34px;padding:24px 24px 28px;">
+{mono("First sip", "rgba(255,255,255,.85)", "0 0 22px")}
+<div style="font:500 23px/1.3 {SANS};letter-spacing:-.02em;color:#ffffff;">{escape(issue["first_sip"])}</div>
 </td></tr></table></td></tr>'''
     footer = f'''<tr><td style="padding:0;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr>
 <td bgcolor="{NIGHT}" style="background-color:{NIGHT};border-radius:34px;padding:28px 24px 30px;">
