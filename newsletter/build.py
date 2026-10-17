@@ -22,8 +22,9 @@ MONO = "'Geist Mono',ui-monospace,Menlo,monospace"
 GROUND, RIM, SURFACE, SURFACE2 = "#ebebe9", "#f7f7f6", "#e3e3e1", "#f4f4f3"
 INK, INK_SOFT, INK_FAINT, LINE = "#141414", "#5d5d5b", "#9b9b98", "#d5d5d2"
 NIGHT, NIGHT_INK, NIGHT_SOFT = "#121212", "#f2f2f0", "#a3a3a0"
-SKY = "linear-gradient(160deg,#8fadcf 0%,#a9bdd6 38%,#d2d4da 70%,#d9d3cf 100%)"
-BLUSH = "radial-gradient(60% 50% at 38% 58%,#d49a86 0%,rgba(212,154,134,0) 70%),linear-gradient(180deg,#d6a9cb 0%,#d4a6c8 55%,#a08aa8 100%)"
+SKY = "linear-gradient(175deg,#90aecf 0%,#9ab3d2 45%,#afc1d7 100%)"  # the site's Sierra Blanca card as rendered
+BLUSH = "radial-gradient(55% 45% at 45% 55%,rgba(212,154,134,.55) 0%,rgba(212,154,134,0) 70%),linear-gradient(180deg,#d6a9cb 0%,#cfa3c4 60%,#c09ab8 100%)"  # the site's Villa Selini card
+ON_LIGHT_LABEL, ON_LIGHT_BODY = "#3f4650", "#2f343b"
 SAND = "linear-gradient(180deg,#efe7d8 0%,#ddcdb0 55%,#c4b393 100%)"
 SAND_INK, SAND_LABEL = "#1a160f", "#6a5d48"
 HLBG = "#efe4cc"  # the site's sand, light, for highlights
@@ -138,16 +139,16 @@ def build(issue):
         {"label": "Book" if has_book else "Puzzle", "n": f'1', "t": "Book of the week" if has_book else "Mind challenge"},
     ])
     hero = f'''<tr><td style="padding:0 0 12px;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr>
-<td bgcolor="#a9bdd6" style="background-color:#a9bdd6;background-image:{SKY};border-radius:44px 44px 34px 34px;padding:30px 26px 32px;">
-{mono(f'Issue {issue["number"]:02d} · {zw(issue["date_label"])}', "rgba(255,255,255,.85)", "0 0 90px")}
-<div style="font:500 46px/1.02 {SANS};letter-spacing:-.025em;color:#ffffff;margin:0;"><span style="font-weight:300;opacity:.78;">Morning</span> Doppio.</div>
-<p style="font:400 17px/1.55 {SANS};color:rgba(255,255,255,.92);margin:16px 0 0;">The first double shot of your day. A few minutes that make you sharper, more curious and better company.</p>
+<td bgcolor="#9eb6d3" style="background-color:#9eb6d3;background-image:{SKY};border-radius:44px 44px 34px 34px;padding:30px 26px 32px;">
+{mono(f'Issue {issue["number"]:02d} · {zw(issue["date_label"])}', ON_LIGHT_LABEL, "0 0 90px")}
+<div style="font:500 46px/1.02 {SANS};letter-spacing:-.025em;color:{INK};margin:0;"><span style="font-weight:300;color:{ON_LIGHT_LABEL};">Morning</span> Doppio.</div>
+<p style="font:400 17px/1.55 {SANS};color:{ON_LIGHT_BODY};margin:16px 0 0;">The first double shot of your day. A few minutes that make you sharper, more curious and better company.</p>
 </td></tr></table></td></tr>
 <tr><td style="padding:0 0 6px;">{glance}</td></tr>
 <tr><td style="padding:0 0 12px;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr>
-<td bgcolor="#c99bbf" style="background-color:#c99bbf;background-image:{BLUSH};border-radius:34px;padding:24px 24px 28px;">
-{mono("First sip", "rgba(255,255,255,.85)", "0 0 22px")}
-<div style="font:500 23px/1.3 {SANS};letter-spacing:-.02em;color:#ffffff;">{escape(issue["first_sip"])}</div>
+<td bgcolor="#d0a4c5" style="background-color:#d0a4c5;background-image:{BLUSH};border-radius:34px;padding:24px 24px 28px;">
+{mono("First sip", "#4a3a46", "0 0 22px")}
+<div style="font:500 23px/1.3 {SANS};letter-spacing:-.02em;color:{INK};">{escape(issue["first_sip"])}</div>
 </td></tr></table></td></tr>'''
     footer = f'''<tr><td style="padding:0;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr>
 <td bgcolor="{NIGHT}" style="background-color:{NIGHT};border-radius:34px;padding:28px 24px 30px;">
