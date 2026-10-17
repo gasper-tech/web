@@ -1,5 +1,8 @@
 # Morning Doppio: editorial brief
 
+Look and feel follow the site brand sheet `src/brand.css`: Hanken Grotesk light for display type,
+the system font for body text, Apple-style greys and one warm sand accent.
+
 A personal newsletter for one reader, sent Tuesday and Friday at 07:00 Ljubljana time.
 Goal: make the reader sharper, more curious and better company. General knowledge first;
 luxury is an occasional topic, never the majority.
@@ -15,7 +18,7 @@ Build the email with `python3 newsletter/build.py newsletter/issues/NN-YYYY-MM-D
 - **First sip:** one short opener. Rotate: witty line, motivation, clean joke, fact with attitude.
   Confident, a little manly, never cheesy. Never repeat one from an earlier issue.
 - **Length:** about 7–8 minutes, 9–11 sections.
-- **Highlights:** one `<mark>` per section on the single most important sentence.
+- **Highlights:** one `<mark>` (sand tint) per section on the single most important sentence.
 - **Dig deeper:** 2–3 questions per section, written so they make sense on their own
   (they open a fresh Claude chat), e.g. "How do experts spot a fake painting?"
 
