@@ -37,6 +37,10 @@ Every issue:
   previous puzzle goes in the next issue, in the section's `previous_answer` field.
 - One-liner for dinner: a surprising, verifiable fact
 
+Topic bank: `TOPIC_BANK.md` holds topics Gašper picked. Use one or two per issue (as an explainer,
+Mental Model, Philosophy or One-liner) and tick them off with the issue number. Fringe topics are
+covered evidence-first.
+
 Rotating explainers ("what X means", timeless, plain English), 2–3 per issue:
 history (empires, events, how fortunes were made), science & space, geopolitics, psychology &
 mental models, language & word origins, how things work, and occasionally art, wine, watches, cars
