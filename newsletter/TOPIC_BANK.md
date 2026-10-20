@@ -50,7 +50,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Heuristics
 - [ ] Implicit bias
 - [ ] Liminal space
-- [ ] Loss aversion
+- [x] Loss aversion (#02)
 - [ ] Cognitive biases (overview)
 - [ ] Metacognition
 - [ ] Confirmation bias
@@ -72,7 +72,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Optical illusions (what they reveal about the brain)
 
 ## Science and the universe
-- [ ] Lorentz factor (time dilation, simply)
+- [x] Lorentz factor (time dilation, simply) (#02)
 - [ ] Dark matter
 - [ ] Black holes
 - [ ] Parallel universes †
@@ -83,7 +83,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Poisons and antidotes
 
 ## History, art and mysteries
-- [ ] The Library of Alexandria
+- [x] The Library of Alexandria (#02)
 - [ ] The life of Oscar Wilde
 - [ ] Female Renaissance artists
 - [ ] How art affects war / artists in wartime

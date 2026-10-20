@@ -1,0 +1,296 @@
+{
+ "number": 2,
+ "date_label": "Tuesday 20 Oct",
+ "read_min": 9,
+ "subject_hook": "Why your GPS needs Einstein",
+ "preheader": "Plus: why France pays extra to borrow, who really ended the Library of Alexandria, and a shingles-jab surprise.",
+ "first_sip": "Fortune favours the bold. Compound interest favours the boring. Be both.",
+ "footer": "Built from news up to 20 October 2026. Figures come from the linked sources and are rounded. Next Doppio: Friday 23 October, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "France pays extra: the spread that measures trust",
+   "paragraphs": [
+    "Weeks of protests in France over school conditions and the cost of living turned violent over the weekend, with riots in Paris on Sunday night. On Monday the bond market reacted. France's 10-year borrowing cost rose to about 4.9%. Germany's stayed near 3.4%. The gap between them, called the OAT–Bund spread, reached a two-week high of roughly 1.45 percentage points. Moody's, which rates France Aa3 with a negative outlook, is due to review it on Friday, 23 October.",
+    "<b>How a spread works:</b> France and Germany both borrow in euros, under the same central bank. So the gap in what they pay has nothing to do with currency or ECB policy. It is close to a pure measure of trust. Lenders ask for a little extra whenever budgets, politics or credit ratings look shaky. <mark>The interest rate tells you about the whole economy; the spread tells you how nervous lenders are about one borrower.</mark>"
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A wider spread means a government spends more on interest and has less left for schools and roads, and the extra cost tends to spread into that country's loans. If you live in the eurozone, Slovenia included, spreads are the quickest way to see which country lenders are worried about, often well before the headlines say so."
+   },
+   "sources": [
+    {
+     "text": "WSJ via Yahoo Finance: French bond yields rise on protests",
+     "url": "https://finance.yahoo.com/economy/policy/articles/french-government-bond-yields-rise-092100726.html"
+    },
+    {
+     "text": "CNBC: Student riots engulf France",
+     "url": "https://www.cnbc.com/2026/10/06/france-student-protests-budget.html"
+    },
+    {
+     "text": "Investing.com: Could another France downgrade put the EU's rating at risk?",
+     "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657"
+    }
+   ],
+   "questions": [
+    "Why does Germany's 10-year bond count as the eurozone's 'risk-free' benchmark, and what makes a spread against it meaningful?",
+    "What happened to Italian and Greek bond spreads during the 2010–2012 euro crisis, and what did the ECB eventually do to calm them?",
+    "If a rating agency like Moody's downgrades a country, why do some investors have to sell its bonds?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "Microsoft quits a UK AI hub: the grid can't plug it in",
+   "paragraphs": [
+    "Microsoft has walked away from Nscale's planned AI data centre in Loughton, just outside London. It was billed as Britain's biggest AI supercomputer, with about 23,000 Nvidia chips due to switch on in 2027. The reported snag: the local grid operator, UK Power Networks, told Nscale that enough electricity may not arrive until the early-to-mid 2030s. Microsoft hasn't given a reason and says the decision affects only this one site. Nscale says it is still committed and is looking for other power sources.",
+    "<b>How a grid says \"not yet\":</b> A building and chips can be bought fast. A grid connection means waiting your turn in a queue. UK Power Networks says many data centres can connect to its local wires but are still waiting for upgrades to the national high-voltage network, which it doesn't own. <mark>Data-centre projects alone have asked Britain's grid for more power than the whole country uses at its winter peak.</mark> The energy regulator Ofgem now wants to charge fees to clear out the speculative ones."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "The AI boom runs into hard physical limits. More and more, electricity decides where computing gets built, and places that can connect big users quickly will win the investment. Grid upgrades take a decade; money moves in a quarter."
+   },
+   "sources": [
+    {
+     "text": "The Register: Microsoft abandons UK AI supercomputer",
+     "url": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824"
+    },
+    {
+     "text": "AFP via France 24",
+     "url": "https://www.france24.com/en/live-news/20261019-microsoft-exits-data-centre-deal-in-blow-to-uk-ai-ambitions"
+    },
+    {
+     "text": "DCD: Microsoft pulls out of Loughton",
+     "url": "https://www.datacenterdynamics.com/en/news/microsoft-pulls-out-of-delayed-nscale-data-center-in-loughton-essex/"
+    }
+   ],
+   "questions": [
+    "Why does upgrading a national high-voltage transmission network take a decade or more?",
+    "How do grid connection queues work, and why do speculative projects clog them?",
+    "Could data centres build their own power, like gas turbines, batteries or small reactors, to skip the grid queue?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "idea of the issue",
+   "topic": "AI Build",
+   "title": "A price-drop watcher for any shop, built in a Google Sheet",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "Copy, paste, tweak"
+    },
+    {
+     "n": "1–2 hrs",
+     "t": "To a working version"
+    },
+    {
+     "n": "€0",
+     "t": "To run each month"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Keep a Google Sheet with the things you want to buy: a product link and the price you'd happily pay. Once a day, a small script checks each page and emails you when one drops below your target. Amazon already has trackers like this. Your local electronics shop, the outdoor-gear site or that one bike part usually don't. <mark>You write none of the code yourself: you describe the sheet to Claude and paste in what it gives you.</mark>",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> Make columns for item, URL, target price and today's price. Ask Claude for an IMPORTXML formula that pulls the price from each page. This works on plain-HTML shops, but it comes back blank on sites that load their prices with JavaScript.",
+    "<b>Automated:</b> Ask Claude to write a Google Apps Script that fetches each URL, logs the price and sends you an email when it's under target. Then add a daily time-driven trigger. On a free Google account the script can send up to 100 emails a day and make 20,000 page fetches, far more than a watchlist needs.",
+    "<b>Next level:</b> On a paid Claude plan, set up a scheduled task in Cowork that reads your list each morning and checks the trickier JavaScript sites. It also writes you a short note, like \"down 18%, lowest you've logged\"."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "It would be a tough sell as a general tool. Keepa and CamelCamelCamel already cover Amazon, and Visualping watches any web page (its free plan gives 150 checks a month across 5 pages). The honest opening is a narrow one: a ready-made sheet template for one country's or one hobby's shops that the big trackers ignore, like regional electronics retailers or cycling and climbing gear. You'd sell it once for a few euros, with no subscription."
+   },
+   "questions": [
+    "How would I build a Google Sheets price-drop watcher that emails me when a product falls below my target price?",
+    "Why does IMPORTXML return blank for some shop prices in my price-drop tracker sheet, and how can Apps Script or Claude get around it?",
+    "Could a price-drop watcher template for local or niche shops make money when Keepa, CamelCamelCamel and Visualping already exist?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "The shingles jab that may also guard your memory",
+   "paragraphs": [
+    "In 2013, Wales made the shingles vaccine available only to people born on or after 2 September 1933. People born a week either side of that date are basically the same, so the cutoff worked like an accidental experiment. Researchers followed 282,541 older Welsh adults for seven years. <mark>Being eligible for the shot (which meant being much more likely to get it) went with a 20% lower chance of a new dementia diagnosis.</mark> The effect looked stronger in women. A 2025 follow-up in <i>Cell</i> found fewer diagnoses of mild cognitive impairment too, and fewer deaths from dementia among people who already had it.",
+    "Nobody yet knows why it works. One idea is that the vaccine stops the dormant chickenpox virus from waking up and inflaming nerves. Another is that it gives the immune system a broader boost. This is still observational evidence, not a randomised trial, and it used the older live vaccine (Zostavax). A large trial of the newer vaccine is under way in Finland."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "The shingles vaccine is already recommended for older adults (in many countries from age 50 or 65) because shingles itself can be very painful. A possible brain benefit on top of that is one more reason not to put it off. Ask your doctor whether and when you qualify."
+   },
+   "sources": [
+    {
+     "text": "Eyting et al., Nature (2025)",
+     "url": "https://www.nature.com/articles/s41586-025-08800-x"
+    },
+    {
+     "text": "Xie et al., Cell (2025)",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01256-5"
+    },
+    {
+     "text": "Cardiff University news release",
+     "url": "https://www.cardiff.ac.uk/news/view/2985389-shingles-vaccine-may-help-prevent-and-slow-dementia,-study-finds"
+    }
+   ],
+   "questions": [
+    "How did a birth-date cutoff in Wales let researchers study the shingles vaccine almost like a randomised trial?",
+    "What are the leading explanations for why a shingles vaccine might lower dementia risk?",
+    "Who is eligible for the shingles vaccine in Slovenia and the EU, and which vaccine is used now?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "The Library of Alexandria: no single fire",
+   "paragraphs": [
+    "The Library of Alexandria was less a public library than a royal research institute. The early Ptolemies, the Greek kings of Egypt, set it up around 300 BC beside the Mouseion, a kind of scholars' club with free board. Their aim was simple and grand: one copy of every book worth having.",
+    "They went about it ruthlessly. According to the physician Galen, Ptolemy III had any books found on ships docking at Alexandria seized and copied. The library kept the originals, the owners got the copies, and the catalogue labelled them \"from the ships.\" He also borrowed Athens' official texts of Aeschylus, Sophocles and Euripides against a deposit of 15 talents of silver. Then he kept them and happily lost the deposit.",
+    "So who burned it? Popular stories blame Julius Caesar in 48 BC or the Arab conquest of 641. <mark>Most historians think there was no single great fire, just a slow fade over several centuries.</mark> Caesar's fire did real damage. Roman neglect, the fighting under Emperor Aurelian in the 270s AD, and the destruction of the Serapeum, the daughter library, in 391 did the rest. The tale of Caliph Omar burning the books to heat the baths first appears some 600 years after the fact. Historians treat it as legend."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Knowledge is seldom lost in one dramatic blaze. It slips away through budget cuts, neglect and nobody making new copies. Things last when people keep looking after them."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Britannica: Library of Alexandria",
+     "url": "https://www.britannica.com/topic/Library-of-Alexandria/Introduction"
+    },
+    {
+     "text": "National Geographic: Who burned the Library of Alexandria?",
+     "url": "https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt"
+    },
+    {
+     "text": "LRB: Burning isn't the only way to lose a book",
+     "url": "https://www.lrb.co.uk/v22/n08/matthew-battles/burning-isnt-the-only-way-to-lose-a-book"
+    }
+   ],
+   "questions": [
+    "Why did the Ptolemies keep the original books they seized from ships and hand back copies, instead of the other way round?",
+    "If the Library of Alexandria faded slowly, why do we prefer the story of one great fire?",
+    "What modern libraries or archives are at risk of a slow, quiet decline today?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Time dilation: why your GPS needs Einstein",
+   "paragraphs": [
+    "Einstein showed that time is not the same for everyone. A clock that moves fast relative to you ticks slower than yours. The Lorentz factor, written <b>γ</b> (gamma), tells you by how much: γ = 1/√(1 − v²/c²), where v is the speed and c is the speed of light. At everyday speeds γ is so close to 1 that nobody notices. As v gets close to c, γ shoots up.",
+    "GPS satellites orbit about 20,200 km up at roughly 3.9 km/s. That speed slows their clocks by about 7 microseconds a day. There is a second effect from general relativity. Gravity is weaker up there, which makes the clocks run about 45 microseconds a day <i>faster</i>. Combined, a satellite clock gains about 38 microseconds a day.",
+    "That sounds tiny, but GPS works by timing light signals. <mark>Left uncorrected, a 38-microsecond drift is worth about 11 km of ranging error every day.</mark> So engineers set the satellite clocks to tick slightly slow before launch. Relativity isn't just exotic theory. It's in your pocket."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Effects that seem negligible can pile up fast when precision matters. GPS checks Einstein's theory millions of times a day, and the theory passes every time."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Ohio State: Real-World Relativity, the GPS system",
+     "url": "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps"
+    },
+    {
+     "text": "Ohio State: GPS and relativity (handout)",
+     "url": "https://www.astronomy.ohio-state.edu/thompson.1847/1144/gps.pdf"
+    }
+   ],
+   "questions": [
+    "How fast would you need to travel for the Lorentz factor to make your clock run at half speed?",
+    "Why does a GPS satellite's clock run fast overall, even though its speed slows it down?",
+    "What everyday technologies other than GPS depend on relativity being accounted for?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Loss aversion: why losing $100 stings more",
+   "paragraphs": [
+    "Here's a bet: I flip a coin. Heads, you win $110. Tails, you lose $100. On paper you should take it, because on average you come out ahead. Most people still say no. The thought of losing $100 hurts more than the thought of winning $110 feels good.",
+    "That lopsided feeling has a name: <b>loss aversion</b>. Daniel Kahneman and Amos Tversky put it at the centre of <i>prospect theory</i>, their 1979 paper in <i>Econometrica</i>, writing that \"losses loom larger than gains.\" Their later work (1992) put a number on it: a loss weighs about <b>twice</b> as much as a gain of the same size. So you'd need roughly $200 of upside before a $100 risk feels fair.",
+    "It shows up everywhere. We hold on to losing stocks so we don't have to \"lock in\" the loss. We keep subscriptions we never use. \"Don't miss out\" sells better than \"get a bonus.\" <mark>Often the money is the same; what changes the decision is whether it's framed as a loss or a gain.</mark>",
+    "The honest caveat: researchers still argue about the size. In 2018, David Gal and Derek Rucker argued the evidence is weaker than its reputation, especially for small everyday stakes. A 2020 study of more than 17,000 people found the effect was real, though weaker in experienced people. A 2024 meta-analysis of 607 estimates landed at about 1.96; another, using different studies, got about 1.3. Treat \"twice\" as a rule of thumb, not a law of nature."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Before you turn something down, flip the frame: \"If I didn't already have this, would I pay to get it?\" And when you're persuading someone, remember that what they could lose usually moves them more than what they could gain. Use that fairly."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Kahneman & Tversky, Econometrica (1979)",
+     "url": "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk"
+    },
+    {
+     "text": "Brown et al., Journal of Economic Literature (2024)",
+     "url": "https://www.aeaweb.org/doi/10.1257/jel.20221698"
+    },
+    {
+     "text": "Gal & Rucker, Journal of Consumer Psychology (2018)",
+     "url": "https://papers.ssrn.com/abstract=3049660"
+    }
+   ],
+   "questions": [
+    "Why do most people refuse a coin flip that wins $110 or loses $100, and is that irrational?",
+    "How does loss aversion explain why investors hold on to losing stocks too long?",
+    "How big is loss aversion really, and why do the 2018 critics and 2024 meta-analysis disagree?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
+   "cite": "Epictetus, Enchiridion, ch. 8 · c. 125 AD · trans. George Long",
+   "paragraphs": [
+    "Epictetus was born a slave and later became a teacher. His student Arrian wrote down the core of his teaching in the <i>Enchiridion</i>, which means \"handbook\": something to keep close at hand. Chapter 8 doesn't ask you to stop trying. It asks you to stop arguing with what has already happened. The train left, the rain came, the deal fell through. <mark>Accept what has happened first, then put your effort into what you can still change.</mark> The calm comes from no longer spending energy on the past."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Enchiridion ch. 8 (Long trans.), Perseus",
+     "url": "https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/8"
+    },
+    {
+     "text": "Wikisource",
+     "url": "https://en.wikisource.org/wiki/Encheiridion_of_Epictetus_(George_Long)"
+    }
+   ],
+   "questions": [
+    "What did Epictetus mean by wishing things to happen as they do, and how is it different from giving up?",
+    "How did Epictetus go from slave to one of the most influential Stoic teachers?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "lateral · medium",
+   "topic": "Puzzle",
+   "previous_answer": "light rope A at both ends and rope B at one end, at the same time. Burning from both ends, A is gone in exactly 30 minutes, however unevenly it burns. At that moment light B's other end: its remaining 30 minutes of burn now takes 15. Total: 45 minutes.",
+   "puzzle": "Outside a closed room are three ordinary light switches. One of them controls an old-fashioned bulb inside; the other two do nothing. You can flip the switches as much as you like, but you may open the door and go in only once. How do you find out which switch controls the bulb?",
+   "hint": "Hint: a bulb tells you more than whether it's on. Answer in Friday's Doppio.",
+   "questions": [
+    "Give me a hint for the three switches and one bulb puzzle, without the answer",
+    "Give me another lateral-thinking puzzle like the three light switches"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Sharks are older than trees. Shark-like fish were swimming about 450 million years ago; the oldest known trees appeared about 385 million years ago.",
+   "cite": "Natural History Museum, London · BBC Discover Wildlife",
+   "questions": [
+    "What else lived on Earth before the first trees appeared?",
+    "How have sharks survived around 450 million years, including several mass extinctions?"
+   ]
+  }
+ ]
+}
