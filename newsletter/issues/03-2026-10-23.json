@@ -1,0 +1,317 @@
+{
+ "number": 3,
+ "date_label": "Friday 23 Oct",
+ "read_min": 10,
+ "subject_hook": "The sound of air hotter than the Sun",
+ "preheader": "Plus: why Meta's cash went negative, the painter Van Dyck went to sketch, and a weekend AI skill.",
+ "first_sip": "It's Friday. Do one thing today that Monday-you will thank you for.",
+ "footer": "Built from news up to 23 October 2026. Figures come from the linked sources and are rounded. Next Doppio: Tuesday 27 October, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "Meta spends more than it earns, and lenders notice",
+   "paragraphs": [
+    "Meta, the owner of Facebook, Instagram and WhatsApp, reported on 21 October. On the surface it looked great: sales up 26% to about $64.6 billion. But in those three months it spent roughly $35 billion on data centres and chips for AI. That is more than the roughly $33 billion of cash its business brought in. So its free cash flow went negative, by about $2.1 billion, for the first time in more than a decade. The shares fell about 7% the next day, the tech-heavy Nasdaq dropped 2.6%, and the cost of insuring Meta's debt against default hit a record high.",
+    "<b>How free cash flow works:</b> take the cash a business makes, then subtract what it spends on buildings and machines. In the profit figures a server is spread over its useful life; in the cash figures it's paid for on day one. Whatever is left can pay dividends, buy back shares or sit in the bank. If the number is negative, the gap has to come from savings, new loans or new shares. Meta still plans to spend $135–145 billion this year. <mark>The AI boom is starting to lean on savings and borrowed money rather than profits alone, and lenders are now charging for that.</mark> A warning sign, not a crisis."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Strong sales say a company is popular. Cash flow says whether it can pay for its own plans. If you own a global or US index fund, a big slice of it sits in a handful of tech giants making the same AI bet, so watch whether they fund it from profits or from debt."
+   },
+   "sources": [
+    {
+     "text": "CNBC: Meta stock sinks as free cash flow turns negative",
+     "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+    },
+    {
+     "text": "Meta: Third Quarter 2026 Results",
+     "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+     "text": "Reuters via Investing.com: Meta's credit risk at record",
+     "url": "https://www.investing.com/news/economy-news/metas-credit-risk-indicator-jumps-to-record-high-after-results-4966556"
+    }
+   ],
+   "questions": [
+    "What is free cash flow, and why do investors sometimes trust it more than reported profit?",
+    "How do credit default swaps work, and what does it mean when the price of insuring a company's debt hits a record?",
+    "How concentrated are global index funds like the MSCI World in a few big US tech companies, and what does that mean for a European investor?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "Why private equity just bought Australia's bins",
+   "paragraphs": [
+    "On 19 October, Swedish private-equity firm EQT agreed to buy Cleanaway, Australia's biggest waste manager, in a deal valuing the company at about A$9.3 billion including debt. Shareholders get A$3.095 in cash per share, roughly a third more than the share price before EQT's interest became public in August. Cleanaway's board backs the deal unanimously, and the shares jumped about a fifth. It still needs a shareholder vote, a court's approval and regulators' sign-off, with completion targeted for the end of March 2027.",
+    "<b>How a take-private works:</b> In Australia, friendly buyouts usually run through a \"scheme of arrangement\". Instead of chasing every shareholder to sell, the company holds a single vote. If 75% of the votes cast and a majority of the people voting say yes, and a court signs off, every share changes hands, including the holdouts'. Buyers usually pay with a mix of fund money and loans secured on the target's own cash. <mark>That is why buyout funds love bins: people throw things away in booms and busts alike, and steady cash is exactly what can carry a lot of debt.</mark>"
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Boring essential services like waste, water and telecom towers are steadily moving off stock exchanges and into private funds, often backed by pension savings. The upside is patient owners. The trade-off is less public scrutiny of businesses everyone relies on."
+   },
+   "sources": [
+    {
+     "text": "FinanceAsia: EQT buys Cleanaway for A$9.3bn",
+     "url": "https://www.financeasia.com/article/eqt-buys-cleanaway-waste-management-for-a9-3bn/508561"
+    },
+    {
+     "text": "Motley Fool Australia: Cleanaway enters scheme with EQT",
+     "url": "https://www.fool.com.au/2026/10/19/cleanaway-waste-management-enters-9-3bn-scheme-with-eqt-infrastructure/"
+    },
+    {
+     "text": "IPE Real Assets: EQT to buy Australia's largest waste manager",
+     "url": "https://realassets.ipe.com/news/eqt-to-buy-australias-largest-waste-manager-cleanaway-in-a93bn-deal/10138987.article"
+    }
+   ],
+   "questions": [
+    "How does a scheme of arrangement differ from a normal takeover offer, and why do buyers prefer it?",
+    "Why do private-equity and infrastructure funds see waste management as an infrastructure-like asset, and what are the risks of buying it with heavy debt?",
+    "What happens to a company's workers, prices and investment after a private-equity take-private, according to the evidence?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "learn this weekend",
+   "topic": "AI Build",
+   "title": "Teach Claude your brand voice once, reuse it forever",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "No code, just writing"
+    },
+    {
+     "n": "1–2 hrs",
+     "t": "One Saturday morning"
+    },
+    {
+     "n": "€0",
+     "t": "Free plan is enough"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Every new chat, you re-explain the same things: the tone for a penthouse listing, the words you never use, how a headline should breathe. A Claude <i>Skill</i> is a small folder with one instruction file. Claude reads it automatically whenever a task matches. Write one for a brand voice and <mark>your style guide stops being a PDF and starts doing the work</mark>, in every chat, without pasting anything.",
+    "<b>How to learn it:</b>"
+   ],
+   "bullets": [
+    "<b>Start:</b> In Claude, open Settings › Capabilities and switch on <i>Code execution and file creation</i>. Skills need it. Then paste in a page of copy you are proud of and ask Claude to turn your rules into a SKILL.md file. The file opens with a <i>name</i> and a short <i>description</i> that says when the skill should be used. Your tone rules, banned words and two or three before/after examples go underneath.",
+    "<b>Next:</b> Put the file in a folder with the same name as the skill, zip the folder, then go to Customize › Skills › + › Upload a skill. Test it with a cold prompt like “write a hero line for a sea-view villa”. If Claude doesn't pick the skill up, rewrite the description. That one sentence is what Claude uses to decide when to load it.",
+    "<b>Level up:</b> Add reference files to the folder: a sample landing page structure, your headline formulas, a checklist for listing descriptions. Then browse Anthropic's free example skills on GitHub (anthropics/skills) to see how they're built. Skills follow an open format, so the same folder can also work in other tools that support it."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Not as a standalone product. Anyone can write a text file, and plenty of agencies already sell brand-voice prompt kits or custom GPTs. It works better as an add-on to branding work you already do: hand a developer's marketing team a tested voice skill alongside the brand book, so their in-house AI copy stays on-brand after you've left. A nice line item, not a business of its own."
+   },
+   "questions": [
+    "How do I write a Claude Skill (SKILL.md) that captures a luxury real estate brand's tone of voice, including banned words and before/after examples?",
+    "What makes a good description line for a Claude Skill so Claude reliably uses it at the right moment?",
+    "What reference files should a landing-page copy skill for property developments include, and how should I structure them?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Same healthy diet, less processing, double the loss",
+   "paragraphs": [
+    "Here's a neat experiment. Researchers at UCL gave 55 adults in England two diets that both followed the UK's official healthy-eating guide, with the same balance of fruit, veg, fibre, fat and salt. The only difference was processing. One diet was home-style food made from minimally processed ingredients. The other was the 'healthy' ultra-processed kind: supermarket overnight oats, ready-made lasagne, protein bars. Meals were delivered to people's homes and they could eat as much as they liked. Everyone ate each diet for 8 weeks, with a 4-week break in between.",
+    "Both diets led to some weight loss, but <mark>people lost about twice as much on the minimally processed diet: around 2% of body weight versus about 1%</mark>. They also had fewer cravings and found them easier to resist. This was a proper randomised trial, which is rare in nutrition research, but it had limits. It was small and short, all participants were overweight, and the real-world difference came to roughly a kilo. Blood pressure and cholesterol showed no clear gap between the diets over 8 weeks, and some scientists have argued about how much the result matters."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "How a food is made may matter as well as what's in it: nutritionally similar meals produced different results. Cooking from basic ingredients more often seems to let appetite take care of itself, no calorie counting needed. An interesting finding, not a prescription."
+   },
+   "sources": [
+    {
+     "text": "Dicken et al., Nature Medicine (2025)",
+     "url": "https://www.nature.com/articles/s41591-025-03842-0"
+    },
+    {
+     "text": "UCL News release (Aug 2025)",
+     "url": "https://www.ucl.ac.uk/news/2025/aug/less-processed-diet-may-be-more-beneficial-weight-loss"
+    },
+    {
+     "text": "Science Media Centre: expert reactions",
+     "url": "https://www.sciencemediacentre.org/ultra-processed-versus-minimally-processed-diets-that-follow-healthy-diet-guidelines-and-weight-loss-a-randomised-crossover-trial/"
+    }
+   ],
+   "questions": [
+    "Why might ultra-processed foods lead people to eat more even when they meet healthy nutrition guidelines?",
+    "What exactly counts as an ultra-processed food under the NOVA classification, and are some ultra-processed foods healthier than others?",
+    "What is a randomised crossover feeding trial, and why are these trials so rare and valuable in nutrition science?"
+   ]
+  },
+  {
+   "label": "Art & History",
+   "kind": "explained",
+   "topic": "Art",
+   "title": "Sofonisba, Lavinia and the missing names",
+   "paragraphs": [
+    "<b>Sofonisba Anguissola</b> was born around 1532 in Cremona, the eldest of a nobleman's seven children, six of them girls. Her father did something unusual: he sent her and her sister Elena to train with a local painter, Bernardino Campi. It paid off. Around 1559 Philip II brought her to Madrid as lady-in-waiting to his young queen, Elisabeth of Valois, and she painted the Spanish royal family. In 1624, in Palermo, a young Anthony van Dyck called on her and sketched the old painter in his notebook.",
+    "<b>Lavinia Fontana</b> (1552–1614) of Bologna went a step further. She is widely considered the first professional woman artist to work outside a court or a convent, on the same terms as men. She ran her own workshop, painted public altarpieces and had eleven children. Her husband, Gian Paolo Zappi, looked after the household and the accounts.",
+    "So why do we know so few of their names? <mark>Most women were shut out of the system that turned out artists: workshop apprenticeships, painters' guilds and drawing from the nude, the training needed for grand history painting.</mark> Most of those who got through had painter fathers, as Fontana did. After they died, the credit often went to men. Sofonisba's pictures were long given to Titian and to Alonso Sánchez Coello; the Prado's portrait of Elisabeth of Valois was listed as a Sánchez Coello as early as 1606."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Who gets remembered depends on who was let in and who kept the records, not only on talent. Part of history is checking whose name ended up on the label."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Britannica: Sofonisba Anguissola",
+     "url": "https://www.britannica.com/biography/Sofonisba-Anguissola"
+    },
+    {
+     "text": "NMWA: Renaissance Rebel, Lavinia Fontana",
+     "url": "https://nmwa.org/blog/artist-spotlight/renaissance-rebel-lavinia-fontana/"
+    },
+    {
+     "text": "Museo del Prado: Isabel de Valois",
+     "url": "https://www.museodelprado.es/en/the-collection/art-work/isabel-de-valois-holding-a-portrait-of-philip-ii/6a414693-46ab-4617-b3e5-59e061fcc165"
+    }
+   ],
+   "questions": [
+    "How did Sofonisba Anguissola become a court painter to Philip II of Spain?",
+    "Why were women artists in Renaissance Italy kept from drawing nude models, and how did that limit their careers?",
+    "How do art historians work out that a painting credited to one artist was really made by another?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Thunder: the sound of air five times hotter than the Sun",
+   "paragraphs": [
+    "Strictly speaking, lightning has no temperature. It's electric charge on the move. But the air it tears through heats up enormously, to roughly <b>30,000°C</b>, in a fraction of a second. That's about five times hotter than the surface of the Sun, which sits at around 5,500°C.",
+    "<mark>Thunder is the sound of that super-heated air expanding so violently that it sends out a pressure wave.</mark> A sharp crack means the strike was close. A long, low rumble means it was farther off.",
+    "The gap between flash and bang is a free ruler. Light reaches you almost instantly. Sound is slow by comparison and takes about <b>3 seconds per kilometre</b>. So count the seconds and divide by three to get kilometres; treat it as a rough guide, because the speed of sound changes with air temperature. Thunder usually can't be heard more than about 16–20 km away. That's why weather services say that if you can hear it, you're close enough to be struck, and should head indoors."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "The same storm reaches you twice, once at the speed of light and once at the speed of sound. The delay between them turns your ears into a range-finder."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "US National Weather Service: Thunder",
+     "url": "https://www.weather.gov/safety/lightning-science-thunder"
+    },
+    {
+     "text": "US National Weather Service: How hot is lightning?",
+     "url": "https://www.weather.gov/safety/lightning-temperature"
+    },
+    {
+     "text": "NOAA SciJinks: How far away is lightning?",
+     "url": "https://scijinks.gov/about/k-12-education/severe-weather/how-far-away-lightning"
+    }
+   ],
+   "questions": [
+    "Why does lightning heat the air to around 30,000°C, and why does that make thunder?",
+    "How can you estimate how far away a lightning strike is by counting seconds?",
+    "Why does nearby thunder sound like a sharp crack while distant thunder rumbles?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Dunning–Kruger: what the paper really found",
+   "paragraphs": [
+    "In 1999 two Cornell psychologists, Justin Kruger and David Dunning, published <i>Unskilled and Unaware of It</i> in the <i>Journal of Personality and Social Psychology</i>. Across four studies, students took tests of logic, grammar and humour, then guessed how well they had done. The bottom quarter scored around the 12th percentile but placed themselves near the 62nd. The top scorers slightly underrated themselves. The authors' explanation: the skills you need to do a task well are the same ones you need to spot your own mistakes.",
+    "Now the myth. The famous curve, with a spike of confidence on \"Mount Stupid\", a valley of despair and then a slow climb, is not in the paper. It is internet folklore. The study also never showed beginners feeling more confident than experts. The weakest groups still rated themselves below the strongest. Everyone simply drifted towards \"a bit above average\".",
+    "Then the statisticians arrived. If you plot \"estimate minus score\" against score, noise alone draws much of the pattern: regression to the mean plus our habit of thinking we're better than average. Krueger and Mueller made this point in 2002. Nuhfer and colleagues (2016, 2017) recreated the classic graph with random numbers and found that self-assessment tracks real skill fairly well. Gignac and Zajenkowski (2020) tested 929 people with better methods and called the effect \"(mostly) a statistical artefact\". <mark>The fair summary: people are a little miscalibrated, not clueless, and the cartoon is far louder than the data.</mark>"
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Before you write someone off as a confident beginner, check what they can actually show you. And treat any neat viral curve, especially a psychological one, with healthy suspicion."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Kruger & Dunning, JPSP (1999)",
+     "url": "https://doi.org/10.1037/0022-3514.77.6.1121"
+    },
+    {
+     "text": "Nuhfer et al., Numeracy (2017)",
+     "url": "https://doi.org/10.5038/1936-4660.10.1.4"
+    },
+    {
+     "text": "Gignac & Zajenkowski, Intelligence (2020)",
+     "url": "https://doi.org/10.1016/j.intell.2020.101449"
+    }
+   ],
+   "questions": [
+    "What did Kruger and Dunning's 1999 paper Unskilled and Unaware of It actually find?",
+    "Why can random numbers reproduce the classic Dunning–Kruger graph?",
+    "Where did the 'Mount Stupid' confidence curve come from, if not from the Dunning–Kruger paper?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "Yu, shall I teach you what knowledge is? When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it;—this is knowledge.",
+   "cite": "Confucius, Analects, Book II, ch. 17 · c. 5th century BC · trans. James Legge",
+   "paragraphs": [
+    "Confucius (551–479 BC) is speaking to Yu, better known as Zilu, his bravest and most impulsive student, a man who tended to answer before he had thought. His followers later collected these short exchanges as the <i>Analects</i>. The lesson is plain: knowledge is not a pile of facts but an honest map of where your facts run out. It sits well beside this issue's mental model. <mark>Saying \"I don't know\" is not a gap in expertise; it is part of it.</mark> In a meeting full of confident voices, it is often the most useful sentence spoken."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Legge translation, Analects (sacred-texts.com)",
+     "url": "https://sacred-texts.com/cfu/conf1.htm"
+    },
+    {
+     "text": "Lun Yu, Book 2 (Wikibooks)",
+     "url": "https://en.wikibooks.org/wiki/Lun_Yu/Book_2"
+    }
+   ],
+   "questions": [
+    "In Analects II.17, how does Confucius define knowledge to his student Zilu?",
+    "Who was Zilu, and why did Confucius keep correcting him?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "math · medium",
+   "topic": "Puzzle",
+   "previous_answer": "turn switch 1 on and leave it for about ten minutes, then turn it off and turn switch 2 on. Now walk in. If the bulb is lit, it's switch 2. If it's off but warm to the touch, it's switch 1. If it's off and cold, it's switch 3.",
+   "puzzle": "You write out every whole number from 1 to 100. How many times do you write the digit 9?",
+   "hint": "Hint: count the units and the tens separately. Answer in Tuesday's Doppio.",
+   "questions": [
+    "Give me a hint for the 'how many 9s from 1 to 100' puzzle, without the answer",
+    "Give me another counting puzzle like how many times the digit 9 appears from 1 to 100"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "In the early 1900s the chemist Paul Friedländer crushed about 12,000 murex sea snails to get just 1.4 grams of Tyrian purple, the colour of Roman emperors. Barely enough to dye the trim of one garment.",
+   "cite": "Wikipedia, Tyrian purple · Penn Libraries, A Purple Suited Only for Emperors",
+   "questions": [
+    "How was Tyrian purple made from sea snails, and why was it worth more than its weight in silver?",
+    "Why was purple tied to Roman emperors, and when did purple dye become cheap?"
+   ]
+  },
+  {
+   "label": "Book of the week",
+   "kind": "Fridays",
+   "topic": "Book",
+   "title": "<i>Invisible Cities</i>, by Italo Calvino",
+   "paragraphs": [
+    "Calvino published <i>Le città invisibili</i> in 1972; William Weaver's English translation followed in 1974. Marco Polo describes 55 imaginary cities to an ageing Kublai Khan. Each one is a short prose poem, a page or two long, and each carries a woman's name. One city is built on stilts, another is made only of water pipes, another remembers itself too well. Between the descriptions the two men talk about what an empire, or any description, is really for. <mark>Every place you describe is partly a portrait of yourself: Polo finally admits that every city he describes is a version of Venice.</mark>"
+   ],
+   "why": {
+    "head": "Read it if",
+    "text": "you want a small, beautiful book to dip into on mornings, and you like the idea that how you describe a place shapes what it becomes."
+   },
+   "questions": [
+    "What frame does Italo Calvino use to link the 55 cities in Invisible Cities?",
+    "Which real city does Marco Polo admit lies behind all the cities in Invisible Cities, and why does that matter?",
+    "What can people who build brands for places learn from Calvino's Invisible Cities?"
+   ]
+  }
+ ]
+}

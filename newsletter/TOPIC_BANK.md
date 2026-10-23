@@ -55,7 +55,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Metacognition
 - [ ] Confirmation bias
 - [ ] Cognitive dissonance
-- [ ] The Dunning–Kruger effect
+- [x] The Dunning–Kruger effect (#03)
 - [ ] The psychology of first impressions and why we misread people
 - [ ] The psychology of rivalry (why rivals understand each other)
 - [ ] Reading micro-expressions: why some people are good at it
@@ -85,7 +85,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 ## History, art and mysteries
 - [x] The Library of Alexandria (#02)
 - [ ] The life of Oscar Wilde
-- [ ] Female Renaissance artists
+- [x] Female Renaissance artists (#03)
 - [ ] How art affects war / artists in wartime
 - [ ] Neoplasticism (Mondrian)
 - [ ] Geometric abstraction
