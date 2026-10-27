@@ -1,0 +1,254 @@
+{
+ "number": 1,
+ "date_label": "Tuesday 27 Oct",
+ "read_min": 7,
+ "subject_hook": "Half a billion on the dunes",
+ "preheader": "Plus: Spain's snap election, 10% VAT on holiday lets, and a port that nearly triples its berths.",
+ "one_line": "Marbella East had its biggest week in years, and Spain called an election over housing.",
+ "footer": "Issue one, built from news up to 27 October 2026. Figures come from the linked sources and are rounded. Next Vermut: Friday 30 October, 17:00.",
+ "sections": [
+  {
+   "label": "Spain",
+   "kind": "politics",
+   "topic": "Spain election",
+   "title": "Spain votes on 29 November, and housing is why",
+   "paragraphs": [
+    "Pedro Sánchez called a snap general election on 5 October, three days after Congress threw out his two housing decrees (PP, Vox and Junts voted against). The government simply approved them again on 6 October, and the main one has been in force since 8 October. Congress's standing committee votes on them on <b>12 November</b>, the day after a 24-hour general strike over housing and wages called by the CCOO and UGT unions. The campaign starts on 13 November.",
+    "The polls disagree. The state pollster CIS has the PSOE well ahead (34.0% to the PP's 22.2%), while the private polls put the PP first: the PolitPro average has PP 31.8%, PSOE 26.4%, Vox 18.9%. <mark>Every party is now campaigning on housing, so property rules could change twice in a few months: once by decree, and again under whoever wins.</mark>"
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Buyers and investors on the coast tend to pause around elections. Expect some deals to wait for the result, and expect holiday-let rules (next story) to be a campaign topic."
+   },
+   "sources": [
+    {"text": "Rio Times: Polls split ahead of 29 November", "url": "https://www.riotimesonline.com/spain-polls-split-ahead-of-29-november-vote/"},
+    {"text": "Moncloa.com: Congress votes the decrees on 12N", "url": "https://www.moncloa.com/2026/10/17/decretos-vivienda-congreso-12n-3450016/"},
+    {"text": "Euronews: General strike on 11 November", "url": "https://es.euronews.com/2026/10/07/huelga-general-vivienda-espana-11-noviembre-ccoo-ugt"}
+   ],
+   "questions": [
+    "Why did Spain's Congress reject the 2026 housing decrees, and why did that lead to an early election?",
+    "What is the Diputación Permanente in Spain's Congress, and how can it approve a decree during an election period?"
+   ]
+  },
+  {
+   "label": "Holiday lets",
+   "kind": "tax",
+   "topic": "Holiday let VAT",
+   "title": "10% VAT on short holiday lets from 1 December",
+   "paragraphs": [
+    "The housing decree in force since 8 October ends a long-standing exemption. From <b>1 December</b>, renting a furnished home to the same guest for 30 nights or fewer will normally carry 10% VAT, unless it is the owner's main home. Until now these lets were VAT-free as long as no hotel-style services were offered. On a €2,000 week, that is €200 more for the guest or €200 less for the owner.",
+    "Councils in officially \"stressed\" housing markets can also add an IBI surcharge on tourist homes, of up to 150% for owners with four or more, but each council has to pass its own bylaw first. The same decree tightens seasonal lets (they must be justified, run over 31 days and generally no more than 12 months) and creates \"Tu Casa\" interest-free loans of up to €50,000, covering up to 20% of a first home's price. <mark>All of it stands or falls with the 12 November vote, and the government expects this decree to pass by one vote.</mark>"
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "If owners absorb the VAT, short-let income on the coast drops by roughly a tenth. Owners who already offer cleaning or breakfast were charging VAT anyway, so the change hits the simpler, self-managed lets hardest."
+   },
+   "sources": [
+    {"text": "idealista: Government re-approves both decrees", "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/10/06/917683-el-gobierno-vuelve-a-aprobar-los-dos-decretos-de-vivienda-con-matices-y-anuncia-10"},
+    {"text": "Civio: Every measure in the new decree", "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/07/decreto-ley-vivienda-nueva-ronda/"},
+    {"text": "Euro Weekly News: VAT exemption ends 1 December", "url": "https://euroweeklynews.com/2026/10/07/spain-ends-vat-exemption-for-thousands-of-holiday-rentals-from-december-1/"}
+   ],
+   "questions": [
+    "How will Spain's 10% VAT on holiday rentals of up to 30 nights work from December 2026, and who has to charge it?",
+    "What is a 'zona de mercado residencial tensionado' in Spain, and which areas of Andalucía could qualify?"
+   ]
+  },
+  {
+   "label": "Marbella plan",
+   "kind": "planning",
+   "topic": "Marbella PGOM",
+   "title": "Marbella finally has a new town plan. Now for the detail",
+   "paragraphs": [
+    "Marbella's new general plan (PGOM) won final approval on 18 September and was published in the Junta's official bulletin on 9 October. It replaces the 1986 plan, sets the town's urban land at about 53 million m², and opens 2.86 million m² of existing urban land to redevelopment. In those areas, 20% of the new floor space must go to affordable or protected housing, and the council takes 10% of the development value. It takes full effect once it appears in the Málaga provincial bulletin, which had not happened by 22 October.",
+    "On 22 October more than 100 architects, engineers and officials met to learn how to apply it. <mark>The PGOM decides where Marbella can grow; the second plan, the POU, still being drafted, will decide heights, densities and uses plot by plot, and that is what sets land values.</mark>"
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "After decades of legal limbo, owners get firmer ground. But until the POU is approved, anyone valuing a plot for redevelopment is still partly guessing."
+   },
+   "sources": [
+    {"text": "La Noción: 2.86 million m² to transform", "url": "https://www.lanocion.es/san-pedro-alcantara/20261022/el-nuevo-plan-de-marbella-abre-la-transformacion-d-dd1fb.html"},
+    {"text": "Revista de Urbanismo: Technical session", "url": "https://reurbanismo.es/marbella-lleva-el-nuevo-pgom-a-la-practica-con-una-jornada-tecnica-para-mas-de-cien-profesionales.htm"}
+   ],
+   "questions": [
+    "What is the difference between Marbella's PGOM and its POU, and why does the POU matter for property values?",
+    "What happened to Marbella's urban plans between 1986 and 2026, and why did the 2010 plan get annulled?"
+   ]
+  },
+  {
+   "label": "Marbella East",
+   "kind": "projects",
+   "topic": "Marbella East resorts",
+   "title": "Two luxury resorts, €760 million, one week",
+   "figs": [
+    {"n": "€500m", "t": "St. Regis Las Dunas, open 2031"},
+    {"n": "€260m", "t": "Oakmond, ex-Incosol, open 2029"},
+    {"n": "179", "t": "Branded homes between them"}
+   ],
+   "paragraphs": [
+    "<b>St. Regis Las Dunas.</b> Unveiled on 21 October in Las Chapas, beside the Real de Zaragoza dunes: a 169-room St. Regis (Marriott) and 151 branded residences of two to five bedrooms, on more than 160,000 m² with over 350 m of beach. The backers are Hong Kong's Platinum Estates and Sierra Blanca Estates. The budget has grown from €350m in 2024 to about €500m, approval took more than eight years, and opening is planned for 2031 with about 450 permanent jobs. Local environmentalists say the dunes will suffer; the developers say they will clean and restore them.",
+    "<b>Oakmond.</b> On the same day, ground was broken on the old Incosol site, closed since 2012. Ilanga Capital (Pelayo Cortina Koplowitz) is building a 140-room \"longevity\" resort with 28 residences for about €260m, with €145m lent by Goldman Sachs Alternatives. Opening is planned for the third quarter of 2029. <mark>Add the Don Carlos, reopened this year after a €43m rebuild, and the east side is turning into Marbella's new luxury-hotel corridor.</mark>"
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Branded residences usually sell at a premium to the area, and a five-star address nearby tends to lift the resale homes around it. Elviria and Las Chapas have been the quieter, cheaper side of town. That gap may narrow."
+   },
+   "sources": [
+    {"text": "Olive Press: St. Regis Las Dunas", "url": "https://www.theolivepress.es/spain-news/2026/10/21/marbella-st-regis-las-dunas/"},
+    {"text": "Rus Tourism News: St. Regis figures", "url": "https://www.rustourismnews.com/2026/10/21/st-regis-to-open-e500-million-luxury-beachfront-resort-in-marbella/"},
+    {"text": "El Español: Oakmond works start", "url": "https://www.elespanol.com/malaga/marbella/20261013/antiguo-incosol-marbella-encara-transformacion-resort-lujo-millones-fecha-obras/1003744417991_0.html"},
+    {"text": "Málaga Press: Oakmond", "url": "https://malagapress.com/costa-del-sol-occidental/marbella/marbella-obras-nuevo-incosol-otono"}
+   ],
+   "questions": [
+    "How much of a price premium do branded residences command over normal luxury homes, and why?",
+    "What was the Incosol hotel in Marbella, and why did it close in 2012?"
+   ]
+  },
+  {
+   "label": "On the road",
+   "kind": "Elviria",
+   "topic": "A-7 Elviria exit",
+   "title": "The Elviria exit that vanished overnight",
+   "paragraphs": [
+    "Junction 1034 on the A-7, the way into southern Elviria and Golden Beach, was shut in late September with little warning. Acciona closed it, with the state roads authority's permission, as part of its BLU project at Estrella del Mar (58 apartments and 88 townhouses). Drivers are now sent through the exit by the Don Carlos, and residents report 15 to 20-minute detours on unfamiliar streets. Other access points in Las Chapas were closed the same week.",
+    "On 30 September the mayor asked Madrid to reopen the junction until the new roads are finished. The PSOE opposition replied that the council itself licensed the closure in July 2025. <mark>The old junction was closed for safety, as there was no room to speed up before joining the A-7, but the replacement roads were not ready when it shut.</mark>"
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Access is part of a home's price. Buyers viewing in Elviria this autumn will meet the detour, so it is worth knowing the story and the expected fix."
+   },
+   "sources": [
+    {"text": "Euro Weekly News: Elviria exit mess", "url": "https://euroweeklynews.com/2026/10/09/marbella-a-7-exit-mess-elviria-residents-hit-by-closure-linked-to-building-development/"},
+    {"text": "La Noción: PSOE on the 1034 closure", "url": "https://www.lanocion.es/marbella/20261006/el-psoe-acusa-al-ayuntamiento-de-marbella-de-autor-f3d83.html"},
+    {"text": "Marbella Directo: Mayor demands reopening", "url": "https://marbelladirecto.com/la-alcaldesa-exige-al-gobierno-la-reapertura-inmediata-de-los-accesos-de-la-a-7-cerrados-en-elviria-hasta-que-existan-viales-alternativos/"}
+   ],
+   "questions": [
+    "Why are old motorway junctions without acceleration lanes considered dangerous, and how are they usually replaced?",
+    "Who is responsible for the A-7 through Marbella, and what upgrades have been proposed for it?"
+   ]
+  },
+  {
+   "label": "Ports",
+   "kind": "La Bajadilla",
+   "topic": "La Bajadilla port",
+   "title": "La Bajadilla is unblocked after 15 years",
+   "figs": [
+    {"n": "€200m+", "t": "Private investment"},
+    {"n": "~750", "t": "Berths, up from ~268"},
+    {"n": "2027", "t": "New operator from 1 Jan"}
+   ],
+   "paragraphs": [
+    "On 22 October the Junta's development minister, Mario Muñoz-Atanet, confirmed that the expansion of Marbella's La Bajadilla port is going ahead, after 15 years of court cases and appeals. A new 40-year concession, won by the local consortium Marina Internacional de Marbella, brings more than €200m of private investment. The plan takes berths from about 268 to roughly 750, for yachts of up to 70 m, with shops, restaurants, a renewed fishing quay and about 1,000 parking spaces.",
+    "The new operator takes over on 1 January 2027. Then come about 11 months of detailed design and 36 months of building, <mark>so the new marina is realistically a 2030 story.</mark> Meanwhile 11 companies are bidding for Estepona's port, and Puerto Banús is finishing a €9m pontoon renewal."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "A big-yacht marina east of the old town pulls money, restaurants and foot traffic toward the Bajadilla and the Casco Antiguo, areas that have lagged behind Banús."
+   },
+   "sources": [
+    {"text": "The Spanish Eye: Bajadilla unblocked", "url": "https://www.thespanisheye.com/2026/10/22/marbellas-e200m-expansion-of-la-bajadilla-port-is-unblocked-after-15-years-of-delays/"},
+    {"text": "Euro Weekly News: €200m rebuild planned for 2027", "url": "https://euroweeklynews.com/2026/09/06/e200m-marbella-bajadilla-marina-rebuild-planned-for-2027-as-banus-eyes-multi-port-growth/"}
+   ],
+   "questions": [
+    "How do port concessions work in Andalucía, and why do they run for 40 years?",
+    "How does a new superyacht marina affect property prices and businesses nearby?"
+   ]
+  },
+  {
+   "label": "Prices",
+   "kind": "the numbers",
+   "topic": "Malaga property prices",
+   "title": "Prices still rising, just less quickly",
+   "figs": [
+    {"n": "€3,149", "t": "Per m², Málaga province"},
+    {"n": "+8.9%", "t": "In a year"},
+    {"n": "€360k", "t": "A 90 m² home in Marbella"}
+   ],
+   "paragraphs": [
+    "Valuer Gesvalt's third-quarter figures put Málaga province at €3,149 per m², up 8.9% in a year and 64.5% since 2020. Rents average €17.71 per m² a month, up 4.6%, the highest in Andalucía. Marbella is the dearest town in the province, with a standard 90 m² home at around €360,000 and rent above €2,000 a month. Spain as a whole rose faster, 10.6%, but from a much lower base (€2,085 per m²).",
+    "<mark>Gesvalt calls it \"a certain normalisation\": still rising, just less steeply.</mark> Sales are thin too. National figures for August were up 3.4% on a year earlier, but January to August is down 2.3%, and a shortage of homes for sale is the usual explanation."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Slower growth plus a shortage of stock usually means firm prices and longer negotiations, not falls. The prime end follows its own, international market (next story)."
+   },
+   "sources": [
+    {"text": "Olive Press: Gesvalt Q3 and Málaga's 508 mega-landlords", "url": "https://www.theolivepress.es/spain-news/2026/10/19/malaga-property-prices-rents-climb/"},
+    {"text": "Olive Press: Spain house sales, August", "url": "https://www.theolivepress.es/spain-news/2026/10/26/house-sales-in-spain-rose-in-august-but-downward-trend-continues/"}
+   ],
+   "questions": [
+    "Why do property prices keep rising when the number of sales is falling?",
+    "How do valuation-based price indices like Gesvalt's differ from asking-price indices like idealista's?"
+   ]
+  },
+  {
+   "label": "Prime",
+   "kind": "€10m+",
+   "topic": "Marbella prime market",
+   "title": "€10 million sales are no longer rare, and you made the papers",
+   "paragraphs": [
+    "idealista ran a story on 26 October about €10m-plus homes becoming routine in Marbella, built around Drumelia: more than 20 sales of €10m or more in five years, worth almost €430m together, and more than 20 deals in La Zagaleta alone worth over €250m. Its point: at this level buyers often decide from abroad, so the preparation has to match the size of the decision.",
+    "The money shows up in the tax data too. On 2024 figures from the Agencia Tributaria, Benahavís, home of La Zagaleta, is now <b>Spain's second-richest municipality</b>, with an average gross income of €79,041, up 83% in a year. Only Pozuelo de Alarcón, near Madrid, is higher. <mark>Experts warn that in a small town a handful of very high earners can move the average, which is rather the point.</mark>"
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "A national piece about €10m deals is useful marketing in itself. And Benahavís's ranking is an easy, independent fact to quote to buyers asking who their neighbours would be."
+   },
+   "sources": [
+    {"text": "idealista: €10m-plus sales in Marbella", "url": "https://www.idealista.com/en/news/luxury-real-estate-in-spain/2026/10/26/915520-eu10m-plus-home-sales-become-increasingly-common-in-marbella"},
+    {"text": "Olive Press: Benahavís second-richest", "url": "https://www.theolivepress.es/spain-news/2026/10/01/benahavis-now-ranks-as-spains-second-richest-municipality/"}
+   ],
+   "questions": [
+    "Who buys €10 million homes in Marbella, and where do they come from?",
+    "How does La Zagaleta compare with other gated estates in Europe on price and security?"
+   ]
+  },
+  {
+   "label": "Airport",
+   "kind": "tourism",
+   "topic": "Malaga airport",
+   "title": "Málaga airport heads for a record year",
+   "paragraphs": [
+    "Málaga handled 2.8 million passengers in September, up 6.8%, and 22.1 million from January to September, up 6.6%. That puts 2026 on course for more than 27 million, beating last year's record of 26.7 million. It is Spain's fourth-busiest airport after Madrid, Barcelona and Palma.",
+    "<mark>Seven in ten international arrivals now fly low-cost (72%), and the UK alone is almost 30% of the total.</mark> One crack: Ryanair is dropping its winter Málaga–Brussels route, blaming Belgian ticket taxes, and its boss is warning of big fare rises."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Direct, cheap flights are what keep second-home owners coming back several times a year. A route cut matters more to the coast than a headline record."
+   },
+   "sources": [
+    {"text": "Área Costa del Sol: September at Málaga", "url": "https://www.areacostadelsol.com/costa-del-sol/aeropuerto-malaga-supera-millones-pasajeros-septiembre-crece/"},
+    {"text": "El Español: Summer and year to date", "url": "https://www.elespanol.com/malaga/vivir/turismo/20261014/espectacular-verano-aeropuerto-malaga-millones-pasajeros-vuelos/1003744418717_0.html"},
+    {"text": "Olive Press: 72% low-cost", "url": "https://www.theolivepress.es/spain-news/2026/10/20/seven-in-ten-passengers-at-malaga-airport-flew-low-cost/"}
+   ],
+   "questions": [
+    "How do low-cost airlines decide which routes to cut, and why do national ticket taxes matter so much?",
+    "Which countries do most foreign property buyers on the Costa del Sol come from?"
+   ]
+  },
+  {
+   "label": "What's on",
+   "kind": "this weekend and next",
+   "topic": "Marbella events",
+   "title": "Chestnuts, Don Juan and a strike",
+   "bullets": [
+    "<b>Sat 31 Oct, 20:00 and Sun 1 Nov, 18:00:</b> <i>Don Juan Tenorio</i>, the classic All Saints' play, staged by the Amigos del Teatro at the Teatro Ciudad de Marbella. €10.",
+    "<b>Sun 1 Nov, from 12:30:</b> the Tostón, Marbella's All Saints' festival, in Parque de Nagüeles. Inflatables, music and roasted chestnuts from 16:00 to 18:00.",
+    "<b>Sat 31 Oct, heads-up:</b> social-media calls for \"Blocus\" gatherings that night name San Pedro Alcántara, after riots in Barcelona. Police are investigating; nothing is confirmed.",
+    "<b>Wed 11 Nov:</b> 24-hour general strike over housing and wages. Expect disruption to public services and transport."
+   ],
+   "paragraphs": [
+    "<mark>The Tostón is the local way to spend All Saints': a park, a fire and a paper cone of chestnuts.</mark>"
+   ],
+   "sources": [
+    {"text": "Marbella Directo: Tostón", "url": "https://marbelladirecto.com/marbella-celebrara-el-toston-el-proximo-domingo-1-de-noviembre-en-el-parque-de-nagueles/"},
+    {"text": "Marbella Directo: Don Juan Tenorio", "url": "https://marbelladirecto.com/la-asociacion-amigos-del-teatro-ciudad-de-marbella-representara-el-31-de-octubre-y-el-1-de-noviembre-su-adaptacion-de-la-obra-don-juan-tenorio/"},
+    {"text": "The Spanish Eye: 31 October calls", "url": "https://thespanisheye.com/2026/10/26/fears-of-vandalism-on-the-costa-del-sol-amid-calls-for-demonstrations-on-social-media"}
+   ],
+   "questions": [
+    "Why is Don Juan Tenorio traditionally performed in Spain around All Saints' Day?",
+    "What is the Tostón in Andalucía, and where does the chestnut tradition come from?"
+   ]
+  }
+ ]
+}
