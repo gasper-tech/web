@@ -53,7 +53,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [x] Loss aversion (#02)
 - [ ] Cognitive biases (overview)
 - [ ] Metacognition
-- [ ] Confirmation bias
+- [x] Confirmation bias (#04)
 - [ ] Cognitive dissonance
 - [x] The Dunning–Kruger effect (#03)
 - [ ] The psychology of first impressions and why we misread people
@@ -93,7 +93,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Religious cults in old societies / how cults work
 - [ ] Ancient Egypt
 - [ ] Lost civilisations †
-- [ ] Famous shipwrecks
+- [x] Famous shipwrecks (#04)
 - [ ] Unsolved mysteries
 - [ ] The Bermuda Triangle †
 - [ ] Conspiracy theories: why they spread †

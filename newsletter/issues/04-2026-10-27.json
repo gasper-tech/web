@@ -1,0 +1,295 @@
+{
+ "number": 4,
+ "date_label": "Tuesday 27 Oct",
+ "read_min": 9,
+ "subject_hook": "The warship nobody dared to stop",
+ "preheader": "Plus: one ECB rate for 21 economies, Getty's speedy bankruptcy, and the best time for your coffee.",
+ "first_sip": "The snooze button has never built anything. Up you get.",
+ "footer": "Built from news up to 27 October 2026. Figures come from the linked sources and are rounded. Next Doppio: Friday 30 October, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "One ECB rate, twenty-one inflation rates",
+   "paragraphs": [
+    "The European Central Bank meets on Thursday, and the bet is that it will sit still. Its deposit rate is 2.50% after two hikes this year, in June and September, the first increases since 2023. The cause is energy. Euro-area inflation reached 3.8% in September, with energy prices up 18.9% on a year earlier. A Reuters poll of economists and market pricing both point to a pause now and a possible hike in December, when the ECB has fresh forecasts to work from.",
+    "<b>How one rate fits many countries:</b> imperfectly. The ECB sets a single rate for the whole euro area, based on the average. Behind that average, Lithuania's inflation was 6.1% in September and Slovenia's was 3.7%, just under the euro-area figure. <mark>A rate hike cannot make oil cheaper. What the ECB wants to stop is the energy shock spreading into wages and service prices, where it can hang around for years.</mark> Services inflation has already crept up to 3.2%. That is the number to watch."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "ECB rates feed straight into Slovenian variable-rate mortgages, which follow Euribor, and into what banks pay on savings. A December hike would make borrowing a little dearer again and nudge deposit rates up. If Thursday brings a pause, borrowers are not off the hook yet."
+   },
+   "sources": [
+    {
+     "text": "Eurostat: Euro-area inflation up to 3.8% (Sept 2026)",
+     "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap"
+    },
+    {
+     "text": "Euronews: One interest rate, three inflation realities",
+     "url": "https://www.euronews.com/2026/10/22/one-interest-rate-three-inflation-realities-why-europes-price-shock-is-so-uneven"
+    },
+    {
+     "text": "Reuters via Yahoo Finance: ECB to hike again in December, poll",
+     "url": "https://finance.yahoo.com/economy/policy/articles/ecb-hike-rates-again-december-095610436.html"
+    }
+   ],
+   "questions": [
+    "Why can't a central bank's interest rate hike lower oil prices, and what does it actually do during an energy price shock?",
+    "How do changes in the ECB deposit rate pass through to Euribor and variable-rate mortgages in eurozone countries like Slovenia?",
+    "Why does inflation differ so much between eurozone countries when they share the same interest rate?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "Getty Images and the art of the pre-packed bankruptcy",
+   "paragraphs": [
+    "Getty Images, the photo agency behind many of the pictures in your news feed, filed for Chapter 11 bankruptcy in Delaware on 21 October. It is not shutting down. The Getty family and Koch Equity Development will put in up to $533 million of new equity and take full ownership. Bondholders agreed to write off $270 million of debt. Public shareholders get nothing. The trouble started this summer, when Getty walked away from its $3.7 billion merger with Shutterstock after the UK competition authority demanded that Shutterstock's editorial photo business be sold off first. Cheap AI-generated images did not help either.",
+    "<b>How a pre-pack works:</b> In a normal bankruptcy, a company runs to court first and then spends months fighting its creditors. In a prepackaged one, the deal is done first. Owners, lenders and bondholders agree on who loses what, and voting starts before the filing. <mark>The court is used mainly to make the deal binding on everyone, including the holdouts, and it can wrap up in weeks rather than years.</mark> Customers and photographers carry on as usual, and Getty expects to be finished by year-end."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Bankruptcy is often a financial tool rather than a funeral: the business survives and the ownership changes. Shareholders are paid last, so when debts are cut they are usually the first to be wiped out. And a regulator's merger condition, even one set abroad, can end up deciding a company's fate."
+   },
+   "sources": [
+    {
+     "text": "Bloomberg Law: Getty Images files for Chapter 11",
+     "url": "https://news.bloomberglaw.com/bankruptcy-law/getty-images-files-for-chapter-11-bankruptcy-in-delaware"
+    },
+    {
+     "text": "The Next Web: Getty files for bankruptcy, goes private",
+     "url": "https://thenextweb.com/news/getty-images-chapter-11-bankruptcy-private"
+    },
+    {
+     "text": "PetaPixel: Getty going private",
+     "url": "https://petapixel.com/2026/10/12/getty-going-private-as-the-beleaguered-stock-photo-brand-files-for-bankruptcy/"
+    }
+   ],
+   "questions": [
+    "How does a prepackaged Chapter 11 bankruptcy differ from a regular one, and why can it be so fast?",
+    "In a bankruptcy, in what order do secured lenders, bondholders and shareholders get paid?",
+    "Why did the UK competition authority object to the Getty Images and Shutterstock merger?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "build to sell",
+   "topic": "AI Build",
+   "title": "A one-villa website template you sell on Framer",
+   "figs": [
+    {
+     "n": "Medium",
+     "t": "Framer basics needed"
+    },
+    {
+     "n": "2 weekends",
+     "t": "Plus review wait"
+    },
+    {
+     "n": "€0",
+     "t": "To start building"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Build a Framer template for a single property for sale: one luxury villa, one elegant site. Full-bleed hero, specs, floor plan, gallery, area guide, an enquiry form and a brochure download. Add a short Claude prompt sheet that turns an agent's rough notes into polished copy. Most single-property templates out there are made for holiday rentals and bookings. <mark>Yours is made to sell a €3m home</mark>, which is the work you already do.",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> Take your best real-estate landing page, strip out the client details and rebuild it in Framer as a single page with placeholder photos. Write a one-page prompt sheet: paste in the agent's notes and Claude returns a headline, an intro, feature bullets and a short area guide. Submit it to the Framer Marketplace; Framer says reviews can take up to three weeks.",
+    "<b>Better:</b> Use Framer's CMS so the specs, gallery and floor plans live in one place and a buyer can swap in a property in an afternoon. Add a matching A4 brochure layout and a five-minute Loom showing the setup.",
+    "<b>Next level:</b> Release style variants, say 'Modern white' and 'Andalusian warm', each as its own listing. Use the template yourself for a real client, then add that live site as the demo and case study."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Framer already has plenty of real-estate templates, and the few single-property ones lean towards holiday rentals; Canva listing kits are cheap and crowded. Your gap is a sale-focused, high-end, one-property site from someone who actually brands luxury listings. Framer says creators keep 100% of paid template sales, and first sales can come from marketplace browsing plus posting the build and a live client example on LinkedIn and Instagram, no outreach needed."
+   },
+   "questions": [
+    "What sections should a one-page website for a single luxury villa for sale include, and in what order, to turn visitors into viewing requests?",
+    "Can you write me a reusable prompt that turns an estate agent's rough property notes into a headline, an intro, feature bullets and a short neighbourhood guide in an understated luxury tone?",
+    "What do Framer Marketplace reviewers look for when approving a template, and what are the most common reasons templates get rejected?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "When you drink coffee may matter, not just how much",
+   "paragraphs": [
+    "Coffee has looked good for health for years: drinkers tend to live a bit longer than non-drinkers. A team led by Lu Qi at Tulane University asked a new question. Does the <i>time of day</i> matter? They used US national health survey data on <b>40,725 adults</b> (1999–2018) and tracked deaths for about a decade. Most of the coffee drinkers fell into one of two groups: people who drank it only in the morning, and people who sipped it all day. Compared with non-drinkers, <mark>the morning group had a 16% lower risk of death from any cause and a 31% lower risk of dying from heart disease, while the all-day group showed no lower risk at all</mark>.",
+    "A caution: this is an <b>observational</b> study, not a trial. It shows a link, not proof. Morning-only drinkers may differ in other ways, like sleep, work shifts or habits, that the researchers couldn't fully adjust for. Qi's best guess is that caffeine late in the day upsets the body clock, but nobody has tested that yet. He says trials are needed to check whether moving your coffee earlier actually changes anything."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "If you already drink coffee, having it in the morning costs nothing and is easier on your sleep anyway. Just don't treat a 4 pm espresso as a health risk, or a morning cup as a health tool. Until a trial tests it, this is a hint, not a rule."
+   },
+   "sources": [
+    {
+     "text": "Wang et al., European Heart Journal (2025)",
+     "url": "https://doi.org/10.1093/eurheartj/ehae871"
+    },
+    {
+     "text": "Tulane University release, via Futurity",
+     "url": "https://www.futurity.org/morning-coffee-drinkers-heart-disease-3266552/"
+    },
+    {
+     "text": "Tulanian: Skip the evening espresso",
+     "url": "https://tulanian.tulane.edu/spring-2025/skip-evening-espresso"
+    }
+   ],
+   "questions": [
+    "Why might drinking coffee late in the day affect heart health differently from drinking it in the morning?",
+    "How long does caffeine stay in the body, and how much does an afternoon coffee actually disrupt sleep?",
+    "What is the difference between an observational study and a randomised trial, and why does it matter for nutrition headlines?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "Vasa: the warship nobody dared to stop",
+   "paragraphs": [
+    "On 10 August 1628, Sweden's grand new warship <i>Vasa</i> set sail from Stockholm as crowds watched. It got just over a kilometre. A gust filled the sails, the ship heeled over, water poured in through the open gunports, and it went down within sight of the shipyard. Around 30 people died.",
+    "The trouble was the shape. <i>Vasa</i> carried heavy guns on <b>two</b> decks plus a mass of carved sculpture, but the hull below the waterline was too small to balance all that weight. Before it sailed, the captain had 30 men run back and forth across the deck. After three runs the ship rolled so badly that the admiral stopped the test. <mark>Nobody dared tell King Gustav II Adolf, who was away at war and wanted his ship quickly, so it sailed anyway.</mark> The official inquiry blamed no one.",
+    "The Baltic then did what the shipwrights could not. Its cold, low-oxygen water spared the wood from the creatures that eat most wrecks. <i>Vasa</i> was raised on 24 April 1961 and sprayed with a waxy preservative called PEG for 17 years. Today it stands nearly complete in its own museum in Stockholm."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A test only helps if someone is allowed to act on its result. When bad news can't travel up to the boss, the failure happens later, and in public."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Vasa Museum: The disaster",
+     "url": "https://www.vasamuseet.se/en/explore/vasa-history/disaster"
+    },
+    {
+     "text": "Britannica: Vasa (warship)",
+     "url": "https://www.britannica.com/topic/Vasa-warship"
+    },
+    {
+     "text": "Vasa Museum: The inquest",
+     "url": "https://www.vasamuseet.se/en/explore/vasa-history/inquest"
+    }
+   ],
+   "questions": [
+    "Why did the Swedish warship Vasa sink on its maiden voyage in 1628, and what does it teach about engineering under political pressure?",
+    "How was the Vasa raised in 1961 and preserved with polyethylene glycol (PEG)?",
+    "What other famous engineering failures happened because warnings never reached decision-makers?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "The deepest hole ever dug is barely a scratch",
+   "paragraphs": [
+    "In 1970, Soviet scientists began drilling on the Kola Peninsula in Russia's far north-west, simply to see how deep they could go. By the time the project was abandoned in 1992, the narrow hole reached 12,262 metres. That is deeper than the ocean's deepest point, and it is still the deepest humans have drilled into Earth's crust.",
+    "It sounds heroic. <mark>But Earth's radius is about 6,371 kilometres, so the deepest hole in history went less than 0.2 per cent of the way to the centre.</mark> Scale Earth down to an apple and the hole wouldn't get through the skin. It didn't even make it through the crust.",
+    "What stopped them was heat. At the bottom, the rock was about 180°C, nearly twice as hot as predicted. Hot rock under that much pressure starts to behave less like stone and more like plastic, so the hole kept trying to close. That's why almost everything we know about Earth's interior comes from earthquake waves: as they travel through the planet they bend and bounce off its layers, and scientists read the echoes."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Some places are too hot and too deep for us ever to reach. For those, science measures from a distance, and earthquake waves have mapped Earth's insides without anyone going there."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Smithsonian: What's the deepest hole ever dug?",
+     "url": "https://www.smithsonianmag.com/smithsonian-institution/ask-smithsonian-whats-deepest-hole-ever-dug-180954349/"
+    },
+    {
+     "text": "Scientific American: How deep is the deepest hole?",
+     "url": "https://www.scientificamerican.com/article/how-deep-is-the-deepest-hole-in-the-world/"
+    },
+    {
+     "text": "Guinness World Records: Deepest penetration into the crust",
+     "url": "https://www.guinnessworldrecords.com/world-records/66177-deepest-penetration-into-the-earths-crust"
+    }
+   ],
+   "questions": [
+    "Why did the Kola Superdeep Borehole stop at about 12 kilometres deep?",
+    "How do scientists use seismic waves from earthquakes to learn about Earth's core and mantle?",
+    "How thick is Earth's crust under continents compared with under the oceans?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Confirmation bias: why we test the wrong triples",
+   "paragraphs": [
+    "In 1960 the psychologist <b>Peter Wason</b>, at University College London, showed people three numbers: 2, 4, 6. They fitted a secret rule. The job was to find it by suggesting new sets of three and hearing yes or no. Most people guessed \"even numbers going up by two\" and tested 8-10-12, then 20-22-24. Yes, yes, yes. Feeling sure, they announced their rule. About four in five were wrong on the first try. The real rule was just \"any three numbers in ascending order\".",
+    "The problem wasn't brains. It was method. <mark>People tested their idea by looking for cases that would fit it, and almost never for cases that could break it.</mark> In 1979 Charles Lord, Lee Ross and Mark Lepper at Stanford found the same instinct on a hotter topic. Supporters and opponents of the death penalty read the same two studies, one for and one against. Each side found the study that agreed with them more convincing, and both ended up further apart. Same facts, wider gap.",
+    "To be fair, the bias is a shortcut. Checking what you already believe is fast, and fine for choosing a café. It hurts when the stakes are high and the evidence is mixed: a hire, a launch, a campaign everyone in the room already loves. The fix is the move Wason's subjects missed: try 1-2-3. Ask what would prove you wrong, then go and look for it."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Before you sign off on a big idea, name one result that would change your mind and actively look for it. If you can't name one, you're not testing the idea. You're decorating it."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Wason, Quarterly Journal of Experimental Psychology (1960)",
+     "url": "https://doi.org/10.1080/17470216008416717"
+    },
+    {
+     "text": "Lord, Ross & Lepper, JPSP (1979)",
+     "url": "https://doi.org/10.1037/0022-3514.37.11.2098"
+    }
+   ],
+   "questions": [
+    "How does Wason's 2-4-6 task show confirmation bias, and what should people have tested instead?",
+    "What did Lord, Ross and Lepper's 1979 death-penalty study find about how people read mixed evidence?",
+    "What practical habits help a team counter confirmation bias before a big decision?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "For the mind does not require filling like a bottle, but rather, like wood, it only requires kindling to create in it an impulse to think independently and an ardent desire for the truth.",
+   "cite": "Plutarch, Moralia, On Listening to Lectures 18 (48C) · c. AD 100 · trans. F. C. Babbitt",
+   "paragraphs": [
+    "Plutarch was a Greek writer and priest at Delphi, best known for his <i>Parallel Lives</i>. He wrote this short essay for a young man called Nicander, who was just starting out in philosophy. The advice: listen actively, don't sit there like a jar waiting to be filled. These are the essay's closing lines, and they are the real source of the poster slogan about lighting a fire, which is a later paraphrase. The point still lands: <mark>learning isn't storage, it's ignition.</mark> After a briefing, a trend report or a podcast, the test isn't how much you took in. It's what it set alight."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "On Listening to Lectures, Babbitt trans. (LacusCurtius)",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/De_auditu*.html"
+    },
+    {
+     "text": "Quote Investigator: the mind is not a vessel",
+     "url": "https://quoteinvestigator.com/2013/03/28/mind-fire/"
+    }
+   ],
+   "questions": [
+    "Where does the saying 'the mind is a fire to be kindled, not a vessel to be filled' really come from?",
+    "What advice does Plutarch give in On Listening to Lectures about how to listen and learn well?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "wordplay · medium",
+   "topic": "Puzzle",
+   "previous_answer": "20. Count the units first: 9, 19, 29 … 99 gives ten 9s. Then the tens: 90 to 99 gives ten more. 99 has a 9 in both places, so it counts twice. Most people say 19 or 11.",
+   "puzzle": "Forward I am heavy, but backward I am not. What am I?",
+   "hint": "Hint: it's a word, so try reading your answer both ways. Answer in Friday's Doppio.",
+   "questions": [
+    "Give me a hint for the riddle 'forward I am heavy, but backward I am not', without the answer",
+    "Give me another short wordplay riddle like 'forward I am heavy, but backward I am not'"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Nintendo was founded in Kyoto in 1889, the same year the Eiffel Tower opened, and its first product wasn't a game console but <i>hanafuda</i> playing cards.",
+   "cite": "Wikipedia, History of Nintendo · Film Stories, From cards to cartridges",
+   "questions": [
+    "How did Nintendo go from making hanafuda playing cards to video games?",
+    "Which famous companies started out making something completely different from what they're known for today?"
+   ]
+  }
+ ]
+}
