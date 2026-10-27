@@ -21,9 +21,18 @@
     "text": "Buyers and investors on the coast tend to pause around elections. Expect some deals to wait for the result, and expect holiday-let rules (next story) to be a campaign topic."
    },
    "sources": [
-    {"text": "Rio Times: Polls split ahead of 29 November", "url": "https://www.riotimesonline.com/spain-polls-split-ahead-of-29-november-vote/"},
-    {"text": "Moncloa.com: Congress votes the decrees on 12N", "url": "https://www.moncloa.com/2026/10/17/decretos-vivienda-congreso-12n-3450016/"},
-    {"text": "Euronews: General strike on 11 November", "url": "https://es.euronews.com/2026/10/07/huelga-general-vivienda-espana-11-noviembre-ccoo-ugt"}
+    {
+     "text": "Rio Times: Polls split ahead of 29 November",
+     "url": "https://www.riotimesonline.com/spain-polls-split-ahead-of-29-november-vote/"
+    },
+    {
+     "text": "Moncloa.com: Congress votes the decrees on 12N",
+     "url": "https://www.moncloa.com/2026/10/17/decretos-vivienda-congreso-12n-3450016/"
+    },
+    {
+     "text": "Euronews: General strike on 11 November",
+     "url": "https://es.euronews.com/2026/10/07/huelga-general-vivienda-espana-11-noviembre-ccoo-ugt"
+    }
    ],
    "questions": [
     "Why did Spain's Congress reject the 2026 housing decrees, and why did that lead to an early election?",
@@ -44,9 +53,18 @@
     "text": "If owners absorb the VAT, short-let income on the coast drops by roughly a tenth. Owners who already offer cleaning or breakfast were charging VAT anyway, so the change hits the simpler, self-managed lets hardest."
    },
    "sources": [
-    {"text": "idealista: Government re-approves both decrees", "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/10/06/917683-el-gobierno-vuelve-a-aprobar-los-dos-decretos-de-vivienda-con-matices-y-anuncia-10"},
-    {"text": "Civio: Every measure in the new decree", "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/07/decreto-ley-vivienda-nueva-ronda/"},
-    {"text": "Euro Weekly News: VAT exemption ends 1 December", "url": "https://euroweeklynews.com/2026/10/07/spain-ends-vat-exemption-for-thousands-of-holiday-rentals-from-december-1/"}
+    {
+     "text": "idealista: Government re-approves both decrees",
+     "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/10/06/917683-el-gobierno-vuelve-a-aprobar-los-dos-decretos-de-vivienda-con-matices-y-anuncia-10"
+    },
+    {
+     "text": "Civio: Every measure in the new decree",
+     "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/07/decreto-ley-vivienda-nueva-ronda/"
+    },
+    {
+     "text": "Euro Weekly News: VAT exemption ends 1 December",
+     "url": "https://euroweeklynews.com/2026/10/07/spain-ends-vat-exemption-for-thousands-of-holiday-rentals-from-december-1/"
+    }
    ],
    "questions": [
     "How will Spain's 10% VAT on holiday rentals of up to 30 nights work from December 2026, and who has to charge it?",
@@ -67,8 +85,14 @@
     "text": "After decades of legal limbo, owners get firmer ground. But until the POU is approved, anyone valuing a plot for redevelopment is still partly guessing."
    },
    "sources": [
-    {"text": "La Noción: 2.86 million m² to transform", "url": "https://www.lanocion.es/san-pedro-alcantara/20261022/el-nuevo-plan-de-marbella-abre-la-transformacion-d-dd1fb.html"},
-    {"text": "Revista de Urbanismo: Technical session", "url": "https://reurbanismo.es/marbella-lleva-el-nuevo-pgom-a-la-practica-con-una-jornada-tecnica-para-mas-de-cien-profesionales.htm"}
+    {
+     "text": "La Noción: 2.86 million m² to transform",
+     "url": "https://www.lanocion.es/san-pedro-alcantara/20261022/el-nuevo-plan-de-marbella-abre-la-transformacion-d-dd1fb.html"
+    },
+    {
+     "text": "Revista de Urbanismo: Technical session",
+     "url": "https://reurbanismo.es/marbella-lleva-el-nuevo-pgom-a-la-practica-con-una-jornada-tecnica-para-mas-de-cien-profesionales.htm"
+    }
    ],
    "questions": [
     "What is the difference between Marbella's PGOM and its POU, and why does the POU matter for property values?",
@@ -81,9 +105,18 @@
    "topic": "Marbella East resorts",
    "title": "Two luxury resorts, €760 million, one week",
    "figs": [
-    {"n": "€500m", "t": "St. Regis Las Dunas, open 2031"},
-    {"n": "€260m", "t": "Oakmond, ex-Incosol, open 2029"},
-    {"n": "179", "t": "Branded homes between them"}
+    {
+     "n": "€500m",
+     "t": "St. Regis Las Dunas, open 2031"
+    },
+    {
+     "n": "€260m",
+     "t": "Oakmond, ex-Incosol, open 2029"
+    },
+    {
+     "n": "179",
+     "t": "Branded homes between them"
+    }
    ],
    "paragraphs": [
     "<b>St. Regis Las Dunas.</b> Unveiled on 21 October in Las Chapas, beside the Real de Zaragoza dunes: a 169-room St. Regis (Marriott) and 151 branded residences of two to five bedrooms, on more than 160,000 m² with over 350 m of beach. The backers are Hong Kong's Platinum Estates and Sierra Blanca Estates. The budget has grown from €350m in 2024 to about €500m, approval took more than eight years, and opening is planned for 2031 with about 450 permanent jobs. Local environmentalists say the dunes will suffer; the developers say they will clean and restore them.",
@@ -94,10 +127,22 @@
     "text": "Branded residences usually sell at a premium to the area, and a five-star address nearby tends to lift the resale homes around it. Elviria and Las Chapas have been the quieter, cheaper side of town. That gap may narrow."
    },
    "sources": [
-    {"text": "Olive Press: St. Regis Las Dunas", "url": "https://www.theolivepress.es/spain-news/2026/10/21/marbella-st-regis-las-dunas/"},
-    {"text": "Rus Tourism News: St. Regis figures", "url": "https://www.rustourismnews.com/2026/10/21/st-regis-to-open-e500-million-luxury-beachfront-resort-in-marbella/"},
-    {"text": "El Español: Oakmond works start", "url": "https://www.elespanol.com/malaga/marbella/20261013/antiguo-incosol-marbella-encara-transformacion-resort-lujo-millones-fecha-obras/1003744417991_0.html"},
-    {"text": "Málaga Press: Oakmond", "url": "https://malagapress.com/costa-del-sol-occidental/marbella/marbella-obras-nuevo-incosol-otono"}
+    {
+     "text": "Olive Press: St. Regis Las Dunas",
+     "url": "https://www.theolivepress.es/spain-news/2026/10/21/marbella-st-regis-las-dunas/"
+    },
+    {
+     "text": "Rus Tourism News: St. Regis figures",
+     "url": "https://www.rustourismnews.com/2026/10/21/st-regis-to-open-e500-million-luxury-beachfront-resort-in-marbella/"
+    },
+    {
+     "text": "El Español: Oakmond works start",
+     "url": "https://www.elespanol.com/malaga/marbella/20261013/antiguo-incosol-marbella-encara-transformacion-resort-lujo-millones-fecha-obras/1003744417991_0.html"
+    },
+    {
+     "text": "Málaga Press: Oakmond",
+     "url": "https://malagapress.com/costa-del-sol-occidental/marbella/marbella-obras-nuevo-incosol-otono"
+    }
    ],
    "questions": [
     "How much of a price premium do branded residences command over normal luxury homes, and why?",
@@ -118,9 +163,18 @@
     "text": "Access is part of a home's price. Buyers viewing in Elviria this autumn will meet the detour, so it is worth knowing the story and the expected fix."
    },
    "sources": [
-    {"text": "Euro Weekly News: Elviria exit mess", "url": "https://euroweeklynews.com/2026/10/09/marbella-a-7-exit-mess-elviria-residents-hit-by-closure-linked-to-building-development/"},
-    {"text": "La Noción: PSOE on the 1034 closure", "url": "https://www.lanocion.es/marbella/20261006/el-psoe-acusa-al-ayuntamiento-de-marbella-de-autor-f3d83.html"},
-    {"text": "Marbella Directo: Mayor demands reopening", "url": "https://marbelladirecto.com/la-alcaldesa-exige-al-gobierno-la-reapertura-inmediata-de-los-accesos-de-la-a-7-cerrados-en-elviria-hasta-que-existan-viales-alternativos/"}
+    {
+     "text": "Euro Weekly News: Elviria exit mess",
+     "url": "https://euroweeklynews.com/2026/10/09/marbella-a-7-exit-mess-elviria-residents-hit-by-closure-linked-to-building-development/"
+    },
+    {
+     "text": "La Noción: PSOE on the 1034 closure",
+     "url": "https://www.lanocion.es/marbella/20261006/el-psoe-acusa-al-ayuntamiento-de-marbella-de-autor-f3d83.html"
+    },
+    {
+     "text": "Marbella Directo: Mayor demands reopening",
+     "url": "https://marbelladirecto.com/la-alcaldesa-exige-al-gobierno-la-reapertura-inmediata-de-los-accesos-de-la-a-7-cerrados-en-elviria-hasta-que-existan-viales-alternativos/"
+    }
    ],
    "questions": [
     "Why are old motorway junctions without acceleration lanes considered dangerous, and how are they usually replaced?",
@@ -133,9 +187,18 @@
    "topic": "La Bajadilla port",
    "title": "La Bajadilla is unblocked after 15 years",
    "figs": [
-    {"n": "€200m+", "t": "Private investment"},
-    {"n": "~750", "t": "Berths, up from ~268"},
-    {"n": "2027", "t": "New operator from 1 Jan"}
+    {
+     "n": "€200m+",
+     "t": "Private investment"
+    },
+    {
+     "n": "~750",
+     "t": "Berths, up from ~268"
+    },
+    {
+     "n": "2027",
+     "t": "New operator from 1 Jan"
+    }
    ],
    "paragraphs": [
     "On 22 October the Junta's development minister, Mario Muñoz-Atanet, confirmed that the expansion of Marbella's La Bajadilla port is going ahead, after 15 years of court cases and appeals. A new 40-year concession, won by the local consortium Marina Internacional de Marbella, brings more than €200m of private investment. The plan takes berths from about 268 to roughly 750, for yachts of up to 70 m, with shops, restaurants, a renewed fishing quay and about 1,000 parking spaces.",
@@ -146,8 +209,14 @@
     "text": "A big-yacht marina east of the old town pulls money, restaurants and foot traffic toward the Bajadilla and the Casco Antiguo, areas that have lagged behind Banús."
    },
    "sources": [
-    {"text": "The Spanish Eye: Bajadilla unblocked", "url": "https://www.thespanisheye.com/2026/10/22/marbellas-e200m-expansion-of-la-bajadilla-port-is-unblocked-after-15-years-of-delays/"},
-    {"text": "Euro Weekly News: €200m rebuild planned for 2027", "url": "https://euroweeklynews.com/2026/09/06/e200m-marbella-bajadilla-marina-rebuild-planned-for-2027-as-banus-eyes-multi-port-growth/"}
+    {
+     "text": "The Spanish Eye: Bajadilla unblocked",
+     "url": "https://www.thespanisheye.com/2026/10/22/marbellas-e200m-expansion-of-la-bajadilla-port-is-unblocked-after-15-years-of-delays/"
+    },
+    {
+     "text": "Euro Weekly News: €200m rebuild planned for 2027",
+     "url": "https://euroweeklynews.com/2026/09/06/e200m-marbella-bajadilla-marina-rebuild-planned-for-2027-as-banus-eyes-multi-port-growth/"
+    }
    ],
    "questions": [
     "How do port concessions work in Andalucía, and why do they run for 40 years?",
@@ -160,9 +229,18 @@
    "topic": "Malaga property prices",
    "title": "Prices still rising, just less quickly",
    "figs": [
-    {"n": "€3,149", "t": "Per m², Málaga province"},
-    {"n": "+8.9%", "t": "In a year"},
-    {"n": "€360k", "t": "A 90 m² home in Marbella"}
+    {
+     "n": "€3,149",
+     "t": "Per m², Málaga province"
+    },
+    {
+     "n": "+8.9%",
+     "t": "In a year"
+    },
+    {
+     "n": "€360k",
+     "t": "A 90 m² home in Marbella"
+    }
    ],
    "paragraphs": [
     "Valuer Gesvalt's third-quarter figures put Málaga province at €3,149 per m², up 8.9% in a year and 64.5% since 2020. Rents average €17.71 per m² a month, up 4.6%, the highest in Andalucía. Marbella is the dearest town in the province, with a standard 90 m² home at around €360,000 and rent above €2,000 a month. Spain as a whole rose faster, 10.6%, but from a much lower base (€2,085 per m²).",
@@ -173,8 +251,14 @@
     "text": "Slower growth plus a shortage of stock usually means firm prices and longer negotiations, not falls. The prime end follows its own, international market (next story)."
    },
    "sources": [
-    {"text": "Olive Press: Gesvalt Q3 and Málaga's 508 mega-landlords", "url": "https://www.theolivepress.es/spain-news/2026/10/19/malaga-property-prices-rents-climb/"},
-    {"text": "Olive Press: Spain house sales, August", "url": "https://www.theolivepress.es/spain-news/2026/10/26/house-sales-in-spain-rose-in-august-but-downward-trend-continues/"}
+    {
+     "text": "Olive Press: Gesvalt Q3 and Málaga's 508 mega-landlords",
+     "url": "https://www.theolivepress.es/spain-news/2026/10/19/malaga-property-prices-rents-climb/"
+    },
+    {
+     "text": "Olive Press: Spain house sales, August",
+     "url": "https://www.theolivepress.es/spain-news/2026/10/26/house-sales-in-spain-rose-in-august-but-downward-trend-continues/"
+    }
    ],
    "questions": [
     "Why do property prices keep rising when the number of sales is falling?",
@@ -195,8 +279,14 @@
     "text": "A national piece about €10m deals is useful marketing in itself. And Benahavís's ranking is an easy, independent fact to quote to buyers asking who their neighbours would be."
    },
    "sources": [
-    {"text": "idealista: €10m-plus sales in Marbella", "url": "https://www.idealista.com/en/news/luxury-real-estate-in-spain/2026/10/26/915520-eu10m-plus-home-sales-become-increasingly-common-in-marbella"},
-    {"text": "Olive Press: Benahavís second-richest", "url": "https://www.theolivepress.es/spain-news/2026/10/01/benahavis-now-ranks-as-spains-second-richest-municipality/"}
+    {
+     "text": "idealista: €10m-plus sales in Marbella",
+     "url": "https://www.idealista.com/en/news/luxury-real-estate-in-spain/2026/10/26/915520-eu10m-plus-home-sales-become-increasingly-common-in-marbella"
+    },
+    {
+     "text": "Olive Press: Benahavís second-richest",
+     "url": "https://www.theolivepress.es/spain-news/2026/10/01/benahavis-now-ranks-as-spains-second-richest-municipality/"
+    }
    ],
    "questions": [
     "Who buys €10 million homes in Marbella, and where do they come from?",
@@ -217,9 +307,18 @@
     "text": "Direct, cheap flights are what keep second-home owners coming back several times a year. A route cut matters more to the coast than a headline record."
    },
    "sources": [
-    {"text": "Área Costa del Sol: September at Málaga", "url": "https://www.areacostadelsol.com/costa-del-sol/aeropuerto-malaga-supera-millones-pasajeros-septiembre-crece/"},
-    {"text": "El Español: Summer and year to date", "url": "https://www.elespanol.com/malaga/vivir/turismo/20261014/espectacular-verano-aeropuerto-malaga-millones-pasajeros-vuelos/1003744418717_0.html"},
-    {"text": "Olive Press: 72% low-cost", "url": "https://www.theolivepress.es/spain-news/2026/10/20/seven-in-ten-passengers-at-malaga-airport-flew-low-cost/"}
+    {
+     "text": "Área Costa del Sol: September at Málaga",
+     "url": "https://www.areacostadelsol.com/costa-del-sol/aeropuerto-malaga-supera-millones-pasajeros-septiembre-crece/"
+    },
+    {
+     "text": "El Español: Summer and year to date",
+     "url": "https://www.elespanol.com/malaga/vivir/turismo/20261014/espectacular-verano-aeropuerto-malaga-millones-pasajeros-vuelos/1003744418717_0.html"
+    },
+    {
+     "text": "Olive Press: 72% low-cost",
+     "url": "https://www.theolivepress.es/spain-news/2026/10/20/seven-in-ten-passengers-at-malaga-airport-flew-low-cost/"
+    }
    ],
    "questions": [
     "How do low-cost airlines decide which routes to cut, and why do national ticket taxes matter so much?",
@@ -233,17 +332,24 @@
    "title": "Chestnuts, Don Juan and a strike",
    "bullets": [
     "<b>Sat 31 Oct, 20:00 and Sun 1 Nov, 18:00:</b> <i>Don Juan Tenorio</i>, the classic All Saints' play, staged by the Amigos del Teatro at the Teatro Ciudad de Marbella. €10.",
-    "<b>Sun 1 Nov, from 12:30:</b> the Tostón, Marbella's All Saints' festival, in Parque de Nagüeles. Inflatables, music and roasted chestnuts from 16:00 to 18:00.",
+    "<b>Sun 1 Nov, from 12:30:</b> the Tostón, Marbella's All Saints' festival, in Parque de Nagüeles. Inflatables, music and roasted chestnuts from 16:00 to 18:00. <mark>The local way to spend All Saints': a park, a fire and a paper cone of chestnuts.</mark>",
     "<b>Sat 31 Oct, heads-up:</b> social-media calls for \"Blocus\" gatherings that night name San Pedro Alcántara, after riots in Barcelona. Police are investigating; nothing is confirmed.",
     "<b>Wed 11 Nov:</b> 24-hour general strike over housing and wages. Expect disruption to public services and transport."
    ],
-   "paragraphs": [
-    "<mark>The Tostón is the local way to spend All Saints': a park, a fire and a paper cone of chestnuts.</mark>"
-   ],
+   "paragraphs": [],
    "sources": [
-    {"text": "Marbella Directo: Tostón", "url": "https://marbelladirecto.com/marbella-celebrara-el-toston-el-proximo-domingo-1-de-noviembre-en-el-parque-de-nagueles/"},
-    {"text": "Marbella Directo: Don Juan Tenorio", "url": "https://marbelladirecto.com/la-asociacion-amigos-del-teatro-ciudad-de-marbella-representara-el-31-de-octubre-y-el-1-de-noviembre-su-adaptacion-de-la-obra-don-juan-tenorio/"},
-    {"text": "The Spanish Eye: 31 October calls", "url": "https://thespanisheye.com/2026/10/26/fears-of-vandalism-on-the-costa-del-sol-amid-calls-for-demonstrations-on-social-media"}
+    {
+     "text": "Marbella Directo: Tostón",
+     "url": "https://marbelladirecto.com/marbella-celebrara-el-toston-el-proximo-domingo-1-de-noviembre-en-el-parque-de-nagueles/"
+    },
+    {
+     "text": "Marbella Directo: Don Juan Tenorio",
+     "url": "https://marbelladirecto.com/la-asociacion-amigos-del-teatro-ciudad-de-marbella-representara-el-31-de-octubre-y-el-1-de-noviembre-su-adaptacion-de-la-obra-don-juan-tenorio/"
+    },
+    {
+     "text": "The Spanish Eye: 31 October calls",
+     "url": "https://thespanisheye.com/2026/10/26/fears-of-vandalism-on-the-costa-del-sol-amid-calls-for-demonstrations-on-social-media"
+    }
    ],
    "questions": [
     "Why is Don Juan Tenorio traditionally performed in Spain around All Saints' Day?",
