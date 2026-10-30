@@ -1,0 +1,226 @@
+{
+ "number": 2,
+ "date_label": "Friday 30 Oct",
+ "read_min": 7,
+ "subject_hook": "The fast train to Madrid is gone",
+ "preheader": "Plus: dearer mortgages, a land sale signed by an impostor, and a shipwreck off Cabopino.",
+ "one_line": "A rail tragedy cut the coast's fast link to Madrid, and mortgages got a little dearer again.",
+ "footer": "Built from news up to 30 October 2026. Figures come from the linked sources and are rounded. Next Vermut: Friday 6 November, 17:00.",
+ "sections": [
+  {
+   "label": "Rail",
+   "kind": "Madrid link",
+   "topic": "Urda rail crash",
+   "title": "After Urda, no fast trains between Málaga and Madrid",
+   "paragraphs": [
+    "On Wednesday 28 October, just before 9:00, a Renfe AVE heading for Sevilla ran into the back of a stopped Iryo train near Urda, in Toledo province. At least 69 people died, a toll that was still being revised on Thursday, and more than 100 were taken to hospital. Spain is in three days of official mourning, from 29 to 31 October. The transport minister says the LZB signalling system failed on a 69 km stretch about half an hour earlier, and that Madrid's control centre then let trains move again. Investigators say it is too early to name a cause.",
+    "For the coast, the practical effect is that <b>the whole Madrid–Andalucía high-speed line is shut</b>, and Adif has given no reopening date. Renfe has blocked AVE ticket sales until 13 December, Iryo shows nothing before 1 December, and Ouigo nothing before 9 November. <mark>Until the line reopens, Málaga–Madrid means flying or a long drive.</mark> Iberia has capped fares to and from Andalucía at €99 economy and €149 business until 8 November, and Air Europa has added daily flights."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Madrid buyers, viewers and weekenders mostly arrive by AVE. Expect fewer Madrid visitors in November and dearer last-minute flights. If a client is coming from Madrid, suggest they book flights early."
+   },
+   "sources": [
+    {"text": "CMM: Urda crash, live", "url": "https://www.cmmedia.es/noticias/castilla-la-mancha/toledo/ultima-hora-accidente-tren-urda-toledo-fallecidos.html"},
+    {"text": "Olive Press: Victims of the crash", "url": "https://www.theolivepress.es/spain-news/2026/10/29/toledo-train-crash-dead-victims/"},
+    {"text": "El Español: Málaga–Madrid AVE, no date", "url": "https://www.elespanol.com/malaga/20261029/alta-velocidad-malaga-madrid-aire-adif-no-pone-fecha-operadoras-bloquean-venta-billetes/1003744439238_0.html"},
+    {"text": "El Diario de Madrid: Alternatives", "url": "https://www.eldiariodemadrid.es/articulo/movilidad/accidente-urda-trenes-madrid-andalucia-cancelaciones-alternativas/20261029100714145592.html"}
+   ],
+   "questions": [
+    "What is the LZB train protection system on Spain's Madrid–Sevilla high-speed line, and what happens when it fails?",
+    "How long did it take Spain to reopen high-speed lines after past major rail accidents?"
+   ]
+  },
+  {
+   "label": "Mortgages",
+   "kind": "rates",
+   "topic": "ECB and Euribor",
+   "title": "ECB holds, Euribor doesn't care",
+   "figs": [
+    {"n": "2.50%", "t": "ECB deposit rate, unchanged"},
+    {"n": "~3.23%", "t": "Euribor, October average"},
+    {"n": "+€93", "t": "Monthly, on a €167k mortgage"}
+   ],
+   "paragraphs": [
+    "The European Central Bank kept its deposit rate at 2.50% on Thursday, after hikes in June and September. Euro-area inflation is 3.8%, nearly twice the target, and markets still expect another quarter-point hike in December. Twelve-month Euribor, which most Spanish variable mortgages follow, is averaging about 3.23% in October, against 2.19% a year ago.",
+    "<mark>For a €167,000 mortgage over 25 years at Euribor plus 0.75%, an annual review in November adds about €93 a month.</mark> Separately, Christine Lagarde will leave the ECB early, on 7 February 2027. Spain's former central bank governor Pablo Hernández de Cos is among the favourites to replace her."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Many prime buyers on the coast pay cash, but the middle of the market borrows. Dearer Euribor means slower local demand for flats and townhouses, and more cash buyers among the foreigners."
+   },
+   "sources": [
+    {"text": "Euronews: ECB holds at 2.5%", "url": "https://es.euronews.com/2026/10/29/bce-mantiene-tipos-en-25-y-lagarde-adelanta-su-salida-con-inflacion-casi-doble-del-objetiv"},
+    {"text": "Rankia: Euribor and the ECB, 29 Oct", "url": "https://www.rankia.com/blog/mejores-hipotecas/7529932-euribor-hoy-29-octubre-2026"},
+    {"text": "Euribor.com.es: October average", "url": "https://www.euribor.com.es/2026/10/28/el-euribor-repunta-0037-puntos-en-su-mayor-salto-del-mes/"}
+   ],
+   "questions": [
+    "How does 12-month Euribor feed into a Spanish variable-rate mortgage, and when does the payment change?",
+    "Should a buyer in Spain choose a fixed or variable mortgage when the ECB is raising rates?"
+   ]
+  },
+  {
+   "label": "Prices",
+   "kind": "official data",
+   "topic": "Marbella average sale price",
+   "title": "Marbella is Spain's sixth-dearest town",
+   "paragraphs": [
+    "The INE's Urban Indicators, published on 21 October, put Marbella's average home sale in 2025 at <b>€742,787</b>, up from €691,204 in 2024. That ranks sixth of 432 Spanish towns with more than 20,000 people. Calvià in Mallorca tops the list at €981,485, and San Roque, home of Sotogrande, is tenth at €605,337. The Spanish average is €222,198.",
+    "<mark>The average sale in Marbella is about 27 times the town's average declared disposable income (€27,248).</mark> That gap is the whole local story in one number: the prices are set by buyers whose money is earned elsewhere."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "This is an average of what actually sold, not a price index, so a few big villa sales push it up. It is still a clean, official figure to quote, and harder to argue with than a portal's asking prices."
+   },
+   "sources": [
+    {"text": "Andalucía Informa: INE Urban Indicators", "url": "https://andaluciainforma.es/actualidad/comprar-casa-en-marbella-cuesta-51-583-euros-mas-que-hace-un-ano-y-el-precio-medio-supera-los-742-000-euros/"}
+   ],
+   "questions": [
+    "What are the INE's Indicadores Urbanos, and how is the average home sale price per town calculated?",
+    "Why do prices in Marbella stay so far above local incomes, and what does that mean for local housing?"
+   ]
+  },
+  {
+   "label": "Fraud",
+   "kind": "Estepona",
+   "topic": "Property identity fraud",
+   "title": "Two Estepona plots, sold by someone pretending to be the owner",
+   "paragraphs": [
+    "A British owner says an impostor sold his two plots in Estepona for about €500,000 at a Málaga notary in 2024, while he was in Dallas. The buyers, companies from Madrid and Barcelona, paid with three cheques. The passport number given at the notary did not match his. He only found out in January 2025, when the urbanisation's administrator told him the plots had changed hands. He has filed a complaint for identity theft, fraud and forgery.",
+    "<mark>Lawyers say foreign-owned second homes and plots, whose owners are away for months, are a favourite target for forged-document gangs.</mark> Vacant land is the easiest, as nobody is living there to notice."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Absent owners can sign up for the Land Registry's alert service (Alerta Registral), which flags any filing on their property. It is worth mentioning to clients who own plots or empty homes here."
+   },
+   "sources": [
+    {"text": "Olive Press: Estepona land sold by impostor", "url": "https://www.theolivepress.es/spain-news/2026/10/28/estepona-property-fraud-brit-land-sold/"}
+   ],
+   "questions": [
+    "How can a property owner in Spain protect themselves from identity fraud and fake sales at a notary?",
+    "What is the Registro de la Propiedad's alert service, and how does a foreign owner sign up?"
+   ]
+  },
+  {
+   "label": "On the road",
+   "kind": "update",
+   "topic": "A-7 Elviria exit",
+   "title": "Marbella sends Madrid a plan to reopen the Elviria exit",
+   "paragraphs": [
+    "Last week's story has moved on. On 27 October Marbella's council approved an urgent report asking the Transport Ministry to reopen the A-7 exit to Elviria and Las Chapas, near La Víbora, for now. The council's design restores the exit only, not the way back onto the motorway: a 95 m slowing lane at 40 km/h, then 40 m of road to the Avenida Víbora Baja roundabout. A local police study logged queues, rear-end crashes near the A-7 and heavy traffic through narrow residential streets and past schools.",
+    "<mark>The 2021 permit to close the exit came with conditions, a southern service road and a remodelled Elviria junction, and neither has been built.</mark> The council says it asked for the reopening on 23 September and has had no reply."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "This is now a council-against-ministry fight a month before an election, which can speed things up. Until the ministry replies, Elviria viewings still mean the detour."
+   },
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: Reopening request", "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-solicita-al-ministerio-de-transportes-la-apertura-provisional-de-la-salida-de-la-a-7-hacia-la-zona-de-elviria-tras-constatar-incidencias-de-movilidad-y-seguridad-vial.html"},
+    {"text": "Marbella Directo: Same story", "url": "https://marbelladirecto.com/marbella-solicita-al-ministerio-de-transportes-la-apertura-provisional-de-la-salida-de-la-a-7-hacia-elviria/"}
+   ],
+   "questions": [
+    "What is a deceleration lane, and how long does it need to be for a safe motorway exit?",
+    "How do Spanish town councils and the national Ministry of Transport share responsibility for motorway junctions?"
+   ]
+  },
+  {
+   "label": "Gibraltar",
+   "kind": "election",
+   "topic": "Gibraltar treaty",
+   "title": "The Gibraltar deal becomes an election topic",
+   "paragraphs": [
+    "The EU–UK treaty on Gibraltar was signed on 14 July and has applied provisionally since 15 July, with Spain running the outer border checks at Gibraltar's port and airport. The European Parliament is due to vote on it on 14 December. A PP MEP, Antonio López-Istúriz, now says a PP government would \"study thoroughly\" the deal after the 29 November election. Alberto Núñez Feijóo has called it \"good news\" that \"must be completed\".",
+    "<mark>Neither main party promises to scrap it, and Spain is not a party to the treaty, so it cannot simply tear it up.</mark> It can, however, suspend its own border-check arrangements after informing Brussels."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "A smooth border matters to the western coast: Sotogrande, San Roque, Estepona and Manilva buyers and the thousands who cross to work every day. Any wobble after the election would be felt there first."
+   },
+   "sources": [
+    {"text": "Olive Press: PP would study the treaty", "url": "https://www.theolivepress.es/spain-news/2026/10/29/gibraltar-treaty-pp-mep-studied-thoroughly-election/"}
+   ],
+   "questions": [
+    "What does the 2026 EU–UK Gibraltar treaty change at the border with La Línea?",
+    "How does the Gibraltar border affect property demand in Sotogrande, Estepona and Manilva?"
+   ]
+  },
+  {
+   "label": "Marbella",
+   "kind": "farewell",
+   "topic": "Count Rudi",
+   "title": "Goodbye to Count Rudi, the man who ran the Marbella Club",
+   "paragraphs": [
+    "Count Rudolf von Schönburg-Glauchau, known to everyone as Conde Rudi, died in Marbella this month aged 94. He arrived in Málaga on 28 December 1956 with his relative Prince Alfonso de Hohenlohe, who had turned a seaside estate into the Marbella Club, and took charge of it before he was 30. In 1971 he married Princess Marie Louise of Prussia.",
+    "<mark>He was one of the handful of people who turned a fishing town into Europe's most glamorous winter address.</mark> The town hall is opening a book of condolence at the Hospital Real de la Misericordia on Saturday 31 October."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "The Golden Mile's prices still rest on the story Rudi and Hohenlohe started. It is a name worth knowing for any buyer who asks why Marbella, and not somewhere else."
+   },
+   "sources": [
+    {"text": "El Debate: Count Rudi dies at 94", "url": "https://www.eldebate.com/gente/20261017/muere-94-anos-conde-rudi-figuras-marbella-exclusiva_470831.html"},
+    {"text": "Ayuntamiento de Marbella: Condolence book", "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-habilitara-este-sabado-el-hospital-real-de-la-misericordia-para-que-los-ciudadanos-puedan-expresar-sus-condolencias-a-la-familia-del-conde-rudi-en-un-libro-de-firmas.html"}
+   ],
+   "questions": [
+    "How did Prince Alfonso de Hohenlohe and Count Rudi turn the Marbella Club into a jet-set destination?",
+    "Who were the famous guests of the Marbella Club in the 1950s and 1960s?"
+   ]
+  },
+  {
+   "label": "New in Banús",
+   "kind": "opening",
+   "topic": "Sartori Puerto Banús",
+   "title": "Deluca becomes Sartori, a bigger Italian",
+   "paragraphs": [
+    "In the gourmet hall of El Corte Inglés in Puerto Banús, the fresh-pasta bar Deluca has become <b>Sartori</b>, a full trattoria. The pasta is still made by hand on site every day, but the menu now runs to antipasti (vitello tonnato, burrata with caponata), pizzas, mains such as cod puttanesca and veal milanese, and pastas from pumpkin triangoli to tagliolini with carabinero prawns.",
+    "<mark>It is a solid, easy lunch option inside Banús for a client between viewings.</mark>"
+   ],
+   "sources": [
+    {"text": "Marbella Directo: Deluca becomes Sartori", "url": "https://marbelladirecto.com/deluca-evoluciona-y-da-paso-a-sartori-una-nueva-trattoria-italiana-en-puerto-banus/"}
+   ],
+   "questions": [
+    "What makes a good Italian trattoria different from a restaurant, and what should I order?",
+    "What are the best new restaurants in Puerto Banús in 2026?"
+   ]
+  },
+  {
+   "label": "Underwater",
+   "kind": "history",
+   "topic": "Garigliano wreck",
+   "title": "The 1887 shipwreck off Cabopino may have a name",
+   "paragraphs": [
+    "Underwater archaeologists from the Andalusian heritage institute (IAPH) spent 15 days on a wreck off Cabopino and now think it is the <b>Garigliano</b>, an Italian barque that sank in a storm in 1887 on its way from Marseille to Buenos Aires. They documented 34 m of hull; ships of that type reached about 45 m.",
+    "<mark>It ran aground bow-first toward the beach and its sides split outward under the weight of the cargo.</mark> The identification is still a working theory, and more dives are planned for 2027."
+   ],
+   "sources": [
+    {"text": "Marbella Directo: IAPH and the Garigliano", "url": "https://marbelladirecto.com/el-iaph-aporta-nuevas-pistas-para-identificar-el-pecio-hundido-frente-a-marbella-como-el-barco-garigliano/"}
+   ],
+   "questions": [
+    "How do underwater archaeologists identify a 19th-century shipwreck?",
+    "Why did so many ships sail from Marseille to Buenos Aires in the 1880s?"
+   ]
+  },
+  {
+   "label": "What's on",
+   "kind": "next week",
+   "topic": "Marbella this week",
+   "title": "Mourning, a safety summit and new rubbish hours",
+   "bullets": [
+    "<b>Until midnight Sat 31 Oct:</b> official mourning. Málaga and Estepona have cancelled their council Halloween events; private parties carry on.",
+    "<b>Sat 31 Oct:</b> book of condolence for Count Rudi at the Hospital Real de la Misericordia.",
+    "<b>From Sun 1 Nov:</b> winter rubbish hours in Marbella. Bags go out between 19:00 and 23:00 until 31 March. <mark>No glass in the bins between 22:00 and 08:00.</mark>",
+    "<b>Tue 3 Nov, from 10:00:</b> United Nationalities of Marbella safety summit at the Hard Rock Hotel, Nueva Andalucía, with the police, Guardia Civil, fire service and British Consulate. Free morning session; optional lunch €45.",
+    "<b>Wed 11 and Thu 12 Nov:</b> general strike over housing, then the vote on the housing decrees, including the 10% holiday-let VAT."
+   ],
+   "sources": [
+    {"text": "Euro Weekly News: Is Halloween cancelled?", "url": "https://euroweeklynews.com/2026/10/29/is-halloween-cancelled-in-spain-would-it-be-disrespectful-to-continue-with-events/"},
+    {"text": "Marbella Directo: Rubbish hours", "url": "https://marbelladirecto.com/a-partir-del-1-de-noviembre-la-basura-se-deposita-de-siete-a-once-de-la-noche/"},
+    {"text": "Euro Weekly News: Safety summit", "url": "https://euroweeklynews.com/2026/10/28/marbella-safety-summit-to-bring-police-and-charities-together-for-free-event/"}
+   ],
+   "questions": [
+    "What does official national mourning in Spain involve, and what events are cancelled?",
+    "Which emergency numbers and services should a foreign resident in Marbella know?"
+   ]
+  }
+ ]
+}
