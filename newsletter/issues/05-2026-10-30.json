@@ -1,0 +1,309 @@
+{
+ "number": 5,
+ "date_label": "Friday 30 Oct",
+ "read_min": 10,
+ "subject_hook": "Are you more bacteria than human?",
+ "preheader": "Plus: India's record IPO, the Fed's two rebels, and a client brief that writes itself.",
+ "first_sip": "Discipline is choosing what you want most over what you want now. Coffee first, though.",
+ "footer": "Built from news up to 30 October 2026. Figures come from the linked sources and are rounded. Next Doppio: Tuesday 3 November, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "The Fed paused, and two of its voters wanted a hike",
+   "paragraphs": [
+    "On Wednesday the US Federal Reserve kept its key rate at 3.75–4%, as everyone expected. The surprise was the vote. It went 10–2, and both dissenters, Governor Lisa Cook and Cleveland Fed president Beth Hammack, wanted to <i>raise</i> rates again after September's hike. On Thursday the data backed them up. The US economy grew at a 3.4% annualised pace in the third quarter, faster than forecast, and the Fed's favourite inflation gauge rose to 3.6% in September. <mark>A year ago the Fed was cutting rates down to this same range. Now the argument is about how much higher to go.</mark>",
+    "<b>How a dissent works:</b> twelve officials vote at each meeting, and any “no” is published by name. Markets read dissents as a trailer for the next meeting, because today's minority is often tomorrow's majority. Meanwhile the ECB held its deposit rate at 2.5% on Thursday. A gap like that between US and euro rates pulls savers' money towards the dollar, the same way a better rate at the bank next door would pull yours."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "When US rates sit well above euro rates, the dollar tends to stay strong against the euro. That makes US trips, dollar-priced oil and many imports dearer for us, while helping European exporters. A December Fed hike would widen that gap further."
+   },
+   "sources": [
+    {
+     "text": "CNBC: Q3 GDP up 3.4% as September inflation accelerates",
+     "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+    },
+    {
+     "text": "Yahoo Finance: Fed holds at 3.75–4%, with 2 dissents",
+     "url": "https://finance.yahoo.com/video/fed-holds-rates-steady-at-3754-as-expected--but-with-2-dissents-180703682.html"
+    },
+    {
+     "text": "Fortune: Fed holds as a governor and a president dissent",
+     "url": "https://fortune.com/2026/10/28/fed-rates-steady-kevin-warsh-president-governor-laura-ullrich/"
+    }
+   ],
+   "questions": [
+    "Why does a central bank raise interest rates to fight inflation, and how long does it usually take to work?",
+    "How do differences in interest rates between the US and the eurozone affect the euro–dollar exchange rate?",
+    "What do dissenting votes at the US Federal Reserve usually signal about its next decision?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "Jio's record IPO: a huge cake, a thin slice",
+   "paragraphs": [
+    "Mukesh Ambani's Jio Platforms, India's biggest mobile and digital-services group, started trading in Mumbai on Wednesday after India's largest-ever IPO in rupee terms. It sold 270 million new shares at ₹1,119 each and raised about $3.2 billion. Investors asked for more than 20 times the shares on offer. The stock ended day one about 27% higher, valuing Jio at well over $130 billion and making it India's second most valuable listed company, behind its own parent, Reliance. Yet the record came from a small slice: <mark>buyers got only about 3% of the company</mark>. Reliance still owns roughly two-thirds, and Meta and Google hold smaller stakes.",
+    "<b>How a mega-IPO works in India:</b> The banks set a price range (here ₹1,065–1,119), big and small investors bid, and the final price lands where demand runs out; this time, at the top. Normally a new listing has to sell a decent share to the public. Under recently relaxed rules, though, India's very largest companies, worth over ₹5 trillion, may start with as little as 2.5% and get several years to reach the usual 25% public ownership. So the cake is huge, the first slice is thin, and the queue for it was long."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "With few shares in circulation, a price can be jumpier, because a lot of money is chasing a limited supply. India's rule is a test of whether letting giants list a sliver first is good for markets or just good for owners. Many European savers already own Indian shares through emerging-market funds, and Jio will likely end up in some of them."
+   },
+   "sources": [
+    {
+     "text": "Reuters via Investing.com: Jio surges in Mumbai debut",
+     "url": "https://www.investing.com/news/stock-market-news/ambanis-jio-surges-21-in-mumbai-debut-after-record-32-billion-india-ipo-4977466"
+    },
+    {
+     "text": "Forbes: Jio Platforms surges over 27% on debut",
+     "url": "https://www.forbes.com/sites/yessarrosendar/2026/10/28/billionaire-mukesh-ambanis-jio-platforms-surges-over-27-on-market-debut/"
+    },
+    {
+     "text": "5paisa: SEBI's mega-IPO rules explained",
+     "url": "https://www.5paisa.com/blog/jio-ipo-2-9-percent-dilution-sebi-mega-ipo-rules"
+    }
+   ],
+   "questions": [
+    "How does book-building work when a company sets the price for an initial public offering?",
+    "Why do stock exchanges require a minimum share of a listed company to be held by the public, and what happens when that float is very small?",
+    "What did India change in its minimum public offer rules for very large IPOs, and why?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "simplify",
+   "topic": "AI Build",
+   "title": "The client brief that writes itself",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "Forms plus one prompt"
+    },
+    {
+     "n": "45 min",
+     "t": "One-time setup"
+    },
+    {
+     "n": "€0",
+     "t": "On free plans"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Every new project starts the same way: a voice note, three emails and a WhatsApp thread, and then you write the brief yourself. Flip it round. Send clients one short, pretty form (property, buyer, mood, must-haves, deadline, budget range). Claude reads their answers and returns a clean one-page brief in your format, plus a list of what's still missing. <mark>You stop writing briefs from scratch and start editing them.</mark>",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> In Claude, create a Project called “Briefs” (Projects are available on the free plan, up to five). Paste your ideal brief layout into the Project instructions and add: “Turn whatever I paste into this brief. Flag missing info as questions I can send back to the client.” Then just paste in the client's email or voice-note transcript.",
+    "<b>Automated:</b> Build the questionnaire in Tally, which is free with unlimited forms and submissions under fair use. Use its free Notion integration so every answer lands as a row in a “Briefs” database. Once a week, paste the new rows into your Claude Project. If your Claude plan shows a Notion connector, ask Claude to read the database directly instead.",
+    "<b>Next level:</b> Make it fully hands-off with Zapier: Tally (new submission) → AI by Zapier (writes the brief from your template) → Google Docs → an email to you. Zapier's free plan only allows two-step Zaps, so this one needs a paid plan or the 14-day trial. Test it there before you commit."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Not on its own: the form and prompt are easy to copy. It works better as a small premium on your onboarding, since clients get a polished intake in your branding and you look organised from the first click. You could also set it up for estate agencies that brief photographers and designers every week, but you'd be selling the setup and the template, not the AI."
+   },
+   "questions": [
+    "What 10 questions should a luxury real-estate branding client answer before a project starts, so a designer can write a complete one-page brief?",
+    "Write Claude Project instructions that turn a messy client email or voice-note transcript into a one-page creative brief and list any missing information as polite follow-up questions.",
+    "How do I design a short client intake form that feels premium and on-brand rather than like a bureaucratic questionnaire?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Two weeks with a 'dumb' smartphone",
+   "paragraphs": [
+    "Here's an experiment you could run on yourself. In a randomised trial published in <i>PNAS Nexus</i> in 2025, 467 adults agreed to install an app that blocked all internet on their phones for two weeks. Calls and texts still worked, so the phone became a basic 'dumbphone' rather than disappearing. One group blocked straight away; the other carried on as normal for two weeks as a comparison, then took its turn. 91% of participants improved on at least one of three measures: mental health, well-being, or a computer test of sustained attention. <mark>The attention gain was roughly the same as undoing ten years of normal age-related decline.</mark> 71% reported better mental health after the break than before it.",
+    "The catch: real life was messy. Only 57% actually installed the blocker, and only about a quarter stayed offline for the full two weeks. Mood was self-reported, and nobody could be 'blinded' to whether their own phone worked. The likely reason it helped is how people spent the time they got back: more time with people in person, more exercise, more time outdoors. Treat it as a strong nudge, not proof that phones are poison."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "This is one of the few studies that tested cause and effect, not just correlation, and the change costs nothing and is easy to undo. A two-week trial of a blocked or 'offline' phone is a low-stakes way to see whether your focus or mood shifts. Not medical advice, and no substitute for treatment for depression or anxiety."
+   },
+   "sources": [
+    {
+     "text": "Castelo et al., PNAS Nexus (2025)",
+     "url": "https://doi.org/10.1093/pnasnexus/pgaf017"
+    },
+    {
+     "text": "UT Austin McCombs: Take a vacation from your smartphone",
+     "url": "https://news.mccombs.utexas.edu/research/to-be-happier-take-a-vacation-from-your-smartphone/"
+    },
+    {
+     "text": "NPR: A break from your smartphone can reboot your mood",
+     "url": "https://www.npr.org/2025/02/24/nx-s1-5304417/smartphone-break-digital-detox-screen-addiction"
+    }
+   ],
+   "questions": [
+    "What did the 2025 PNAS Nexus randomised trial that blocked mobile internet on smartphones for two weeks find about attention and mental health?",
+    "How do researchers measure 'sustained attention' in experiments, and what does it mean to say an improvement equals ten years of age-related decline?",
+    "What are practical ways to cut smartphone internet use for a couple of weeks while keeping calls and texts working?"
+   ]
+  },
+  {
+   "label": "Art & History",
+   "kind": "explained",
+   "topic": "Art",
+   "title": "Mondrian's grid: the rules behind red, yellow, blue",
+   "paragraphs": [
+    "In 1917, in the Netherlands, the painter and critic <b>Theo van Doesburg</b> started a magazine called <i>De Stijl</i> (\"The Style\"). <b>Piet Mondrian</b> was one of its early contributors. The group made paintings, furniture and buildings, and it had a house style with strict rules. Mondrian called the method <i>Nieuwe Beelding</i>, usually translated as <b>Neoplasticism</b>.",
+    "The rules were short. Use only the three primary colours: red, yellow and blue. Add the \"non-colours\": black, white and grey. Use only straight lines, horizontal and vertical. Mondrian had joined the Theosophical Society in 1909, and he saw the grid as more than decoration. Take away the personal and the accidental, he believed, and you are left with <mark>a universal harmony that anyone, anywhere, could feel</mark>.",
+    "Then came the row. In the mid-1920s van Doesburg tilted his lines to diagonals and called the idea Elementarism. To Mondrian that broke the balance, and he left the group. By then the style had already moved into objects. Gerrit Rietveld's Red Blue Chair was designed in 1918 and painted in primary colours around 1923. In 1965 Yves Saint Laurent showed his Mondrian dresses, one of fashion's best-known tributes to an artist."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "De Stijl showed that a few strict rules can make a look anyone recognises at a glance. That is the same goal behind a good brand system."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "MoMA: de Stijl",
+     "url": "https://www.moma.org/collection/terms/de-stijl"
+    },
+    {
+     "text": "MoMA: Rietveld, Red Blue Chair",
+     "url": "https://www.moma.org/collection/works/4044"
+    },
+    {
+     "text": "Musée Yves Saint Laurent Paris: The Mondrian revolution",
+     "url": "https://museeyslparis.com/en/stories/la-revolution-mondrian"
+    }
+   ],
+   "questions": [
+    "How did Theosophy shape Piet Mondrian's move from landscapes to pure abstraction?",
+    "What was Theo van Doesburg's Elementarism, and how did it differ from Mondrian's Neoplasticism?",
+    "Which later designers and brands borrowed the De Stijl grid and primary colours, and how did they adapt it?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Are you more bacteria than human? Roughly a tie",
+   "paragraphs": [
+    "You may have heard that bacteria outnumber your own cells ten to one. It is a great line. It is also wrong: it came from a rough guess made in the 1970s that kept being repeated. In 2016 three researchers at Israel's Weizmann Institute, <b>Ron Sender, Shai Fuchs and Ron Milo</b>, did the sums again carefully for a textbook \"reference man\": 20 to 30 years old, 70 kg, 170 cm tall.",
+    "Their result: about <b>30 trillion human cells</b> and about <b>38 trillion bacteria</b>. That is <mark>roughly 1.3 bacteria for every human cell, close to a draw</mark>. Almost all the bacteria live in the colon, and together they weigh only about 200 grams, because bacteria are tiny.",
+    "The human side holds a surprise too. About 84% of your cells, around 25 trillion, are red blood cells. And a typical trip to the bathroom removes about a quarter to a third of the colon's contents, so for a while afterwards human cells can be ahead. The authors' own verdict: we are not vastly outnumbered."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A catchy number can circulate for decades without anyone checking it. Recounting showed we are partners with our microbes, not hosts outnumbered ten to one."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Sender, Fuchs & Milo, PLOS Biology (2016)",
+     "url": "https://doi.org/10.1371/journal.pbio.1002533"
+    },
+    {
+     "text": "Weizmann Institute: Germs, humans and numbers",
+     "url": "https://wis-wander.weizmann.ac.il/node/7871"
+    },
+    {
+     "text": "Nature News: Myth of more bacteria than human cells busted",
+     "url": "https://bioedonline.org/news/nature-news-archive/scientists-bust-myth-that-our-bodies-have-more-bacteria-than-human-cells/"
+    }
+   ],
+   "questions": [
+    "Where did the old claim that bacteria outnumber human cells ten to one come from, and why did it last so long?",
+    "Why do red blood cells make up such a large share of the body's cells by count but a small share by mass?",
+    "What do the trillions of bacteria in the human colon actually do for digestion and health?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Cognitive dissonance: the $1 lie that sticks",
+   "paragraphs": [
+    "In 1957 Leon Festinger gave a name to a familiar itch. We feel it when two beliefs clash, or when we act against what we believe. His theory says we want that tension gone, and the easy fix is often not changing what we do but changing the story. A year earlier he, Henry Riecken and Stanley Schachter had published <i>When Prophecy Fails</i>, about a small group near Chicago whose leader predicted a great flood for 21 December 1954, with flying saucers rescuing the faithful. No flood came, and no saucers. Some core members did not give up; they started seeking press coverage and new recruits.",
+    "Then came the famous lab test (Festinger & Carlsmith, 1959). Students spent an hour on dull tasks, turning pegs and filling trays with spools. They were then paid $1 or $20 to tell the next student it had been fun. Asked later, the $1 group rated the tasks as more enjoyable. <mark>Twenty dollars is a good reason to fib; one dollar isn't, so the mind decides you must have liked it.</mark>",
+    "The theory has taken knocks. Daryl Bem (1967) argued that we simply read our attitudes off our own behaviour, with no tension needed. Joel Cooper and Russell Fazio (1984) argued that dissonance bites mainly when we feel responsible for an unwanted result. And a 2024 replication across 39 labs found no clear effect in one classic version of the experiment. The useful takeaway survives: when you hear yourself defending a choice extra hard, ask what you'd tell a friend who had made it."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Once we've paid for something in money, effort or pride, we tend to fall in love with it. Knowing that helps you separate how good something is from how much it cost you."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Festinger & Carlsmith (1959), via Classics in the History of Psychology",
+     "url": "https://psychclassics.yorku.ca/Festinger/index.htm"
+    },
+    {
+     "text": "Vaidis et al., Advances in Methods and Practices in Psychological Science (2024)",
+     "url": "https://doi.org/10.1177/25152459231213375"
+    }
+   ],
+   "questions": [
+    "Why did participants paid $1 in Festinger and Carlsmith's 1959 experiment rate a boring task as more enjoyable than those paid $20?",
+    "How does Daryl Bem's self-perception theory explain the same results as cognitive dissonance theory without assuming any inner tension?",
+    "What did the 2024 multilab replication of the induced-compliance paradigm find, and what does it mean for cognitive dissonance theory?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "The heart has its reasons, which reason does not know. We feel it in a thousand things.",
+   "cite": "Blaise Pascal, Pensées, §277 (Brunschvicg; Lafuma 423) · publ. 1670 · trans. W. F. Trotter",
+   "paragraphs": [
+    "Pascal was a mathematician who built one of the first calculating machines, so he is an odd person to doubt logic. He doesn't mean that feelings beat thinking. He means that some of what we know comes from conviction and intuition, not from proof, and that reason often arrives later to tidy up. Read next to Festinger, it doubles as a warning: <mark>sometimes the heart decides and reason just writes the press release.</mark> Worth knowing which of the two is speaking when you explain your own choices."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Pascal, Pensées, trans. W. F. Trotter (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/ebooks/18269"
+    }
+   ],
+   "questions": [
+    "What did Blaise Pascal mean by 'the heart' in his Pensées, and how is it different from emotion?",
+    "Why are fragments of Pascal's Pensées numbered differently in the Brunschvicg and Lafuma editions?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "logic · medium",
+   "topic": "Puzzle",
+   "previous_answer": "a <b>ton</b>. Read it backwards and you get <i>not</i>.",
+   "puzzle": "You face two doors: one leads to freedom, the other to a dungeon. Each door has a guard. One guard always tells the truth, the other always lies, and you don't know which is which. You may ask one question to one guard. What do you ask to be sure of finding freedom?",
+   "hint": "Hint: make both guards give you the same answer. Answer in Tuesday's Doppio.",
+   "questions": [
+    "Give me a hint for the two doors, two guards, one liar puzzle, without the answer",
+    "Give me another logic puzzle about truth-tellers and liars"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "The oldest wooden wheel with an axle ever found isn't from Mesopotamia. It came out of the Ljubljana Marshes in 2002, and radiocarbon dating puts it at more than 5,100 years old.",
+   "cite": "Guinness World Records, Oldest wheel · City Museum of Ljubljana",
+   "questions": [
+    "Where and when was the Ljubljana Marshes Wheel discovered, and how old is it?",
+    "Where did the wheel first appear, and what are the oldest wheels found so far?"
+   ]
+  },
+  {
+   "label": "Book of the week",
+   "kind": "Fridays",
+   "topic": "Book",
+   "title": "<i>The Periodic Table</i>, by Primo Levi",
+   "paragraphs": [
+    "Primo Levi was a chemist from Turin and a survivor of Auschwitz. In 1975 he published <i>Il sistema periodico</i>, translated into English by Raymond Rosenthal in 1984. It has 21 chapters, each named after an element, from Argon to Carbon. Some are memoir, some are short stories, and one is a lyrical biography of a single carbon atom. There is wit, tenderness and the quiet pleasure of a craft done well. <mark>In 2006 the Royal Institution named it the best science book ever written</mark>, high praise for a book that is really about people."
+   ],
+   "why": {
+    "head": "Read it if",
+    "text": "you like books that are short, exact and humane, and want to see a scientist write about matter the way a jeweller talks about stones."
+   },
+   "questions": [
+    "How is Primo Levi's The Periodic Table structured, and why did he name each chapter after an element?",
+    "What happens in the final chapter, 'Carbon', of Primo Levi's The Periodic Table?",
+    "Why did the Royal Institution choose Primo Levi's The Periodic Table as the best science book ever in 2006?"
+   ]
+  }
+ ]
+}
