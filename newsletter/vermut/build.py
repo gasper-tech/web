@@ -14,13 +14,32 @@ from html import escape
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 import build as doppio  # noqa: E402
-from build import (GROUND, INK_FAINT, MONO, NIGHT, NIGHT_INK, NIGHT_SOFT,  # noqa: E402
-                   SANS, mono, section, tiles)
+from build import (GROUND, INK, INK_FAINT, LINE, MONO, NIGHT, NIGHT_INK,  # noqa: E402
+                   NIGHT_SOFT, SANS, SURFACE2, card, dig, mono, rich, section,
+                   tiles)
 
 NAME = "Vermut"
 HERO = "#b48a6c"   # warm terracotta, flat, white text
 LINE_CARD = "#a9bdd6"  # Doppio's sky, used here for "In one line"
 doppio.NAME = NAME  # dig-deeper links say "From my newsletter Vermut"
+
+
+def blog(b):
+    """A blog-post idea for Gasper's website, shown under the story's sources."""
+    return card(mono("Blog post idea", INK_FAINT, "0 0 8px")
+                + f'<div style="font:500 18px/1.3 {SANS};letter-spacing:-.015em;color:{INK};margin:0 0 6px;">{escape(b["title"])}</div>'
+                + f'<div style="font:400 14px/1.55 {SANS};color:{INK};">{rich(b["angle"])}</div>',
+                SURFACE2, 24, "18px 20px", "0 0 16px", LINE)
+
+
+def story(s):
+    """Doppio's section card, with the blog idea placed between sources and Dig deeper."""
+    if not s.get("blog"):
+        return section(s)
+    qs = s.get("questions", [])
+    html = section({**s, "questions": []})
+    end = "</td></tr></table></td></tr>"
+    return html[:-len(end)] + blog(s["blog"]) + dig(s.get("topic", s["label"]), qs) + end
 
 
 def build(issue):
@@ -52,7 +71,7 @@ def build(issue):
 <div style="font:500 24px/1.15 {SANS};letter-spacing:-.025em;color:{NIGHT_INK};margin:0 0 12px;"><span style="color:{NIGHT_SOFT};">Salud.</span><br>See you next Friday.</div>
 <p style="font:400 14px/1.6 {SANS};color:{NIGHT_SOFT};margin:0;">{escape(issue.get("footer", ""))} Tap any question under a story to go deeper with Claude.</p>
 </td></tr></table></td></tr>'''
-    body = "".join(section(s) for s in secs)
+    body = "".join(story(s) for s in secs)
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light">
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet"></head>
 <body style="margin:0;padding:0;background:{GROUND};">

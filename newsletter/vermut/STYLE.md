@@ -20,7 +20,10 @@ Build: `python3 newsletter/vermut/build.py newsletter/vermut/issues/NN-YYYY-MM-D
 - **one_line:** the week in one sentence.
 - Each story: `label` (short topic), `kind`, `title`, 2 short paragraphs, one `<mark>` on the key
   sentence, optional `figs` (3 stat tiles), a `why` box headed "What it means here" (the local,
-  practical angle: prices, access, buyers, rentals), 2–3 linked sources, 2 standalone Dig-deeper questions.
+  practical angle: prices, access, buyers, rentals), 2–3 linked sources, 2 standalone Dig-deeper questions,
+  and a `blog` idea `{title, angle}` (since #02): a post Gasper could expand for his website. Title is
+  the post's working headline; angle is 1–2 sentences on what the post covers, written to stay useful
+  after the news fades (guides, explainers, evergreen pages to refresh).
 - Length ~7 minutes. Plain English, light, no sales tone.
 
 ## Research standard
