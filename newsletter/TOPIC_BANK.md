@@ -47,7 +47,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 
 ## Psychology and people
 - [ ] Construal level theory
-- [ ] Heuristics
+- [x] Heuristics (#06)
 - [ ] Implicit bias
 - [ ] Liminal space
 - [x] Loss aversion (#02)
@@ -91,7 +91,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Geometric abstraction
 - [ ] Tensegrity sculpture
 - [ ] Religious cults in old societies / how cults work
-- [ ] Ancient Egypt
+- [x] Ancient Egypt (#06)
 - [ ] Lost civilisations †
 - [x] Famous shipwrecks (#04)
 - [ ] Unsolved mysteries
