@@ -74,7 +74,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 ## Science and the universe
 - [x] Lorentz factor (time dilation, simply) (#02)
 - [ ] Dark matter
-- [ ] Black holes
+- [x] Black holes (#07)
 - [ ] Parallel universes †
 - [ ] Fractal / holographic universe theories †
 - [ ] Terminal lucidity
@@ -84,7 +84,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 
 ## History, art and mysteries
 - [x] The Library of Alexandria (#02)
-- [ ] The life of Oscar Wilde
+- [x] The life of Oscar Wilde (#07)
 - [x] Female Renaissance artists (#03)
 - [ ] How art affects war / artists in wartime
 - [x] Neoplasticism (Mondrian) (#05)

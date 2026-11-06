@@ -1,0 +1,309 @@
+{
+ "number": 7,
+ "date_label": "Friday 6 Nov",
+ "read_min": 10,
+ "subject_hook": "What if Earth were a marble?",
+ "preheader": "Plus: America's split screen, Britain's rate rise, and why cutting sugar won't fix a sweet tooth.",
+ "first_sip": "The weekend is coming. Make Friday earn it.",
+ "footer": "Built from news up to 6 November 2026. Figures come from the linked sources and are rounded. Next Doppio: Tuesday 10 November, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "Britain raises rates to fight an oil shock",
+   "paragraphs": [
+    "On Thursday the Bank of England raised its main interest rate from 3.75% to 4%, its first rise since 2023. Eight of its nine rate-setters voted for it, and the ninth wanted a bigger half-point jump. The trigger is the Iran war. Dearer energy pushed UK inflation up to 3.5% in September, and the Bank now expects it to climb close to 5%. Governor Andrew Bailey said there is now \"enough inflationary pressure in the pipeline\" to justify the move.",
+    "<b>How a supply-shock hike works:</b> <mark>A rate rise cannot push more oil through the Strait of Hormuz, but it can stop a one-off price jump from turning into a habit.</mark> Economists call the danger \"second-round effects\": workers ask for higher pay to cover their bills, firms raise prices to cover the wages, and the loop keeps going. Dearer borrowing cools spending just enough to break it. The cost shows up quickly: people on tracker mortgages, whose rate follows the Bank's, pay more almost at once. Bailey also warned that only real progress towards ending the Middle East conflict would rule out another rise."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A year ago everyone was talking about rate cuts. Now a major central bank is raising rates again because of an energy shock that Europe feels too. If oil stays high, expect other central banks to have the same debate, and expect it to show up in loan and mortgage rates."
+   },
+   "sources": [
+    {
+     "text": "Bank of England: November 2026 Monetary Policy Summary",
+     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+    },
+    {
+     "text": "CNBC: Bank of England hikes rates",
+     "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+    },
+    {
+     "text": "Reuters via Investing.com: BoE raises rates for first time since 2023",
+     "url": "https://za.investing.com/news/economy-news/bank-of-england-raises-rates-for-first-time-since-2023-warns-more-likely-4555606"
+    }
+   ],
+   "questions": [
+    "Why do central banks sometimes raise interest rates during an energy price shock, even though higher rates cannot lower oil prices?",
+    "What are 'second-round effects' in inflation, and how did they play out in the 1970s compared with 2022?",
+    "How quickly does a change in a central bank's policy rate reach tracker, variable and fixed-rate mortgages?"
+   ]
+  },
+  {
+   "label": "World",
+   "kind": "this week",
+   "topic": "World",
+   "title": "America votes for a split screen",
+   "paragraphs": [
+    "On 3 November, halfway through Donald Trump's second term, American voters gave Democrats both chambers of Congress. Projections put them well past the 218 seats needed to control the House. In the Senate, where Republicans went in holding 53 of 100 seats, Democrats flipped at least seven. A few close races, including Mississippi, were still being counted at the time of writing. The new Congress sits on 3 January.",
+    "<b>How divided government works:</b> A bill becomes law only if it passes both chambers and the president signs it. Trump can veto anything he dislikes, and overriding a veto takes two-thirds of both chambers, which Democrats are nowhere near. So expect <mark>more stand-offs than new laws</mark>. The real shift is in who gets to say no, and who gets to ask questions. The House majority elects the Speaker, sets the agenda and runs the committees, which can issue subpoenas. The Senate majority decides which of the president's nominees, judges included, get confirmed, by simple majority. Most ordinary bills still need 60 Senate votes to get past a filibuster."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "For the next two years, Trump's legislative agenda depends on a Congress run by his opponents. Presidents in that position tend to lean harder on the powers they hold alone, like executive orders, trade measures and foreign policy, and Europe feels all three."
+   },
+   "sources": [
+    {
+     "text": "NBC News: Democrats capture full control of Congress",
+     "url": "https://www.nbcnews.com/politics/2026-election/democrats-capture-full-control-congress-nbc-news-projects-fueled-victo-rcna605763"
+    },
+    {
+     "text": "CBS News: Democrats win majority in the Senate",
+     "url": "https://www.cbsnews.com/news/senate-control-democrats-republicans-2026-midterm-elections/"
+    },
+    {
+     "text": "Cornell LII: Cloture",
+     "url": "https://www.law.cornell.edu/wex/cloture"
+    }
+   ],
+   "questions": [
+    "How does a US president's veto work, and how often has Congress overridden one?",
+    "What powers does the Speaker of the US House of Representatives have over which bills get a vote?",
+    "Why do most bills in the US Senate need 60 votes, and which votes are exempt from the filibuster?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "learn this weekend",
+   "topic": "AI Build",
+   "title": "A research notebook that only quotes your sources",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "Free Google account"
+    },
+    {
+     "n": "1–2 hours",
+     "t": "One weekend sitting"
+    },
+    {
+     "n": "€0",
+     "t": "On the free plan"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Google's NotebookLM was renamed <i>Gemini Notebook</i> in July, and it's the best research tool most people still haven't tried properly. You load it with your own material, like area guides, developer brochures, competitor sites and YouTube walkthroughs, and then ask it questions. <mark>Its answers come only from the sources you gave it, with citations you can click to check.</mark> That makes it a sharp research assistant for positioning work.",
+    "<b>How to learn it:</b>"
+   ],
+   "bullets": [
+    "<b>Start:</b> Open Gemini Notebook (the old notebooklm.google address still redirects there) and create one notebook for a single project, such as one development or one neighbourhood. Add 5–10 sources: PDFs, Google Docs, web links and public YouTube videos. Ask: \"What do these sources say makes this area different? Cite each point.\" Click the citations to see where every answer comes from.",
+    "<b>Next:</b> Try two outputs. A <i>mind map</i> shows the main themes as a branching diagram, a good starting point for messaging pillars. An <i>Audio Overview</i> turns your sources into a podcast-style conversation you can listen to on a walk. Then ask it what's missing or contradictory across the brochures; that's often where the positioning angle is hiding.",
+    "<b>Level up:</b> Make a standing \"Marbella market\" notebook and keep feeding it: competitor landing pages, press articles, your own past briefs (keep anything confidential out until you've read Google's privacy terms). Before each pitch, ask it for three positioning territories no competitor in the notebook already owns. Know the limits: from a web link it imports only the page text, and from YouTube only the captions."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Not as a product: anyone can open a free notebook. What you could sell is the output, a tidy, sourced market and competitor positioning pack for a developer or agency, delivered faster and with better evidence than before. A way to research quicker and more defensibly, not a new revenue line."
+   },
+   "questions": [
+    "What 10 types of sources should a brand designer load into a Gemini Notebook to research a new luxury residential development's market and competitors, and what should they ask first?",
+    "Write five prompts for a source-grounded AI research tool that find gaps, contradictions and unclaimed positioning angles across a set of competitor property brochures.",
+    "How can I turn a mind map of research themes into three distinct brand positioning territories for a luxury villa development, with a one-line promise for each?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Cutting sugar won't retrain your sweet tooth",
+   "paragraphs": [
+    "We're often told that eating less sweet food will slowly dull our craving for it. The <b>Sweet Tooth trial</b> put this to the test. It was a randomised controlled trial run by Wageningen University in the Netherlands and Bournemouth University in the UK. Researchers split 180 healthy Dutch adults into three groups for six months: a low-sweetness diet, a regular one and a high-sweetness one, with about half their food supplied. At the end, <mark>how much people liked sweet tastes hadn't changed in any group</mark>. Their food choices, energy intake, body weight and markers of heart and diabetes risk didn't shift meaningfully either. Once the trial ended, people drifted back to their old habits.",
+    "There are limits. Six months is fairly short, and the volunteers were healthy adults, so it tells us nothing about children, whose tastes may still be forming. Food and sweetener companies helped fund the work, and critics such as nutrition professor Marion Nestle argue the results don't make sugar any less of a problem: its calories still count, even if your taste buds don't adapt."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "If you cut back on sugar, do it for the calories and nutrition, not in the hope that the craving fades. Habits that don't rely on willpower, like keeping sweets out of easy reach, are more likely to last. One trial adjusts expectations; it isn't permission to eat more sugar."
+   },
+   "sources": [
+    {
+     "text": "Čad, Appleton, de Graaf et al., Am J Clin Nutr (2026)",
+     "url": "https://ajcn.nutrition.org/article/S0002-9165(25)00592-1/fulltext"
+    },
+    {
+     "text": "Bournemouth University release via ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/08/260807235103.htm"
+    },
+    {
+     "text": "Marion Nestle, Food Politics: funding critique",
+     "url": "https://www.foodpolitics.com/2026/03/industry-funded-study-of-the-week-the-sweet-tooth-trial/"
+    }
+   ],
+   "questions": [
+    "Can adults really train their taste buds to like less sugar, or is a 'sweet tooth' mostly fixed?",
+    "What did the Sweet Tooth randomised trial on dietary sweetness and sweet taste liking find, and what are its main limitations?",
+    "How should industry funding affect how much I trust a nutrition study's conclusions?"
+   ]
+  },
+  {
+   "label": "Art & History",
+   "kind": "explained",
+   "topic": "Art",
+   "title": "Oscar Wilde: the brand, the peak, the fall",
+   "paragraphs": [
+    "In January 1882, Oscar Wilde began lecturing in New York, and he had something to sell: beauty. Brought over by the producer Richard D'Oyly Carte, he toured the United States and Canada for most of that year, talking about art and the decorative arts. He dressed the part and posed for studio portraits by Napoleon Sarony. The press mocked him and the crowds came anyway. He was building a personal brand before anyone had a word for it.",
+    "The peak came on 14 February 1895, when <i>The Importance of Being Earnest</i> opened at the St James's Theatre in London. In Act I, Algernon says it best: \"The truth is rarely pure and never simple.\" Within weeks Wilde's own truth got complicated. The Marquess of Queensberry, father of Wilde's lover Lord Alfred Douglas, left a card at Wilde's club accusing him of sodomy. Wilde sued him for criminal libel. <mark>The case collapsed, and what came out in court led to Wilde's own prosecution.</mark>",
+    "In May 1895 he was convicted of gross indecency and sentenced to two years' hard labour. After his release in May 1897 he went to France and never returned to England. He died at the Hôtel d'Alsace in Paris on 30 November 1900, aged 46. In 2017 he was among the men pardoned after death under the UK's so-called <b>Alan Turing law</b>."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Wilde turned a personality into a product decades before branding had a name. His fall shows how quickly a public image can be turned against the person who built it."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "The National Archives: The life and trials of Oscar Wilde",
+     "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-topic/identity-and-community/the-life-and-court-trials-of-oscar-wilde/"
+    },
+    {
+     "text": "Britannica: Oscar Wilde",
+     "url": "https://www.britannica.com/biography/Oscar-Wilde"
+    },
+    {
+     "text": "V&A: Oscar Wilde in three plays",
+     "url": "https://www.vam.ac.uk/blog/news/a-history-of-oscar-wilde-in-three-plays"
+    }
+   ],
+   "questions": [
+    "How did Oscar Wilde's 1882 lecture tour of America shape his public image?",
+    "Why did Oscar Wilde's 1895 libel case against the Marquess of Queensberry backfire on him?",
+    "What was the UK's 2017 'Alan Turing law', and who did it pardon?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Black holes: the edge where light gives up",
+   "paragraphs": [
+    "A black hole is gravity with nothing to stop it: so much mass in so little space that, past a certain point, even light cannot escape. That point is the <b>event horizon</b>. It isn't a surface you could touch. It's an invisible sphere where the speed you would need to escape equals the speed of light. Cross it and there is no way back out.",
+    "Here's the surprising part: in principle, any mass becomes a black hole if you squeeze it hard enough. <mark>Squash the whole Earth into a ball about 9 millimetres in radius, roughly marble-sized, and it would become a black hole.</mark> Nothing in nature can do that to a planet, but the maths holds.",
+    "For decades the evidence was indirect. Then, on 10 April 2019, the <b>Event Horizon Telescope</b>, a network of radio telescopes around the planet working as one, published the first image of a black hole: M87*, about 6.5 billion Suns, some 55 million light-years away. On 12 May 2022 it was our own galaxy's turn: Sagittarius A*, about 4 million Suns, roughly 27,000 light-years away. Both appear as a glowing ring around a dark centre, the black hole's shadow."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Black holes are where Einstein's gravity is pushed to its limit, and these images let us test it directly. They turned a century-old idea into something we have actually seen."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "NASA Imagine the Universe: Black holes",
+     "url": "https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html"
+    },
+    {
+     "text": "NASA JPL: Black hole image makes history",
+     "url": "https://www.jpl.nasa.gov/news/black-hole-image-makes-history/"
+    },
+    {
+     "text": "NASA JPL: The Milky Way's black hole",
+     "url": "https://www.jpl.nasa.gov/edu/resources/teachable-moment/telescopes-get-extraordinary-view-of-milky-ways-black-hole/"
+    }
+   ],
+   "questions": [
+    "What exactly is a black hole's event horizon, and what happens if something crosses it?",
+    "How did the Event Horizon Telescope take the first picture of a black hole?",
+    "What is the Schwarzschild radius, and how small would Earth have to be squeezed to become a black hole?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Chesterton's fence: ask why before you tear it down",
+   "paragraphs": [
+    "In 1929 G. K. Chesterton imagined a fence, or a gate, standing across a road. A brisk modern reformer walks up and says he can't see the use of it, so let's clear it away. The wiser reformer replies: \"If you don't see the use of it, I certainly won't let you clear it away. Go away and think.\" Come back when you know why it was put there; then we can talk. The scene comes from <i>The Thing</i>, in the essay \"The Drift from Domesticity\".",
+    "Brands are full of fences. The boutique that never discounts. The box that takes three seconds too long to open. The founder who insisted on one tannery and nobody else. A new manager sees cost and friction. The fence may be quietly holding up the price, or the story, or a supplier relationship you will badly need one day. <mark>Before you remove a rule, find out what job it was hired to do.</mark> Often one coffee with the longest-serving person in the atelier is enough.",
+    "Chesterton never said fences are sacred. Plenty are useless, built for a problem that died years ago. Finding out also costs something, and sometimes nobody remembers. Then a cheap experiment beats a long archaeology project: take the fence down in one shop, for one season, and watch. A fair rule of thumb: the harder a change is to undo, the more homework it deserves."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Many costly brand mistakes are not bold new ideas. They are quiet removals of things whose purpose nobody stopped to ask about."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Rory Sutherland, The Spectator: Watch out for Chesterton's fences",
+     "url": "https://spectator.co.uk/article/watch-out-for-chesterton-s-fences"
+    },
+    {
+     "text": "Futility Closet: Chesterton's fence",
+     "url": "https://futilitycloset.com/2025/01/18/chestertons-fence"
+    }
+   ],
+   "questions": [
+    "What is Chesterton's fence, and in which book and essay did G. K. Chesterton first describe it?",
+    "How can companies apply the Chesterton's fence principle when cutting costs or simplifying a brand?",
+    "When is it reasonable to ignore Chesterton's fence and remove an old rule without knowing why it exists?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "But all things excellent are as difficult as they are rare.",
+   "cite": "Baruch Spinoza, Ethics, Part V, Prop. 42, Scholium · 1677 · trans. R. H. M. Elwes",
+   "paragraphs": [
+    "This is the very last line of Spinoza's <i>Ethics</i>, published in 1677, months after his death. He meant the free, untroubled mind, not handbags. Still, the order of his sentence is worth noticing: things are rare because they are hard, not the other way round. <mark>Rarity you have to stage is not the same as rarity that comes from difficulty.</mark> A waiting list can copy the second half of the sentence; only skill and time earn the first. Spinoza knew this from his own work: he ground optical lenses for a living, a slow and exacting craft."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Spinoza, Ethics, Elwes translation (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm"
+    }
+   ],
+   "questions": [
+    "What does Spinoza mean by the final line of his Ethics, 'all things excellent are as difficult as they are rare'?",
+    "How did Spinoza earn his living, and how did that work connect to the science of his day?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "math · medium",
+   "topic": "Puzzle",
+   "previous_answer": "he's playing <b>Monopoly</b>. His little car token landed on a property with a hotel, and he can't pay the rent.",
+   "puzzle": "If 5 machines make 5 widgets in 5 minutes, how long would 100 machines take to make 100 widgets?",
+   "hint": "Hint: work out how long one machine takes to make one widget. Answer in Tuesday's Doppio.",
+   "questions": [
+    "Give me a hint for the '5 machines, 5 widgets, 5 minutes' puzzle, without the answer",
+    "Give me another quick maths puzzle where the intuitive answer is wrong"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "The fortune cookie, the classic end to a Chinese meal in America, most likely began in Japan: bakeries near Kyoto made fortune-stuffed crackers called <i>tsujiura senbei</i>, and an 1878 woodblock print shows a baker making them.",
+   "cite": "Jennifer 8. Lee, The New York Times (2008) · Smithsonian Magazine",
+   "questions": [
+    "Where did fortune cookies originally come from, and how did they become linked to Chinese restaurants in the United States?",
+    "What are tsujiura senbei, and how do they differ from American fortune cookies?"
+   ]
+  },
+  {
+   "label": "Book of the week",
+   "kind": "Fridays",
+   "topic": "Book",
+   "title": "<i>The Hare with Amber Eyes</i>, by Edmund de Waal",
+   "paragraphs": [
+    "Edmund de Waal, a potter, inherits 264 netsuke, tiny Japanese carvings in wood and ivory, none bigger than a matchbox, and sets out to learn who touched them before him. The trail runs through his family, the Ephrussis, a Jewish banking dynasty: from Odessa to belle-époque Paris, where cousin Charles helped inspire Proust's Swann, to Vienna, plundered by the Nazis, and on to post-war Tokyo. A maid saved the netsuke by hiding them in her mattress. <mark>It is a history of Europe told through things small enough to hold in your palm.</mark> Published 2010; the prose is careful and tactile, like a potter's hand."
+   ],
+   "why": {
+    "head": "Read it if",
+    "text": "you've ever wondered why some objects feel loaded with meaning, and what an heirloom really carries besides its price."
+   },
+   "questions": [
+    "What is The Hare with Amber Eyes by Edmund de Waal about, and what happened to the Ephrussi family's netsuke collection?",
+    "Who was Charles Ephrussi, and what is his connection to Marcel Proust's character Swann?",
+    "What are netsuke, and what were they originally used for in Japan?"
+   ]
+  }
+ ]
+}
