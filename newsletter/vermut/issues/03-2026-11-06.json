@@ -1,0 +1,192 @@
+{
+ "number": 3,
+ "date_label": "Friday 6 Nov",
+ "read_min": 7,
+ "subject_hook": "A €6m villa, paid in fake notes",
+ "preheader": "Plus: the holiday-let VAT vote, a record for foreign buyers, and the transport minister quits.",
+ "one_line": "Foreign buyers set a record while Madrid argues about rents, rail and who runs the trains.",
+ "footer": "Built from news up to 6 November 2026. Figures come from the linked sources and are rounded. Next Vermut: Friday 13 November, 17:00.",
+ "sections": [
+  {
+   "label": "Tax",
+   "kind": "holiday lets",
+   "topic": "Spain housing decrees vote 12 November",
+   "title": "Next Thursday decides the 10% holiday-let VAT",
+   "paragraphs": [
+    "The housing decree that brings in <b>10% VAT on tourist flats</b> (Real Decreto-ley 29/2026) has been in force since 8 October, but the VAT only starts on 1 December if parliament confirms the decree. With the Cortes dissolved for the 29 November election, the vote falls to the Diputación Permanente, the small standing committee, on <b>Thursday 12 November</b>. The legal deadline is the 13th. The same package lets councils add up to 150% to IBI in stressed housing areas and tightens the rules on seasonal lets.",
+    "Reports say the government has the votes for at least one of the two decrees, with PSOE, Sumar, ERC, Bildu, PNV and Podemos behind it. <mark>If the decree is not confirmed, it lapses, and holiday lets stay VAT-free from December.</mark> The vote comes the day after Wednesday's general strike over housing."
+   ],
+   "why": {"head": "What it means here", "text": "For owners who let a second home to tourists, a 10% charge on stays of 30 nights or fewer changes the yield maths from December. Buyers looking at a flat for holiday income should wait for Thursday's result before running numbers."},
+   "sources": [
+    {"text": "Net2Rent: 10% VAT on tourist flats, vote on 12 November", "url": "https://net2rent.com/subida-iva-pisos-turisticos/"},
+    {"text": "Infobae: Congress to debate housing decrees after the strike", "url": "https://www.infobae.com/espana/agencias/2026/10/27/el-congreso-preve-debatir-los-decretos-de-vivienda-el-dia-despues-de-la-huelga-general/"}
+   ],
+   "questions": ["What is the Diputación Permanente in Spain, and what can it vote on while parliament is dissolved?", "How is VAT on short-term holiday lets charged in Spain, and who usually pays it, the guest or the owner?"],
+   "blog": {"title": "Holiday-let VAT in Spain: what owners on the Costa del Sol need to know", "angle": "What the 10% VAT covers, which stays are affected, how it changes net yield on a typical Marbella flat, and what the IBI surcharge could mean. Update it with the vote result and again when the rules settle."}
+  },
+  {
+   "label": "Buyers",
+   "kind": "data",
+   "topic": "Foreign home buyers Spain Q3 2026",
+   "title": "Foreigners buy a record share of Spain's homes",
+   "figs": [
+    {"n": "16.05%", "t": "Foreign share of Spanish home sales, Q3"},
+    {"n": "38.8%", "t": "Foreign share in Málaga province"},
+    {"n": "7.5%", "t": "British buyers, the largest group"}
+   ],
+   "paragraphs": [
+    "The Land Registrars' figures for July to September, out on 5 November, show foreigners bought <b>16.05%</b> of all homes sold in Spain, a record, or just over 26,300 homes. Total sales fell 5.9% on a year ago to 164,148, the third quarter in a row of decline, while foreign purchases rose 11.2%.",
+    "<mark>In Málaga province, 38.8% of buyers were foreign, second only to Alicante at 46.5%.</mark> The British are still the largest group, followed by Moroccans, Dutch and Germans. North Americans paid the most, about €4,469 per m², against €3,221 for EU buyers. The registry's repeat-sales index hit a new high, up 15.8% in a year."
+   ],
+   "why": {"head": "What it means here", "text": "Local buyers are being squeezed out by prices and mortgages, and foreign money is filling the gap. In Málaga province, more than a third of buyers are now from abroad."},
+   "sources": [
+    {"text": "idealista/news: foreigners pass 16% of sales", "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/05/922744-los-extranjeros-siguen-comprando-casas-en-espana-superan-el-16-de-las-transacciones"},
+    {"text": "EjePrime: sales fall 2.3% in Q3, prices up 15.8%", "url": "https://www.ejeprime.com/residencial/las-compraventas-de-vivienda-caen-el-23-en-el-tercer-trimestre-y-los-precios-crecen-el-158"}
+   ],
+   "questions": ["How does the Spanish Land Registry's repeat-sales price index work, and how is it different from asking prices?", "Which nationalities buy the most property in Spain, and how has that changed since Brexit?"],
+   "blog": {"title": "Who is buying on the Costa del Sol? A quarterly look at foreign buyers", "angle": "A recurring page that tracks the registry's foreign-buyer figures for Málaga each quarter: share, top nationalities, prices paid, and what is changing. Easy to refresh four times a year."}
+  },
+  {
+   "label": "Prices",
+   "kind": "by area",
+   "topic": "Marbella asking prices October 2026 by zone",
+   "title": "The Golden Mile cools, San Pedro and Las Chapas climb",
+   "figs": [
+    {"n": "€5,974", "t": "Marbella asking price per m², October"},
+    {"n": "+3.1%", "t": "Change over a year"},
+    {"n": "€8,245", "t": "Nagüeles–Golden Mile per m²"}
+   ],
+   "paragraphs": [
+    "Idealista's October report puts Marbella's average asking price at <b>€5,974 per m²</b>, up just 0.1% on September and 3.1% on a year ago. That is far slower than the national registry index above.",
+    "The split by area is the story. Nagüeles and the Golden Mile, the dearest zone at €8,245, fell 1% in the month and are up only 1% in a year. <mark>The fastest risers are the cheaper areas: Las Chapas–El Rosario up 7.9% in a year, San Pedro up 5.7% and Marbella town up 5.2%.</mark> Río Real–Los Monteros is the only zone down on the year, at −1.7%."
+   ],
+   "why": {"head": "What it means here", "text": "Asking prices at the very top have stopped climbing, while demand moves east and west to areas with more room to grow. It is a useful line for sellers on the Golden Mile who still expect last year's increases."},
+   "sources": [
+    {"text": "idealista: Marbella price report by zone", "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/andalucia/malaga-provincia/marbella/"}
+   ],
+   "questions": ["Why do asking-price indexes and registry sale prices often tell different stories?", "What is driving price growth in Las Chapas and San Pedro de Alcántara compared with the Golden Mile?"],
+   "blog": {"title": "Marbella prices by area: where the market is moving", "angle": "A monthly-refreshed table of asking prices for each Marbella zone, with short notes on what drives each one. Becomes a reference page buyers bookmark."}
+  },
+  {
+   "label": "Marbella",
+   "kind": "budget and taxes",
+   "topic": "Marbella 2027 budget and tax changes",
+   "title": "A €477m budget, frozen taxes and a break for rent-capped homes",
+   "paragraphs": [
+    "Marbella presented its 2027 budget on 5 November: <b>€476.9 million</b>, up 5.8% on this year and 47% since 2023. It includes about €68 million of council investment, €6 million for public housing, €7.4 million for car parks (Plaza de Toros, Nueva Andalucía, an underground one in San Pedro and Albergue África), €6.6 million for an athletics stadium and €6.5 million to keep buses free. The plenary approves it this month, and it should take effect on 1 January.",
+    "The tax changes approved last Friday go with it. The basic IBI rate stays at 0.65%. Developers who build homes for capped rents get <b>75% to 95% off the 4% construction tax (ICIO)</b>, and those homes keep a 50% IBI discount. <mark>The highest IBI rate on leisure and hotel properties drops from 1% to 0.82%, which the council says leaves about €1.1 million with owners.</mark>"
+   ],
+   "why": {"head": "What it means here", "text": "Frozen IBI is good news for owners. The ICIO break is aimed at build-to-rent developers, which could finally bring some rental supply for the staff the town's villas and hotels depend on."},
+   "sources": [
+    {"text": "Marbella Directo: the 2027 budget", "url": "https://marbelladirecto.com/el-presupuesto-de-marbella-para-2027-4769-millones-de-euros-tasas-e-impuestos-congelados/"},
+    {"text": "El Español: Marbella raises its budget by almost 6%", "url": "https://www.elespanol.com/malaga/marbella/20261105/marbella-eleva-presupuesto-municipal-millones-euros/1003744447781_0.html"},
+    {"text": "The Spanish Eye: tax cuts for rent-capped housing", "url": "https://www.thespanisheye.com/2026/11/04/marbella-approves-tax-cuts-to-encourage-rent-capped-housing-developments/"}
+   ],
+   "questions": ["How is IBI calculated in Spain, and what is a property's cadastral value?", "What is the ICIO construction tax and how much does it add to building a home in Spain?"],
+   "blog": {"title": "Property taxes in Marbella: IBI, ICIO and what owners pay each year", "angle": "A plain guide to the local taxes a Marbella owner or developer pays, with the current rates and discounts. Refresh it every autumn when the council sets the next year's rates."}
+  },
+  {
+   "label": "La Zagaleta",
+   "kind": "seller warning",
+   "topic": "Rip deal scam La Zagaleta villa",
+   "title": "A €6m villa, a €2m deposit, and almost all of it fake",
+   "paragraphs": [
+    "Police have arrested three people who tried to scam the Austrian owner of a villa in La Zagaleta valued at about <b>€6 million</b>. Posing as advisers with a buyer, they met him in Marbella hotels and restaurants from September and agreed a first payment of €2 million. At the same time, a relative of his was to hand over €300,000 in gold bars as a \"commission\" at a café in Vienna.",
+    "Two men were arrested with the owner at a Golden Mile hotel and a third in Vienna. Officers seized €2,093,800 in cash, <mark>of which only about €30,000 was real money.</mark> This is the classic \"rip deal\": fake buyers build trust over long lunches, then swap counterfeit cash for real money, gold or jewellery. The owner grew suspicious of the rush and the odd payment terms, and checked with his own country's police."
+   ],
+   "why": {"head": "What it means here", "text": "Prime sellers are the target. Any buyer who wants to pay in cash, rushes the deal or asks the seller for a deposit or commission up front is a red flag. Real purchases go through a notary and a bank."},
+   "sources": [
+    {"text": "El Español: fake notes for a La Zagaleta villa", "url": "https://www.elespanol.com/malaga/20261105/intentan-estafar-dueno-villa-millones-zagaleta-billetes-falsos-detenidos/1003744447462_0.html"}
+   ],
+   "questions": ["How does a 'rip deal' scam work, and how can sellers of luxury property spot one?", "What are the legal limits on cash payments when buying property in Spain?"],
+   "blog": {"title": "Selling a luxury home in Spain: how to spot a fake buyer", "angle": "The rip-deal pattern, cash limits and anti-money-laundering checks, what a real purchase looks like step by step, and a short checklist for sellers. Pairs well with the earlier piece on title fraud."}
+  },
+  {
+   "label": "Rail",
+   "kind": "update",
+   "topic": "AVE Madrid Andalucía reopening after Urda",
+   "title": "The minister quits, the fast trains still don't run",
+   "paragraphs": [
+    "Transport minister Óscar Puente resigned on Tuesday night, a week after the Urda crash that killed at least 69 people, and dropped out of the PSOE's election lists. Economy minister Carlos Cuerpo is running Transport for now. Before leaving, Puente said the Madrid–Andalucía high-speed line could reopen <b>within ten days of a judge allowing repairs</b>, at first with fewer trains, perhaps one every 15 minutes instead of every 5 to 10 on Madrid–Sevilla.",
+    "Some press reports point to 14 November, but nothing is confirmed, and Renfe still isn't selling tickets before 13 December. At the World Travel Market in London on Tuesday, Francisco Salado, who heads the Costa del Sol tourist board, asked Madrid for an emergency transport plan. <mark>UK airline seats to the coast this winter are already 5% down on last year, at about 1.3 million.</mark> Ryanair is adding 50,000 seats and Volotea more flights between Madrid and Andalucía."
+   ],
+   "why": {"head": "What it means here", "text": "Madrid clients still need to fly. Iberia's capped fares (€99 economy, €149 business) end on Sunday 8 November, so flights may get dearer next week."},
+   "sources": [
+    {"text": "El Cierre Digital: Puente resigns, the new AVE map", "url": "https://elcierredigital.com/investigacion/nuevo-mapa-ave-tras-urda-y-dimision-oscar-puente-cambios-en-madrid-sevilla-e-incertidumbre-barcelona"},
+    {"text": "Público: Cuerpo takes over Transport", "url": "https://www.publico.es/politica/gobierno/sanchez-elige-carlos-cuerpo-sustituto-oscar-puente-frente-ministerio-transportes.html"},
+    {"text": "Euro Weekly News: tourism chiefs demand a transport plan", "url": "https://euroweeklynews.com/2026/11/04/costa-del-sol-warning-tourism-chiefs-demand-urgent-transport-plan/"}
+   ],
+   "questions": ["What is the LZB signalling system on Spain's Madrid–Sevilla high-speed line, and why is it being replaced?", "How do judicial investigations of rail accidents in Spain affect when a line can reopen?"],
+   "blog": {"title": "Getting to Marbella from Madrid: every option compared", "angle": "AVE plus car or bus, flights to Málaga, Gibraltar and Sevilla, driving times and costs. A practical page for Madrid buyers, updated when the AVE timetable returns to normal."}
+  },
+  {
+   "label": "Commuter trains",
+   "kind": "infrastructure",
+   "topic": "Cercanías Málaga C1 Fuengirola problems",
+   "title": "A bad week on the Fuengirola train",
+   "paragraphs": [
+    "The C1 commuter line from Málaga to Fuengirola, via the airport, Torremolinos and Benalmádena, had a rough week. The last train to Fuengirola broke down on Sunday night, services were suspended after a fatal accident near Torreblanca on Monday, and on Thursday a faulty train caused <b>37 service alerts</b> in one day, with waits of up to an hour at Plaza Mayor.",
+    "The line carried most of the 15.5 million Cercanías passengers in Málaga last year, and some stretches run at 150% of seated capacity. <mark>Seven new high-capacity trains (€66.7 million) are not due until 2028.</mark> Adif is also doubling 2.8 km of track between the airport and Campamento Benítez."
+   ],
+   "why": {"head": "What it means here", "text": "The train still stops at Fuengirola, with no line yet to Marbella. For staff and clients who rely on it to reach the airport, allow extra time until the new trains arrive."},
+   "sources": [
+    {"text": "Euro Weekly News: another day of Cercanías chaos", "url": "https://euroweeklynews.com/2026/11/06/costa-del-sol-commuters-face-another-day-of-cercanias-train-chaos/"}
+   ],
+   "questions": ["Why has a coastal train line from Fuengirola to Marbella and Estepona never been built?", "How are Cercanías commuter services in Spain funded and run, and who is responsible for them?"],
+   "blog": {"title": "Living in Marbella without a car: how realistic is it?", "angle": "Buses, the C1 train from Fuengirola, airport links, taxis and the long-promised coastal railway. Useful for buyers relocating with families or working remotely."}
+  },
+  {
+   "label": "Port",
+   "kind": "project",
+   "topic": "Puerto Deportivo Virgen del Carmen Marbella concession",
+   "title": "Marbella wants the town marina for 50 years",
+   "paragraphs": [
+    "The council is working with the Junta de Andalucía to extend its concession on the <b>Puerto Deportivo Virgen del Carmen</b>, the marina in front of the old town, to 50 years instead of the 25 first planned. Mayor Ángeles Muñoz met the regional transport minister on 4 November and the port's director on the 5th.",
+    "<mark>The council plans to invest more than €16 million in modernising the port.</mark> It has told current businesses that rents and community charges stay exactly as they are while the paperwork goes through, and that they will have priority to stay on under the longer concession. No timetable or list of works has been published yet."
+   ],
+   "why": {"head": "What it means here", "text": "A longer concession is what makes a big refit pay. A smarter marina next to the Paseo Marítimo helps the frontline flats and the town centre."},
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: 50-year concession for the marina", "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-trabaja-para-prorrogar-la-concesion-del-puerto-deportivo-virgen-del-carmen-de-marbella-durante-50-anos.html"}
+   ],
+   "questions": ["How do port concessions work in Spain, and why does their length matter for investment?", "What is the history of Marbella's town marina, the Puerto Deportivo Virgen del Carmen?"],
+   "blog": {"title": "Marbella's marinas: Banús, the town port, Cabopino and La Bajadilla", "angle": "A guide to each marina, what is planned for it and how it shapes the homes around it. Update as the town-port and La Bajadilla projects move forward."}
+  },
+  {
+   "label": "Markets",
+   "kind": "opening",
+   "topic": "San Pedro Alcántara market temporary and Las Chapas market",
+   "title": "San Pedro gets a temporary market, Las Chapas a new one next",
+   "paragraphs": [
+    "San Pedro Alcántara's market is about to be rebuilt from the ground up. To keep traders open, the council has installed <b>temporary modules</b> next to the current site, with a fishmonger, butcher, florist, greengrocer, frozen food and a café. Cold rooms, toilets and a central pergola are still to come, and the move should happen before the end of the year.",
+    "<mark>When the new San Pedro market is finished, the modules will move to Las Chapas, to a council plot opposite the town-hall office and the church.</mark> It is meant to be a food and shopping draw, with operators chosen by tender and site works planned for next year."
+   ],
+   "why": {"head": "What it means here", "text": "Las Chapas has very little in the way of a centre. A market there adds the kind of everyday amenity that makes the east side work for families who live there all year."},
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: temporary market in San Pedro", "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-ultima-la-instalacion-del-mercado-provisional-de-san-pedro-alcantara-para-garantizar-la-actividad-de-los-negocios-durante-las-obras-de-reforma-integral-del-actual-recinto.html"}
+   ],
+   "questions": ["How have traditional Spanish municipal markets been reinvented as food halls?", "What makes a neighbourhood attractive to year-round families rather than holiday homeowners?"],
+   "blog": {"title": "Las Chapas and Elviria: a guide for year-round living", "angle": "Schools, shops, the coming market, beaches, transport and the A-7 exit question. A neighbourhood page aimed at families who want the east side as a main home."}
+  },
+  {
+   "label": "What's on",
+   "kind": "next week",
+   "topic": "Marbella and Spain week of 7 November",
+   "title": "A strike, a vote and the campaign begins",
+   "bullets": [
+    "<b>Sun 8 Nov, 9:00–12:00:</b> Fuengirola half marathon and 5 km, about 3,000 runners. Expect road closures and bus changes in the centre. Also in San Pedro: the Polio 0 charity walk.",
+    "<b>Sun 8 Nov:</b> last day of Iberia's capped Madrid–Andalucía fares.",
+    "<b>Wed 11 Nov:</b> 24-hour general strike over housing, called by CCOO, UGT, CGT and the tenants' union. <mark>Expect reduced trains and buses; schools and health centres run minimum services.</mark>",
+    "<b>Thu 12 Nov:</b> the Diputación Permanente votes on the housing decrees, including the 10% holiday-let VAT.",
+    "<b>Fri 13 Nov:</b> the campaign for the 29 November general election officially starts.",
+    "<b>Sat 14 Nov:</b> open day at the Huertos Marbella Verde community gardens. Also the earliest date floated for the AVE's return, still unconfirmed."
+   ],
+   "sources": [
+    {"text": "Infobae: strike hours and minimum services", "url": "https://www.infobae.com/espana/2026/11/05/huelga-general-del-11-de-noviembre-estos-son-los-horarios-servicios-minimos-y-sectores-afectados/"},
+    {"text": "Euro Weekly News: Fuengirola half marathon closures", "url": "https://euroweeklynews.com/2026/11/04/fuengirola-drivers-warned-road-closures-expected-this-sunday-as-3000-runners-hit-the-streets/"},
+    {"text": "Turismo Marbella: agenda", "url": "https://turismo.marbella.es/agenda.html"}
+   ],
+   "questions": ["How does a general strike work in Spain, and what are minimum services?", "How does a Spanish general election campaign work, and what rules apply in the final days?"],
+   "blog": {"title": "Marbella in November: a month-by-month guide to the local calendar", "angle": "Start a recurring \"this month in Marbella\" page covering events, holidays, seasonal rules and the weather. Refresh it each month for buyers planning visits."}
+  }
+ ]
+}
