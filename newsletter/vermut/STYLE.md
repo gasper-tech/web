@@ -24,6 +24,12 @@ Build: `python3 newsletter/vermut/build.py newsletter/vermut/issues/NN-YYYY-MM-D
   and a `blog` idea `{title, angle}` (since #02): a post Gasper could expand for his website. Title is
   the post's working headline; angle is 1–2 sentences on what the post covers, written to stay useful
   after the news fades (guides, explainers, evergreen pages to refresh).
+- **Favour investigative local stories.** #03's La Zagaleta "rip deal" piece (fake buyers, €2m mostly
+  counterfeit) was the reader's favourite and was shared with his team. Each week, look for at least one
+  story like it: a specific local case (fraud, a contested deal, a planning fight, who is really behind a
+  project), told with how it worked, real figures and a practical lesson for sellers, buyers or agents.
+  Lead with it when it is strong. Dig past press releases (court and police reports, registry and BOJA
+  filings, local papers) and keep the crime rule: only cases that teach something about property or safety.
 - Length ~7 minutes. Plain English, light, no sales tone.
 
 ## Research standard
