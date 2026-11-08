@@ -1,7 +1,7 @@
 # Vermut: editorial brief
 
 Weekly local-news letter for one reader (Gašper, who works in Marbella prime real estate at Drumelia).
-Sent **Fridays 17:00 Spain time** to gasper@drumelia.com from welcome@gasperplahutnik.com.
+Sent **Fridays 17:00 Spain time** to gasper@drumelia.com (bcc his colleague rprivateb@proton.me) from welcome@gasperplahutnik.com.
 Issue #01 went out Tuesday 27 Oct 2026 as a one-off launch.
 
 Look: identical system to Morning Doppio (`newsletter/build.py` helpers, Geist, rounded cards).
