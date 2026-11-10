@@ -64,7 +64,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Why people lie
 - [ ] The science of attraction / the psychology of beauty
 - [ ] Memory manipulation and false memories
-- [ ] The placebo effect
+- [x] The placebo effect (#08)
 - [ ] Time perception
 - [ ] The subconscious mind
 - [ ] Déjà vu
@@ -73,7 +73,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 
 ## Science and the universe
 - [x] Lorentz factor (time dilation, simply) (#02)
-- [ ] Dark matter
+- [x] Dark matter (#08)
 - [x] Black holes (#07)
 - [ ] Parallel universes †
 - [ ] Fractal / holographic universe theories †

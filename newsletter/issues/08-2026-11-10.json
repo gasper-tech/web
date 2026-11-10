@@ -1,0 +1,291 @@
+{
+ "number": 8,
+ "date_label": "Tuesday 10 Nov",
+ "read_min": 9,
+ "subject_hook": "Why a $2.50 sugar pill works better",
+ "preheader": "Plus: oil's war premium melts, the paint merger Brussels allowed, and London's Great Stink.",
+ "first_sip": "Be the person your coffee thinks you are.",
+ "footer": "Built from news up to 10 November 2026. Figures come from the linked sources and are rounded. Next Doppio: Friday 13 November, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "Oil's war premium starts to melt",
+   "paragraphs": [
+    "Oil just had its worst week since spring 2020. Brent, the benchmark behind most of Europe's oil prices, fell by well over 10% in the week to 6 November, and on Monday it slipped again to about $94 a barrel. In late October it was above $110. The odd part is that the danger hasn't gone away: tankers in the Strait of Hormuz were still being attacked last week. What changed was the mood. Traders pointed to the US midterm results as making escalation less likely, and on Monday Qatar's prime minister took an Iranian proposal to reopen Hormuz to the White House.",
+    "<b>How a war premium works:</b> the price of a barrel reflects today's supply and also a bet on tomorrow's. When a key shipping lane looks shaky, buyers pay extra as insurance against a sudden shortage. That extra slice is the risk premium. <mark>A risk premium can vanish faster than it arrived, because it rests on fear, not barrels.</mark> It can also come back just as fast: one failed round of talks or one more tanker hit, and the insurance gets expensive again."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Pump prices in Europe usually follow crude with a short lag, so cheaper fuel may be on the way if this holds. Lower oil also cools inflation, giving central banks less reason to keep borrowing costs high. Just don't budget on it yet: this drop rests on diplomacy, and that can turn quickly."
+   },
+   "sources": [
+    {
+     "text": "OilPrice.com: Oil sinks to $94 as Iran's Hormuz plan heads to Washington",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html"
+    },
+    {
+     "text": "Benzinga: Oil prices suffer steep weekly losses",
+     "url": "https://www.benzinga.com/markets/commodities/26/11/63017449/oil-prices-weekly-losses-us-iran-tensions"
+    },
+    {
+     "text": "World Oil: Oil hits $110 as supply fears mount",
+     "url": "https://www.worldoil.com/news/2026/10/16/oil-hits-110-as-houthi-strikes-russia-ukraine-attacks-lift-supply-fears/"
+    }
+   ],
+   "questions": [
+    "What is an oil 'risk premium', and how do analysts estimate how much of the price it makes up?",
+    "How quickly do changes in Brent crude show up in petrol and diesel prices in Slovenia, and how does Slovenia's regulated fuel pricing work?",
+    "Why does the Strait of Hormuz matter so much to world oil supply, and what alternative routes exist?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "Brussels lets the paint giants merge, with a catch",
+   "paragraphs": [
+    "On Thursday, 6 November, the European Commission cleared the planned merger of AkzoNobel, the Dutch maker of Dulux, with America's Axalta. It is a roughly $25 billion all-stock \"merger of equals\": no cash changes hands, and the shareholders of both firms end up owning the new company together. There is a catch. AkzoNobel has to sell its European vehicle refinish business, the paint body shops use when they fix your dented bumper, the one market where the two overlapped too much. Other regulators still have to approve the deal, and the companies expect to close it in early 2027.",
+    "<b>How EU merger control works:</b> Large deals with enough European sales must be notified to Brussels, and they cannot close until it says yes. The Commission gets 25 working days for a first look. If it spots a problem, the companies can offer a fix, usually selling the overlapping piece to a suitable buyer, and the clock gets ten extra working days. <mark>Fix it early and you skip the months-long deep probe.</mark> Akzo and Axalta offered their fix on 15 October."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Merger control is how Europe stops a few giants from quietly setting prices, including what your garage pays for paint. A sale like this lets a deal go ahead while keeping competition alive where it counts. It also shows the usual pattern: most big deals are cleared with conditions, few are blocked outright."
+   },
+   "sources": [
+    {
+     "text": "European Commission: AkzoNobel–Axalta approved with conditions",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2347"
+    },
+    {
+     "text": "Axalta: All-stock merger of equals with AkzoNobel",
+     "url": "https://ir.axalta.com/news/press-releases/detail/671/"
+    },
+    {
+     "text": "Reuters via Euronext: AkzoNobel, Axalta offer EU remedies",
+     "url": "https://live.euronext.com/en/financial-news/akzonobel-axalta-offer-remedies-bid-eu-approval-25-billion-deal"
+    }
+   ],
+   "questions": [
+    "How does the European Commission decide whether a merger harms competition, and what kinds of remedies can it demand?",
+    "What is the difference between a phase 1 and a phase 2 merger review under EU competition law?",
+    "What does a 'merger of equals' mean in practice, and how is ownership split in an all-stock deal?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "build to sell",
+   "topic": "AI Build",
+   "title": "A fixed-price naming sprint for new developments",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "Uses skills you have"
+    },
+    {
+     "n": "~5 hours",
+     "t": "Over one week"
+    },
+    {
+     "n": "€0 extra",
+     "t": "Tools you already pay"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Every boutique development on the coast needs a name before it needs a logo, and naming is usually rushed or buried inside a big branding fee. Package it as a small fixed-price product: a five-day sprint where AI does the brainstorming and you do the judging. The client gets five names, the thinking behind each, and <mark>a check of how each name sounds to Spanish, English, German, Dutch and Scandinavian buyers</mark>. That check is the part generic tools skip.",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> Set up one Claude Project called \"Naming sprint\". The instructions hold your brief questions, four naming styles (place-based, evocative, descriptive, invented) and one rule: test every name for meaning and pronunciation in the buyer languages. Projects work on every plan, the free one included. Paste in a brief, get around 100 names back, cut them to ten yourself, then send the client a simple PDF with your final five.",
+    "<b>Better:</b> Build a Figma deck template that puts each name on a site hoarding, a brochure cover and a simple wordmark; clients buy names they can picture. Add a checklist slide: a first-pass search on TMview (the EU's free trademark database, which includes Spanish marks), a domain check, and a say-it-out-loud test with a native speaker. Be clear this is a first filter; the client's lawyer does the real trademark clearance.",
+    "<b>Next level:</b> Make a one-page sales page with a fixed price, the five-day process and a worked example for a made-up development. Then add the sprint as an optional extra to every branding proposal you send, so it sells to people already talking to you."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Big property branding agencies fold naming into large programmes priced by quote, and crowd-naming sites run contests that bring in hundreds of names with no local or multilingual filtering. Ready-made templates and prompt packs already sell for a few dollars or are free, which is why a service beats a download here. Your gap is a quick, fixed-price, designer-led sprint that knows Costa del Sol buyers, and the first sale most likely comes from adding it to proposals for existing clients plus one example sprint posted as a case study."
+   },
+   "questions": [
+    "What questions should a short naming brief for a small luxury residential development ask the developer?",
+    "How do I set up a Claude Project so it generates property-development names and flags awkward meanings or pronunciations in Spanish, German, Dutch and Swedish?",
+    "What is a fair way to price a fixed-scope five-day naming sprint offered as an add-on to a brand-identity project, and how should I word the scope so it doesn't grow?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Light weights build muscle as well as heavy ones",
+   "paragraphs": [
+    "Gym lore says that to build muscle you need heavy weights and few reps. A randomised trial from McMaster University, published in <i>The Journal of Physiology</i>, tested that neatly. Twenty healthy young men who had never lifted trained one arm and one leg with heavy loads (about 70–80% of their one-rep max, 8–12 reps) and the other arm and leg with light loads (about 30–40%, 20–25 reps). They trained three times a week for 10 weeks, and every set went to real fatigue. <mark>Muscle growth was the same on both sides.</mark>",
+    "Because each man was his own control, genes, diet and sleep were identical for both sides, which makes a small study stronger than it sounds. The big differences were between people: some grew a lot, some barely grew, and each person's arms and legs responded alike, so biology seems to matter more than the number on the plate. The limits are real: only 20 young men, all new to lifting, for 10 weeks. Women, older adults and experienced lifters weren't tested, and the result only holds if you push close to failure."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "If heavy barbells put you off, or your joints don't like them, lighter weights for more reps look like a fair way to build muscle, as long as the last few reps feel genuinely hard. Effort and consistency seem to matter more than the load. General information, not personal training advice."
+   },
+   "sources": [
+    {
+     "text": "Lees et al., The Journal of Physiology (2025)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41474371/"
+    },
+    {
+     "text": "Full paper (Wiley)",
+     "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP289684"
+    },
+    {
+     "text": "The Philadelphia Inquirer: Heavier weights, same benefit",
+     "url": "https://www.inquirer.com/health/weight-training-heavier-weights-more-reps-same-benefit-20260123.html"
+    }
+   ],
+   "questions": [
+    "Why does lifting light weights to failure build as much muscle as lifting heavy weights, according to recent research?",
+    "How can I tell if I'm training close enough to failure with lighter weights for my muscles to grow?",
+    "Why do some people gain muscle much faster than others on the same strength training program?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "The Great Stink: the right fix for the wrong reason",
+   "paragraphs": [
+    "In the hot summer of 1858, the Thames was London's toilet. Sewage ran straight into the river, and the heat cooked it. People called the result the <b>Great Stink</b>. Parliament sat right on the riverbank, and MPs are said to have hung curtains soaked in chloride of lime to block the reek. It didn't do much.",
+    "Then something rare happened: politicians moved fast. Benjamin Disraeli brought a bill to Parliament on 15 July 1858, and it was law by 2 August, just 18 days later. The engineer Joseph Bazalgette got to build: about 82 miles of big intercepting sewers, fed by about 1,100 miles of street sewers, carrying waste east and away from the city centre. The main system opened in 1865.",
+    "The twist is that almost everyone thought the smell itself, the 'miasma', spread cholera. It doesn't; cholera travels in dirty water. But taking sewage out of the river through town helped anyway. When cholera returned in 1866, it hit mostly east London areas not yet connected to the new sewers. <mark>London had built the right fix for the wrong reason.</mark>"
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Good infrastructure can work even when the theory behind it is wrong. And a crisis people can smell often gets action faster than one they can't."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "London Museum: A very smelly summer in the city",
+     "url": "https://londonmuseum.org.uk/collections/london-stories/great-stink-of-1858"
+    },
+    {
+     "text": "Historic UK: London's Great Stink",
+     "url": "https://www.historic-uk.com/HistoryUK/HistoryofBritain/Londons-Great-Stink/"
+    }
+   ],
+   "questions": [
+    "What was miasma theory, and how did it shape public health decisions in the 19th century?",
+    "How did John Snow show that cholera spreads through contaminated water?",
+    "Why did east London suffer most in the 1866 cholera outbreak?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Dark matter: the stuff we can only weigh",
+   "paragraphs": [
+    "Dark matter is matter we can't see. As far as we know, it doesn't give off, absorb or reflect light, because it doesn't interact with the electromagnetic force. We only detect it through its gravity. It isn't dark energy either; that's a separate puzzle.",
+    "So how do we know it's there? We weigh things. In 1933 Fritz Zwicky found galaxies in the Coma cluster moving too fast for the visible mass to hold them together, and called the missing stuff <i>dunkle Materie</i>. Few took it up. In the 1970s Vera Rubin and Kent Ford found that stars in the outer parts of galaxies like Andromeda orbit about as fast as stars further in, which visible matter alone can't explain. Then there's the <b>Bullet Cluster</b>, where two galaxy clusters collided: their hot gas, most of the ordinary matter, slowed and lagged behind, but the mass, mapped by how it bends light, kept going.",
+    "ESA's Planck mission puts the universe at about 27% dark matter, 5% ordinary matter and 68% dark energy. <mark>There is roughly five times more dark matter than everything made of atoms.</mark> Huge detectors deep underground keep tightening the limits. None has caught a dark matter particle yet."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Most of the matter in the universe is something we have never directly detected. Finding out what it is, or whether gravity needs rethinking, is one of physics' biggest open questions."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "CERN: Dark matter",
+     "url": "https://home.cern/science/physics/dark-matter"
+    },
+    {
+     "text": "ESA: Planck reveals an almost perfect Universe",
+     "url": "https://www.esa.int/Newsroom/Press_Releases/Planck_reveals_an_almost_perfect_Universe"
+    },
+    {
+     "text": "APS News: Vera Rubin and dark matter",
+     "url": "https://www.aps.org/apsnews/2023/05/vera-rubin-paper-dark-matter"
+    }
+   ],
+   "questions": [
+    "How do flat galaxy rotation curves point to dark matter?",
+    "Why is the Bullet Cluster considered strong evidence for dark matter?",
+    "What is the difference between dark matter and dark energy?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "The placebo effect: smaller and stranger than you think",
+   "paragraphs": [
+    "A placebo is a dummy treatment: a sugar pill, a saline jab. The 'placebo effect' is the improvement people show after taking one. Much of it isn't magic. People tend to see a doctor when they feel worst, and from there they drift back towards normal anyway; that's <i>regression to the mean</i>. Many illnesses also clear up on their own. When Asbjørn Hróbjartsson and Peter Gøtzsche compared placebo with no treatment at all (<i>NEJM</i> 2001, then Cochrane reviews), the effect left over was small, and showed up mainly in things patients rate themselves, like pain and nausea.",
+    "Small isn't zero. In 2010 Ted Kaptchuk's team at Harvard gave 80 people with irritable bowel syndrome pills honestly labelled as placebo. After three weeks, 59% reported adequate relief, against 35% of those given no pills (<i>PLoS ONE</i>). It works in reverse too. In the <b>nocebo effect</b>, expecting harm brings real symptoms: warn people about side effects and more of them report having them.",
+    "Context is part of the dose. In 2008 Rebecca Waber, Dan Ariely and colleagues gave 82 volunteers the same dummy pill before mild electric shocks (<i>JAMA</i>). Told it cost $2.50, 85% felt less pain; told it was marked down to 10 cents, only 61% did. <mark>Price, packaging and ritual don't change the chemistry, but they can change what people feel.</mark> A finding about perception, not a licence to sell sugar."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Expectation is real, but smaller and narrower than the hype. It shapes how a thing is felt, especially pain and comfort, and doesn't replace substance. That matters to anyone who builds the box, the price and the ceremony around a product."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Hróbjartsson & Gøtzsche, Cochrane review (2010)",
+     "url": "https://www.cochrane.org/evidence/CD003974_placebo-interventions-all-clinical-conditions"
+    },
+    {
+     "text": "Kaptchuk et al., PLoS ONE (2010)",
+     "url": "https://doi.org/10.1371/journal.pone.0015591"
+    },
+    {
+     "text": "Waber, Shiv, Carmon & Ariely, JAMA (2008)",
+     "url": "https://doi.org/10.1001/jama.299.9.1016"
+    }
+   ],
+   "questions": [
+    "How much of the placebo effect seen in clinical trials is really regression to the mean and natural recovery?",
+    "How can an open-label placebo help patients who know they are taking a sugar pill?",
+    "What does research show about how price, branding and packaging change how people experience a product?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "And the cure, my dear youth, has to be effected by the use of certain charms, and these charms are fair words; and by them temperance is implanted in the soul.",
+   "cite": "Plato, Charmides 157a · c. 380 BC · trans. Benjamin Jowett",
+   "paragraphs": [
+    "In the <i>Charmides</i>, Socrates says he knows a cure for headaches that he learned from a Thracian doctor: a leaf plus a spoken charm, and the leaf does nothing without the charm. The doctor's rule is never to treat the body without treating the soul. To be fair, Plato's 'fair words' are good arguments, not bedside patter, and he is leading into a debate about self-control. Still, 2,400 years before Kaptchuk, the instinct is already there: <mark>what we are told about a remedy is part of the remedy.</mark>"
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Plato, Charmides, trans. Jowett (Wikisource)",
+     "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Charmides"
+    }
+   ],
+   "questions": [
+    "What is the Thracian charm story in Plato's Charmides, and what does Socrates mean by it?",
+    "Did ancient Greek physicians understand anything like the placebo effect?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "wordplay · medium",
+   "topic": "Puzzle",
+   "previous_answer": "<b>5 minutes</b>. Each machine takes 5 minutes to make one widget, so 100 machines working side by side make 100 widgets in the same 5 minutes. The tempting answer, 100, is the trap.",
+   "puzzle": "Which seven-letter English word becomes longer when you remove its third letter?",
+   "hint": "Hint: think of somewhere you'd happily spend a lazy afternoon by the pool. Answer in Friday's Doppio.",
+   "questions": [
+    "Give me a hint for the riddle about a seven-letter word that becomes longer when you remove its third letter, without the answer",
+    "Give me another word riddle where removing or adding letters changes the meaning"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Tiffany's robin's-egg blue has its own Pantone shade, '1837 Blue', named after the year the company was founded. It isn't in Pantone's public colour guides, so you can't simply look it up and print it.",
+   "cite": "Tiffany & Co., The Tiffany Blue Box · Fashion Law Journal",
+   "questions": [
+    "Why did Tiffany & Co. trademark a colour, and how do colour trademarks work?",
+    "Which luxury brands own or are strongly linked to a signature colour, and how did they get it?"
+   ]
+  }
+ ]
+}
