@@ -1,0 +1,192 @@
+{
+ "number": 4,
+ "date_label": "Friday 13 Nov",
+ "read_min": 7,
+ "subject_hook": "Sixteen years to fix one port",
+ "preheader": "Plus: holiday-let VAT passes by one vote, Marbella's €280m debt, and Estepona's mayor heads to trial.",
+ "one_line": "A port saga ended, a tax passed by one vote, and the town hall's balance sheet got a closer look.",
+ "footer": "Built from news up to 13 November 2026. Figures come from the linked sources and are rounded. Next Vermut: Friday 20 November, 17:00.",
+ "sections": [
+  {
+   "label": "La Bajadilla",
+   "kind": "the long story",
+   "topic": "La Bajadilla port Marbella concession history",
+   "title": "Sixteen years, two bidders and a court case: how La Bajadilla finally got its port",
+   "figs": [
+    {"n": "€200m", "t": "Private investment, no cost to the Junta"},
+    {"n": "268 → 750", "t": "Berths, for boats up to 70 m"},
+    {"n": "40 years", "t": "Length of the concession"}
+   ],
+   "paragraphs": [
+    "On 3 November the Junta signed a 40-year concession for Marbella's fishing and leisure port, La Bajadilla, with <b>Marina Internacional de Marbella</b>, which will take over on 1 January. The story starts in 2010. Two groups bid. The winner, with 353 points against 307, was a joint venture tied to the Qatari Al Thani family, and it included Marbella town hall itself. It was awarded the contract in 2011, never started work, ran up more than 52 months of delays and stopped paying its fee. The Junta cancelled it in November 2016 and kept its guarantee.",
+    "The runner-up, Marina Internacional, had gone to court arguing a town hall could not sit inside a bidding consortium. <mark>The Andalusian high court agreed in 2017, the Supreme Court refused the appeal in 2018, and the contract fell back to the company that came second eight years earlier.</mark> Then came eight more years of environmental and coastal permits. The new operator, which includes Marinas del Mediterráneo (Estepona, La Duquesa), will pay €1 million a year and put in €200 million to take the port from 268 to about 750 berths."
+   ],
+   "why": {"head": "What it means here", "text": "A port that can take 70 m yachts, a short walk from the old town, changes the east end of the Paseo Marítimo. Works have no start date yet, so frontline flats nearby are a long bet rather than a quick one."},
+   "sources": [
+    {"text": "El Español: La Bajadilla leaves a 16-year labyrinth", "url": "https://www.elespanol.com/malaga/marbella/20261110/bajadilla-sale-laberinto-anos-millones-ampliar-puerto-marbella-amarres/1003744452958_0.html"},
+    {"text": "Área Costa del Sol: green light for the contract", "url": "https://www.areacostadelsol.com/marbella/luz-verde-al-contrato-para-ampliar-el-puerto-de-la-bajadilla/"}
+   ],
+   "questions": ["How do public port concessions work in Andalucía, and why can a losing bidder win years later in court?", "What has the La Bajadilla port in Marbella been used for historically, and who uses it today?"],
+   "blog": {"title": "La Bajadilla: what Marbella's new port means for the east of town", "angle": "The history in short, what is planned, the realistic timeline and which streets and buildings stand to gain. Update it when works start."}
+  },
+  {
+   "label": "Tax",
+   "kind": "holiday lets",
+   "topic": "Spain housing decree vote 12 November tourist flat VAT",
+   "title": "Holiday-let VAT passes by one vote",
+   "paragraphs": [
+    "Parliament's standing committee confirmed the housing decree (RDL 29/2026) on Thursday by <b>35 votes to 34</b>, with PSOE, Sumar, PNV, ERC, Bildu and Podemos in favour and PP, Vox and Junts against. Tourist lets of 30 nights or fewer, which were VAT-free, now move to <b>10% VAT from 1 December</b>. Councils in stressed housing areas can add up to 150% to IBI on some tourist homes, rent rises are capped at 2% until the end of 2027, and first-time buyers get 0% state-backed loans for up to 20% of the price (maximum €50,000).",
+    "The second decree, which would have turned rental contracts into rolling five-year renewals, failed 34–35 after the PNV voted against it. <mark>PP leader Feijóo has promised to repeal the measures if he wins on 29 November, so the new VAT may not last long.</mark>"
+   ],
+   "why": {"head": "What it means here", "text": "Owners letting a Marbella flat to tourists need to price in VAT for stays from December. Buyers looking at holiday-let yield should model both the 10% case and a possible repeal after the election."},
+   "sources": [
+    {"text": "idealista/news: the committee passes the housing decree", "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/12/923779-la-diputacion-permanente-convalida-el-decreto-de-vivienda-y-rechaza-el-de"},
+    {"text": "Alcalá Hoy: saved by one vote", "url": "https://www.alcalahoy.es/2026/11/12/la-diputacion-permanente-salva-el-decreto-de-vivienda-por-un-voto-y-tumba-la-prorroga-automatica-de-alquileres/"},
+    {"text": "Winahost: 10% VAT from December", "url": "https://winahost.com/blog/iva-pisos-turisticos"}
+   ],
+   "questions": ["How will 10% VAT on short-term holiday lets be invoiced and paid in Spain from December 2026?", "What can a new Spanish government do to repeal a decree-law that parliament has already confirmed?"],
+   "blog": {"title": "Holiday-let VAT is here: a worked example for a Marbella flat", "angle": "One realistic flat, before and after: nightly rate, VAT, IBI surcharge risk and net yield. A practical page to update if the rules change after the election."}
+  },
+  {
+   "label": "Town hall",
+   "kind": "follow the money",
+   "topic": "Marbella municipal debt and public land concessions",
+   "title": "Marbella's debt rises to €280m as public land goes to private hands",
+   "figs": [
+    {"n": "€279.7m", "t": "Total council debt forecast, end of 2027"},
+    {"n": "€104m", "t": "Bank and state-fund loans in it"},
+    {"n": "€0", "t": "Bank debt in 2017, per Marbella24horas"}
+   ],
+   "paragraphs": [
+    "The council's own budget report, seen by Marbella24horas, shows total debt rising from <b>€271.2 million</b> at the end of this year to <b>€279.7 million</b> at the end of 2027, even after repaying €19.7 million. The cause is a new €28.1 million loan from the state's economic stimulus fund. Old debts to the tax office, Social Security and the Junta, mostly left from the Gil years, keep falling; bank-style debt rises to €104 million.",
+    "At the same budget presentation, Mayor Ángeles Muñoz defended handing municipal plots to private operators for an annual fee, recently a private hospital and clinic, before that a Swedish school, a padel club and the El Ancón beach club. <mark>Her case: an empty plot costs money, a concession brings jobs and a fee, and the cash can go to busier areas.</mark> Critics say the same plots could have gone to affordable housing, which the mayor herself said in 2024 was hard to find land for."
+   ],
+   "why": {"head": "What it means here", "text": "Frozen IBI is partly paid for with borrowing. And every plot that goes to a hospital, school or club shapes the neighbourhood around it, which is worth checking before buying next to an empty municipal plot."},
+   "sources": [
+    {"text": "Marbella24horas: debt of almost €280m in 2027", "url": "https://www.marbella24horas.es/local/el-ayuntamiento-de-marbella-tendra-en-2027-una-deuda-de-casi-280-millones-43860"},
+    {"text": "Marbella24horas: Muñoz calls land concessions 'good management'", "url": "https://www.marbella24horas.es/local/munoz-define-como-quot-buena-gestion-quot-ceder-suelo-a-intereses-privados-43836"}
+   ],
+   "questions": ["How do Spanish councils borrow money, and what limits apply to municipal debt?", "How can a buyer find out what is planned for an empty municipal plot next to a property in Marbella?"],
+   "blog": {"title": "Before you buy: how to check what will be built next door in Marbella", "angle": "How to read the PGOM zoning, look up municipal plots and concessions, and ask the town hall the right questions. A practical due-diligence guide."}
+  },
+  {
+   "label": "Estepona",
+   "kind": "court",
+   "topic": "Estepona mayor García Urbano trial",
+   "title": "Estepona's mayor will stand trial over a 46-day job",
+   "paragraphs": [
+    "A court in Estepona has sent Mayor <b>José María García Urbano</b> to trial at Málaga's provincial court on charges of abuse of office and misuse of public funds. The case is about a woman he hired as a temporary official by decree on 13 February 2023, for 46 days. She was paid about €5,300. Prosecutors say she did no work and that she and the mayor were in a relationship.",
+    "Prosecutors want 1 year and 11 months in prison and almost 6 years' ban from public office for the mayor; the PSOE, as private prosecutor, asks for 5½ years. The mayor has repaid the salary and Social Security costs, says no crime was committed, and wants the trial held soon. <mark>His defence says HR reports and witnesses show the work was done, and that earlier complaints over the same facts were dismissed.</mark> No trial date is set."
+   ],
+   "why": {"head": "What it means here", "text": "García Urbano has run Estepona's building boom for years, and the town now has the fastest-rising prices on the coast. A conviction with a ban would change who leads the town hall, but not the planning already approved."},
+   "sources": [
+    {"text": "Área Costa del Sol: García Urbano expects to prove his innocence", "url": "https://www.areacostadelsol.com/estepona/garcia-urbano-confia-en-demostrar-su-inocencia-tras-la-apertura-de-juicio-oral-por-una-contratacion-municipal/"}
+   ],
+   "questions": ["What do the Spanish offences of 'prevaricación' and 'malversación' mean, and how are they usually punished?", "How has Estepona transformed itself over the past 15 years?"],
+   "blog": {"title": "Estepona's transformation: from garden town to the coast's price leader", "angle": "How the town changed, the projects that drove it, prices now and what could slow it. A town guide for buyers comparing Estepona with Marbella."}
+  },
+  {
+   "label": "Prime market",
+   "kind": "buyers",
+   "topic": "Marbella prime property market 2026 buyer behaviour",
+   "title": "Plenty of buyers, not enough of the right villas",
+   "paragraphs": [
+    "An idealista piece this week, based on DM Properties' autumn report, says Marbella's top end is <b>slower but not short of buyers</b>. Clients take longer, compare more and want finished homes rather than projects. In La Zagaleta, searches for sea-view or fully updated homes sit at €15 to €30 million, and few properties tick every box. Above about €4 million, a gym, spa, sauna and cinema are increasingly expected.",
+    "The busiest areas are the Golden Mile, Sierra Blanca, Cascada de Camoján, Nagüeles and Puente Romano, with Nueva Andalucía active across more price points and Guadalmina seeing new interest. <mark>Taste is shifting from the white modern box to Andalusian or Mediterranean exteriors with contemporary interiors.</mark> US buyers are a growing group, comparing Marbella with high-cost US cities and taxes."
+   ],
+   "why": {"head": "What it means here", "text": "Sellers of dated villas in top locations face a choice: renovate to the new standard or price for the buyer who will. Finished, characterful homes with wellness space are the scarce product."},
+   "sources": [
+    {"text": "idealista/news: prime homes become scarcer", "url": "https://www.idealista.com/en/news/property-for-sale-in-spain/2026/11/12/923377-marbella-property-market-shift-prime-homes-become-scarcer"}
+   ],
+   "questions": ["What makes a villa 'prime' in Marbella, and how do buyers value views, privacy and finishes?", "Why are more American buyers looking at property in southern Spain?"],
+   "blog": {"title": "What €5m, €10m and €20m buys in Marbella today", "angle": "Three price tiers with typical areas, plot sizes, finishes and amenities. A reference page refreshed twice a year that answers the first question most clients ask."}
+  },
+  {
+   "label": "Rail and air",
+   "kind": "getting here",
+   "topic": "AVE Madrid Andalucía closure and UK airline demand Costa del Sol",
+   "title": "Still no fast trains to Madrid, but the British keep booking",
+   "paragraphs": [
+    "Two weeks after the Urda crash, the judge had still not allowed (as of Tuesday) the track to be rebuilt, and the ministry says reopening will take up to <b>ten days after permission</b> comes. Ouigo has cancelled Madrid–Andalucía trains until at least 22 November. When trains return, there will be fewer departures but double-length trains, until the new ERTMS signalling is in place, expected early 2027.",
+    "The British market looks steadier. At the World Travel Market in London, Jet2 told the Costa del Sol tourist board its 2027 bookings are up 9%, easyJet Holidays reported almost 19% more customers and Thomas Cook 26% more bookings. <mark>The board expects about 3.3 million British visitors this year, spending around €4.6 billion.</mark>"
+   ],
+   "why": {"head": "What it means here", "text": "For Madrid clients, flying stays the only quick option into late November. For the British market, strong 2027 bookings support short-term rental demand, whatever the new VAT does."},
+   "sources": [
+    {"text": "Infobae/EFE: Ouigo extends cancellations to 22 November", "url": "https://infobae.com/espana/agencias/2026/11/10/ouigo-extiende-su-cancelacion-de-trenes-entre-madrid-y-andalucia-hasta-el-22-de-noviembre"},
+    {"text": "Málaga ES: the AVE will return with fewer trains", "url": "https://www.malagaes.com/ave-madrid-andalucia-reapertura-menos-frecuencias-malaga/"},
+    {"text": "Euro Weekly News: Brit boost for 2027", "url": "https://euroweeklynews.com/2026/11/11/brit-boost-costa-del-sol-businesses-have-reasons-to-look-forward-to-2027/"}
+   ],
+   "questions": ["What is ERTMS signalling and why is Spain upgrading its high-speed lines to it?", "How important is British tourism to the Costa del Sol economy?"],
+   "blog": {"title": "Flying to Marbella: the airports, airlines and routes that matter", "angle": "Málaga, Gibraltar and Sevilla compared, the main UK and European routes, seasonality and transfer times. Useful for buyers planning viewings."}
+  },
+  {
+   "label": "Fuengirola",
+   "kind": "housing",
+   "topic": "Fuengirola affordable rental homes Torreblanca",
+   "title": "Fuengirola pays for 82 affordable rental homes itself",
+   "paragraphs": [
+    "Fuengirola has signed the contract for <b>82 affordable rental homes</b> in Torreblanca, on two council plots on Calle Oropéndola totalling more than 8,500 m². The joint venture Urbasur-Marvel will design and build them for €11.7 million, paid entirely by the council, with 22 months for the job. The winning bid added 17 homes to the 65 in the original tender.",
+    "The mix is 30 one-bedroom, 39 two-bedroom, 12 three-bedroom and one larger home. <mark>Rents have not been published, but the homes stay council-owned and rented at affordable rates.</mark> It is the opposite model to Marbella's, where the council prefers to give developers tax breaks to build rent-capped homes."
+   ],
+   "why": {"head": "What it means here", "text": "Staff housing is the coast's hidden constraint. Every affordable flat near the A-7 helps the hotels, restaurants and villa services that the prime market depends on."},
+   "sources": [
+    {"text": "Área Costa del Sol: more than 80 affordable rental homes in Torreblanca", "url": "https://www.areacostadelsol.com/fuengirola/construira-mas-de-80-nuevas-viviendas-de-alquiler-asequible-en-torreblanca/"}
+   ],
+   "questions": ["What counts as 'affordable rent' in Spain, and how are such rents usually set?", "How do Spanish councils build public rental housing, and how long does it usually take?"],
+   "blog": {"title": "Where staff can live: housing on the Costa del Sol for the people who run it", "angle": "An overview of affordable housing projects along the coast and why they matter to owners and investors. Update it as each town announces new schemes."}
+  },
+  {
+   "label": "Fuengirola",
+   "kind": "opening",
+   "topic": "El Corte Inglés Fuengirola reopening",
+   "title": "El Corte Inglés doubles up in Fuengirola",
+   "paragraphs": [
+    "El Corte Inglés reopened its Fuengirola store on 12 November after a big refit. It now has <b>six retail floors instead of three</b>, and more than 22,000 m² of shop space, up from 14,500. Brands include Dior, Jo Malone, Hugo Boss, Polo Ralph Lauren and Tommy Hilfiger, with a new home section and a Club del Gourmet food hall in place of the old Hipercor.",
+    "<mark>The company expects around 40% of its customers to be foreign, and has added a tax-free desk and interpreters.</mark> The store employs about 600 people, one of the biggest employers in Fuengirola."
+   ],
+   "why": {"head": "What it means here", "text": "With Banús's own El Corte Inglés and this one, the coast has two full department stores about half an hour apart. Useful for clients furnishing a new home fast."},
+   "sources": [
+    {"text": "Olive Press: six floors of premium brands in Fuengirola", "url": "https://www.theolivepress.es/spain-news/2026/11/12/el-corte-ingles-fuengirola-reopens/"}
+   ],
+   "questions": ["How does tax-free shopping work in Spain for non-EU visitors?", "How has El Corte Inglés changed its stores to compete with online shopping?"],
+   "blog": {"title": "Furnishing a new home on the Costa del Sol: where to shop", "angle": "Department stores, interior designers, furniture showrooms and delivery times, from Banús to Fuengirola. A practical page for new owners."}
+  },
+  {
+   "label": "Gibraltar",
+   "kind": "update",
+   "topic": "Gibraltar treaty European Parliament vote PP",
+   "title": "PP will vote against the Gibraltar treaty in Brussels",
+   "paragraphs": [
+    "The PP has said its MEPs will vote against the EU–UK Gibraltar treaty when the European Parliament votes on <b>14 December</b>. It argues Gibraltar's status is unchanged, the tax and business rules are not a level playing field, and the treaty was never put to Spain's parliament.",
+    "Foreign minister José Manuel Albares accused the PP of trying to \"sabotage\" the deal. <mark>He said a rejection could bring back border queues for about 15,000 daily cross-border workers and hit some 300,000 people in the Campo de Gibraltar.</mark> The treaty, which removed hard border checks, has applied provisionally since July. Albares says he is confident of a majority."
+   ],
+   "why": {"head": "What it means here", "text": "The western coast, from Sotogrande to Estepona, depends on an easy border. A December vote that goes wrong would be felt first by Gibraltar workers and buyers in San Roque and Manilva."},
+   "sources": [
+    {"text": "Olive Press: Albares accuses PP of trying to sabotage the treaty", "url": "https://www.theolivepress.es/spain-news/2026/11/12/albares-accuses-pp-sabotaging-gibraltar-treaty/"}
+   ],
+   "questions": ["What does the EU–UK treaty on Gibraltar change at the border?", "How many people cross between Gibraltar and Spain every day, and why?"],
+   "blog": {"title": "Living near Gibraltar: Sotogrande, San Roque and Manilva explained", "angle": "What the border treaty changed, daily life, schools, golf and prices on the western end of the coast. Update after the 14 December vote."}
+  },
+  {
+   "label": "What's on",
+   "kind": "next week",
+   "topic": "Marbella and Costa del Sol week of 14 November",
+   "title": "Sport, a campaign and the run-up to 25N",
+   "bullets": [
+    "<b>Sat 14 Nov:</b> Mijas mountain marathon from Mijas Pueblo, about 700 runners and 2,300 m of climbing.",
+    "<b>Sat 14 and Sun 15 Nov:</b> Andalusian rhythmic gymnastics championship in San Pedro Alcántara, the first time it comes to the town. The Andalusian wheelchair tennis championship also runs in Marbella until Sunday.",
+    "<b>All week:</b> the general election campaign is under way, ahead of the vote on <b>Sunday 29 November</b>.",
+    "<b>Sat 21 Nov:</b> Día del Vecino in the Plaza de Toros neighbourhood.",
+    "<b>Around 25 Nov:</b> about twenty activities in Marbella for the International Day for the Elimination of Violence against Women.",
+    "<b>Fri 27 Nov:</b> Black Friday across the coast. <mark>Still no date for the AVE's return; book Madrid flights early.</mark>"
+   ],
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: rhythmic gymnastics championship", "url": "https://www.marbella.es/actualidad/noticias/san-pedro-alcantara-acogera-los-dias-14-y-15-de-noviembre-el-campeonato-de-andalucia-de-gimnasia-ritmica-que-se-celebra-por-primera-vez-en-la-ciudad.html"},
+    {"text": "Euro Weekly News: Mijas mountain marathon", "url": "https://euroweeklynews.com/2026/11/11/700-runners-2300-metres-of-climbing-mijas-pueblo-gets-ready-for-saturdays-mountain-marathon/"},
+    {"text": "Ayuntamiento de Marbella: Día del Vecino", "url": "https://www.marbella.es/actualidad/noticias/el-dia-del-vecino-2026-reunira-el-21-de-noviembre-a-los-residentes-de-plaza-de-toros-en-una-jornada-de-convivencia.html"}
+   ],
+   "questions": ["How do Spanish general elections work, and when are results usually known on election night?", "What are the best mountain trails around Mijas and Marbella?"],
+   "blog": {"title": "Marbella outdoors: hiking, trail running and sport on the coast", "angle": "A guide to La Concha, Sierra Blanca, the Mijas trails and the big sporting events of the year. Good evergreen content for active buyers."}
+  }
+ ]
+}
