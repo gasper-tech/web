@@ -17,10 +17,10 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Doomsday argument
 - [ ] Belphegor's prime
 - [ ] The brachistochrone problem
-- [ ] Collatz conjecture
+- [x] Collatz conjecture (#09)
 - [ ] Empirical vs anecdotal evidence
 - [ ] Epistemic (what it means, epistemic humility)
-- [ ] Paradigm shift (Kuhn)
+- [x] Paradigm shift (Kuhn) (#09)
 
 ## Philosophy and big questions
 - [ ] Ontological reductionism
@@ -86,7 +86,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [x] The Library of Alexandria (#02)
 - [x] The life of Oscar Wilde (#07)
 - [x] Female Renaissance artists (#03)
-- [ ] How art affects war / artists in wartime
+- [x] How art affects war / artists in wartime (#09)
 - [x] Neoplasticism (Mondrian) (#05)
 - [ ] Geometric abstraction
 - [ ] Tensegrity sculpture

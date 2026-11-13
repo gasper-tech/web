@@ -1,0 +1,316 @@
+{
+ "number": 9,
+ "date_label": "Friday 13 Nov",
+ "read_min": 9,
+ "subject_hook": "The sum no mathematician can crack",
+ "preheader": "Plus: why your waist beats BMI, Spain's strike measured in kilowatts, and the artists who painted warships.",
+ "first_sip": "Done is a beautiful word. Say it often today.",
+ "footer": "Built from news up to 13 November 2026. Figures come from the linked sources and are rounded. Next Doppio: Tuesday 17 November, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "America's inflation report lost its headline number",
+   "paragraphs": [
+    "On Tuesday the US published its October inflation report, and the most famous number in it was missing. Prices rose 0.4% in the month, above the 0.3% forecast, and core prices (food and energy stripped out) rose 0.3%. But there was no annual rate. <mark>Statisticians could not say how much prices rose over the year, because they never collected October 2025 prices: the government was shut down.</mark> The last annual reading, for September, was 3.7%.",
+    "<b>How the annual rate works:</b> it simply compares this month's price index with the same month a year earlier. Remove one end of the ruler and there is nothing to measure. Economists are filling the gap with their own estimates, which is guesswork with better spreadsheets. The timing is awkward. The Fed meets on 8–9 December, and the November report lands on 10 December, a day too late. So markets, now betting on a December hike, are steering by monthly numbers alone."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Headline statistics look solid, but each rests on a long chain of routine data collection. When one link breaks, the damage can surface a year later. Interest-rate decisions, and the dollar, bond yields and euro exchange rates that follow them, then get made with blurrier vision."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "US BLS: 2025 shutdown impact on the CPI (FAQ)",
+     "url": "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm"
+    },
+    {
+     "text": "Fox Business: October CPI report",
+     "url": "https://foxbusiness.com/economy/cpi-inflation-october-2026"
+    },
+    {
+     "text": "Yahoo Finance: October CPI rises 0.4% as food and rent spike",
+     "url": "https://finance.yahoo.com/economy/article/not-great-october-cpi-inflation-data-comes-in-hotter-than-expected-as-food-and-rent-costs-spike-142323507.html"
+    }
+   ],
+   "questions": [
+    "Why did the US October 2026 inflation report have no year-over-year figure?",
+    "How do statisticians calculate an annual inflation rate from a monthly price index?",
+    "How can a central bank set interest rates when key economic data is missing?"
+   ]
+  },
+  {
+   "label": "World",
+   "kind": "this week",
+   "topic": "World",
+   "title": "Spain's big strike, and the fight over its size",
+   "paragraphs": [
+    "On Wednesday Spain had its first general strike in 14 years. The two biggest unions, UGT and CCOO, called a 24-hour walkout over rents and pay. It landed less than three weeks before the snap election on 29 November. Unions said about <b>4 million</b> people took part. The employers' group CEOE called it a flop, with activity down only around <b>5%</b>. Both sides did agree on one thing: factories and transport stopped far more than shops and bars.",
+    "<b>How a strike gets counted:</b> nobody actually counts. Spanish workers don't have to tell anyone in advance that they are striking. So everyone reaches for a proxy, and the favourite is the plug socket. Red Eléctrica, the grid operator, publishes a forecast of what a normal weekday would use, and you compare the real demand with it. At the peak hour, between 10 and 11am, demand was as much as 15.5% below forecast. Averaged over the whole day, the gap was much smaller. <mark>Unions quote the peak. Bosses quote the average.</mark> Both are reading the same chart."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Housing is the issue of this Spanish election, and the strike was a test of how angry people really are. If you work on the Costa del Sol, the same squeeze shows up in rents and staff turnover. And next time a strike's size is in dispute, ask which hour of the electricity chart is being quoted."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Reuters via The Star: Millions of Spaniards stage first general strike in 14 years",
+     "url": "https://www.thestar.com.my/news/world/2026/11/11/workers-across-spain-stage-first-general-strike-in-14-years-in-anger-over-housing"
+    },
+    {
+     "text": "Time: Millions of Spanish workers stage first general strike in 14 years",
+     "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
+    },
+    {
+     "text": "El Español: Red Eléctrica's forecast for the strike day",
+     "url": "https://www.elespanol.com/invertia/empresas/energia/20261112/red-electrica-confiaba-exito-huelga-general-prevision-consumo-dia-laborable/1003744454537_0.html"
+    }
+   ],
+   "questions": [
+    "Why is electricity demand used as a stand-in for strike turnout in Spain?",
+    "How could the housing issue shape Spain's election on 29 November?",
+    "Why did factories and transport strike more than shops and restaurants?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "simplify",
+   "topic": "AI Build",
+   "title": "A polite invoice chaser that never forgets",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "No code to write yourself"
+    },
+    {
+     "n": "1 hour",
+     "t": "Sheet, script, test run"
+    },
+    {
+     "n": "€0",
+     "t": "With Claude, Sheets and Gmail you already have"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Chasing late invoices is the worst admin there is. It is awkward, it is easy to forget, and it is your money. So hand the remembering to a robot and keep the sending for yourself. A small Google Sheet tracks who owes what. Every morning, AI checks it and writes a friendly reminder for anything overdue, getting firmer as the weeks go by. <mark>Nothing goes out until you read it and press send.</mark> Your clients get a nudge. You get paid sooner.",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> Connect Gmail to Claude (Settings, then Connectors). Ask: \"Find invoices I sent in the last 90 days with no payment reply, and draft a polite reminder for each.\" Claude writes them as Gmail drafts. You check the tone, then send.",
+    "<b>Better:</b> Make a Sheet with columns for client, email, invoice number, amount, due date, paid and last chased. Ask Claude to write a Google Apps Script that creates a Gmail draft for every unpaid row 7, 14 or 30 days late, each one a little firmer. Paste it in via Extensions, Apps Script, then add a daily trigger. Test it on a fake invoice to yourself first.",
+    "<b>Next level:</b> On a paid Claude plan, set up a weekly scheduled task. Every Monday Claude reads the Sheet, checks Gmail for \"paid\" replies, ticks those off and drafts the rest. It runs in the cloud, so your laptop can stay shut."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Probably not as a product. Most invoicing apps already send automatic reminders, and they do it for a few euros a month. This is a time-saver for you, and a nice small extra to set up for a client who still invoices from a Word file."
+   },
+   "questions": [
+    "How can a Google Apps Script create Gmail drafts automatically from rows in a Google Sheet?",
+    "What is a polite but firm way to word a second and third reminder for an overdue invoice?",
+    "Which invoicing tools for freelancers send automatic payment reminders, and how do they compare?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Your waist may say more than your BMI",
+   "paragraphs": [
+    "BMI is medicine's bathroom scale: quick, cheap and a bit blunt. A study in <i>Nature</i> this week (11 November) tested a newer definition of obesity on <b>844,108 adults</b> in China, the UK, the US and Spain. It adds a waist measure to BMI. Then it asks a second question: is the extra fat actually harming the body? If a person has one of 18 related problems, such as sleep apnoea or heart failure, that counts as <i>clinical</i> obesity. If not, it is <i>preclinical</i>.",
+    "Only about a quarter to a third of obesity (23–31%) was clinical. That group had a 69% higher risk of death than people without obesity. The preclinical group's risk was just 19% higher, and 77–91% of them had not progressed to clinical obesity ten years later. The twist: <mark>obesity flagged by BMI alone, with no waist measure to back it up, was not linked to a higher risk of death</mark>. The limits: this is observational data, partly from medical records. It cannot prove the fat caused the organ problems, and the cohorts lean middle-aged and older."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A number on the scale is not the same as a diagnosis, and a tape measure adds real information. Per the study, BMI alone missed obesity-level body fat in up to 8.6% of people and wrongly labelled up to 3.1%. General information, not medical advice."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Pan et al., Nature (2026)",
+     "url": "https://www.nature.com/articles/s41586-026-11237-5"
+    },
+    {
+     "text": "King's College London press release (2026)",
+     "url": "https://www.kcl.ac.uk/news/new-clinical-definition-outperforms-bmi-in-diagnosing-obesity"
+    },
+    {
+     "text": "Nature news: Proposed approach for diagnosing obesity outperforms old method (2026)",
+     "url": "https://www.nature.com/articles/d41586-026-03425-0"
+    }
+   ],
+   "questions": [
+    "What is the difference between clinical and preclinical obesity in the new obesity definition?",
+    "Why is waist size a better warning sign than BMI alone?",
+    "How should waist-to-height ratio be measured at home, and what number counts as high?"
+   ]
+  },
+  {
+   "label": "Art & History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "When artists painted warships to lie",
+   "paragraphs": [
+    "In 1917, with U-boats sinking British merchant ships at an alarming rate, the marine painter <b>Norman Wilkinson</b> had a contrary idea. You cannot hide a ship on the open sea, so why try? Instead, cover it in clashing stripes and curves, so a submarine commander peering through a periscope misjudges its course. Dazzle was born.",
+    "Artists did the work. Wilkinson's team tested designs on model ships in the basement of the Royal Academy, then sent plans to ports around Britain. The Vorticist <b>Edward Wadsworth</b> oversaw the painting in Bristol and Liverpool, and later turned it into a huge canvas, <i>Dazzle-ships in Drydock at Liverpool</i>. The US Navy took up the idea in 1918. Picasso, spotting a camouflaged cannon in Paris, is said to have told Gertrude Stein: \"It is we who made that.\" Cubism had joined up.",
+    "Did it work? <mark>Even in 1918, an Admiralty committee could find no clear proof that dazzle cut sinkings, yet advised keeping it because crews felt safer.</mark> Recent lab studies from Aston and Abertay universities agree the effect was real but modest: the stripes twist a ship's apparent heading by around 10 degrees, and a horizon illusion did more of the fooling."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Dazzle swapped the question \"can they see me?\" for \"can they read me?\" Sometimes confusing an enemy is cheaper than vanishing, and a boost to morale can count as a result even when the data stays murky."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Royal Museums Greenwich: SS Argyllshire dazzle drawings",
+     "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-140363"
+    },
+    {
+     "text": "Imperial War Museums: Dazzle ship prints",
+     "url": "https://www.iwm.org.uk/partnerships/mapping-the-centenary/projects/dazzle-ship-prints"
+    },
+    {
+     "text": "Royal Society Open Science: Dazzle camouflage, benefits and problems",
+     "url": "https://doi.org/10.1098/rsos.240624"
+    }
+   ],
+   "questions": [
+    "How was dazzle camouflage supposed to confuse U-boat commanders in the First World War?",
+    "Which artists worked on camouflage in the First and Second World Wars?",
+    "Did dazzle camouflage actually reduce ship losses, according to historians and modern experiments?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "The kids' sum maths still can't crack",
+   "paragraphs": [
+    "Pick any whole number. If it is even, halve it. If it is odd, triple it and add one. Repeat. The <b>Collatz conjecture</b>, dating from the 1930s, says you will always land on 1. Try 6: 3, 10, 5, 16, 8, 4, 2, 1. Easy. Now try 27. It takes <b>111 steps</b>, soaring to <b>9,232</b> before crashing down. The ups and downs earn these sequences the nickname \"hailstone numbers\".",
+    "Computers have checked every starting number below 2⁷¹, roughly 2.4 sextillion, and every one falls to 1 (David Barina, published 2025). But checking is not proving: a rogue number could lurk further out. In 2019 <b>Terence Tao</b> showed that <i>almost all</i> starting numbers drop to almost bounded values. It was the strongest result in decades, yet it still leaves room for exceptions.",
+    "Why so stubborn? <mark>The rule mixes multiplying and halving in a way that looks random but isn't, and no known tool tames both at once.</mark> Paul Erdős reportedly remarked that mathematics was \"not yet ready for such problems\". Nearly a century after it was posed, it still seems not to be."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "How simply a problem is stated tells you little about how hard it is. Some of the deepest questions hide inside rules a child can follow."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Quanta Magazine: Mathematician proves huge result on 'dangerous' problem",
+     "url": "https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/"
+    },
+    {
+     "text": "Journal of Supercomputing: Improved verification limit for Collatz",
+     "url": "https://doi.org/10.1007/s11227-025-07337-0"
+    },
+    {
+     "text": "arXiv: Tao, Almost all Collatz orbits attain almost bounded values",
+     "url": "https://arxiv.org/abs/1909.03562"
+    }
+   ],
+   "questions": [
+    "What is the Collatz conjecture, and why has nobody been able to prove it?",
+    "What did Terence Tao prove about the Collatz conjecture in 2019?",
+    "Why can checking billions of examples never prove a mathematical conjecture?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Paradigm shift: when the rules themselves change",
+   "paragraphs": [
+    "In 1962 the physicist-turned-historian Thomas Kuhn published <i>The Structure of Scientific Revolutions</i>. His claim: science doesn't just pile up facts. Most of the time scientists do \"normal science\", solving puzzles inside a shared framework he called a <b>paradigm</b>. Then anomalies turn up. At first they get patched or ignored. When enough pile up, you get a crisis, and eventually a revolution.",
+    "Alfred Wegener proposed continental drift in 1912 and was largely dismissed: he had no mechanism. Only in the 1960s, with new evidence from the seafloor, did plate tectonics become the consensus. Wegener had died in 1930. Kuhn's spikier point was that rival paradigms use different concepts and standards, so you can't simply score them against each other. <mark>A paradigm shift isn't a better answer to the old question; it changes what counts as a question.</mark>",
+    "Then the phrase escaped into the boardroom, where it now means any new app. Kuhn meant something rarer and slower. Max Planck put the human side bluntly: \"A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die.\" The snappier \"science advances one funeral at a time\" is a later paraphrase."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Anomalies are information, not noise. When the facts that don't fit keep piling up, the problem may be the framework, not the facts. Worth noticing before someone younger does it for you."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Stanford Encyclopedia of Philosophy: Thomas Kuhn",
+     "url": "https://plato.stanford.edu/entries/thomas-kuhn/"
+    },
+    {
+     "text": "Internet Encyclopedia of Philosophy: Thomas S. Kuhn",
+     "url": "https://iep.utm.edu/kuhn-ts/"
+    },
+    {
+     "text": "Science News: How the theory of plate tectonics was born",
+     "url": "https://www.sciencenews.org/article/earth-plate-tectonics-volcanoes-earthquakes-faults"
+    }
+   ],
+   "questions": [
+    "What did Thomas Kuhn mean by a paradigm shift, and how is the term misused today?",
+    "Why did it take about fifty years for continental drift to be accepted?",
+    "What did Max Planck say about how new scientific ideas win acceptance?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "The human understanding when it has once adopted an opinion (either as being the received opinion or as being agreeable to itself) draws all things else to support and agree with it.",
+   "cite": "Francis Bacon, Novum Organum, Book I, Aphorism XLVI · 1620 · trans. James Spedding, Robert Leslie Ellis & Douglas Denon Heath",
+   "paragraphs": [
+    "Bacon wrote this in 1620, in the part of <i>Novum Organum</i> about the \"idols\" that distort our thinking. He goes on: even when the contrary evidence is greater in number and weight, the mind neglects it, despises it, or invents a distinction to set it aside, all to keep its earlier conclusions safe. <mark>It is confirmation bias, described more than three centuries before psychologists named it.</mark> Read next to Kuhn, it explains why paradigms are so sticky: the old view doesn't just sit there, it actively recruits evidence to its side."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Bacon, Novum Organum, Book I aphorisms (Fordham Modern History Sourcebook)",
+     "url": "https://sourcebooks.web.fordham.edu/mod/bacon-aphor.asp"
+    }
+   ],
+   "questions": [
+    "What are Francis Bacon's four idols of the mind in Novum Organum?",
+    "How did Francis Bacon's ideas shape the scientific method?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "logic · medium",
+   "topic": "Puzzle",
+   "previous_answer": "<b>Lounger</b>. Take away its third letter, the U, and it becomes <i>longer</i>.",
+   "puzzle": "Three boxes are labelled <i>Apples</i>, <i>Oranges</i> and <i>Apples &amp; Oranges</i>. Every label is wrong. You may take out one piece of fruit from one box, without looking inside. Which box do you pick from, and how do you then relabel all three correctly?",
+   "hint": "Hint: one box is guaranteed to hold only one kind of fruit. Answer in Tuesday's Doppio.",
+   "questions": [
+    "Give me a hint for the three mislabelled fruit boxes puzzle, without the answer",
+    "Give me another medium-difficulty logic puzzle based on wrong labels or false statements"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "On Venus a day lasts longer than a year: the planet takes about 243 Earth days to spin once on its axis, but only about 225 to go round the Sun.",
+   "cite": "NASA Space Place, All About Venus · Snopes fact check",
+   "questions": [
+    "Why does Venus spin so slowly, and why does it spin backwards?",
+    "How long is a solar day on Venus compared with its sidereal day?"
+   ]
+  },
+  {
+   "label": "Book of the week",
+   "kind": "Fridays",
+   "topic": "Book",
+   "title": "<i>The Invention of Nature</i>, by Andrea Wulf",
+   "paragraphs": [
+    "Before Darwin, and before anyone had coined the word 'ecology', there was Alexander von Humboldt: a restless Prussian who hauled barometers up the Andes and came down seeing nature as one connected web. Andrea Wulf's 2015 biography follows him through rainforests, Paris salons and Jefferson's White House, then traces his ideas into Darwin, Thoreau and John Muir. The best scene: after climbing Chimborazo in 1802, he begins sketching a cross-section of the mountain with its plants stacked by altitude, <mark>basically an infographic, two centuries early</mark>. It won the Costa Biography Award and the Royal Society's science book prize, and it reads like an adventure story."
+   ],
+   "why": {
+    "head": "Read it if",
+    "text": "you've ever wondered why a squid, a penguin, an ocean current and a California county are all named after the same man."
+   },
+   "questions": [
+    "What is The Invention of Nature by Andrea Wulf about?",
+    "Why was Alexander von Humboldt so influential on Darwin, Thoreau and John Muir?",
+    "What was Humboldt's Naturgemälde of Chimborazo, and why is it called an early infographic?"
+   ]
+  }
+ ]
+}
