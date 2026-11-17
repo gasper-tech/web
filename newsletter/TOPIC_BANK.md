@@ -13,7 +13,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Formal vs informal fallacy
 - [ ] Amphiboly
 - [ ] Equivocation
-- [ ] Sorites paradox
+- [x] Sorites paradox (#10)
 - [ ] Doomsday argument
 - [ ] Belphegor's prime
 - [ ] The brachistochrone problem
@@ -80,7 +80,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Terminal lucidity
 - [ ] Near-death experiences
 - [ ] Human evolution
-- [ ] Poisons and antidotes
+- [x] Poisons and antidotes (#10)
 
 ## History, art and mysteries
 - [x] The Library of Alexandria (#02)

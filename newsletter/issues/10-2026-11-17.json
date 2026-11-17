@@ -1,0 +1,290 @@
+{
+ "number": 10,
+ "date_label": "Tuesday 17 Nov",
+ "read_min": 9,
+ "subject_hook": "Why is ice slippery? Nobody agrees",
+ "preheader": "Plus: why Nvidia's board could remove its founder, the poison king of Pontus, and diesel's stubborn price.",
+ "first_sip": "Small steps count. Ask any heap of sand.",
+ "footer": "Built from news up to 17 November 2026. Figures come from the linked sources and are rounded. Next Doppio: Friday 20 November, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "Crude is cheap again. Diesel missed the memo",
+   "paragraphs": [
+    "Last Friday the International Energy Agency said something it had not said since the Iran war began: the world is pumping more oil than it uses. Supply overtook demand in October as Gulf exports recovered, and the IEA now expects a surplus of about 1.7 million barrels a day this quarter. Crude prices have slid. Good news, then? Partly. <mark>European diesel is still about 77% dearer than before the war.</mark>",
+    "<b>How fuel prices split:</b> crude is the raw material. Diesel is a finished product, and it needs a refinery. Oil wells restart faster than refineries and fuel terminals. Gulf exports of refined fuels are still only about half their pre-war level. Attacks on Russian energy sites have cut Russian diesel exports too. Europe runs its trucks, tractors and plenty of cars on diesel, and buys a lot of it abroad, so it feels the pinch first. The IEA calls diesel its <i>overriding concern</i> and wants governments to release emergency stocks faster."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "The oil price on the news is not the price you pay at the pump. The gap between crude and refined fuel can stay wide for months, which keeps transport and food costs, and the inflation central banks watch, stickier than a falling oil chart suggests."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Euronews: European diesel prices stay high as oil supply overtakes demand",
+     "url": "https://finance.yahoo.com/energy/articles/european-diesel-prices-stay-high-111707356.html"
+    },
+    {
+     "text": "Reuters: World oil market is returning to surplus, IEA says",
+     "url": "https://www.investing.com/news/commodities-news/world-oil-market-is-returning-to-surplus-as-gulf-exports-recoveriea-says-5024885"
+    }
+   ],
+   "questions": [
+    "Why can diesel prices stay high while crude oil prices fall?",
+    "What is a refining crack spread and what does it tell you about fuel markets?",
+    "How do IEA emergency oil stock releases work, and how much do they lower prices?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "Why Nvidia's founder couldn't keep his job",
+   "paragraphs": [
+    "Jensen Huang co-founded Nvidia in 1993 and turned it into the chip company behind the AI boom. On 12 November he resigned as chief executive and left the board, effective immediately. The company's filing gave no reason. It came four days after the board opened an independent investigation into reports that Huang had been <i>\"the target of a foreign intelligence effort\"</i>. In an email to staff, Huang admitted an affair and said there was \"no excuse\". The board said it had no reason to believe Nvidia's secrets were compromised. Finance chief Colette Kress is now interim CEO, and the shares fell as much as 14% before closing about 4% down.",
+    "<b>How founder control works:</b> many tech founders keep power through special shares that carry extra votes, so no board can fire them. Nvidia never had those. It is one share, one vote, and Huang owned only about 3.6%. <mark>So the man who built a multi-trillion-dollar company could be removed like any hired manager.</mark> Directors answer to the other 96%, and they decided the risk had become too big. Kress is due to present her first results as boss this week."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Nvidia's chips sit inside most of the world's AI data centres, so the people running it matter far beyond Silicon Valley. The story also shows a trade-off: super-voting shares protect visionary founders, but they also protect founders from accountability. Nvidia's simpler set-up let the board act within days."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "GlobeNewswire: Statement from NVIDIA Board of Directors",
+     "url": "https://www.globenewswire.com/news-release/2026/11/08/3398017/0/en/statement-from-nvidia-board-of-directors.html"
+    },
+    {
+     "text": "Fortune: Huang owned less than 4%, no super-voting power",
+     "url": "https://fortune.com/2026/11/12/jensen-huang-nvidia-ceo-resignation-ai-chip-founders-voting-power-board-control-mark-zuckerberg-meta-stock-market/"
+    },
+    {
+     "text": "CNBC: Nvidia stock closes down after Huang resigns",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+    }
+   ],
+   "questions": [
+    "What are dual-class shares, and why do tech founders like Mark Zuckerberg use them?",
+    "How can a company's board remove a founder as CEO?",
+    "What happened when Jensen Huang resigned as Nvidia CEO in November 2026?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "build",
+   "topic": "AI Build",
+   "title": "A palette checker that says no before clients do",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "one chat, no code to write"
+    },
+    {
+     "n": "30 min",
+     "t": "first working version"
+    },
+    {
+     "n": "€0",
+     "t": "Claude Free makes artifacts"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> A client sends a sunset photo of their terrace and says \"these are our colours\". Lovely. Now, can anyone read white text on that terracotta? Build a small page in Claude that pulls five colours from any image, then tests every text-on-background pair. <mark>Pairs under 4.5:1, the WCAG AA minimum for body text, get flagged in red</mark>. You find out in the moodboard stage. Not after launch, when a client's mum can't read the menu.",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> Ask Claude for an artifact: \"Let me drop in an image, extract a 5-colour palette, show hex codes, and a grid of every colour pair with its contrast ratio. Mark pass or fail for WCAG AA: 4.5:1 for normal text, 3:1 for large text.\" Test it with a photo you know well, and ask for fixes in plain English.",
+    "<b>Better:</b> Add a \"nearest pass\" button. If a pair fails, the page suggests the closest darker or lighter shade that passes. Add a copy button that gives you CSS variables, ready to paste into Framer code or a dev handover.",
+    "<b>Next level:</b> Turn it into a client deliverable. Have it build a one-page swatch sheet with your logo, names for each colour and the approved text pairings. Print it to PDF and drop it into the brand guidelines folder in Google Drive."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Honestly, no. Coolors, Adobe Color and plenty of free sites already pull palettes from photos and check contrast. Its value is that it fits how you work, and the swatch sheet makes you look thorough in front of clients."
+   },
+   "questions": [
+    "How can a Claude artifact extract a colour palette from an uploaded image?",
+    "What are the WCAG contrast ratio rules for text, and how is contrast ratio calculated?",
+    "How can a brand colour be adjusted to pass WCAG AA contrast without losing its character?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Your legs may outvote your lunch",
+   "paragraphs": [
+    "Two researchers set diet against exercise and asked which tracks more closely with a long life. Glenn Gaesser (Arizona State) and Robert Sallis (Kaiser Permanente) reviewed decades of studies for <i>Mayo Clinic Proceedings</i> (online 10 November). The worst diets, heavy on ultra-processed food, processed meat, sugary drinks and fried food, were linked to a <b>3% to 20%</b> higher risk of death. Meanwhile, meta-analyses tied <b>11,000 to 16,000</b> daily steps to a <b>45% to 67%</b> lower risk than 2,000 to 5,000 steps. <mark>In studies that measured both, being fit largely cancelled out the extra risk of a poor diet. A good diet did not cancel out sitting still.</mark>",
+    "Now the small print. This is a review, not a new trial. Most of the evidence is observational, and fit people may differ in other ways, such as income or existing health. Gaesser's practical tip is modest: add about 2,000 steps a day, and don't fuss much about pace. He also says plainly that diet still matters. Think of the fork as important, and the feet as more important."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "If time and willpower are limited, moving more may buy more than perfecting the menu. An extra 2,000 steps fits into a lunchtime walk. General information, not medical advice."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Gaesser & Sallis, Mayo Clinic Proceedings (2026)",
+     "url": "https://www.mayoclinicproceedings.org/article/S0025-6196(26)18806-5/fulltext"
+    },
+    {
+     "text": "Arizona State University News, 'You aren't just what you eat' (2026)",
+     "url": "https://news.asu.edu/20261112-health-and-medicine-you-arent-just-what-you-eat"
+    },
+    {
+     "text": "Kaiser Permanente Research & Evaluation, 'Physical activity may matter more than diet for longevity' (2026)",
+     "url": "https://www.kp-scalresearch.org/physical-activity-may-matter-more-than-diet-for-longevity/"
+    }
+   ],
+   "questions": [
+    "Can regular exercise really offset an unhealthy diet?",
+    "Does walking pace matter as much as the number of daily steps?",
+    "Why might fitness protect the body against the effects of poor food choices?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "The poison king who couldn't poison himself",
+   "paragraphs": [
+    "Mithridates VI ruled Pontus, on the Black Sea, and spent decades fighting Rome. He was also, by reputation, terrified of being poisoned. Roman writers such as Pliny the Elder say he took small doses of poison every day, after first swallowing protective remedies, to build up immunity. That is where we get the word <i>mithridatism</i>. Nice story. Nobody checked his blood work.",
+    "The ending is the famous bit. Beaten by Pompey and betrayed by his own son, he tried to kill himself with poison in 63 BC. According to Appian, it did not work, so he asked a Gallic officer, Bituitus, to finish him with a sword. <mark>He is said to have complained that he had guarded against every poison in his food, but not against the “domestic poison” of treacherous armies, children and friends.</mark> Pliny adds that Pompey found the king’s antidote recipe in his own handwriting. It became <b>mithridatium</b>, later reworked by Nero’s physician Andromachus into <b>theriac</b>: dozens of ingredients, opium and viper flesh included.",
+    "Pharmacies sold it for centuries. It had gone from the London Pharmacopoeia by 1788. What replaced it was a humbler idea, put by Paracelsus in 1538: everything is a poison, and only the dose makes a thing not a poison. Real antidotes are specific. Naloxone reverses opioids, acetylcysteine protects the liver after a paracetamol overdose. There is no master key."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A cure that promises to fix everything usually fixes nothing. Modern medicine got good by asking a narrower question: which drug, for which poison, at what dose?"
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Wellcome Collection: Theriac, an ancient brand",
+     "url": "https://wellcomecollection.org/stories/theriac--an-ancient-brand-"
+    },
+    {
+     "text": "Livius: Appian, The Mithridatic Wars",
+     "url": "https://livius.org/sources/content/appian/appian-the-mithridatic-wars/appian-the-mithridatic-wars-23"
+    },
+    {
+     "text": "The BMJ: Nothing is not a poison",
+     "url": "https://blogs.bmj.com/bmj/2019/08/09/jeffrey-aronson-when-i-use-a-word-nothing-is-not-a-poison/"
+    }
+   ],
+   "questions": [
+    "How did Mithridates VI of Pontus supposedly try to make himself immune to poison?",
+    "What was theriac, and why did it stay in European pharmacies for so long?",
+    "What did Paracelsus mean by 'the dose makes the poison'?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Why is ice slippery? Physicists still argue",
+   "paragraphs": [
+    "The school answer: a skate blade presses so hard that the ice melts, and you glide on water. It is tidy, and mostly wrong. Pressure does lower ice’s melting point, but by far too little to explain skating, and nowhere near enough for a flat-soled boot. People also slip on ice far below freezing, where pressure melting has no chance. Friction heating helps once you are moving fast, but it does not explain why ice is slippery when you are standing still.",
+    "The older and better idea came from Michael Faraday in 1850. He suggested that ice wears a thin, water-like film on its surface even below 0°C, because the top molecules have fewer neighbours holding them in place. In 2018 a team from AMOLF and the University of Amsterdam, with Germany’s Max Planck Institute for Polymer Research, measured friction and ran simulations. They found loosely bound surface molecules that roll around like tiny ball bearings. Friction was lowest at about −7°C, the temperature used on speed-skating rinks.",
+    "Then, in 2025, physicists at Saarland University argued in <i>Physical Review Letters</i> that the real trigger is electrical. <mark>Their simulations suggest that molecular dipoles in the ice and in a shoe sole disrupt the crystal, leaving a disordered, liquid-like layer even in deep cold.</mark> Not everyone agrees. The case is open."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A neat explanation can survive in textbooks for a century without being right. Even everyday things, like a frozen pavement, still hold real scientific puzzles."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "AMOLF: Molecular insight into the slipperiness of ice",
+     "url": "https://amolf.nl/publications/molecular-insight-into-the-slipperiness-of-ice"
+    },
+    {
+     "text": "Saarland University: Why we slip on ice",
+     "url": "https://www.uni-saarland.de/en/news/why-we-slip-on-ice-physicists-challenge-centuries-old-assumptions-39295.html"
+    },
+    {
+     "text": "Physics Today: Why is ice slippery?",
+     "url": "https://physicstoday.aip.org/features/why-is-ice-slippery"
+    }
+   ],
+   "questions": [
+    "Why doesn't pressure melting explain why ice skates glide?",
+    "What is the quasi-liquid layer on the surface of ice?",
+    "What did the 2025 Saarland University study propose about why ice is slippery?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "One grain at a time: the sorites paradox",
+   "paragraphs": [
+    "Take one grain of sand. Not a heap. Add another. Still not. One grain can never turn a non-heap into a heap, so, step by step, a million grains isn't a heap either. Something has gone wrong. The puzzle is credited to Eubulides of Miletus, a Megarian logician of the 4th century BC. The name comes from the Greek <i>soros</i>, heap. His bald man runs the same trick in reverse: pluck one hair at a time, then say exactly when baldness arrives.",
+    "The culprit is vagueness. Heap, bald, tall, rich: none has a sharp edge. <mark>The law can't live with blur, so it draws lines that are useful rather than true: you're an adult at 18, not the day before, and 50 means 50, not 51.</mark> The same logic drives the slippery slope and the boiling frog. Each small step looks harmless. The total doesn't.",
+    "Philosophers split three ways. Epistemicists, led by Timothy Williamson in <i>Vagueness</i> (1994), say there really is a precise line; we just can't know where it is. Supervaluationists say borderline claims are neither true nor false, though 'it's a heap or it isn't' still holds. Degree theorists borrow from fuzzy logic and let truth come in shades."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Most change is gradual and most decisions are yes-or-no. Knowing the line is chosen, not found, helps you spot creep in a budget, a habit or a policy before it quietly becomes a heap."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Stanford Encyclopedia of Philosophy: Sorites Paradox",
+     "url": "https://plato.stanford.edu/entries/sorites-paradox/"
+    },
+    {
+     "text": "Bruno Dinis, 'Old and new approaches to the Sorites paradox' (arXiv)",
+     "url": "https://arxiv.org/abs/1704.00450"
+    }
+   ],
+   "questions": [
+    "What is the sorites paradox, and how do philosophers try to solve it?",
+    "Who was Eubulides of Miletus, and which paradoxes are attributed to him?",
+    "What is the difference between epistemicism, supervaluationism and degree theories of vagueness?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "Nature has permitted us no knowledge of limits such as would enable us to determine, in any case, how far to go.",
+   "cite": "Cicero, Academica, Book II (Lucullus), §92 · 45 BC · trans. James S. Reid (1880)",
+   "paragraphs": [
+    "Cicero wrote the <i>Academica</i> in 45 BC as a debate about whether anything can be known for certain. In Book II he argues the sceptic's side and uses the sorites as a weapon. It isn't only heaps of corn, he says, but rich and poor, famous and obscure, many and few. He teases the Stoic Chrysippus, whose answer was to fall silent as the borderline cases approached. <mark>Going quiet, Cicero replies, is not the same as knowing where the line is.</mark> Two thousand years later, philosophers are still having this argument."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "The Academics of Cicero, trans. J. S. Reid (1880), Internet Archive",
+     "url": "https://archive.org/stream/academicsofcicer00cice/academicsofcicer00cice_djvu.txt"
+    }
+   ],
+   "questions": [
+    "What is Cicero's Academica about, and what does it say about the sorites argument?",
+    "How did the Stoic philosopher Chrysippus respond to the sorites paradox?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "lateral · medium",
+   "topic": "Puzzle",
+   "previous_answer": "Pick from the box labelled <b>Apples &amp; Oranges</b>. Its label is wrong, so it holds only one kind. Say you pull out an apple: that box is <i>Apples</i>. The box labelled <i>Oranges</i> can't be oranges (wrong label) or apples (taken), so it's the mix, and the box labelled <i>Apples</i> must be <i>Oranges</i>. An orange works the same way in reverse.",
+   "puzzle": "A woman shoots her husband. Then she holds him under water for five minutes. Finally, she hangs him. An hour later they go out to dinner together, both perfectly happy. How?",
+   "hint": "Hint: think about what she does for a living, and what she's holding. Answer in Friday's Doppio.",
+   "questions": [
+    "Give me a hint for the riddle about a woman who shoots her husband, holds him under water and hangs him, then they go to dinner, without the answer",
+    "Give me another medium-difficulty lateral thinking puzzle"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Oxford University is older than the Aztecs' capital: teaching was already happening at Oxford by 1096, while Tenochtitlan wasn't founded until around 1325.",
+   "cite": "University of Oxford, 'History' · National Geographic Education, 'Tenochtitlan'",
+   "questions": [
+    "When did teaching begin at the University of Oxford?",
+    "When and where was the Aztec city of Tenochtitlan founded?"
+   ]
+  }
+ ]
+}
