@@ -1,0 +1,288 @@
+{
+ "number": 5,
+ "date_label": "Friday 20 Nov",
+ "read_min": 7,
+ "subject_hook": "A €2.6m plot, now a €39m bill",
+ "preheader": "Plus: Marbella's new plan is in force, the 2027 budget passes, and the AVE gets a repair go-ahead.",
+ "one_line": "An old expropriation came back with interest, the new town plan went live, and the fast train edged closer.",
+ "footer": "Built from news up to 20 November 2026. Figures come from the linked sources and are rounded. Next Vermut: Friday 27 November, 17:00.",
+ "sections": [
+  {
+   "label": "San Pedro tunnel",
+   "kind": "the long story",
+   "topic": "Marbella San Pedro tunnel expropriation ruling TSJA",
+   "title": "Valued at €2.6m in 2003, now a €39m bill: the land under the San Pedro tunnel",
+   "figs": [
+    {"n": "€2.6m", "t": "What the valuation board said the land was worth"},
+    {"n": "€27.6m", "t": "What the court says it was worth, plus 5%"},
+    {"n": "~€39m", "t": "Total with occupation pay and interest"}
+   ],
+   "paragraphs": [
+    "In 2003, under mayor Julián Muñoz, Marbella town hall expropriated three plots in San Pedro Alcántara, about 8,400 m² in all, for the road works that became the San Pedro tunnel and boulevard. Two of the plots are now part of Avenida de Lyon and the third is a stretch of Avenida del Mediterráneo. The Junta's valuation board put the land at <b>€2.6 million</b>. The owners never accepted that figure and have fought it in court ever since.",
+    "This month the Andalusian high court (TSJA) sided with them. <mark>It set the value at €27.6 million plus a 5% supplement, and with pay for years of temporary occupation and legal interest the bill comes to almost €39 million.</mark> The tunnel itself opened in 2012 and cost more than €85 million. The town hall can still appeal to the Supreme Court."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "This is how land valuations really work in Spain: the first official number is a starting offer, and interest runs for as long as the case does. For owners facing an expropriation or a road plan, it pays to contest the price. For the town, it is a bill close to a tenth of a year's budget."
+   },
+   "sources": [
+    {"text": "The Olive Press: Marbella ordered to pay for San Pedro tunnel land", "url": "https://www.theolivepress.es/spain-news/2026/11/14/marbella-san-pedro-tunnel-land/"}
+   ],
+   "questions": [
+    "How does compulsory purchase (expropiación forzosa) work in Spain, and how is the justiprecio set?",
+    "Why did the San Pedro Alcántara tunnel take so long to build, and what did it change for the town?"
+   ],
+   "blog": {
+    "title": "When the town hall takes your land: what the San Pedro tunnel case teaches owners",
+    "angle": "Walk through the case from 2003 to 2026, explain the justiprecio, appeals and interest in plain words, and list what an owner should do from the first letter."
+   }
+  },
+  {
+   "label": "Town plan",
+   "kind": "planning",
+   "topic": "Marbella PGOM 2026 in force and POU timeline",
+   "title": "Marbella's new general plan is in force. The detailed rules come next",
+   "figs": [
+    {"n": "40m → 53m m²", "t": "Urban land, 1986 plan vs the new one"},
+    {"n": "2028", "t": "Target for final approval of the detailed plan"}
+   ],
+   "paragraphs": [
+    "The new general plan (PGOM) took effect last Saturday, ending decades of working under the 1986 plan and the annulled one from 2010. Urban land grows from about 40 to about 53 million m². This week the mayor, Ángeles Muñoz, met the estate agents' association LPA to explain what comes next.",
+    "The PGOM sets the big picture. <mark>The rules that matter most for a single plot, uses and buildability, sit in a separate detailed plan (POU), with a first draft due for public display between late 2026 and early 2027.</mark> Initial approval is planned for 2027 and final approval for 2028. LPA, which has more than 100 member firms, warned that land for new homes is still short and asked for faster licences and one consistent reading of the plan."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Buyers will ask whether the new plan changes their plot. The honest answer, for now, is that the POU will decide most of it. Watch for the public display period: that is when owners and agents can see and object to the details."
+   },
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: mayor meets the property sector", "url": "https://www.marbella.es/actualidad/noticias/la-alcaldesa-mantiene-un-encuentro-con-el-sector-inmobiliario-para-abordar-el-nuevo-marco-de-ordenacion-urbanistica-del-municipio.html"},
+    {"text": "Área Costa del Sol: sector warns of a shortage of land", "url": "https://www.areacostadelsol.com/marbella/sector-inmobiliario-marbella-advierte-falta-suelo-construir-nuevas-viviendas/"}
+   ],
+   "questions": [
+    "What is the difference between a PGOM and a POU in Andalusian planning law (LISTA)?",
+    "What happened to Marbella's 2010 general plan, and why was it annulled?"
+   ],
+   "blog": {
+    "title": "Marbella's new town plan, explained for buyers and sellers",
+    "angle": "What changed when the PGOM took effect, what still waits for the POU, the timeline to 2028, and the questions to ask before buying a plot or a house to rebuild."
+   }
+  },
+  {
+   "label": "2027 budget",
+   "kind": "town hall",
+   "topic": "Marbella municipal budget 2027 approval",
+   "title": "A €477m budget passes its first vote, with only the PP behind it",
+   "figs": [
+    {"n": "€476.9m", "t": "Total, up 5.8% on this year"},
+    {"n": "€85m", "t": "Room for investment"}
+   ],
+   "paragraphs": [
+    "Tuesday's plenary gave initial approval to the 2027 budget. The PP voted for it, Vox abstained, and PSOE and Opción Sampedreña voted against, calling it electoral and inflated. The total is 47% higher than the 2023 accounts. Staff costs alone pass €200 million.",
+    "For property, the lines to note are €6 million for public housing and bonuses of up to 95% on taxes for some limited-rent developments. <mark>The tax breaks on IBI, IAE, ICIO and car tax all stay.</mark> Works include €7.4m for a public car park and sports facilities at Albergue África, €4m for asphalt, €1.8m for the San Pedro bus interchange and €1m to start dualling the Ronda road. It should take effect on 1 January."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "No rise in property taxes for 2027, and the ICIO break on building works stays. The Ronda road money is only a start, so don't sell a villa on a faster commute yet."
+   },
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: plenary approves the 2027 budget", "url": "https://www.marbella.es/actualidad/noticias/el-pleno-aprueba-inicialmente-el-presupuesto-municipal-de-marbella-para-2027-que-asciende-a-476-9-millones-de-euros.html"},
+    {"text": "Marbella24horas: only the PP backs the budget", "url": "https://www.marbella24horas.es/local/solo-el-pp-apoya-unos-presupuestos-de-marbella-quot-electoralistas-quot-e-quot-inflados-quot-43895"}
+   ],
+   "questions": [
+    "How do IBI and ICIO tax bonuses work in Marbella, and who qualifies?",
+    "What are the plans for dualling the A-397 road from San Pedro to Ronda?"
+   ],
+   "blog": {
+    "title": "What Marbella's 2027 budget means for owners and developers",
+    "angle": "Taxes that stay frozen, the works that touch property values, and what the housing money is for. A short, practical read for clients."
+   }
+  },
+  {
+   "label": "AVE",
+   "kind": "transport",
+   "topic": "AVE Málaga Madrid reopening after Urda crash",
+   "title": "The judge lets Adif repair the line. Tickets go on sale for 13 December",
+   "paragraphs": [
+    "On Thursday the judge investigating the Urda crash allowed Adif to start repairing the track, on condition that the damage and the repairs are fully documented. That was the last block on work. Unofficial reports talk of trains back in about ten days, around 29 November.",
+    "<mark>Renfe is not selling Málaga–Madrid tickets for travel before 13 December, and the new transport minister has not given a date.</mark> When trains return there will be fewer of them at first, with some running as double units."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Clients flying in for December viewings can plan on the train from mid-month, not before. Keep a flight as the safe option until a date is official."
+   },
+   "sources": [
+    {"text": "Área Costa del Sol: AVE closer to returning, tickets from 13 December", "url": "https://www.areacostadelsol.com/malaga/ave-malaga-madrid-mas-cerca-volver-funcionar-venta-billetes-13-diciembre/"}
+   ],
+   "questions": [
+    "What caused the Urda rail crash, and what does the investigation cover?",
+    "How long does the AVE take from Madrid to Málaga, and how do you get on to Marbella?"
+   ],
+   "blog": {
+    "title": "Getting to Marbella from Madrid: train, plane and car compared",
+    "angle": "Door-to-door times and costs for each, what the AVE shutdown taught us, and tips for clients flying in for viewings."
+   }
+  },
+  {
+   "label": "Estepona",
+   "kind": "taxes",
+   "topic": "Estepona IBI 50% discount 2027",
+   "title": "Estepona keeps half off IBI for residents in 2027",
+   "figs": [
+    {"n": "50%", "t": "IBI cut for registered residents"},
+    {"n": "€7m+", "t": "Set aside for tax bonuses and exemptions"}
+   ],
+   "paragraphs": [
+    "Estepona will keep its 50% cut on IBI, the yearly property tax, for owners registered on the padrón, applied automatically on the bill. Retired and long-term unemployed residents stay exempt from the refuse fee, about 2,000 bills.",
+    "<mark>There is also an extra 3% off IBI, refuse fee, IAE and car tax for anyone who pays by direct debit.</mark> The bylaws went to the town's plenary on Thursday for approval."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "For a buyer choosing between Estepona and its neighbours, registering on the padrón halves a running cost. It is a simple line to put in a cost comparison."
+   },
+   "sources": [
+    {"text": "Área Costa del Sol: Estepona keeps the IBI cut", "url": "https://www.areacostadelsol.com/estepona/mantendra-en-2027-la-rebaja-mitad-ibi-y-las-exenciones-en-la-tasa-de-basura/"}
+   ],
+   "questions": [
+    "What is the padrón in Spain, and what does registering change for a foreign owner?",
+    "How do yearly property costs compare between Marbella, Estepona and Benahavís?"
+   ],
+   "blog": {
+    "title": "Why every new owner on the coast should register on the padrón",
+    "angle": "The tax breaks it unlocks, with Estepona's 50% IBI cut as the example, plus how to register and what papers to bring."
+   }
+  },
+  {
+   "label": "Jobs",
+   "kind": "economy",
+   "topic": "Marbella employment Social Security affiliation autumn 2026",
+   "title": "Marbella sheds nearly 3,800 jobs after a strong summer",
+   "paragraphs": [
+    "Marbella lost almost 3,800 jobs between September and October, a fall of about 3.3%, as the summer season wound down. A drop at this time of year is normal on the coast, where hotels, beach clubs and restaurants cut staff.",
+    "<mark>The size of the autumn fall is the clearest sign of how much the local economy still leans on the summer.</mark> This week the business club CIT Marbella also signed a tourism training and research deal with the University of Málaga."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "A seasonal economy shapes the rental market: summer lets earn most of the year's income. Buyers looking at year-round rentals should check winter demand, not only August prices."
+   },
+   "sources": [
+    {"text": "Marbella24horas: Marbella loses almost 3,800 jobs", "url": "https://www.marbella24horas.es/local/marbella-destruye-casi-3-800-empleos-un-33-menos-tras-un-buen-verano-43912"}
+   ],
+   "questions": [
+    "How seasonal is employment on the Costa del Sol compared with the rest of Spain?",
+    "Which months are low season for tourism in Marbella, and how has that changed?"
+   ],
+   "blog": {
+    "title": "Low season in Marbella: what winter tells you about a rental investment",
+    "angle": "Seasonal jobs and occupancy, which areas stay alive in winter, and how to model a year of rental income honestly."
+   }
+  },
+  {
+   "label": "Election",
+   "kind": "spain",
+   "topic": "Spain general election 29 November 2026 housing policy",
+   "title": "Sánchez and Feijóo face off on TV, nine days before the vote",
+   "paragraphs": [
+    "The two main candidates met in a televised debate this week ahead of the general election on <b>Sunday 29 November</b>. It was the main set piece of a short campaign.",
+    "For property, the vote matters directly. <mark>Feijóo has pledged to repeal the 10% VAT on holiday lets that starts on 1 December, which passed by a single vote.</mark> The result will also decide who writes the next housing law and whether tighter rules on short-term rentals go further."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Owners with holiday lets will start charging VAT on 1 December whatever happens. If the government changes, it could be undone in 2027, so it is worth keeping clients informed rather than rushing decisions."
+   },
+   "sources": [
+    {"text": "The Olive Press: Sánchez and Feijóo in the TV debate", "url": "https://www.theolivepress.es/spain-news/2026/11/20/spains-pm-sanchez-in-tv-election-deabte-with-rival-feijoo/"}
+   ],
+   "questions": [
+    "What are the main parties' housing proposals for the 2026 Spanish general election?",
+    "How would a new government repeal a VAT change, and how long would it take?"
+   ],
+   "blog": {
+    "title": "Spain votes on 29 November: what each result could mean for Marbella property",
+    "angle": "A short guide to the parties' housing promises, the holiday-let VAT, and what buyers and owners should watch after the vote. Update it with the result."
+   }
+  },
+  {
+   "label": "Fuengirola",
+   "kind": "projects",
+   "topic": "Fuengirola Mercacentro market redevelopment delay",
+   "title": "Fuengirola's €14m market misses another opening date",
+   "figs": [
+    {"n": "€14m", "t": "Cost of the new market"},
+    {"n": "H1 2027", "t": "New expected opening"}
+   ],
+   "paragraphs": [
+    "Work on Fuengirola's new Mercacentro started in January 2024 on an 18-month plan, so it was due to open in July 2025. A revised date of 1 October 2026 has also passed. It is now expected in the first half of 2027.",
+    "<mark>The causes given are a weak basement slab, problems getting materials and trouble with the building consortium.</mark> When it opens it will have more than 11,000 m², 39 stalls, restaurants, a business incubator, a public terrace and underground parking, in a cross-laminated timber structure."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Public projects on the coast often run a year or two late. When a listing leans on a nearby project, check how far along the works really are."
+   },
+   "sources": [
+    {"text": "Euro Weekly News: Fuengirola's new market delayed again", "url": "https://euroweeklynews.com/2026/11/17/whatever-happened-to-fuengirolas-new-market-e14-million-project-delayed-again/"}
+   ],
+   "questions": [
+    "What is cross-laminated timber, and why is it used in public buildings in Spain?",
+    "Which other big public projects are under way on the Costa del Sol?"
+   ],
+   "blog": {
+    "title": "Selling on a promise: how to talk about planned projects near a property",
+    "angle": "Use Fuengirola's market and other delayed works as examples, and set out how to check a project's real status before using it in a sale."
+   }
+  },
+  {
+   "label": "Marina",
+   "kind": "coast",
+   "topic": "Marbella Virgen del Carmen marina underwater clean-up",
+   "title": "Divers pull 500 kg of rubbish from under the town marina",
+   "paragraphs": [
+    "Divers working under Marbella's Virgen del Carmen marina, in the centre of town, brought up about 500 kg of rubbish, including phones and a power tool.",
+    "<mark>This is the town marina whose 50-year concession made news earlier this month, and the haul shows how much upkeep the waterfront needs.</mark> Separately, Marbella's water treatment plant and Málaga's reservoirs were added to a new maintenance plan this week."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "A clean front is part of what buyers pay for on the Paseo Marítimo. Waterfront upkeep, and who pays for it under a concession, is a fair question to ask before buying frontline."
+   },
+   "sources": [
+    {"text": "Euro Weekly News: 500 kg of rubbish under Marbella marina", "url": "https://euroweeklynews.com/2026/11/17/divers-find-phones-a-power-tool-and-500kg-of-rubbish-beneath-marbella-marina/"},
+    {"text": "Área Costa del Sol: water plant added to maintenance plan", "url": "https://www.areacostadelsol.com/costa-del-sol/potabilizadora-marbella-embalses-malaga-nuevo-plan-mantenimiento/"}
+   ],
+   "questions": [
+    "Who manages Marbella's town marina, and what does its concession cover?",
+    "Where does Marbella's drinking water come from, and how secure is the supply?"
+   ],
+   "blog": {
+    "title": "Living on the Paseo Marítimo: what frontline owners should know",
+    "angle": "Marina concessions, beach works, upkeep and noise. A practical guide for buyers looking at frontline flats in the centre."
+   }
+  },
+  {
+   "label": "What's on",
+   "kind": "next week",
+   "topic": "Marbella and Costa del Sol week of 21 November",
+   "title": "Flamenco, science, Christmas lights and election day",
+   "bullets": [
+    "<b>Sat 21 Nov:</b> XX Festival Flamenco Sierra Blanca, Día del Vecino in the Plaza de Toros neighbourhood, and the \"Lavadero de Sueños\" concert in San Pedro.",
+    "<b>Sun 22 Nov:</b> family show \"El fantástico viaje de Jonás\".",
+    "<b>Mon 23 to Fri 27 Nov:</b> Marcientífica, Marbella's science week, with astronomy and nanotechnology talks.",
+    "<b>Around 25 Nov:</b> activities across Marbella for the International Day for the Elimination of Violence against Women.",
+    "<b>Fri 27 Nov:</b> XXVI CIT Marbella business awards at Puente Romano, about 400 guests. Black Friday on the coast, and Benalmádena switches on its Christmas lights.",
+    "<b>Sat 28 Nov:</b> Benahavís lights up Avenida de Andalucía, with churros from 17:00 and a flamenco zambomba from 19:00.",
+    "<b>Sun 29 Nov:</b> <mark>general election day, and the earliest the AVE could return, though tickets are only on sale from 13 December.</mark>"
+   ],
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: Marcientífica", "url": "https://www.marbella.es/actualidad/noticias/marbella-celebra-del-23-al-27-de-noviembre-la-quinta-edicion-de-marcientifica-con-expertos-de-primer-nivel-y-propuestas-que-conectan-ciencia-tecnologia-artes-y-humanidades.html"},
+    {"text": "Ayuntamiento de Marbella: CIT business awards", "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-respalda-la-xxvi-gala-de-premios-empresariales-de-cit-marbella-que-distinguira-el-proximo-27-de-noviembre-a-eladio-rueda-la-ciudad-autonoma-de-ceuta-les-roches-y-nubeseo.html"},
+    {"text": "Área Costa del Sol: Benahavís Christmas lights", "url": "https://www.areacostadelsol.com/benahavis/benahavis-navidad-las-carlotas-soles-maria-colina/"}
+   ],
+   "questions": [
+    "When do the Christmas lights go on in Marbella, Estepona and the other coastal towns?",
+    "What is a zambomba, and where can you see one around Málaga at Christmas?"
+   ],
+   "blog": {
+    "title": "Christmas on the Costa del Sol: lights, markets and traditions town by town",
+    "angle": "A seasonal guide for clients and new residents, with dates for each town and the local traditions worth seeing. Refresh it each year."
+   }
+  }
+ ]
+}
