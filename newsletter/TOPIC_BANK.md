@@ -12,7 +12,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Syllogism
 - [ ] Formal vs informal fallacy
 - [ ] Amphiboly
-- [ ] Equivocation
+- [x] Equivocation (#11)
 - [x] Sorites paradox (#10)
 - [ ] Doomsday argument
 - [ ] Belphegor's prime
@@ -67,7 +67,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [x] The placebo effect (#08)
 - [ ] Time perception
 - [ ] The subconscious mind
-- [ ] Déjà vu
+- [x] Déjà vu (#11)
 - [ ] Dreams and lucid dreaming
 - [ ] Optical illusions (what they reveal about the brain)
 

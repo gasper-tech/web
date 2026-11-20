@@ -1,0 +1,316 @@
+{
+ "number": 11,
+ "date_label": "Friday 20 Nov",
+ "read_min": 9,
+ "subject_hook": "The banker who bought an emperor",
+ "preheader": "Plus: why US bonds are squeezing the euro, the science of déjà vu, and a bedtime that tracked weight loss.",
+ "first_sip": "Friday's here. Finish strong, then finish early.",
+ "footer": "Built from news up to 20 November 2026. Figures come from the linked sources and are rounded. Next Doppio: Tuesday 24 November, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "US bonds cross 5%, and the euro and gold blink",
+   "paragraphs": [
+    "The 10-year US Treasury yield, the world's benchmark borrowing rate, climbed back above <b>5%</b> and has stayed there all week. It jumped by roughly a quarter of a percentage point in about a week, after hot US inflation figures and a weak bond auction. Traders now see a Fed rate <i>hike</i> in December as close to certain. The ripples spread fast. The euro slid to about <b>$1.10</b>, its lowest since April 2025. Gold fell to around <b>$3,830</b> an ounce, its lowest in more than a year.",
+    "<b>How it travels:</b> money goes where it is paid best. If US bonds pay more and the Fed looks set to tighten further, investors buy dollars, and the euro sags. Gold pays nothing at all, so it looks dull next to a 5% bond. <mark>A weaker euro makes dollar-priced oil and imports dearer, quietly adding to the inflation the ECB is already fighting.</mark> And rates at home are no bargain either: Spain's mortgage benchmark, the 12-month Euribor, averaged 3.239% in October, about a point higher than a year earlier."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "US interest rates are the gravity of global finance: when they rise, they pull on currencies, commodities and borrowing costs everywhere, even for people who never touch a dollar. A falling euro is not just a holiday-money story; it can feed inflation and keep European rates higher for longer."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "CNBC: Treasury yields as investors weigh the US economy",
+     "url": "https://www.cnbc.com/2026/11/19/us-treasury-yields-investors-us-economy.html"
+    },
+    {
+     "text": "Euronews: Why gold and silver are at their lowest in over a year",
+     "url": "https://www.euronews.com/2026/11/17/why-gold-and-silver-prices-have-fallen-to-their-lowest-in-over-a-year"
+    },
+    {
+     "text": "investingLive: Euro falls to the lowest since April 2025",
+     "url": "https://investinglive.com/forex/euro-falls-to-the-lowest-since-april-2025/"
+    }
+   ],
+   "questions": [
+    "Why does a higher US 10-year Treasury yield tend to strengthen the dollar against the euro?",
+    "Why do gold prices usually fall when real interest rates rise?",
+    "How does the 12-month Euribor feed into variable-rate mortgage payments in Spain?"
+   ]
+  },
+  {
+   "label": "Business",
+   "kind": "this week",
+   "topic": "Business",
+   "title": "Berlin stops fighting UniCredit over Commerzbank",
+   "paragraphs": [
+    "After two years of saying no, Germany has come to terms with Italy's UniCredit taking over Commerzbank. According to Reuters and Bloomberg, the deal agreed this week keeps the bank's headquarters in Frankfurt and keeps it listed on the stock market. Berlin dropped its demand to name two Commerzbank board members. In return, UniCredit will put Germans on its own board. Brussels approved the takeover with no conditions on 16 November, a month after the ECB gave its approval. Germany still owns just under 13%, left over from the 2008 bailout, and nobody has decided what happens to it.",
+    "<b>How a cheap offer works:</b> under German takeover law, anyone who buys past 30% of a company must offer to buy every other shareholder's stake. There is one exception. If you cross that line with a voluntary offer, the duty is used up. So in March UniCredit offered a premium of only about 4%. <mark>The offer was meant to be ignored, and it mostly was.</mark> Almost nobody wanted the price, but UniCredit still got past 30% legally and can now buy more shares on the market. It already controls close to half the votes."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "It is one of the biggest cross-border bank deals Europe has seen in years. Governments have tended to block deals like this, and Berlin had political tools to try. Other banks now know that a patient bidder with a low offer can get past a hostile government, as long as Brussels and the ECB agree."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "European Commission: Commission unconditionally approves UniCredit's acquisition of Commerzbank",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2440"
+    },
+    {
+     "text": "Bloomberg: UniCredit, Germany reach agreement on Commerzbank",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/unicredit-germany-reach-agreement-on-commerzbank-after-deal"
+    },
+    {
+     "text": "CNBC: UniCredit to strengthen stake in Commerzbank to 30%",
+     "url": "https://www.cnbc.com/2026/03/16/unicredit-strengthens-stake-commerzbank-takeover.html"
+    }
+   ],
+   "questions": [
+    "How does Germany's 30% mandatory takeover bid rule work, and how can a voluntary offer get around it?",
+    "Why does the German government still own a stake in Commerzbank?",
+    "Why are cross-border bank mergers so rare in the EU?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "learn this weekend",
+   "topic": "AI Build",
+   "title": "Turn a Figma frame into a clickable mockup with Make",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "If you can write a brief, you can prompt it"
+    },
+    {
+     "n": "2–3 hrs",
+     "t": "One frame, a few rounds of prompts"
+    },
+    {
+     "n": "€0 to start",
+     "t": "Free Starter plan: 500 AI credits a month"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Figma Make is Figma's prompt-to-prototype tool. You attach a frame you already designed, describe how it should behave, and it builds a working version you can click, scroll and share. Menus open. Galleries swipe. Forms look real. For a designer, that changes the client meeting. <mark>Instead of a static PDF, you send a link they can actually tap on their phone.</mark> You keep the design decisions. Make does the fiddly bit in between.",
+    "<b>How to learn it:</b>"
+   ],
+   "bullets": [
+    "<b>Start:</b> Open a new Make file. In the prompt box, choose Add context and paste the link to one finished homepage frame. Ask it to build that page as a responsive, clickable prototype. Then check it on your phone.",
+    "<b>Next:</b> Add behaviour one prompt at a time: a mobile menu, a photo gallery with a lightbox, a contact form that shows a thank-you message. Small, specific prompts use fewer credits and break less.",
+    "<b>Level up:</b> Attach two or three more frames (about, services, contact) and ask Make to link them into one flow. Share the preview with a friendly client and watch where they tap first."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Not as a product on its own. It is a better way to present work you already sell, and it can shorten the back-and-forth on layouts. For live client sites, Framer is still the tool. On the free plan, publishing to the open web also means posting to the Figma Community, so keep client work on a private preview link."
+   },
+   "questions": [
+    "How do you attach a Figma Design frame to a prompt in Figma Make?",
+    "How many AI credits does each Figma plan include per month, and do they roll over?",
+    "Which Figma plans can publish a Figma Make site to a custom domain?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Bedtime, not sleep length, tracked weight loss",
+   "paragraphs": [
+    "Researchers at NYU recruited 196 adults with prediabetes who habitually slept too little. For eight weeks, everyone got a standard lifestyle programme on food and exercise. Half also got one-to-one sleep coaching by video call. The hope was better blood sugar. It didn't happen: glucose barely moved in either group. Both groups lost weight, and the sleep group did not lose significantly more. The coaching mostly made people feel better rested, and it nudged their sleep earlier by about 12 minutes.",
+    "Then came the twist. Across all participants, <b>when</b> people fell asleep mattered more than <b>how long</b> they slept. <mark>Each hour earlier that someone dropped off was linked to about 0.6 kg (1.3 lb) more weight loss over the eight weeks</mark>, whatever their total sleep. That is an association from a secondary analysis, not proof that bedtime causes weight loss. Early sleepers may also snack less at night or live tidier routines. The trial was short, some sleep data were self-reported, and everyone had prediabetes. The <i>Nursing Research</i> paper is a clue, not a prescription."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Most sleep advice counts hours. This trial hints that the clock time you fall asleep may matter too, perhaps by cutting late-evening eating. An earlier bedtime is cheap to try, but don't expect it to do the work of diet and exercise. General information, not medical advice."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Malone et al., Nursing Research (2026)",
+     "url": "https://www.ovid.com/jnls/nursingresearchonline/abstract/10.1097/nnr.0000000000000957~randomized-controlled-trial-of-lifestyle-plus-sleep"
+    },
+    {
+     "text": "Medical Xpress, Earlier bedtime linked to greater weight loss in prediabetes trial (2026)",
+     "url": "https://medicalxpress.com/news/2026-11-earlier-bedtime-linked-greater-weight.html"
+    },
+    {
+     "text": "New Atlas, Weight loss is tied to earlier bedtime, not the hours spent asleep (2026)",
+     "url": "https://newatlas.com/sleep/weight-loss-earlier-bedtimes/"
+    }
+   ],
+   "questions": [
+    "Did adding sleep coaching to a lifestyle programme improve blood sugar in adults with prediabetes?",
+    "How much extra weight loss was linked to each hour earlier sleep onset in the NYU trial?",
+    "Does the NYU bedtime trial prove that going to bed earlier causes weight loss?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "The banker who bought an emperor",
+   "paragraphs": [
+    "<b>Jakob Fugger</b> was born in Augsburg in 1459. He was meant for the Church. Instead he joined the family textile firm and spotted a better business: princes are always short of cash. He lent to Archduke Sigismund of Tyrol and took the silver from the Schwaz mines as security. From 1494 he moved into Hungarian copper with the Thurzo family. Metal, not cloth, made him <i>Jakob the Rich</i>.",
+    "Those loans tied him to the Habsburgs. In 1519 the seven electors had to be paid to choose Charles of Spain as Holy Roman Emperor. The bill came to roughly 850,000 florins, and the Fuggers put up about 543,000 of it. In 1523, with repayments slow, Fugger sent the emperor a famously blunt letter. <mark>It was “well known,” he reminded Charles, that he could not have won the Roman crown without Fugger's help.</mark>",
+    "His money also helped spark the Reformation. Archbishop Albrecht of Brandenburg borrowed from Fugger to buy his church offices, and indulgence sales helped repay the debt. Luther's 95 theses of 1517 were aimed at that trade. Fugger's gentler legacy is the Fuggerei. Begun in 1516 and chartered in 1521, it is the world's oldest social housing still in use. Rent is still one Rhenish guilder a year (about €0.88), plus three daily prayers for the Fugger family."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Fugger showed early that whoever finances power can shape it. Banks and governments have been negotiating that same uneasy deal ever since."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Europeana: Meet the Fuggers, Jakob ‘the Rich’",
+     "url": "https://classic.europeana.eu/en/blog/meet-the-fuggers-jakob-the-rich-and-his-family"
+    },
+    {
+     "text": "Christian History Institute: How money sparked the Reformation",
+     "url": "https://christianhistoryinstitute.org/magazine/article/selling-forgiveness-sparked-protestant-reformation"
+    },
+    {
+     "text": "Fugger Foundations: Why Jakob founded the Fuggerei",
+     "url": "https://www.fugger.de/en/foundations/a-pious-endeavour-for-fellow-citizens-families-and-salvation"
+    }
+   ],
+   "questions": [
+    "How did Jakob Fugger become so rich?",
+    "How did Jakob Fugger help Charles V become Holy Roman Emperor?",
+    "What is the Fuggerei and how much is the rent?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Déjà vu: your memory's false alarm",
+   "paragraphs": [
+    "<b>Déjà vu</b>, French for “already seen”, is that eerie sense you have lived this exact moment before, while knowing you can't have. Surveys suggest roughly two in three people have felt it at least once. It is most common in teenagers and young adults and tends to fade with age. An occasional flicker is normal.",
+    "There is a dramatic version, though. In temporal lobe epilepsy, déjà vu can be the <i>aura</i> that warns of a seizure starting in the medial temporal lobe, a key memory area. For the everyday kind, psychologist Anne Cleary of Colorado State University has argued since 2008 that it is familiarity without recall: something feels known, but you can't say why. In a 2012 study she built virtual rooms in The Sims. <mark>People reported more déjà vu in new rooms whose layout matched one they had seen before but could not remember.</mark>",
+    "In 2016 Akira O'Connor's team at St Andrews added a twist. When they triggered déjà vu with word lists in a brain scanner, frontal decision-making areas were busier than the memory areas. His idea is that déjà vu is your brain's fact-checker catching a false sense of familiarity. And no, it is not a glimpse of the future. In Cleary's 2018 experiments, people felt they knew which way to turn next, but did no better than chance."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Déjà vu shows that feeling familiar and actually remembering are different things. Usually the brain notices when they disagree, and that is a sign it is working well."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Colorado State University: Déjà vu and feelings of prediction",
+     "url": "https://newsmediarelations.colostate.edu/2018/03/01/deja-vu-and-feelings-of-prediction-theyre-just-feelings/"
+    },
+    {
+     "text": "Colorado State University: Spatial layout can spark déjà vu",
+     "url": "https://newsmediarelations.colostate.edu/2012/05/23/spatial-configuration-can-spark-deja-vu-colorado-state-university-psychology-study-reveals/"
+    },
+    {
+     "text": "Scientific American: What causes déjà vu?",
+     "url": "https://www.scientificamerican.com/article/what-causes-the-feeling-of-deja-vu/"
+    }
+   ],
+   "questions": [
+    "How common is déjà vu?",
+    "What is the link between déjà vu and epilepsy?",
+    "Can déjà vu predict the future?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Equivocation: one word, two jobs, one bad argument",
+   "paragraphs": [
+    "Here is a proof. A feather is light. Whatever is light cannot be dark. So a feather cannot be dark. The trick is that “light” means weight in one line and brightness in the next. That is equivocation: one word quietly doing two jobs inside one argument. Logicians also enjoy this: nothing is better than eternal happiness. A ham sandwich is better than nothing. So a ham sandwich beats eternal happiness.",
+    "Aristotle got there first. In chapter 4 of <i>On Sophistical Refutations</i> he lists six tricks that depend on language, and ambiguity of words heads the list. Its cousin, amphiboly, is a different thing. There the fault is in the grammar, not in one word. “Flying planes can be dangerous” is a puzzle of sentence structure.",
+    "Real life is less cute. An “unlimited” data plan can still be slowed to a crawl. In 2019 AT&T agreed to pay $60 million to settle FTC charges over exactly that. “Just a theory” mixes up a hunch with a well-tested scientific explanation. “Natural” and “free” shift meaning just as easily. <mark>Pin the slippery word to one definition and swap it in everywhere; if the argument falls apart, it was running on two meanings.</mark>"
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Equivocation rarely looks like a mistake. It sounds like common sense, which is why ads, contracts and speeches lean on it. Learn to spot the switch and many confident arguments start to look like magic tricks."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Aristotle, On Sophistical Refutations (Pickard-Cambridge translation), MIT Internet Classics Archive",
+     "url": "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html"
+    },
+    {
+     "text": "Internet Encyclopedia of Philosophy: Fallacies",
+     "url": "https://iep.utm.edu/fallacy/"
+    },
+    {
+     "text": "Axios: AT&T to pay $60 million over 'unlimited' data case (2019)",
+     "url": "https://www.axios.com/2019/11/05/att-60-million-resolve-data-throttling-case"
+    }
+   ],
+   "questions": [
+    "What is the difference between the equivocation fallacy and the amphiboly fallacy?",
+    "Which six language-based fallacies does Aristotle list in chapter 4 of On Sophistical Refutations?",
+    "Why did AT&T agree to a $60 million settlement with the US Federal Trade Commission in 2019 over its unlimited data plans?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "For words are wise mens counters, they do but reckon by them: but they are the mony of fooles, that value them by the authority of an Aristotle, a Cicero, or a Thomas, or any other Doctor whatsoever, if but a man.",
+   "cite": "Thomas Hobbes, Leviathan, Part I, ch. 4 (“Of Speech”) · 1651 · original 1651 spelling, as reprinted in the 1909 Oxford (Clarendon) edition",
+   "paragraphs": [
+    "Hobbes published <i>Leviathan</i> in 1651, as England came out of civil war. Before he gets to politics, he spends a chapter on words. His view is that reasoning is a kind of adding up with names, so a sloppy definition poisons every sum that follows. Counters were the tokens merchants slid around a board to do arithmetic. They had no value of their own. <mark>A wise person uses words the same way, as tools for calculating, while a fool treats them like coins whose worth comes from a famous name.</mark> His remedy was to check, and fix, every definition yourself."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Hobbes, Leviathan (1909 Oxford ed.), Online Library of Liberty PDF",
+     "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/869/Hobbes_0161_EBk_v6.0.pdf"
+    }
+   ],
+   "questions": [
+    "What did Thomas Hobbes mean when he called words \"wise men's counters\" in Leviathan?",
+    "What argument about names and definitions does Thomas Hobbes make in chapter 4, \"Of Speech\", of Leviathan (1651)?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "math · medium",
+   "topic": "Puzzle",
+   "previous_answer": "She's a <b>photographer</b>. She <i>shoots</i> his picture, develops it in a bath of chemicals in the darkroom, then <i>hangs</i> the print up to dry.",
+   "puzzle": "A snail is at the bottom of a 10-metre well. Each day it climbs 3 metres; each night it slips back 2 metres. On which day does it reach the top?",
+   "hint": "Hint: the last day is different from all the others. Answer in Tuesday's Doppio.",
+   "questions": [
+    "Give me a hint for the snail-in-a-10-metre-well puzzle, without the answer",
+    "Give me another medium-difficulty maths puzzle where the obvious answer is wrong"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Calling someone “nice” used to be an insult. The word comes from Latin <i>nescius</i>, “not knowing”, and in the late 1200s it meant foolish or ignorant.",
+   "cite": "Online Etymology Dictionary, “nice” · NPR, “nice” word history (June 2025)",
+   "questions": [
+    "What did the English word \"nice\" originally mean, and how did its meaning change over the centuries?",
+    "What is amelioration in linguistics, and which English words are well-known examples of it?"
+   ]
+  },
+  {
+   "label": "Book of the week",
+   "kind": "Fridays",
+   "topic": "Book",
+   "title": "<i>Ways of Seeing</i>, by John Berger",
+   "paragraphs": [
+    "In January 1972 John Berger went on BBC Two and, very politely, took Western art apart. The four-part series became a slim Penguin book the same year, with seven essays: four in words and pictures, three in pictures alone, readable in any order. Borrowing from Walter Benjamin, Berger argues that cheap reproduction pulls paintings out of their gilt frames and lets them mean new things. He then turns to the nude, to oil painting as a celebration of property, and to advertising, which he calls \"publicity\". His most quoted line is <mark>\"men act and women appear\"</mark>. Half a century on, it still reads like a brief for anyone who makes images for a living."
+   ],
+   "why": {
+    "head": "Read it if",
+    "text": "you've ever wondered why a perfume ad looks so much like an old master painting."
+   },
+   "questions": [
+    "In what year was the BBC television series Ways of Seeing first broadcast?",
+    "What does John Berger call advertising in Ways of Seeing?",
+    "Which earlier essay about mechanical reproduction did Ways of Seeing draw on, and who wrote it?"
+   ]
+  }
+ ]
+}
