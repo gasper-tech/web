@@ -1,0 +1,298 @@
+{
+ "number": 12,
+ "date_label": "Tuesday 24 Nov",
+ "read_min": 9,
+ "subject_hook": "The race a straight line always loses",
+ "preheader": "Plus: Spain's polls go quiet, Germany revs while France stalls, and how memory rewrites itself.",
+ "first_sip": "Start before you're ready. The coffee will catch up.",
+ "footer": "Built from news up to 24 November 2026. Figures come from the linked sources and are rounded. Next Doppio: Friday 27 November, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "Germany revs up while France stalls",
+   "paragraphs": [
+    "The euro area's flash business survey for November, out on Monday, looked dull on top. The composite PMI held at 51.7, a touch below forecasts. Underneath, it was anything but. <mark>Germany jumped to 55.0, its best reading in 56 months, while France sank to 46.2, a six-month low.</mark> Across the bloc, services cooled to 51.2 and factories firmed to 52.9. One engine is revving. The other is coughing.",
+    "<b>How a PMI works:</b> purchasing managers are asked whether output, orders and jobs rose or fell versus last month. Above 50 means more said up; below 50, more said down. It is a mood ring, not a tape measure, but it arrives weeks before GDP. Germany's lift has come with stronger export orders and Berlin's extra spending on defence and infrastructure. France's slide tracks political and budget worries, with firms already fretting about next year's elections."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Germany is one of Slovenia's biggest customers, so a German upturn is good news for Slovenian suppliers. But a euro area average of 51.7 hides two very different economies, which makes the ECB's one-size-fits-all rate an awkward fit. Watch the final figures on 1 and 3 December."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "RTÉ: Euro zone growth holds steady but France clouds outlook",
+     "url": "https://www.rte.ie/news/business/2026/1123/1600272-euro-zone-growth-pmi/"
+    },
+    {
+     "text": "Reuters via Investing.com: France's deepening downturn clouds outlook",
+     "url": "https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744"
+    },
+    {
+     "text": "Investing.com: Germany's composite PMI reaches 56-month high",
+     "url": "https://www.investing.com/news/economic-indicators/germanys-composite-pmi-reaches-56month-high-in-november-93CH-5044674"
+    }
+   ],
+   "questions": [
+    "How is a purchasing managers' index (PMI) calculated, and why is 50 the dividing line?",
+    "Why are Germany's and France's economies moving in opposite directions in late 2026?",
+    "How important is Germany as an export market for Slovenia?"
+   ]
+  },
+  {
+   "label": "World",
+   "kind": "this week",
+   "topic": "World",
+   "title": "Spain's polls go quiet, Andorra's start talking",
+   "paragraphs": [
+    "Spain votes on Sunday 29 November, and as of today its opinion polls have gone dark. Article 69.7 of the electoral law, the LOREG, bans publishing, spreading or reproducing polls in the five days before a vote. So Monday 23 November was the last day for new numbers. The ban covers <i>publishing</i>, not polling. Pollsters and parties keep counting all week. Voters just don't get to see the results.",
+    "<b>How the loophole works:</b> the law binds Spanish media, but Andorra has no such rule about Spanish elections. So in past final weeks, Barcelona's <i>El Periódico</i> ran daily polls on its Andorran sister site, and <i>Diari d'Andorra</i> did the same before Catalonia's 2024 election. Some Madrid papers then passed the numbers on in code: <mark>poll results dressed up as prices at an Andorran fruit and vegetable stall</mark>, one party per vegetable. Over the border it's legal. The workaround just needed some vegetables."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Any 'new poll' you see in Spain before Sunday was published abroad, so treat it with care. The ban also creates an information gap: parties and pollsters can see the late trend, while voters can't."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Demócrata: What's banned until 29N",
+     "url": "https://www.democrata.es/elecciones-generales-espana/ya-no-se-puede-hacer-hasta-29n-prohibiciones-electorales-partidos-medios-ciudadanos/"
+    },
+    {
+     "text": "El Independiente: Why polls vanish in the final week",
+     "url": "https://www.elindependiente.com/espana/2023/05/22/por-que-no-se-publican-encuestas-en-la-ultima-semana-electoral/amp/"
+    },
+    {
+     "text": "El Nacional: Diari d'Andorra publishes 'prohibited' poll",
+     "url": "https://www.elnacional.cat/en/politics/prohibited-catalan-election-poll-diari-andorra-first-survey_1211426_102.html"
+    }
+   ],
+   "questions": [
+    "How many days before a Spanish general election does the ban on publishing opinion polls begin?",
+    "Does Spain's electoral law forbid conducting polls in the final days, or only publishing them?",
+    "Why can newspapers in Andorra publish polls about Spanish elections during the blackout?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "build to sell",
+   "topic": "AI Build",
+   "title": "Sell a branded welcome book for luxury villas",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "Writing and layout, no code"
+    },
+    {
+     "n": "1 weekend",
+     "t": "To build your first one"
+    },
+    {
+     "n": "€0 extra",
+     "t": "Uses tools you already pay for"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> Every villa owner on the coast has the same problem. Guests message at midnight asking for the Wi-Fi code, the pool heating and a decent beach club. Most answer with a tired PDF. You sell a QR-code welcome book that looks like the villa's brand, not a software dashboard. Claude turns the owner's rambling voice notes into tidy sections in English, Spanish, German and French. <mark>The software is cheap; the taste and the local knowledge are what you charge for.</mark>",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> Ask the owner for a 20-minute voice memo. Paste the transcript into Claude and ask for house rules, check-out steps and a short local guide, then translations. Lay it out in Figma, export a PDF, link it from a QR card by the door.",
+    "<b>Better:</b> Build it as a small Framer site, one page per language, styled to the villa's brand. Add photos of the tricky bits (the gate, the boiler). Owners can then update it without reprinting.",
+    "<b>Next level:</b> Make it a template you reuse for every villa, and sell a seasonal care plan: you refresh restaurant tips, opening hours and photos twice a year. Repeat income beats one-off jobs."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Honestly, the tools are crowded and cheap: Touch Stay starts at roughly $8–13 per property a month, Hostfully's guidebooks from about $10 a month, and Etsy is full of Canva welcome-book templates for $4–$30. So don't sell software; sell a done-for-you, on-brand, four-language guide to agencies and premium villa owners, priced as a design job (your call, perhaps a few hundred euros per villa plus a small care plan). Agencies with ten villas are the sweet spot."
+   },
+   "questions": [
+    "How do you make a QR code that links to a web page in Google Chrome?",
+    "How do you set up a multilingual site with separate language pages in Framer?",
+    "Which questions do holiday-rental guests ask most often before and during a stay?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Eating windows don't trim liver fat on their own",
+   "paragraphs": [
+    "Time-restricted eating promises a lot: eat inside a window and your body does the rest. A Spanish trial put that to a fair test. It randomised <b>197 adults</b> with overweight or obesity for <b>12 weeks</b>. Everyone got the same Mediterranean-diet advice. Three groups also squeezed all their eating into <b>eight hours</b>: early in the day, later in the day, or a window they picked. Liver fat was measured by MRI. It fell in all three fasting groups. But none beat diet advice alone by a statistically significant margin, and early versus late made no clear difference. The results are in <i>JHEP Reports</i>.",
+    "What did matter was weight. Between <b>41% and 44%</b> of the fasting groups lost at least 5% of their body weight, against <b>16%</b> on diet advice alone. People who crossed that line saw bigger drops in liver fat, whatever their schedule. <mark>The clock seems to matter less than the scales.</mark> The limits are real: it lasted only 12 weeks, the liver results were a secondary analysis the trial wasn't sized for, and small benefits could have been missed."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Fatty liver is common and often silent, and eating windows are often sold as a fix in their own right. This trial suggests the window is a tool for eating less, not a magic hour: if it helps you lose weight, good, but the timing alone probably won't do much. General information, not medical advice."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Dote-Montero, Clavero-Jimeno et al., JHEP Reports (2026)",
+     "url": "https://www.sciencedirect.com/science/article/pii/S2589555926002272"
+    },
+    {
+     "text": "University of Granada release via News-Medical (2026)",
+     "url": "https://www.news-medical.net/news/20261117/Fasting-windows-provide-no-extra-liver-benefits-beyond-weight-loss.aspx"
+    },
+    {
+     "text": "Dote-Montero et al., Nature Medicine (2025)",
+     "url": "https://www.nature.com/articles/s41591-024-03375-y"
+    }
+   ],
+   "questions": [
+    "Does time-restricted eating reduce liver fat more than a healthy diet alone?",
+    "What is fatty liver disease (MASLD), and how is it usually treated?",
+    "Does it matter whether a time-restricted eating window is early or late in the day?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "The spice company that gave us shareholders",
+   "paragraphs": [
+    "In 1602 the Dutch merchant towns merged their rival spice ventures into one giant: the <b>Verenigde Oostindische Compagnie</b>, or VOC. It is often called the first company to sell shares to the general public. In Amsterdam alone, 1,143 people did. Every sale was written into a share register, and before long people were trading those stakes in the open air on the city's streets and bridges, and later in the Beurs, a purpose-built exchange.",
+    "Being an early shareholder had its quirks. In the first years, <mark>dividends were sometimes paid in spices rather than cash</mark>, which was awkward when the company had already flooded the spice market. The oldest known share document, from the Enkhuizen chamber and dated 9 September 1606, is really a receipt for the final instalment, not a share as such. Markets brought market tricks too. Around 1609 a disgruntled former director, Isaac Le Maire, is said to have bet on the share price falling. In 1610 the authorities banned selling shares you did not own: arguably the first rule against <i>short selling</i>.",
+    "The fortunes had a brutal side. The VOC was a monopoly with its own army. In 1621 its forces conquered the Banda Islands to control nutmeg, and most of the islanders were killed, enslaved or driven out. By the late 1700s the company was corrupt and deep in debt. In 1799 the Dutch state took over its debts and possessions, and the company was dissolved."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Tradable shares, a secondary market and the first fights over short sellers all started with the VOC. So did a reminder that shareholder returns can rest on terrible violence."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Westfries Archief: The world's oldest share",
+     "url": "https://westfriesarchief.nl/historie/thema-s/geld-en-handel/the-oldest-share"
+    },
+    {
+     "text": "Britannica: Dutch East India Company",
+     "url": "https://www.britannica.com/topic/Dutch-East-India-Company"
+    },
+    {
+     "text": "H'ART Museum Amsterdam: The birth of the stock market",
+     "url": "https://hart.amsterdam/en/page/20776/the-birth-of-the-stock-market"
+    }
+   ],
+   "questions": [
+    "Why is the Dutch East India Company often called the first publicly traded company?",
+    "How did Isaac Le Maire's 1609 scheme lead to the first ban on short selling?",
+    "What happened in the Banda Islands in 1621, and why did the VOC want control of nutmeg?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Why the fastest way down is not a straight line",
+   "paragraphs": [
+    "In June 1696 the Swiss mathematician <b>Johann Bernoulli</b> published a challenge in the journal <i>Acta Eruditorum</i>. Take two points, one higher than the other and not directly below it. A bead slides from the top one to the bottom one under gravity alone. What shape of track gets it there fastest? He called it the <i>brachistochrone</i>, Greek for \"shortest time\".",
+    "The straight line is the shortest route, but not the quickest. The winner is a cycloid: the curve traced by a point on the rim of a rolling wheel. <mark>It drops steeply at first, so the bead picks up speed early and spends the rest of the trip moving fast.</mark> The same curve had already turned up as the <i>tautochrone</i>: Christiaan Huygens showed that a bead released anywhere on an upside-down cycloid reaches the bottom in the same time.",
+    "Isaac Newton, by then running the Royal Mint, got the problem early in 1697. His niece Catherine Conduitt later recalled that he came home tired at four in the afternoon and did not sleep until he had solved it, at four in the morning. He sent his answer without his name. Bernoulli is said to have recognised the author anyway, <i>tanquam ex ungue leonem</i>: as the lion by its claw. Leibniz, Jakob Bernoulli and L'Hôpital also solved it."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "The puzzle helped found the calculus of variations, the maths of finding the best shape or path. It now underpins much of physics and engineering."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "MacTutor (St Andrews): The brachistochrone problem",
+     "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/"
+    },
+    {
+     "text": "MacTutor (St Andrews): 26 January in maths history",
+     "url": "https://mathshistory.st-andrews.ac.uk/Miscellaneous/messages/01-26/"
+    },
+    {
+     "text": "Tom Rocks Maths (Oxford): Why the cycloid is the best curve",
+     "url": "https://tomrocksmaths.com/2023/02/23/why-the-cycloid-is-the-best-curve/"
+    }
+   ],
+   "questions": [
+    "Why is a cycloid, not a straight line, the fastest path for a sliding bead under gravity?",
+    "What is the tautochrone property of the cycloid, and how did Huygens use it in clocks?",
+    "How did the brachistochrone problem help found the calculus of variations?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Your memory is a remake, not a recording",
+   "paragraphs": [
+    "Memory isn't a video you replay. It's closer to a cook rebuilding a dish from notes every time it's ordered. In 1974 Elizabeth Loftus and John Palmer showed students film of a car crash, then asked how fast the cars were going when they \"smashed\" into each other. Others got \"hit\". The \"smashed\" group guessed about 41 mph; the \"hit\" group about 34. A week later, 32% of the \"smashed\" group recalled broken glass, against 14% of the \"hit\" group. There was no broken glass.",
+    "In 1995 Loftus and Jacqueline Pickrell went further. They gave 24 people short stories from their childhood, supplied by relatives, plus one invented tale about getting lost in a shopping mall. About a quarter came to remember the fake one. Psychologists call this the misinformation effect: <mark>what you hear after an event quietly edits your memory of the event itself.</mark>",
+    "The stakes are not academic. Of 375 US DNA exonerations tracked by the Innocence Project, 69% involved mistaken eyewitness identification. Most of those witnesses were sincere, and many were sure. Confidence tends to grow with each retelling. Accuracy doesn't."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "\"I remember it clearly\" is a feeling, not proof. Write important things down soon after they happen, be careful how you phrase questions to others, and treat even a vivid memory as a first draft that later conversations may have rewritten."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Simply Psychology: Loftus and Palmer (1974) car crash experiment",
+     "url": "https://www.simplypsychology.org/loftus-palmer.html"
+    },
+    {
+     "text": "Innocence Project: DNA exonerations in the United States (1989–2020)",
+     "url": "https://innocenceproject.org/dna-exonerations-in-the-united-states/"
+    },
+    {
+     "text": "Scientific American: People likely aren't as susceptible to false memories as researchers thought",
+     "url": "https://www.scientificamerican.com/article/people-likely-arent-as-susceptible-to-false-memories-as-researchers-thought/"
+    }
+   ],
+   "questions": [
+    "What did Loftus and Palmer's 1974 car-crash experiment show about how the wording of a question affects memory?",
+    "How did the 1995 'lost in the mall' study by Elizabeth Loftus and Jacqueline Pickrell implant false childhood memories, and what criticisms has it faced?",
+    "Why is eyewitness confidence a poor guide to accuracy, and what lineup procedures reduce mistaken identifications?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "And I come to the fields and spacious palaces of my memory, where are the treasures of innumerable images, brought into it from things of all sorts perceived by the senses.",
+   "cite": "Augustine, Confessions, Book X, ch. 8 · c. AD 397–400 · trans. E. B. Pusey",
+   "paragraphs": [
+    "Augustine wrote the <i>Confessions</i> as a newly made bishop in North Africa, around AD 397–400. The first nine books tell his life story. Book X stops looking back and asks how looking back works at all. He's amazed that he can picture colours in the dark and recall a past fear without feeling afraid. His memory looks less like a filing cabinet than a building he keeps finding new rooms in. <mark>Sixteen centuries before Loftus, he already saw that remembering is something we do, not something we simply have.</mark> Pusey's English translation dates from 1838."
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Confessions, Book X, ch. 8 (Pusey translation), Christian Classics Ethereal Library",
+     "url": "https://ccel.org/ccel/augustine/confess.xi.viii.html"
+    }
+   ],
+   "questions": [
+    "What does Augustine argue about memory in Book X of the Confessions?",
+    "How did ancient and medieval 'memory palace' techniques use imagined buildings to help people remember?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "wordplay · medium",
+   "topic": "Puzzle",
+   "previous_answer": "<b>Day 8</b>. After 7 days and nights the snail is at 7 metres. On day 8 it climbs 3 metres, reaches the top at 10 and is out before night can pull it back. The tempting answer, 10, forgets that last climb.",
+   "puzzle": "Write it in capital letters, turn the paper upside down, and it still reads the same. Which five-letter English word, something you do in a pool, am I?",
+   "hint": "Hint: only letters like S, W, M, I, N, O, H and Z survive the flip. Answer in Friday's Doppio.",
+   "questions": [
+    "Give me a hint for a five-letter word that reads the same upside down in capital letters, without the answer",
+    "Which English words are ambigrams or read the same when rotated 180 degrees?"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Wombats are the only animals known to produce cube-shaped poo, and the cubes take shape inside the intestine, not on the way out. The scientists who worked out how won a 2019 Ig Nobel Prize.",
+   "cite": "University of Tasmania · Royal Society of Chemistry",
+   "questions": [
+    "How do wombats produce cube-shaped droppings?",
+    "Why do wombats leave their droppings on rocks and logs?"
+   ]
+  }
+ ]
+}

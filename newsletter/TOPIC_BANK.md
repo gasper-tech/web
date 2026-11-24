@@ -16,7 +16,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [x] Sorites paradox (#10)
 - [ ] Doomsday argument
 - [ ] Belphegor's prime
-- [ ] The brachistochrone problem
+- [x] The brachistochrone problem (#12)
 - [x] Collatz conjecture (#09)
 - [ ] Empirical vs anecdotal evidence
 - [ ] Epistemic (what it means, epistemic humility)
@@ -63,7 +63,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Dark psychology and social manipulation (how to recognise it)
 - [ ] Why people lie
 - [ ] The science of attraction / the psychology of beauty
-- [ ] Memory manipulation and false memories
+- [x] Memory manipulation and false memories (#12)
 - [x] The placebo effect (#08)
 - [ ] Time perception
 - [ ] The subconscious mind
