@@ -1,0 +1,290 @@
+{
+ "number": 6,
+ "date_label": "Friday 27 Nov",
+ "read_min": 7,
+ "subject_hook": "The Assad flats in Puerto Banús",
+ "preheader": "Plus: a coast-wide land plan after 20 years, 10% VAT on holiday lets from Tuesday, and election Sunday.",
+ "one_line": "A bank leak traced old money to Puerto Banús, the coast got its first regional plan in twenty years, and holiday lets start charging VAT.",
+ "footer": "Built from news up to 27 November 2026. Figures come from the linked sources and are rounded. Next Vermut: Friday 4 December, 17:00.",
+ "sections": [
+  {
+   "label": "Puerto Banús",
+   "kind": "the long story",
+   "topic": "Rifaat al Assad Marbella properties Deutsche Bank leak Le Monde",
+   "title": "92 flats, 244 parking spaces and 3,000 hectares: following the Assad money to Marbella",
+   "figs": [
+    {"n": "€77m", "t": "Suspicious transactions flagged, 2013–2020"},
+    {"n": "92 + 244", "t": "Flats and parking spaces in Benabola"},
+    {"n": "500+", "t": "Properties a Spanish court ordered seized in 2020"}
+   ],
+   "paragraphs": [
+    "This week Le Monde published a leak from inside Deutsche Bank. An internal report from 2021 lists <b>7,944 suspicious transactions worth about €77 million</b>, made between 2013 and 2020 and linked to Rifaat al Assad, uncle of Syria's former president and known as the \"butcher of Hama\". The money moved through a Gibraltar bank, with Deutsche Bank as correspondent, and through a Spanish company that was a direct client of the bank.",
+    "The trail leads to the coast. <mark>The family's assets here reportedly include 92 flats and 244 parking spaces in the Benabola complex in Puerto Banús, shops, a finca in El Ancón and more than 3,000 hectares in Benahavís.</mark> In 2020 a Spanish court ordered more than 500 properties seized, with alleged laundering put at over €600 million. Rifaat al Assad died in January without being tried. Since May 2025 the case has sat with the Marbella courts and targets eight relatives. No hearing date has been set. Deutsche Bank says it settled the matter with a €7 million fine in 2022."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Seized property can sit frozen for years, which matters if you are selling next door or managing a community with frozen units. It is also a reminder that anti-money-laundering checks on buyers are not paperwork: agents are part of the chain, and banks are now being judged on what they let through."
+   },
+   "sources": [
+    {"text": "Área Costa del Sol: the Assad clan's money in Marbella", "url": "https://www.areacostadelsol.com/marbella/los-millones-del-carnicero-de-hama-en-marbella-una-filtracion-bancaria-destapa-el-rastro-del-dinero-del-clan-al-assad/"}
+   ],
+   "questions": [
+    "What are an estate agent's anti-money-laundering duties in Spain, and what happens if they are skipped?",
+    "What happens to a property in a Spanish community of owners when a court seizes it?"
+   ],
+   "blog": {
+    "title": "Know your buyer: why money-laundering checks protect Marbella agents too",
+    "angle": "Use the Assad properties as the example, explain what Spanish law asks agents to check, the red flags, and how a frozen property affects neighbours and communities."
+   }
+  },
+  {
+   "label": "Regional plan",
+   "kind": "planning",
+   "topic": "Plan de Ordenación del Territorio Costa del Sol Occidental 2026 approval",
+   "title": "After twenty years, the western Costa del Sol gets a regional plan",
+   "figs": [
+    {"n": "9", "t": "Towns covered, Fuengirola to Manilva"},
+    {"n": "6", "t": "New AP-7 access points proposed"},
+    {"n": "13", "t": "Priority growth areas"}
+   ],
+   "paragraphs": [
+    "On Wednesday the Junta approved the regional land plan (POT) for Fuengirola, Mijas, Marbella, Estepona, Casares, Manilva, Ojén, Istán and Benahavís. It replaces the 2006 plan the Supreme Court annulled, and the regional housing minister said it had been stuck for about twenty years. It takes effect the day after it appears in the BOJA.",
+    "It sets out six new AP-7 access points (Casares, Benahavís, Istán, near Hospital Costa del Sol, Cala de Mijas and Las Lagunas), a bus corridor on the A-7, the coastal train extended from Fuengirola, new parks at Guadaiza and Elviria, and 13 priority growth areas, mostly along the A-7. <mark>It also states the aim of removing the AP-7 toll, at least for residents, but the toll, the accesses and the train all need the central government to agree and pay.</mark> The plan overrides town plans, which get four years to adapt."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "This is the map the next decade of growth will follow. A new AP-7 access near Benahavís or Istán would change journey times for whole valleys, but treat the rail and toll ideas as wishes until there is money behind them."
+   },
+   "sources": [
+    {"text": "Área Costa del Sol: green light for the regional plan", "url": "https://www.areacostadelsol.com/costa-del-sol/luz-verde-plan-territorial-costa-sol-eliminar-peaje-ap-7-tren-algeciras/"},
+    {"text": "Marbella24horas: Junta approves the Costa del Sol POT", "url": "https://www.marbella24horas.es/local/la-junta-aprueba-el-plan-de-ordenacion-del-territorio-pot-de-la-costa-del-sol-43953"}
+   ],
+   "questions": [
+    "What is a Plan de Ordenación del Territorio in Andalucía, and how does it limit a town's own plan?",
+    "Why was the 2006 Costa del Sol Occidental regional plan annulled?"
+   ],
+   "blog": {
+    "title": "The Costa del Sol's new regional plan: what could change near you",
+    "angle": "Town by town: the new motorway accesses, parks, growth areas and transport ideas, which are funded and which are not, and what it could mean for property in each area."
+   }
+  },
+  {
+   "label": "Holiday lets",
+   "kind": "tax",
+   "topic": "10% IVA viviendas turísticas 1 diciembre 2026 obligaciones propietarios",
+   "title": "From Tuesday, holiday lets charge 10% VAT. Here is what owners have to do",
+   "figs": [
+    {"n": "10%", "t": "VAT on stays of up to 30 nights"},
+    {"n": "1 Dec", "t": "Start date"}
+   ],
+   "paragraphs": [
+    "From 1 December, furnished homes let to the same guest for up to 30 nights carry 10% VAT, and private owners count as businesses for this purpose. Owners need to register with Hacienda (form 036), issue proper invoices, keep VAT books and file a quarterly return (form 303).",
+    "There is an upside. <mark>VAT paid on costs linked to the let, such as utilities, repairs, furniture, advice and advertising, can be deducted with proper invoices.</mark> On a €1,000 stay, keeping the price the same leaves €909 for the owner and €91 for Hacienda; adding VAT on top makes it €1,100. Hacienda has not yet said how to treat bookings made before 1 December for stays after it. Sunday's election does not change the rule by itself."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Owners who let a Marbella flat through Airbnb or an agency need a gestor now, not in January. For buyers, gross yield figures quoted before this month are out of date: run the numbers again with VAT."
+   },
+   "sources": [
+    {"text": "bcount: 10% VAT on tourist flats, what owners must do", "url": "https://www.bcount.es/post/iva-del-10-en-pisos-tur%C3%ADsticos-qu%C3%A9-cambia-y-qu%C3%A9-tienes-que-hacer-si-eres-propietario"}
+   ],
+   "questions": [
+    "How does a non-resident owner register for VAT in Spain and file form 303?",
+    "How do Airbnb and Booking.com show VAT to guests and to owners in Spain?"
+   ],
+   "blog": {
+    "title": "10% VAT on holiday lets: a checklist for Marbella owners",
+    "angle": "A practical step-by-step: registration, invoices, deductions, a worked example and what to ask your gestor. Update it when Hacienda publishes guidance."
+   }
+  },
+  {
+   "label": "Town plan",
+   "kind": "planning",
+   "topic": "Marbella PGOM vivienda protegida reserva 20% FADECO",
+   "title": "The new town plan could mean 3,000 protected homes and legal status for Gil-era houses",
+   "figs": [
+    {"n": "20%", "t": "Share of new growth areas reserved for public housing"},
+    {"n": "~18,000", "t": "Gil-era homes the plan can regularise"}
+   ],
+   "paragraphs": [
+    "Two weeks after the new general plan took effect, the mayor met the Andalusian developers' federation, FADECO, at its assembly in Marbella. The council says the growth areas carry a 20% legal reserve for public housing, enough for more than 3,000 protected homes. The federation says about 50 projects are already in process.",
+    "<mark>The plan also opens the way to regularising about 18,000 of the roughly 30,000 homes built irregularly under Jesús Gil.</mark> On Tuesday the town finally wound up the last of the Gil-era municipal companies, twenty years on. Agents are still asking for faster licences and one clear reading of the rules."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Regularisation is the quiet big story for resale: thousands of homes with planning doubts could become easier to sell and mortgage. Ask which category a property falls into before pricing it."
+   },
+   "sources": [
+    {"text": "Ayuntamiento de Marbella: mayor meets the developers' federation", "url": "https://www.marbella.es/actualidad/noticias/la-alcaldesa-se-reune-con-la-federacion-andaluza-de-promotores-y-constructores-para-analizar-el-desarrollo-del-nuevo-planeamiento-urbanistico.html"},
+    {"text": "The Olive Press: Marbella running short of building land", "url": "https://www.theolivepress.es/spain-news/2026/11/20/marbella-building-land-shortage-new-homes/"},
+    {"text": "Ayuntamiento de Marbella: last Gil-era companies wound up", "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-culmina-el-proceso-de-liquidacion-de-las-sociedades-municipales-de-la-etapa-del-gil-con-la-formalizacion-de-las-ultimas-escrituras-de-disolucion.html"}
+   ],
+   "questions": [
+    "How does regularisation of irregular homes work under Andalucía's LISTA law?",
+    "What is vivienda protegida, and who can buy it in Marbella?"
+   ],
+   "blog": {
+    "title": "Buying a Gil-era home in Marbella after the new town plan",
+    "angle": "What the 2026 plan means for homes built under the 1990s licences, how regularisation works, and the checks to run before buying or selling one."
+   }
+  },
+  {
+   "label": "Shops",
+   "kind": "planning",
+   "topic": "Marbella normas urbanísticas comercio sótanos entreplantas grandes superficies",
+   "title": "More room for shops, and a door open to big stores",
+   "paragraphs": [
+    "A change to Marbella's planning rules for commercial premises, first reported by SUR on 8 November, is going through the town hall. Shops would be able to use their first basement for the business without it counting towards buildable floor area, where today it counts at 50%. Mezzanines could cover 75% of the floor below instead of 60%, also without counting.",
+    "<mark>A new commercial sub-zone would let large stores open in any commercial-zoned area, as long as the developer justifies traffic, height and impact on the street.</mark> It was drafted as an amendment to the rules of the old 1986 plan, so it is not yet clear how it carries over now that the new plan is in force. No date has been given."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Commercial units with basements and high ceilings could become more useful, and so more valuable. Worth flagging to owners of retail space before the change is approved."
+   },
+   "sources": [
+    {"text": "El Confidencial Digital: Marbella widens the margin for shops", "url": "https://www.elconfidencialdigital.com/dinero/marbella-amplia-margen-comercios-abre-puerta-grandes-superficies/202611141921491502446.html"}
+   ],
+   "questions": [
+    "What is edificabilidad (buildable floor area), and how does it affect a property's value in Spain?",
+    "Where are the main shopping areas in Marbella, and how has retail changed there?"
+   ],
+   "blog": {
+    "title": "Commercial property in Marbella: what the new shop rules could unlock",
+    "angle": "Explain basements, mezzanines and buildable area in plain words, and what owners and investors in retail units should look at."
+   }
+  },
+  {
+   "label": "Airport",
+   "kind": "numbers",
+   "topic": "Aeropuerto Málaga octubre 2026 pasajeros mercados",
+   "title": "Málaga airport heads for another record, and Poland is the fastest riser",
+   "figs": [
+    {"n": "2.7m", "t": "Passengers in October, +4.7%"},
+    {"n": "24.8m", "t": "January to October, +6.4%"},
+    {"n": "+30%", "t": "Growth from Poland"}
+   ],
+   "paragraphs": [
+    "Málaga airport handled almost 2.7 million passengers in October, about 87,000 a day and 4.7% more than a year ago. International traffic grew 6.2%. Over the first ten months it carried 24.8 million.",
+    "The UK is still far ahead with 617,000 passengers, followed by Germany, the Netherlands, Italy, France, Ireland, Belgium and Poland. <mark>The fastest growth came from Poland (+30%), Bulgaria, Latvia, Hungary, Lithuania and Denmark, all up by about a fifth or more.</mark>"
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Visitors today are often buyers tomorrow. Central and Eastern European and Nordic markets are growing fastest; a Polish or Danish version of a listing may be worth more than it was."
+   },
+   "sources": [
+    {"text": "Aena: Málaga airport October 2026 statistics", "url": "https://www.aena.es/doc/detalleprensa/261112-agp-estadisticas-octubre.pdf"}
+   ],
+   "questions": [
+    "Which nationalities buy the most property on the Costa del Sol?",
+    "How has Málaga airport's traffic grown over the last decade?"
+   ],
+   "blog": {
+    "title": "Who is coming to Marbella? What airport data says about the next buyers",
+    "angle": "Compare passenger growth by country with foreign-buyer data, and suggest how agents can reach the fastest-growing markets."
+   }
+  },
+  {
+   "label": "Election",
+   "kind": "spain",
+   "topic": "Elecciones generales 29 noviembre 2026 Málaga vivienda",
+   "title": "Spain votes on Sunday. Housing is on the ballot",
+   "paragraphs": [
+    "The general election is on <b>Sunday 29 November</b>, with Saturday the day of reflection. Feijóo has pledged to undo the holiday-let VAT that starts on Tuesday, so the result will decide whether it lasts.",
+    "The debate reached Marbella's own plenary this week. <mark>PP and Vox voted down a PSOE motion backing the central government's housing measures, and also rejected a 95% IBI discount for small shops.</mark> The new Cortes will meet on 23 December, so any change of course would come in 2027."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Clients will ask on Monday what the result means for them. The honest short answer: nothing changes overnight, and tax changes need a new government and a new law."
+   },
+   "sources": [
+    {"text": "Marbella24horas: PP and Vox vote against government housing measures", "url": "https://www.marbella24horas.es/local/pp-y-vox-votan-en-marbella-contra-las-medidas-del-gobierno-en-vivienda-43955"},
+    {"text": "Marbella24horas: IBI discount for small shops rejected", "url": "https://www.marbella24horas.es/local/pp-y-vox-rechazan-bonificar-el-ibi-en-marbella-al-pequeno-comercio-43956"}
+   ],
+   "questions": [
+    "How is a Spanish government formed after a general election, and how long can it take?",
+    "What do the main parties propose on housing and short-term rentals in 2026?"
+   ],
+   "blog": {
+    "title": "After the vote: what Spain's election means for Marbella property",
+    "angle": "Write it on Monday: the result, the likely government, and what it means for holiday-let VAT, rents and foreign buyers."
+   }
+  },
+  {
+   "label": "Town marina",
+   "kind": "town hall",
+   "topic": "Junta Electoral Marbella alcaldesa puerto deportivo concesión",
+   "title": "The marina's 50-year extension earns the mayor a second electoral warning",
+   "paragraphs": [
+    "The provincial electoral board has ruled, for the second time in about ten days, that Marbella's mayor broke electoral law. After a PSOE complaint, it found that a council press release of 5 November about extending the town marina's concession by 50 years, presented as more than €16 million of investment and featuring the mayor, was campaign publicity.",
+    "<mark>The board ordered the item withdrawn and told the mayor not to repeat it, but imposed no fine because she had already been warned once.</mark> The concession itself is not affected."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "The marina extension still stands and is the bigger news for the Paseo Marítimo: a 50-year operator with money to spend usually lifts frontline values nearby."
+   },
+   "sources": [
+    {"text": "Marbella24horas: mayor condemned again over electoral law", "url": "https://www.marbella24horas.es/local/condenan-otra-vez-a-la-alcaldesa-de-marbella-por-vulnerar-la-ley-electoral-43940"}
+   ],
+   "questions": [
+    "What does Spain's electoral law say about institutional advertising during a campaign?",
+    "What is planned for Marbella's Virgen del Carmen marina under the new concession?"
+   ],
+   "blog": {
+    "title": "Marbella's town marina: what 50 more years could bring",
+    "angle": "What the concession covers, the planned investment, and how marina upgrades have changed nearby property values elsewhere on the coast."
+   }
+  },
+  {
+   "label": "AVE",
+   "kind": "transport",
+   "topic": "AVE Málaga Madrid vuelta fecha diciembre 2026",
+   "title": "Still no date for the AVE. Plan on mid-December",
+   "paragraphs": [
+    "Repairs on the line after the Urda crash are allowed, but there is still no official date for Málaga–Madrid high-speed trains to return. Talk of a restart around 29 November has not been confirmed.",
+    "<mark>Reports point to AVE ticket sales opening around 13 December, but that is not an official restart date.</mark> The Junta has asked for a clear timetable."
+   ],
+   "why": {
+    "head": "What it means here",
+    "text": "Clients coming from Madrid for early December viewings should still fly. Check again next Friday."
+   },
+   "sources": [
+    {"text": "Málaga Magazine: AVE tickets from 13 December", "url": "https://www.malagamagazine.es/el-ave-malaga-madrid-mas-cerca-de-volver-a-funcionar-la-venta-de-billetes-se-activa-el-13-de-diciembre/"}
+   ],
+   "questions": [
+    "Which airlines fly Madrid to Málaga, and how many flights a day?",
+    "What are the busiest travel days around Christmas in Spain, and how early should you book?"
+   ],
+   "blog": {
+    "title": "Madrid to Marbella this winter: the best way to get here",
+    "angle": "Train, plane and car compared while the AVE is out, with tips for clients coming for viewings over Christmas."
+   }
+  },
+  {
+   "label": "What's on",
+   "kind": "next week",
+   "topic": "Marbella San Pedro Navidad 2026 programa",
+   "title": "The lights go on, and Christmas starts",
+   "bullets": [
+    "<b>Fri 27 Nov:</b> San Pedro's switch-on, parade from Plaza de la Iglesia at 18:30 and lights on Av. Marqués del Duero at 20:00. Nueva Andalucía lights up too.",
+    "<b>Sat 28 Nov:</b> <mark>Marbella switches on its Christmas lights, with a parade from Plaza Santo Cristo at 18:00 and Estrella Morente on the Alameda after 19:30.</mark> Las Chapas lights up the same day, and Benahavís on Avenida de Andalucía.",
+    "<b>Sun 29 Nov:</b> general election.",
+    "<b>Tue 1 Dec:</b> Advent calendar opens at 18:00 in Plaza de la Iglesia de la Encarnación, with churros and chocolate. Holiday-let VAT starts.",
+    "<b>Thu 3 Dec:</b> San Pedro's nativity scene opens at 16:30 in Plaza José Agüera.",
+    "<b>Sat 5 and Sun 6 Dec:</b> flamenco zambomba on the Alameda (Sat 13:00), \"El barbero de Picasso\" at the Teatro Ciudad de Marbella, and the Carrera del Kilo on San Pedro's boulevard (Sun 17:00)."
+   ],
+   "sources": [
+    {"text": "Área Costa del Sol: Marbella Christmas programme", "url": "https://www.areacostadelsol.com/marbella/programa-de-navidad-de-marbella-2026-fechas-del-encendido-papa-noel-reyes-magos-y-todos-los-planes-para-estas-fiestas/"},
+    {"text": "Área Costa del Sol: San Pedro Christmas programme", "url": "https://www.areacostadelsol.com/marbella/navidad-en-san-pedro-alcantara-2026-programa-completo-con-fechas-y-horarios/"},
+    {"text": "Marbella24horas: lights on during the day of reflection", "url": "https://www.marbella24horas.es/local/marbella-encendera-la-navidad-en-plena-jornada-de-reflexion-electoral-43944"}
+   ],
+   "questions": [
+    "What are the Christmas traditions in Andalucía, from zambombas to the Gritería?",
+    "Where are the best Christmas markets on the Costa del Sol?"
+   ],
+   "blog": {
+    "title": "Christmas in Marbella and San Pedro: the 2026 guide",
+    "angle": "Dates, places and traditions for clients and new residents spending their first Christmas on the coast."
+   }
+  }
+ ]
+}
