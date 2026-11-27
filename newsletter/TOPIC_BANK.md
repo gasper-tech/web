@@ -18,7 +18,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] Belphegor's prime
 - [x] The brachistochrone problem (#12)
 - [x] Collatz conjecture (#09)
-- [ ] Empirical vs anecdotal evidence
+- [x] Empirical vs anecdotal evidence (#13)
 - [ ] Epistemic (what it means, epistemic humility)
 - [x] Paradigm shift (Kuhn) (#09)
 
@@ -69,7 +69,7 @@ evidence actually says, and why people believe it. Never present them as fact.
 - [ ] The subconscious mind
 - [x] Déjà vu (#11)
 - [ ] Dreams and lucid dreaming
-- [ ] Optical illusions (what they reveal about the brain)
+- [x] Optical illusions (what they reveal about the brain) (#13)
 
 ## Science and the universe
 - [x] Lorentz factor (time dilation, simply) (#02)

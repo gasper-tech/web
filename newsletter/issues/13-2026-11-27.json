@@ -1,0 +1,316 @@
+{
+ "number": 13,
+ "date_label": "Friday 27 Nov",
+ "read_min": 9,
+ "subject_hook": "The ancient computer found in a wreck",
+ "preheader": "Plus: why COP31 ended with no deal, Japan's leaky yen rescue, and heart risk that shows 30 years early.",
+ "first_sip": "Fridays are for finishing. Coffee is for starting.",
+ "footer": "Built from news up to 27 November 2026. Figures come from the linked sources and are rounded. Next Doppio: Tuesday 1 December, 07:00.",
+ "sections": [
+  {
+   "label": "Markets & Macro",
+   "kind": "this week",
+   "topic": "Markets",
+   "title": "Japan's record yen rescue keeps slipping away",
+   "paragraphs": [
+    "Japan has spent more than ¥25 trillion propping up the yen this year, a record. Over the summer alone it spent ¥15.4 trillion, including the first joint operation with the US since 1998. It did not stick. In mid-November the yen slid back past 160 per dollar, the line Tokyo has been defending. This week a Bank of Japan board member, Naoki Tamura, said rates should rise faster, towards about 2% from 1.25% today. Markets now lean towards a hike on 18 December.",
+    "<b>How intervention works:</b> the finance ministry sells dollars from its reserves and buys yen, and the price jumps. But it is a sandbag, not a dam. Money goes where it earns more, and US rates sit far above Japan's. So investors borrow cheap yen, park it in dollars, and the currency drifts back. <mark>Only a smaller rate gap, through Japanese hikes or US cuts, turns the tide; spending reserves just buys time.</mark>"
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Japanese savers are among the world's biggest buyers of foreign bonds, European ones included. If Japan's rates climb, some of that money heads home, which can nudge up borrowing costs here. And sudden yen jumps have shaken global stock markets before, so 18 December is worth a glance."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "BNN Bloomberg: Japan spent record $96.5 billion to support yen",
+     "url": "https://www.bnnbloomberg.ca/business/economics/2026/08/28/japan-spent-record-965-billion-to-support-yen-over-past-month-ministry-data-shows/"
+    },
+    {
+     "text": "Bloomberg: Yen falls to key 160 level, raising intervention risk",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/yen-falls-to-key-160-level-per-dollar-raising-intervention-risk"
+    },
+    {
+     "text": "Al Jazeera: Bank of Japan raises rates to 31-year high of 1.25%",
+     "url": "https://www.aljazeera.com/economy/2026/9/18/japans-interest-rate-hiked-to-31-year-high-at-1-25-as-inflation-rises"
+    }
+   ],
+   "questions": [
+    "Why does a central bank's currency intervention often fade within weeks?",
+    "How does the yen carry trade work, and why can it unwind suddenly?",
+    "Why do higher interest rates in Japan affect bond yields in Europe?"
+   ]
+  },
+  {
+   "label": "World",
+   "kind": "this week",
+   "topic": "World",
+   "title": "Why the climate summit ended with no deal",
+   "paragraphs": [
+    "The UN climate summit in Antalya, <b>COP31</b>, closed on Sunday 22 November without its headline text, the \"Antalya Pact\". It failed twice, from opposite sides. In week two, the Arab Group and Russia rejected a draft that targeted specific fuels and set a goal of electricity supplying 35% of final energy by 2035. The presidency cut those parts. Then the EU, the UK, Norway and Panama rejected the final draft because it no longer mentioned moving away from fossil fuels.",
+    "<b>How COP decisions work:</b> there is no vote. Countries have used draft rules of procedure since 1995, but never agreed on rule 42, the one setting voting majorities. So every decision needs consensus, which in practice means no objection the chair can ignore. <mark>That turns any determined bloc into a veto player, and the same text can be killed for being too strong or too weak.</mark> Smaller decisions, such as on carbon markets under Article 6, were adopted separately and still stand."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Climate Action says this is the first COP since Copenhagen in 2009 to end without an overarching political deal. Pledges like the 35% electricity goal now stay voluntary side deals among willing countries. And the voting-rules question has been put on the agenda again for COP32."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "Xinhua: COP31 fails to reach consensus on Antalya Pact",
+     "url": "https://english.news.cn/20261122/a7b4794403c1422d9b3dcd0637e8affd/c.html"
+    },
+    {
+     "text": "Climate Action: COP31 ends without a political deal",
+     "url": "https://www.climateaction.org/news/cop31-ends-without-a-political-deal-but-some-decisions-survive"
+    },
+    {
+     "text": "Legal Response International: COP rules of procedure and consensus",
+     "url": "https://legalresponse.org/legaladvice/cop-rules-of-procedure-adopted-or-applied-meaning-of-consensus/"
+    }
+   ],
+   "questions": [
+    "Why have UN climate talks never adopted a voting rule, even after three decades of meetings?",
+    "How can parts of a COP outcome survive when the main cover decision fails?",
+    "What would change if climate summits could pass decisions by a two-thirds majority?"
+   ]
+  },
+  {
+   "label": "AI Build",
+   "kind": "simplify",
+   "topic": "AI Build",
+   "title": "Turn every client call into a follow-up email",
+   "figs": [
+    {
+     "n": "Easy",
+     "t": "No code, just a prompt"
+    },
+    {
+     "n": "30 min",
+     "t": "To set up once"
+    },
+    {
+     "n": "Free–$20",
+     "t": "Claude Free, or Pro per month"
+    }
+   ],
+   "paragraphs": [
+    "<b>The idea:</b> The call goes well. Everyone agrees on three tweaks and a deadline. Then nobody writes it down, and a week later the client remembers it differently. So hand the boring bit to Claude. Give it your notes or the meeting notes, and it gives back a short action list (who, what, by when) plus a polite recap email, waiting in your Gmail drafts. <mark>You stay the one who presses send.</mark> It takes two minutes after each call, and clients think you are very organised.",
+    "<b>How to build it:</b>"
+   ],
+   "bullets": [
+    "<b>Simplest:</b> Make a Claude Project called Call Recaps (the Free plan allows five projects). In its instructions, write: 'From these notes, list decisions, actions with owner and date, and open questions. Then write a warm, short recap email in my tone.' Turn on the Gmail connector (Free plans have connectors too) and add: 'Save the email as a Gmail draft. Do not send it.' After each call, paste in your scribbles or the transcript.",
+    "<b>Better:</b> Let Google Meet take the notes. If your Workspace plan includes Gemini's 'Take notes for me' (check your plan: availability varies, and the organiser's plan is the one that counts), the notes land in a Google Doc in your Drive. Connect Google Drive in Claude and just say: 'Find today's notes from the Villa Sol call and do the recap.'",
+    "<b>Next level:</b> On Claude Pro, set a scheduled task for weekdays at 18:00: 'Search Drive for meeting notes created today. For each one, draft a recap email in Gmail to the attendees and list any actions that are mine. Never send.' Scheduled tasks run in the cloud, so your laptop can be closed. Each morning you check, tweak and send."
+   ],
+   "why": {
+    "head": "Could you sell it?",
+    "text": "Not as a product. Plenty of meeting apps, Gemini included, already do this. But it makes a nice extra for clients: offer a 'recap within the hour' promise in your proposals. Being the designer who always follows up is worth more than the setup."
+   },
+   "questions": [
+    "How do you turn on Gemini 'Take notes for me' in Google Meet, and where are the notes saved?",
+    "How do you connect Gmail and Google Drive to Claude?",
+    "How do you create a scheduled task in Claude?"
+   ]
+  },
+  {
+   "label": "Medicine",
+   "kind": "recent research",
+   "topic": "Medicine",
+   "title": "Heart trouble starts drifting 30 years early",
+   "paragraphs": [
+    "Heart attacks feel sudden. The numbers behind them are not. A study in <i>JAMA Network Open</i> this month pooled four long-running cohorts covering <b>113,612 adults</b> with no previous heart attack or stroke, followed for a median of almost 19 years. The team tracked blood pressure, cholesterol and blood markers over time, then looked back from the moment a heart attack, stroke or cardiovascular death occurred.",
+    "<mark>The trajectories of people who later had an event began to split from everyone else's up to three decades earlier.</mark> Thirty years out, women who went on to have an event averaged a systolic pressure of 121 mm Hg, against 117 in those who stayed well. Small, but it widened to about 7 mm Hg by the end. A strain hormone called NT-proBNP only diverged in the last decade or so. The limits: it is observational, it describes group averages rather than forecasting any one person, and it cannot show that acting earlier changes the outcome."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "A reading of 121 looks perfectly fine, which is the point: the slow drift is easy to ignore in your thirties and forties. Knowing your numbers and watching their direction, not just whether they cross a line, may be worth more than it seems. General information, not medical advice."
+   },
+   "sources_label": "Sources",
+   "sources": [
+    {
+     "text": "de Bakker et al., JAMA Network Open (2026)",
+     "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856961"
+    },
+    {
+     "text": "AJMC, Risk factor gaps emerge up to 30 years before cardiovascular events (2026)",
+     "url": "https://www.ajmc.com/view/risk-factor-gaps-emerge-up-to-30-years-before-cardiovascular-events"
+    },
+    {
+     "text": "News-Medical, Your heart disease risk may start building decades earlier (2026)",
+     "url": "https://www.news-medical.net/news/20261124/Your-heart-disease-risk-may-start-building-decades-earlier-than-you-think.aspx"
+    }
+   ],
+   "questions": [
+    "What does systolic blood pressure measure, and why is it the number doctors watch most?",
+    "What is NT-proBNP and why does it rise when the heart is under strain?",
+    "Why can a pooled observational study show patterns across groups but not predict one person's risk?"
+   ]
+  },
+  {
+   "label": "History",
+   "kind": "explained",
+   "topic": "History",
+   "title": "The shipwrecked gearbox that tracked the heavens",
+   "paragraphs": [
+    "In 1900, Greek sponge divers sheltering from a storm off the island of Antikythera stumbled on a Roman-era shipwreck. Among the treasures hauled up in 1900–1901 were some unloved lumps of corroded bronze. Then, in May 1902, a gear wheel was spotted in one of them at the National Archaeological Museum in Athens. Credit usually goes to the archaeologist Valerios Stais, though newspapers at the time said his cousin Spyridon noticed it first.",
+    "Gears, in antiquity? Derek de Solla Price made the case in <i>Gears from the Greeks</i> (1974) that it was a calendar computer. In 2005 the Antikythera Mechanism Research Project scanned the 82 surviving fragments with X-ray CT, and in 2006 Tony Freeth and colleagues published the results in <i>Nature</i>. About 30 bronze gears survive. Turn a handle and the device showed the Sun, the Moon and its phases, and predicted eclipses using the <b>saros</b>, a cycle of 223 lunar months. A clever pin-and-slot even made the Moon speed up and slow down, as it does in the sky. One dial tracked the four-year cycle of the Olympic games.",
+    "A 2021 model from a UCL team argues it showed the planets too, though most of that part is lost. It was probably built in the 2nd or 1st century BC; experts still argue over exactly when. <mark>Nothing remotely as complex survives from the next thousand years or more.</mark> It sits, in pieces, in Athens."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "It shows ancient Greek engineering was far more advanced than the surviving texts let on, and that a whole technology can vanish almost without trace."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Nature: Decoding the Antikythera Mechanism (2006)",
+     "url": "https://www.nature.com/articles/nature05357"
+    },
+    {
+     "text": "Scientific Reports: A model of the cosmos in the Antikythera Mechanism (2021)",
+     "url": "https://www.nature.com/articles/s41598-021-84310-w"
+    },
+    {
+     "text": "Smithsonian: Decoding the first computer",
+     "url": "https://www.smithsonianmag.com/history/decoding-antikythera-mechanism-first-computer-180953979"
+    }
+   ],
+   "questions": [
+    "How did the Antikythera Mechanism use a pin-and-slot gear to mimic the Moon's changing speed?",
+    "How does the saros cycle make it possible to predict eclipses?",
+    "Why did it take more than a century to work out what the Antikythera Mechanism actually did?"
+   ]
+  },
+  {
+   "label": "Science",
+   "kind": "explained",
+   "topic": "Science",
+   "title": "Optical illusions catch your brain guessing",
+   "paragraphs": [
+    "Your eyes send your brain patchy, ambiguous signals, not a photograph. In 1867 the physicist Hermann von Helmholtz called this “unconscious inference”: what you see is the brain's best guess about what's out there. Usually the guess is brilliant. Illusions are where you catch it guessing.",
+    "Take Edward Adelson's checker-shadow illusion, published at MIT in 1995. Two squares on a checkerboard, one in shadow, look plainly different. They are exactly the same grey. Your brain knows shadows darken things, so it corrects for the shadow, and you see the corrected version. The Müller-Lyer illusion (1889) plays a similar trick with arrowheads, making equal lines look unequal. In the 1960s Segall, Campbell and Herskovits reported that people from less “carpentered”, right-angled surroundings were fooled less, but that idea is now hotly disputed. Then, in 2015, came <b>#TheDress</b>. Blue and black, or white and gold? The leading explanation is that people assumed different lighting. Assume bluish daylight and your brain subtracts the blue, leaving white and gold.",
+    "<mark>Knowing an illusion is a trick does not make it stop working.</mark> The squares still look different after you've measured them. That suggests parts of perception run largely on their own, without checking what you consciously know. Your brain is quietly deciding what reality looks like, and it doesn't ask you first."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "Illusions aren't glitches: they expose the assumptions your brain uses every second to turn messy signals into a stable world."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "MIT Perceptual Science Group: Checkershadow illusion",
+     "url": "https://persci.mit.edu/gallery/checkershadow"
+    },
+    {
+     "text": "Current Biology: Striking individual differences in color perception (#TheDress)",
+     "url": "https://www1.wellesley.edu/sites/default/files/assets/departments/neuroscience/images/lafersousahermannconway_thedress_2015_withsupp-1.pdf"
+    },
+    {
+     "text": "Scientific American: Why a classic theory about vision has fallen apart",
+     "url": "https://www.scientificamerican.com/article/does-culture-change-visual-perception-debunking-the-carpentered-world/"
+    }
+   ],
+   "questions": [
+    "How does the brain use assumptions about shadows to judge how light or dark a surface is?",
+    "Why did people see #TheDress in completely different colours?",
+    "Why does knowing an optical illusion is a trick not stop it from fooling you?"
+   ]
+  },
+  {
+   "label": "Mental Model",
+   "kind": "explained",
+   "topic": "Mental model",
+   "title": "Why one story beats a thousand numbers",
+   "paragraphs": [
+    "Tell people about Rokia, a seven-year-old girl in Mali, and they reach for their wallets. In a 2007 study by Deborah Small, George Loewenstein and Paul Slovic, people who read her story gave an average of $2.38 of their $5 fee. Those shown statistics about millions of hungry people gave $1.14. Add the statistics to Rokia's story and giving fell to $1.43. Vivid stories are easy to recall, so they feel common and true. That's the availability heuristic.",
+    "Stories also hide what's missing. In the famous tale, the statistician Abraham Wald told the US military to armour bombers where returning planes had no bullet holes, because planes hit there never came home. The popular version is tidied up, but the lesson holds: survivorship bias lets the winners write the dataset. <mark>An anecdote tells you something happened; it can't tell you how often, or why.</mark>",
+    "So evidence has a ladder: anecdote, case series, observational studies, randomised trials, then systematic reviews that pool many trials. And \"the plural of anecdote is not data\"? The political scientist Raymond Wolfinger said roughly the opposite in the late 1960s: \"The plural of anecdote is data.\" Both are half right. Stories collected carefully become data. Cherry-picked ones stay stories."
+   ],
+   "why": {
+    "head": "Why it matters",
+    "text": "When a story moves you, ask which rung of the ladder it sits on, and whose story you're not hearing. Then go and find the boring number."
+   },
+   "sources_label": "More",
+   "sources": [
+    {
+     "text": "Stanford GSB: Appeal to the heart, not the head (on the Rokia study)",
+     "url": "https://www.gsb.stanford.edu/insights/increase-charitable-donations-appeal-heart-not-head"
+    },
+    {
+     "text": "AMS Feature Column: The Legend of Abraham Wald",
+     "url": "https://www.ams.org/samplings/feature-column/fc-2016-06"
+    },
+    {
+     "text": "Oxford CEBM: Levels of Evidence",
+     "url": "https://www.cebm.ox.ac.uk/resources/levels-of-evidence/oxford-centre-for-evidence-based-medicine-levels-of-evidence-march-2009"
+    }
+   ],
+   "questions": [
+    "What did the 2007 Rokia study by Small, Loewenstein and Slovic find about donations to identifiable versus statistical victims?",
+    "How does Abraham Wald's WWII work on bomber damage illustrate survivorship bias, and how accurate is the popular version of the story?",
+    "What is the hierarchy of evidence in medicine, and why do randomised controlled trials rank above observational studies?"
+   ]
+  },
+  {
+   "label": "Philosophy",
+   "topic": "Philosophy",
+   "quote": "A wise man, therefore, proportions his belief to the evidence.",
+   "cite": "David Hume, An Enquiry Concerning Human Understanding, Section X “Of Miracles”, Part I · 1748",
+   "paragraphs": [
+    "The line comes from the essay on miracles in Hume's <i>Enquiry</i>. His point is that belief comes in degrees. Things backed by uniform experience, like the sun rising, deserve near-certainty. Things backed by mixed experience deserve less. When the evidence pulls both ways, you weigh it and take the difference. <mark>Testimony is just one more kind of evidence, and it has to be weighed like the rest.</mark> Hume used this to argue that a report of a miracle almost never outweighs the experience against it. Carl Sagan later boiled it down to \"extraordinary claims require extraordinary evidence.\""
+   ],
+   "sources_label": "Read it",
+   "sources": [
+    {
+     "text": "Hume, Enquiry, Section X \"Of Miracles\" (Standard Ebooks)",
+     "url": "https://standardebooks.org/ebooks/david-hume/an-enquiry-concerning-human-understanding/text/chapter-10"
+    }
+   ],
+   "questions": [
+    "What was David Hume's argument against believing reports of miracles in Section X of An Enquiry Concerning Human Understanding?",
+    "How does Hume's principle of proportioning belief to the evidence relate to modern Bayesian reasoning?"
+   ]
+  },
+  {
+   "label": "Mind Challenge",
+   "kind": "logic · medium",
+   "topic": "Puzzle",
+   "previous_answer": "<b>SWIMS</b>. Turn it upside down and the S stays an S, the W becomes an M, the I stays an I, and the M becomes a W, so it still reads SWIMS.",
+   "puzzle": "A man looks at a portrait and says: “Brothers and sisters I have none, but that man's father is my father's son.” Who is in the portrait?",
+   "hint": "Hint: work out who “my father's son” is first. Answer in Tuesday's Doppio.",
+   "questions": [
+    "Give me a hint for the 'brothers and sisters I have none' portrait riddle, without the answer",
+    "Give me another medium-difficulty family-relationship logic riddle"
+   ]
+  },
+  {
+   "label": "One-liner for dinner",
+   "topic": "Trivia",
+   "oneliner": "Australia is wider than the Moon. The mainland runs about 4,000 km from Steep Point to Cape Byron, while the Moon is only about 3,475 km across.",
+   "cite": "NASA Moon Fact Sheet / ESA · Australian Bureau of Statistics Year Book Australia (Geoscience Australia data)",
+   "questions": [
+    "How does the diameter of the Moon compare with the east-west width of mainland Australia?",
+    "What are the westernmost and easternmost points of mainland Australia, and how far apart are they?"
+   ]
+  },
+  {
+   "label": "Book of the week",
+   "kind": "Fridays",
+   "topic": "Book",
+   "title": "<i>Longitude</i>, by Dava Sobel",
+   "paragraphs": [
+    "In the early 1700s, sailors could work out how far north they were from the sun, but not how far east or west, so ships kept finding rocks the hard way. In 1714 Parliament offered up to £20,000 for a fix. The astronomers bet on reading the moon and stars. John Harrison, a self-taught country carpenter, bet on a clock that could keep time on a rolling ship. Dava Sobel's 1995 bestseller follows the decades he spent building one, <mark>only to find that the hardest part was getting the experts to believe him</mark>. It's under 200 pages and reads like a thriller."
+   ],
+   "why": {
+    "head": "Read it if",
+    "text": "you like a story about one stubborn outsider taking on the establishment, and winning (eventually)."
+   },
+   "questions": [
+    "What was the longitude problem, and why could sailors find their latitude but not their longitude?",
+    "How does an accurate clock let a ship's navigator work out how far east or west it has travelled?",
+    "Why did the Board of Longitude favour the astronomers' lunar-distance method over John Harrison's sea clocks?"
+   ]
+  }
+ ]
+}
